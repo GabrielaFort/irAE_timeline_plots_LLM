@@ -118,10 +118,3 @@ The app expects a plain text clinical note or plain text note summary from a sin
     └── tools.py
 ```
 
-
-## Notes
-
-- All inference is intended to run locally through Ollama.
-- No external API key is required for the current app.
-- Output quality depends heavily on note quality and model choice.
-
