@@ -8,7 +8,7 @@ Return JSON only with this exact schema:
 {
   "events": [
     {
-      "condition_type": "treatment" or "irAE",
+      "condition_type": "treatment" or "irae",
       "condition": "short clinical label",
       "start_date": "YYYY-MM-DD or YYYY-MM or YYYY",
       "end_date": "YYYY-MM-DD or YYYY-MM or YYYY or null"
@@ -17,13 +17,12 @@ Return JSON only with this exact schema:
 }
 
 Rules:
-1. Include all dated immunotherapy-related treatments and irAEs.
+1. Include all dated immunotherapy-related treatments and iraes.
 2. `treatment` includes:
 - checkpoint inhibitors (e.g., pembrolizumab, nivolumab, atezolizumab)
-- other cancer therapies (e.g., chemotherapy, targeted therapy)
-- irAE-directed management (e.g., steroids, IV methylprednisolone, prophylaxis)
-3. `irAE` includes immune-related toxicities/events only.
-4. Sometimes there may be multiple entries per treatment or condition if there are multiple distinct time periods (e.g., treatment stopped and restarted, irAE resolved and recurred).
+- other drugs (e.g., steroids, IV methylprednisolone, prophylaxis, chemotherapy, targeted therapy) 
+3. `irae` includes **immune-related toxicities/events only**.
+4. Sometimes there may be multiple entries per treatment or condition if there are multiple distinct time periods (e.g., treatment stopped and restarted, irae resolved and recurred).
 5. If a date range is implied, set `start_date` and `end_date`.
 6. If only onset is known, set `start_date` and `end_date` to null.
 7. Preserve date precision from source text (day > month > year).
