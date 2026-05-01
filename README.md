@@ -35,14 +35,12 @@ You need the following installed on your computer:
 - [Ollama](https://ollama.com/)
 - A local Ollama model pulled onto your machine
 
-Python packages for this repo are listed in [requirements.txt](/Users/gabbyfort/Documents/Tan_Lab/Projects/irAE_timeline_plots_LLM/irAE_timeline_plots_LLM/requirements.txt).
-
 ## Setup
 
 Clone the repository and move into the project folder:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/GabrielaFort/irAE_timeline_plots_LLM.git
 cd irAE_timeline_plots_LLM
 ```
 
@@ -72,7 +70,7 @@ After installation, start Ollama if it is not already running.
 Pull at least one local model. Example:
 
 ```bash
-ollama pull llama3.1
+ollama pull gemma4:e2b
 ```
 
 You can confirm your local models with:
@@ -104,15 +102,7 @@ Then open the local URL shown by Streamlit in your browser.
 
 ## Input file format
 
-The app expects a plain text clinical note or plain text note summary.
-
-Examples are in the [`data`](./data) directory:
-
-- `data/patient_1.txt`
-- `data/patient_2.txt`
-- `data/patient_3.txt`
-
-These files are useful for testing the app after setup.
+The app expects a plain text clinical note or plain text note summary from a single patient.
 
 ## Project structure
 
@@ -127,13 +117,6 @@ These files are useful for testing the app after setup.
     ├── timeline_plotter.py
     └── tools.py
 ```
-
-Key files:
-
-- [src/app.py](/Users/gabbyfort/Documents/Tan_Lab/Projects/irAE_timeline_plots_LLM/irAE_timeline_plots_LLM/src/app.py): Streamlit UI
-- [src/llm_note_parser.py](/Users/gabbyfort/Documents/Tan_Lab/Projects/irAE_timeline_plots_LLM/irAE_timeline_plots_LLM/src/llm_note_parser.py): Ollama-based event extraction
-- [src/timeline_plotter.py](/Users/gabbyfort/Documents/Tan_Lab/Projects/irAE_timeline_plots_LLM/irAE_timeline_plots_LLM/src/timeline_plotter.py): Plotly timeline generation
-- [src/tools.py](/Users/gabbyfort/Documents/Tan_Lab/Projects/irAE_timeline_plots_LLM/irAE_timeline_plots_LLM/src/tools.py): local Ollama model discovery
 
 ## Troubleshooting
 
