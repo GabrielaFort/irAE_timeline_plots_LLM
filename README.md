@@ -118,25 +118,6 @@ The app expects a plain text clinical note or plain text note summary from a sin
     └── tools.py
 ```
 
-## Troubleshooting
-
-If the app says no Ollama models were found:
-
-- make sure Ollama is installed
-- make sure the Ollama app or daemon is running
-- make sure you have pulled at least one model with `ollama pull <model_name>`
-
-If parsing fails:
-
-- verify the selected model exists in `ollama list`
-- try temperature `0.0`
-- try a shorter or cleaner `.txt` note
-
-If the timeline is empty:
-
-- inspect the structured events table in the app
-- confirm the model returned valid dates
-- confirm the note actually includes dated treatments or irAEs
 
 ## Notes
 
