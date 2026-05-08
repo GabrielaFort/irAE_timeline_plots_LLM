@@ -1,13 +1,14 @@
 # irAE Timeline Plotter
 
-This project uses a local Ollama model to parse oncology patient notes from plain text and generate a timeline of treatments and immune-related adverse events (irAEs) in a Streamlit app.
+This project uses a local Ollama model to parse oncology patient notes and generate per-patient timelines of diseases, treatments, and immune-related adverse events (irAEs) in a Streamlit app.
 
-The current workflow is:
+The current workflow is a three-step pipeline:
 
-1. Upload a `.txt` file containing a patient note (from one patient).
-2. Select a local Ollama model.
-3. Let the LLM extract structured events.
-4. Display a Plotly timeline with treatments and irAEs colored differently.
+1. **Extract** structured events from a directory of patient `.txt` notes using a local Ollama model (`src/llm_note_parser.py`).
+2. **Normalize** the extracted event dates to months-since-first-event per patient (`src/normalize_data.py`).
+3. **Visualize** the normalized events in a Streamlit app, with a sidebar to switch between patients (`src/app.py`).
+
+Extraction and normalization are run once up front from the command line. The Streamlit app then reads the pre-computed JSONL, so it does not call the LLM at runtime.
 
 ## What the app extracts
 
@@ -15,7 +16,7 @@ The parser asks the model to return JSON events with this structure:
 
 ```json
 {
-  "condition_type": "treatment or irAE",
+  "condition_type": "treatment" or "irae" or "disease",
   "condition": "short clinical label",
   "start_date": "YYYY-MM-DD or YYYY-MM or YYYY",
   "end_date": "YYYY-MM-DD or YYYY-MM or YYYY or null"
@@ -26,6 +27,9 @@ Examples:
 
 - `{"condition_type": "treatment", "condition": "pembrolizumab", "start_date": "2022-03-03", "end_date": null}`
 - `{"condition_type": "irae", "condition": "hepatitis", "start_date": "2020-02", "end_date": "2020-04"}`
+- `{"condition_type": "disease", "condition": "melanoma", "start_date": "2019", "end_date": null}`
+
+After normalization, each event also has `time_start` and `time_stop` fields expressed in months relative to the patient's earliest event.
 
 ## Requirements
 
@@ -70,7 +74,7 @@ After installation, start Ollama if it is not already running.
 Pull at least one local model. Example:
 
 ```bash
-ollama pull gemma4:e2b
+ollama pull llama3.1:8b
 ```
 
 You can confirm your local models with:
@@ -79,9 +83,44 @@ You can confirm your local models with:
 ollama list
 ```
 
-The Streamlit app reads your locally available models and shows them in the sidebar.
+## Input file format
 
-## Run the app
+Place one plain-text clinical note per patient in the `data/` directory, named like `patient_1.txt`, `patient_2.txt`, etc. Each file should contain a single patient's note or note summary.
+
+## Step 1: Extract events from notes
+
+Run the parser against the directory of patient notes. This calls the local Ollama model on each `.txt` file and writes one JSON event per line to `data/patient_events.jsonl`.
+
+```bash
+python src/llm_note_parser.py --model llama3.1:8b
+```
+
+Useful flags:
+
+- `--model` (required): Ollama model name.
+- `--temperature`: sampling temperature (default `0.0`).
+- `--input-dir`: directory of patient note files (default `data`).
+- `--pattern`: glob pattern for note files (default `*.txt`).
+- `--output`: output JSONL path (default `data/patient_events.jsonl`).
+
+Each output record includes `patient_id`, `source_file`, `condition_type`, `condition`, `start_date`, and `end_date`.
+
+## Step 2: Normalize event dates
+
+Convert raw dates to months-since-first-event per patient. This produces `data/patient_events_normalized.jsonl`, which is what the app reads.
+
+```bash
+python src/normalize_data.py
+```
+
+Useful flags:
+
+- `--input`: input JSONL path (default `data/patient_events.jsonl`).
+- `--output`: normalized output JSONL path (default `data/patient_events_normalized.jsonl`).
+
+The normalizer parses partial dates (`YYYY`, `YYYY-MM`, `YYYY-MM-DD`), drops events with no parseable start date, and emits `time_start` and `time_stop` in months relative to each patient's earliest event.
+
+## Step 3: Run the app
 
 From the repository root:
 
@@ -91,30 +130,28 @@ streamlit run src/app.py
 
 Then open the local URL shown by Streamlit in your browser.
 
-## How to use
+In the sidebar you can:
 
-1. Launch the app.
-2. Choose an Ollama model from the sidebar.
-3. Optionally adjust temperature.
-4. Upload a patient note as a `.txt` file.
-5. Click `Parse and Plot`.
-6. Review the extracted event table and generated timeline.
+- Point to a different normalized events JSONL file.
+- Select which patient's timeline to display.
 
-## Input file format
-
-The app expects a plain text clinical note or plain text note summary from a single patient.
+The main view shows a Plotly timeline (treatments, irAEs, and diseases colored differently) along with the structured event table.
 
 ## Project structure
 
 ```text
 .
 ├── data/
+│   ├── patient_1.txt
+│   ├── ...
+│   ├── patient_events.jsonl              # output of step 1
+│   └── patient_events_normalized.jsonl   # output of step 2
+├── outputs/
 ├── requirements.txt
 ├── README.md
 └── src/
-    ├── app.py
-    ├── llm_note_parser.py
-    ├── timeline_plotter.py
-    └── tools.py
+    ├── app.py                # Streamlit viewer
+    ├── llm_note_parser.py    # step 1: LLM extraction (CLI)
+    ├── normalize_data.py     # step 2: date normalization (CLI)
+    └── timeline_plotter.py   # Plotly figure builder used by app.py
 ```
-
