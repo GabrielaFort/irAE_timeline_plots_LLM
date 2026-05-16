@@ -3,6 +3,7 @@ import json
 from collections import defaultdict
 from datetime import date
 from pathlib import Path
+from datetime import datetime
 
 
 DAYS_PER_MONTH = 30.4375
@@ -19,19 +20,26 @@ def parse_date(value):
     if len(value) == 4:
         return date(int(value), 1, 1)
 
-    if len(value) == 7:
+    if len(value) == 7 and "-" in value:
         year, month = map(int, value.split("-"))
         return date(year, month, 1)
 
     try:
         return date.fromisoformat(value)
     except ValueError:
-        return None
+        pass
+
+    for fmt in ("%m/%d/%Y", "%m/%Y", "%Y/%m/%d", "%Y/%m"):
+        try:
+            return datetime.strptime(value, fmt).date()
+        except ValueError:
+            continue
+
+    return None
 
 
 def months_since(start, baseline):
     return round((start - baseline).days / DAYS_PER_MONTH, 2)
-
 
 def read_jsonl(path):
     records = []
@@ -53,6 +61,15 @@ def normalize_records(records):
     for patient_id, events in by_patient.items():
         parsed = []
         for event in events:
+            if (
+                event.get("condition_type") == "irae"
+                and (
+                    str(event.get("condition", "")).lower() == "unknown"
+                    or str(event.get("irae_type", "")).lower() == "unknown"
+                )
+            ):
+                continue
+
             start = parse_date(event.get("start_date"))
             end = parse_date(event.get("end_date")) or start
             if start is None:
@@ -70,8 +87,13 @@ def normalize_records(records):
                 {
                     "patient_id": patient_id,
                     "source_file": event.get("source_file"),
+                    "oncotree_tissue": event.get("oncotree_tissue"),
+                    "oncotree_name": event.get("oncotree_name"),
+                    "oncotree_code": event.get("oncotree_code"),
                     "condition_type": event.get("condition_type"),
                     "condition": event.get("condition"),
+                    "raw_condition": event.get("raw_condition"),
+                    "irae_type": event.get("irae_type"),
                     "time_start": months_since(start, baseline),
                     "time_stop": months_since(end, baseline),
                 }

@@ -2,18 +2,27 @@ import plotly.graph_objects as go
 
 
 COLORS = {
-    "treatment": "#1f77b4",
+    "immunotherapy": "#1f77b4",
     "irae": "#d62728",
-    "disease": "#2ca02c",
+    "irae_treatment": "#2ca02c",
 }
 
+TYPE_ORDER = {
+    "immunotherapy": 0,
+    "irae": 1,
+    "irae_treatment": 2,
+}
 
 def make_plot(events):
     rows = []
     patient_id = None
+    oncotree_code = None
+    oncotree_name = None
 
     for event in events:
         patient_id = event.get("patient_id")
+        oncotree_code = oncotree_code or event.get("oncotree_code")
+        oncotree_name = oncotree_name or event.get("oncotree_name")
         ctype = str(event.get("condition_type", "")).strip().lower()
         condition = event.get("condition")
         time_start = event.get("time_start")
@@ -36,21 +45,38 @@ def make_plot(events):
         )
 
     fig = go.Figure()
+    title = f"Treatment and irAE Timeline: {patient_id}"
+    if oncotree_code:
+        title += f" | {oncotree_code}"
+    if oncotree_name:
+        title += f" ({oncotree_name})"
+
     if not rows:
-        fig.update_layout(title=f"Treatment and irAE Timeline: {patient_id}")
+        fig.update_layout(title=title)
         return fig
 
     label_start = {}
+    label_type = {}
     for row in rows:
         label_start[row["condition"]] = min(
             label_start.get(row["condition"], row["time_start"]),
             row["time_start"],
         )
+        label_type.setdefault(row["condition"], row["type"])
 
     order = [
         label
         for label, _ in sorted(label_start.items(), key=lambda item: item[1], reverse=True)
     ]
+    order = sorted(
+        order,
+        key=lambda label: (
+            TYPE_ORDER.get(label_type.get(label), 99),
+            label_start[label],
+        )
+    )
+
+    legend_shown = set()
 
     for ctype in sorted({row["type"] for row in rows if not row["is_point"]}):
         subset = [row for row in rows if row["type"] == ctype and not row["is_point"]]
@@ -62,6 +88,8 @@ def make_plot(events):
                 orientation="h",
                 marker={"color": COLORS.get(ctype, "#555")},
                 name=ctype,
+                legendgroup=ctype,
+                showlegend=ctype not in legend_shown,
                 customdata=[[row["time_start"], row["time_stop"]] for row in subset],
                 hovertemplate=(
                     "<b>%{y}</b><br>"
@@ -71,6 +99,7 @@ def make_plot(events):
                 ),
             )
         )
+        legend_shown.add(ctype)
 
     for ctype in sorted({row["type"] for row in rows if row["is_point"]}):
         subset = [row for row in rows if row["type"] == ctype and row["is_point"]]
@@ -80,8 +109,9 @@ def make_plot(events):
                 y=[row["condition"] for row in subset],
                 mode="markers",
                 marker={"size": 10, "color": COLORS.get(ctype, "#555")},
-                name=f"{ctype} (point)",
-                showlegend=False,
+                name=ctype,
+                legendgroup=ctype,
+                showlegend=ctype not in legend_shown,
                 hovertemplate=(
                     "<b>%{y}</b><br>"
                     "Type: " + ctype + "<br>"
@@ -89,6 +119,7 @@ def make_plot(events):
                 ),
             )
         )
+        legend_shown.add(ctype)
 
     fig.update_yaxes(
         title="Event",
@@ -98,7 +129,7 @@ def make_plot(events):
     )
     fig.update_xaxes(title="Months from first event")
     fig.update_layout(
-        title=f"Treatment and irAE Timeline: {patient_id}",
+        title=title,
         barmode="overlay",
         bargap=0.35,
         template="plotly_white",
