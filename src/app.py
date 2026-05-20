@@ -6,12 +6,15 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+from cooccurrence_plotter import COOCCURRENCE_OPTIONS, make_cooccurrence_heatmap
+from onset_plotter import FACET_FIELDS, make_onset_facets
 from timeline_plotter import make_plot
 
 
 DEFAULT_EVENTS_PATH = Path("data/patient_events_normalized.jsonl")
+ONCOTREE_DIR = Path("data/oncotree_tissues")
 
-st.set_page_config(page_title="irAE Timelines", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="irAE Timelines", layout="wide", initial_sidebar_state="expanded")
 
 @st.cache_data
 def load_patient_events(events_path):
@@ -36,6 +39,32 @@ def load_patient_events(events_path):
     return patients
 
 
+@st.cache_data
+def load_oncotree_branches(oncotree_dir):
+    """Return OncoTree code -> branch code list from local OncoTree JSON files."""
+    branches = {}
+    decoder = json.JSONDecoder()
+
+    for path in Path(oncotree_dir).glob("*.json"):
+        if path.name.endswith("_oncotree_map.json"):
+            continue
+
+        text = path.read_text(encoding="utf-8")
+        index = 0
+        while index < len(text):
+            while index < len(text) and text[index].isspace():
+                index += 1
+            if index >= len(text):
+                break
+
+            obj, index = decoder.raw_decode(text, index)
+            code = obj.get("oncotree_code")
+            if code:
+                branches[code] = obj.get("oncotree_branch_codes", [])
+
+    return branches
+
+
 def natural_sort_key(value):
     return [int(part) if part.isdigit() else part for part in re.split(r"(\d+)", value)]
 
@@ -46,6 +75,20 @@ def patient_field_value(events, field):
         if value:
             return str(value)
     return "Unknown"
+
+
+def oncotree_name_code_value(events):
+    name = patient_field_value(events, "oncotree_name")
+    code = patient_field_value(events, "oncotree_code")
+    if name == "Unknown" and code == "Unknown":
+        return "Unknown"
+    return f"{name} | {code}"
+
+
+def oncotree_code_from_value(value):
+    if value == "Unknown" or " | " not in value:
+        return None
+    return value.rsplit(" | ", 1)[1]
 
 
 def is_condition_filter(field):
@@ -64,9 +107,20 @@ def events_of_type(events, condition_type):
     return [event for event in events if event.get("condition_type") == condition_type]
 
 
+def event_count(events, condition_type):
+    return len(events_of_type(events, condition_type))
+
+
 def filter_options(patient_events, field):
     if field == "patient_id":
         return ["All"] + sorted(patient_events, key=natural_sort_key)
+
+    if field == "oncotree_name_code":
+        values = {
+            oncotree_name_code_value(events)
+            for events in patient_events.values()
+        }
+        return ["All"] + sorted(values, key=natural_sort_key)
 
     if is_condition_filter(field):
         condition_type = field[1]
@@ -77,11 +131,16 @@ def filter_options(patient_events, field):
         }
         return ["All"] + sorted(values, key=natural_sort_key)
 
-    if field == "irae_type":
+    if field in {"irae_type", "ici_class", "irae_treatment_type"}:
+        condition_type = {
+            "irae_type": "irae",
+            "ici_class": "immunotherapy",
+            "irae_treatment_type": "irae_treatment",
+        }[field]
         values = {
-            event.get("irae_type") or "Unknown"
+            event.get(field) or "Unknown"
             for events in patient_events.values()
-            for event in events_of_type(events, "irae")
+            for event in events_of_type(events, condition_type)
         }
         return ["All"] + sorted(values, key=natural_sort_key)
 
@@ -92,12 +151,26 @@ def filter_options(patient_events, field):
     return ["All"] + sorted(values, key=natural_sort_key)
 
 
-def matching_patient_ids(patient_events, field, value):
+def matching_patient_ids(patient_events, field, value, oncotree_branches=None):
     if value == "All":
         return sorted(patient_events, key=natural_sort_key)
 
     if field == "patient_id":
         return [value]
+
+    if field == "oncotree_name_code":
+        selected_code = oncotree_code_from_value(value)
+        return [
+            patient_id
+            for patient_id, events in sorted(patient_events.items(), key=lambda item: natural_sort_key(item[0]))
+            if (
+                oncotree_name_code_value(events) == value
+                or (
+                    selected_code
+                    and selected_code in (oncotree_branches or {}).get(patient_field_value(events, "oncotree_code"), [])
+                )
+            )
+        ]
 
     if is_condition_filter(field):
         condition_type = field[1]
@@ -107,11 +180,16 @@ def matching_patient_ids(patient_events, field, value):
             if value in event_conditions(events, condition_type)
         ]
 
-    if field == "irae_type":
+    if field in {"irae_type", "ici_class", "irae_treatment_type"}:
+        condition_type = {
+            "irae_type": "irae",
+            "ici_class": "immunotherapy",
+            "irae_treatment_type": "irae_treatment",
+        }[field]
         return [
             patient_id
             for patient_id, events in sorted(patient_events.items(), key=lambda item: natural_sort_key(item[0]))
-            if any((event.get("irae_type") or "Unknown") == value for event in events_of_type(events, "irae"))
+            if any((event.get(field) or "Unknown") == value for event in events_of_type(events, condition_type))
         ]
 
     return [
@@ -231,7 +309,7 @@ def show_field_summary(title, events, field, total_patients):
         st.dataframe(summary, width="stretch", hide_index=True)
 
 
-st.title("irAE Treatment Timelines Explorer")
+st.title("irAE Timeline Explorer")
 
 path = DEFAULT_EVENTS_PATH 
 
@@ -249,34 +327,37 @@ if not patient_events:
     st.info("No patient events found in the JSONL file.")
     st.stop()
 
+oncotree_branches = load_oncotree_branches(ONCOTREE_DIR)
+
 filter_fields = {
     "Patient": "patient_id",
-    "OncoTree Name": "oncotree_name",
-    "OncoTree Code": "oncotree_code",
-    "OncoTree Tissue": "oncotree_tissue",
+    "irAE": ("condition", "irae"),
     "irAE Type": "irae_type",
     "Immunotherapy": ("condition", "immunotherapy"),
-    "irAE": ("condition", "irae"),
-    "irAE Treatment": ("condition", "irae_treatment"),
+    "Immunotherapy Class": "ici_class",
+    "OncoTree Tissue": "oncotree_tissue",
+    "OncoTree Name | Code": "oncotree_name_code",
+    "irAE Treatment Type": "irae_treatment_type",
 }
-filter_col, value_col = st.columns([2, 3])
-with filter_col:
-    st.markdown("**Filter by**")
+with st.sidebar:
+    st.header("Cohort Filter")
     filter_label = st.radio(
         "Filter by",
         options=list(filter_fields),
-        horizontal=True,
-        label_visibility="collapsed",
     )
 filter_field = filter_fields[filter_label]
-with value_col:
-    st.markdown(f"**{filter_label}**")
+
+with st.sidebar:
     selected_value = st.selectbox(
         filter_label,
         options=filter_options(patient_events, filter_field),
-        label_visibility="collapsed",
     )
-selected_patient_ids = matching_patient_ids(patient_events, filter_field, selected_value)
+selected_patient_ids = matching_patient_ids(
+    patient_events,
+    filter_field,
+    selected_value,
+    oncotree_branches=oncotree_branches,
+)
 
 selected_events = [
     event
@@ -284,7 +365,23 @@ selected_events = [
     for event in patient_events[patient_id]
 ]
 
-plots_tab, table_tab, summary_tab = st.tabs(["Timeline Plots", "Table", "Summary"])
+with st.sidebar:
+    st.divider()
+    st.metric("Patients", len(selected_patient_ids))
+    st.metric("Events", len(selected_events))
+
+selected_label = "All patients" if selected_value == "All" else f"{filter_label}: {selected_value}"
+st.caption(f"Selected cohort: {selected_label}")
+metric_cols = st.columns(5)
+metric_cols[0].metric("Patients", len(selected_patient_ids))
+metric_cols[1].metric("Events", len(selected_events))
+metric_cols[2].metric("irAEs", event_count(selected_events, "irae"))
+metric_cols[3].metric("ICIs", event_count(selected_events, "immunotherapy"))
+metric_cols[4].metric("irAE Treatments", event_count(selected_events, "irae_treatment"))
+
+plots_tab, summary_tab, cooccurrence_tab, onset_tab, table_tab = st.tabs(
+    ["Patient Timelines", "Cohort Summary", "Co-occurrence", "Time to Onset", "Data Table"]
+)
 
 with plots_tab:
     for index, patient_id in enumerate(selected_patient_ids):
@@ -304,10 +401,68 @@ with table_tab:
 
 with summary_tab:
     irae_events = events_of_type(selected_events, "irae")
-    st.metric("Patients", len(selected_patient_ids))
+    immunotherapy_events = events_of_type(selected_events, "immunotherapy")
+    irae_treatment_events = events_of_type(selected_events, "irae_treatment")
+
+    st.header("Cancer")
     show_field_summary("OncoTree Tissues", selected_events, "oncotree_tissue", len(selected_patient_ids))
     show_field_summary("OncoTree Names", selected_events, "oncotree_name", len(selected_patient_ids))
+
+    st.header("irAEs")
     show_field_summary("irAE Types", irae_events, "irae_type", len(selected_patient_ids))
     show_condition_summary("irAEs", selected_events, "irae", len(selected_patient_ids))
+
+    st.header("Treatment")
     show_condition_summary("ICIs", selected_events, "immunotherapy", len(selected_patient_ids))
+    show_field_summary("ICI Classes", immunotherapy_events, "ici_class", len(selected_patient_ids))
+    show_field_summary("ICI Combos", immunotherapy_events, "ici_combo", len(selected_patient_ids))
+    show_field_summary("ICI Class Combos", immunotherapy_events, "ici_class_combo", len(selected_patient_ids))
     show_condition_summary("irAE Treatments", selected_events, "irae_treatment", len(selected_patient_ids))
+    show_field_summary("irAE Treatment Types", irae_treatment_events, "irae_treatment_type", len(selected_patient_ids))
+
+with cooccurrence_tab:
+    st.subheader("Co-occurrence Heatmap")
+    option_col, top_col = st.columns([3, 1])
+    with option_col:
+        cooccurrence_label = st.selectbox(
+            "Label type",
+            options=list(COOCCURRENCE_OPTIONS),
+            index=0,
+        )
+    with top_col:
+        cooccurrence_top_n = st.slider("Top N", min_value=5, max_value=30, value=15)
+
+    heatmap_field, heatmap_condition_type = COOCCURRENCE_OPTIONS[cooccurrence_label]
+    heatmap_fig = make_cooccurrence_heatmap(
+        selected_events,
+        field=heatmap_field,
+        condition_type=heatmap_condition_type,
+        top_n=cooccurrence_top_n,
+        include_unknown=False,
+    )
+    st.plotly_chart(heatmap_fig, width="stretch")
+
+with onset_tab:
+    st.subheader("Time to irAE Onset")
+    facet_col, limit_col = st.columns([3, 1])
+    with facet_col:
+        col_label = st.selectbox(
+            "Facet by",
+            options=list(FACET_FIELDS),
+            index=list(FACET_FIELDS).index("irAE Type"),
+        )
+    with limit_col:
+        max_cols = st.slider("Max columns", min_value=1, max_value=12, value=8)
+
+    row_field = "all"
+    col_field = FACET_FIELDS[col_label]
+    onset_fig = make_onset_facets(
+        selected_events,
+        row_field=row_field,
+        col_field=col_field,
+        unit="weeks",
+        max_x=52,
+        max_rows=1,
+        max_cols=max_cols,
+    )
+    st.plotly_chart(onset_fig, width="stretch")

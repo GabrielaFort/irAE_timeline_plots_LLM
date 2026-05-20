@@ -88,6 +88,10 @@ def create_irae_name_prompt(irae_names):
 
 def map_irae_name(raw_irae, model, temperature, irae_names_path):
     irae_names = parse_lines_file(irae_names_path)
+    direct_match = canonical_match(raw_irae, irae_names)
+    if direct_match != "Unknown":
+        return direct_match
+
     mapped_name = generate_mapping_response(
         model=model,
         temperature=temperature,

@@ -2,3 +2,4 @@ ollama
 pandas
 plotly
 streamlit
+matplotlib

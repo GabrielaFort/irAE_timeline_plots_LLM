@@ -60,6 +60,21 @@ def predict_oncotree_name_from_tissue(tissue_name, note, model, temperature, dat
     )
 
 
+def extract_primary_diagnosis(note, model, temperature):
+    """Extract one short primary cancer diagnosis phrase from the note."""
+    return generate_oncotree_response(
+        model=model,
+        temperature=temperature,
+        system_prompt=(
+            "Identify the patient's primary cancer diagnosis. Return a JSON "
+            "object with one key, `value`. Use one short diagnosis phrase. "
+            "If no primary cancer diagnosis is clear, set `value` to: Unknown."
+            "This will be used for mapping to OncoTree tissue and OncoTree name mapping, so try to be as specific as possible if a diagnosis is present. "
+        ),
+        user_prompt=note,
+    )
+
+
 OUTPUT_SCHEMA = {
     "type": "object",
     "properties": {
@@ -172,9 +187,15 @@ def classify_oncotree(note, model, temperature, tissue_list_path, data_base_path
     }
 
     try:
+        diagnosis = extract_primary_diagnosis(
+            note=note,
+            model=model,
+            temperature=temperature,
+        )
+        diagnosis_context = note if diagnosis.lower() == "unknown" else diagnosis
         tissue = predict_tissue_from_list(
             tissue_list_path=tissue_list_path,
-            note=note,
+            note=diagnosis_context,
             model=model,
             temperature=temperature,
         )
@@ -189,7 +210,7 @@ def classify_oncotree(note, model, temperature, tissue_list_path, data_base_path
     try:
         oncotree_name = predict_oncotree_name_from_tissue(
             tissue_name=tissue,
-            note=note,
+            note=diagnosis_context,
             model=model,
             temperature=temperature,
             data_base_path=data_base_path,
