@@ -11,8 +11,6 @@ HEATMAP_SPECS = [
     ("irae_types", "irAE Type Co-occurrence", "irae_type", "irae"),
     ("icis", "ICI Co-occurrence", "condition", "immunotherapy"),
     ("ici_classes", "ICI Class Co-occurrence", "ici_class", "immunotherapy"),
-    ("ici_combos", "ICI Combo Co-occurrence", "ici_combo", "immunotherapy"),
-    ("ici_class_combos", "ICI Class Combo Co-occurrence", "ici_class_combo", "immunotherapy"),
     ("associated_ici_classes", "Associated ICI Class Co-occurrence", "associated_ici_class", "irae"),
     ("irae_treatments", "irAE Treatment Co-occurrence", "condition", "irae_treatment"),
     ("irae_treatment_types", "irAE Treatment Type Co-occurrence", "irae_treatment_type", "irae_treatment"),
@@ -35,20 +33,33 @@ def is_unknown(value):
     return value is None or str(value).strip().lower() in {"", "unknown", "none", "null", "na", "n/a"}
 
 
+def split_combo_value(value):
+    return [part.strip() for part in str(value).split("+") if part.strip()]
+
+
+def record_values(record, field):
+    value = record.get(field)
+    if field in {"condition", "ici_class", "associated_ici", "associated_ici_class"}:
+        return split_combo_value(value)
+    return [value]
+
+
 def patient_sets(records, field, condition_type=None, include_unknown=False):
     by_value = {}
     for record in records:
         if condition_type and record.get("condition_type") != condition_type:
             continue
 
-        value = record.get(field)
-        if is_unknown(value):
-            if not include_unknown:
-                continue
-            value = "Unknown"
-
         patient_id = record.get("patient_id")
-        if patient_id:
+        if not patient_id:
+            continue
+
+        for value in record_values(record, field):
+            if is_unknown(value):
+                if not include_unknown:
+                    continue
+                value = "Unknown"
+
             by_value.setdefault(str(value), set()).add(patient_id)
 
     return by_value

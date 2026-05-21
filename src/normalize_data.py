@@ -44,51 +44,71 @@ def months_since(start, baseline):
     return round((start - baseline).days / DAYS_PER_MONTH, 2)
 
 
+def split_combo(value):
+    return [part.strip() for part in str(value).split("+") if part.strip()]
+
+
+def unique_in_order(values):
+    seen = set()
+    out = []
+    for value in values:
+        if value not in seen:
+            seen.add(value)
+            out.append(value)
+    return out
+
+
+def mapped_ici_regimen(condition, ici_map):
+    if condition is None:
+        return None
+
+    mapped_parts = []
+    for part in split_combo(condition):
+        mapped_part = ici_map.get(part.lower(), part)
+        if is_empty_mapped_value(mapped_part):
+            continue
+        mapped_parts.append(str(mapped_part))
+
+    if not mapped_parts:
+        return None
+
+    return " + ".join(sorted(unique_in_order(mapped_parts)))
+
+
 def mapped_ici_class(condition, ici_class_map):
     if condition is None:
         return None
 
-    return ici_class_map.get(str(condition).strip().lower(), condition)
+    classes = [
+        str(ici_class_map.get(part.lower(), part))
+        for part in split_combo(condition)
+    ]
+    return " + ".join(sorted(unique_in_order(classes)))
 
 
-def immunotherapy_date_labels(parsed_events, ici_map, irae_treatment_map, ici_class_map):
-    drugs_by_date = defaultdict(set)
-    classes_by_date = defaultdict(set)
+def immunotherapy_episodes(parsed_events, ici_map, irae_treatment_map, ici_class_map):
+    episodes = []
+    seen = set()
 
-    for event, start, _ in parsed_events:
+    for event, start, _ in sorted(parsed_events, key=lambda item: item[1]):
         if event.get("condition_type") != "immunotherapy":
             continue
 
-        condition = mapped_condition(event, ici_map, irae_treatment_map)
-        if is_empty_mapped_value(condition):
+        label = mapped_condition(event, ici_map, irae_treatment_map)
+        if is_empty_mapped_value(label):
             continue
-        drugs_by_date[start].add(str(condition))
-        classes_by_date[start].add(str(mapped_ici_class(condition, ici_class_map)))
 
-    labels = {}
-    for start in drugs_by_date:
-        labels[start] = {
-            "ici_combo": " + ".join(sorted(drugs_by_date[start])),
-            "ici_class_combo": " + ".join(sorted(classes_by_date[start])),
-        }
-
-    return labels
-
-
-def immunotherapy_episodes(date_labels):
-    episodes = []
-    last_label = None
-    for start in sorted(date_labels):
-        label = date_labels[start]["ici_combo"]
-        if label != last_label:
-            episodes.append(
-                {
-                    "start": start,
-                    "label": label,
-                    "class_label": date_labels[start]["ici_class_combo"],
-                }
-            )
-            last_label = label
+        key = (start, label)
+        if key in seen:
+            continue
+        seen.add(key)
+        episodes.append(
+            {
+                "start": start,
+                "label": label,
+                "class_label": mapped_ici_class(label, ici_class_map),
+            }
+        )
 
     return episodes
 
@@ -102,11 +122,21 @@ def latest_episode_before(episodes, value):
 
 def read_jsonl(path):
     records = []
+    decoder = json.JSONDecoder()
     with path.open("r", encoding="utf-8") as f:
-        for line in f:
+        for line_number, line in enumerate(f, start=1):
             line = line.strip()
-            if line:
-                records.append(json.loads(line))
+            index = 0
+            while index < len(line):
+                while index < len(line) and line[index].isspace():
+                    index += 1
+                if index >= len(line):
+                    break
+                try:
+                    record, index = decoder.raw_decode(line, index)
+                except json.JSONDecodeError as e:
+                    raise ValueError(f"Invalid JSON on line {line_number}: {e}") from e
+                records.append(record)
     return records
 
 
@@ -129,8 +159,10 @@ def normalized_map(raw_map):
 def mapped_condition(event, ici_map, irae_treatment_map):
     condition = event.get("condition")
     condition_type = event.get("condition_type")
+    if condition_type == "immunotherapy":
+        return mapped_ici_regimen(condition, ici_map)
+
     lookup = {
-        "immunotherapy": ici_map,
         "irae_treatment": irae_treatment_map,
     }.get(condition_type)
 
@@ -183,19 +215,15 @@ def normalize_records(
                 continue
 
             start = parse_date(event.get("start_date"))
-            end = parse_date(event.get("end_date")) or start
             if start is None:
                 continue
-            if end < start:
-                end = start
-            parsed.append((event, start, end))
+            parsed.append((event, start, start))
 
         if not parsed:
             continue
 
         baseline = min(start for _, start, _ in parsed)
-        ici_date_labels = immunotherapy_date_labels(parsed, ici_map, irae_treatment_map, ici_class_map)
-        episodes = immunotherapy_episodes(ici_date_labels)
+        episodes = immunotherapy_episodes(parsed, ici_map, irae_treatment_map, ici_class_map)
         for event, start, end in parsed:
             condition = mapped_condition(event, ici_map, irae_treatment_map)
             if (
@@ -204,13 +232,8 @@ def normalize_records(
             ):
                 continue
             ici_class = None
-            ici_combo = None
-            ici_class_combo = None
             if event.get("condition_type") == "immunotherapy":
                 ici_class = mapped_ici_class(condition, ici_class_map)
-                date_labels = ici_date_labels.get(start, {})
-                ici_combo = date_labels.get("ici_combo")
-                ici_class_combo = date_labels.get("ici_class_combo")
 
             irae_treatment_type = None
             if event.get("condition_type") == "irae_treatment":
@@ -218,13 +241,11 @@ def normalize_records(
             time_to_onset_months = None
             associated_ici = None
             associated_ici_class = None
-            associated_ici_start_date = None
             if event.get("condition_type") == "irae":
                 episode = latest_episode_before(episodes, start)
                 if episode is not None:
                     associated_ici = episode["label"]
                     associated_ici_class = episode["class_label"]
-                    associated_ici_start_date = episode["start"].isoformat()
                     time_to_onset_months = months_since(start, episode["start"])
 
             normalized.append(
@@ -240,16 +261,12 @@ def normalize_records(
                         event.get("condition") if condition != event.get("condition") else None
                     ),
                     "ici_class": ici_class,
-                    "ici_combo": ici_combo,
-                    "ici_class_combo": ici_class_combo,
                     "irae_type": event.get("irae_type"),
                     "irae_treatment_type": irae_treatment_type,
                     "associated_ici": associated_ici,
                     "associated_ici_class": associated_ici_class,
-                    "associated_ici_start_date": associated_ici_start_date,
                     "time_to_onset_months": time_to_onset_months,
                     "time_start": months_since(start, baseline),
-                    "time_stop": months_since(end, baseline),
                 }
             )
 

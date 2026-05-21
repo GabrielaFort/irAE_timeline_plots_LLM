@@ -11,7 +11,7 @@ from onset_plotter import FACET_FIELDS, make_onset_facets
 from timeline_plotter import make_plot
 
 
-DEFAULT_EVENTS_PATH = Path("data/patient_events_normalized.jsonl")
+DEFAULT_EVENTS_PATH = Path("data/patient_events_normalized_old.jsonl")
 ONCOTREE_DIR = Path("data/oncotree_tissues")
 
 st.set_page_config(page_title="irAE Timelines", layout="wide", initial_sidebar_state="expanded")
@@ -415,8 +415,6 @@ with summary_tab:
     st.header("Treatment")
     show_condition_summary("ICIs", selected_events, "immunotherapy", len(selected_patient_ids))
     show_field_summary("ICI Classes", immunotherapy_events, "ici_class", len(selected_patient_ids))
-    show_field_summary("ICI Combos", immunotherapy_events, "ici_combo", len(selected_patient_ids))
-    show_field_summary("ICI Class Combos", immunotherapy_events, "ici_class_combo", len(selected_patient_ids))
     show_condition_summary("irAE Treatments", selected_events, "irae_treatment", len(selected_patient_ids))
     show_field_summary("irAE Treatment Types", irae_treatment_events, "irae_treatment_type", len(selected_patient_ids))
 

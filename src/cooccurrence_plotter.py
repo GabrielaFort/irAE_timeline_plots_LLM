@@ -15,20 +15,33 @@ def is_unknown(value):
     return value is None or str(value).strip().lower() in {"", "unknown", "none", "null", "na", "n/a"}
 
 
+def split_combo_value(value):
+    return [part.strip() for part in str(value).split("+") if part.strip()]
+
+
+def event_values(event, field):
+    value = event.get(field)
+    if field in {"condition", "ici_class", "associated_ici", "associated_ici_class"}:
+        return split_combo_value(value)
+    return [value]
+
+
 def patient_sets(events, field, condition_type=None, include_unknown=False):
     by_value = {}
     for event in events:
         if condition_type and event.get("condition_type") != condition_type:
             continue
 
-        value = event.get(field)
-        if is_unknown(value):
-            if not include_unknown:
-                continue
-            value = "Unknown"
-
         patient_id = event.get("patient_id")
-        if patient_id:
+        if not patient_id:
+            continue
+
+        for value in event_values(event, field):
+            if is_unknown(value):
+                if not include_unknown:
+                    continue
+                value = "Unknown"
+
             by_value.setdefault(str(value), set()).add(patient_id)
 
     return by_value

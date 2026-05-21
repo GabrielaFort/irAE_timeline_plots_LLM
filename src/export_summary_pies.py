@@ -13,6 +13,7 @@ SUMMARY_SPECS = [
     ("iraes", "Most Common irAEs", "condition", "irae"),
     ("irae_types", "Most Common irAE Types", "irae_type", "irae"),
     ("icis", "Most Common ICIs", "condition", "immunotherapy"),
+    ("ici_classes", "Most Common ICI Classes", "ici_class", "immunotherapy"),
     ("irae_treatments", "Most Common irAE Treatments", "condition", "irae_treatment"),
     ("irae_treatment_types", "Most Common irAE Treatment Types", "irae_treatment_type", "irae_treatment"),
     ("oncotree_tissues", "OncoTree Tissues", "oncotree_tissue", None),

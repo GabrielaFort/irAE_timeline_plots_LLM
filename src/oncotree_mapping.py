@@ -67,9 +67,11 @@ def extract_primary_diagnosis(note, model, temperature):
         temperature=temperature,
         system_prompt=(
             "Identify the patient's primary cancer diagnosis. Return a JSON "
-            "object with one key, `value`. Use one short diagnosis phrase. "
-            "If no primary cancer diagnosis is clear, set `value` to: Unknown."
-            "This will be used for mapping to OncoTree tissue and OncoTree name mapping, so try to be as specific as possible if a diagnosis is present. "
+            "object with one key, `value`. Use a simple phrase around one sentence long for the diagnosis. "
+            "If no primary cancer diagnosis is available, set `value` to: Unknown. "
+            "This will be used for mapping to OncoTree tissue and OncoTree name mapping, so try to be as specific as possible if a diagnosis is present to allow for mapping to OncoTree terms. "
+            "If there are multiple primary tumors mentioned, choose the one that appears most prominently (e.g., in the summary or assessment) or that is most likely to be the indication for immunotherapy. "
+            "Prefer primary tumor over metastatic sites. "
         ),
         user_prompt=note,
     )
@@ -125,11 +127,10 @@ def create_tissue_prompt(tissues):
     return (
         "You are an expert pathologist specializing in tumor classification.\n\n"
         "Select the single tissue from the provided list that best matches the "
-        "patient's primary cancer diagnosis in the clinical note.\n\n"
+        "primary cancer diagnosis summary.\n\n"
         "Rules:\n"
         "- Choose only from the provided list.\n"
         "- Prefer the primary tumor tissue over metastatic sites.\n"
-        "- Pay attention to the summary typically found towards the top of the note.\n"
         "- Return a JSON object with one key, `value`.\n"
         "- Set `value` to the tissue name exactly as it appears in the list.\n"
         "- If there is no match, set `value` to: Unknown.\n\n"
@@ -143,7 +144,7 @@ def create_oncotree_name_prompt():
         "You are an expert pathologist familiar with the OncoTree classification "
         "system.\n\n"
         "Pick the single OncoTree name from the provided list that best matches "
-        "the patient's primary cancer diagnosis in the clinical note.\n\n"
+        "the primary cancer diagnosis summary.\n\n"
         "Rules:\n"
         "- The list of OncoTree names is delimited by the $ character.\n"
         "- Return a JSON object with one key, `value`.\n"
@@ -192,6 +193,7 @@ def classify_oncotree(note, model, temperature, tissue_list_path, data_base_path
             model=model,
             temperature=temperature,
         )
+        print(f"Extracted diagnosis: {diagnosis}")
         diagnosis_context = note if diagnosis.lower() == "unknown" else diagnosis
         tissue = predict_tissue_from_list(
             tissue_list_path=tissue_list_path,
