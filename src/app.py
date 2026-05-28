@@ -11,7 +11,7 @@ from onset_plotter import FACET_FIELDS, make_onset_facets
 from timeline_plotter import make_plot
 
 
-DEFAULT_EVENTS_PATH = Path("data/patient_events_normalized_old.jsonl")
+DEFAULT_EVENTS_PATH = Path("data/patient_events_normalized.jsonl")
 ONCOTREE_DIR = Path("data/oncotree_tissues")
 
 st.set_page_config(page_title="irAE Timelines", layout="wide", initial_sidebar_state="expanded")

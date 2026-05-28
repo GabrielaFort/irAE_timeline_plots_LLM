@@ -45,7 +45,8 @@ def months_since(start, baseline):
 
 
 def split_combo(value):
-    return [part.strip() for part in str(value).split("+") if part.strip()]
+    normalized = str(value).replace("/", "+")
+    return [part.strip() for part in normalized.split("+") if part.strip()]
 
 
 def unique_in_order(values):
@@ -59,14 +60,40 @@ def unique_in_order(values):
 
 
 def mapped_ici_regimen(condition, ici_map):
+    return mapped_regimen(condition, ici_map)
+
+
+def mapped_regimen(condition, treatment_map, keep_unmapped=True):
     if condition is None:
         return None
 
     mapped_parts = []
     for part in split_combo(condition):
-        mapped_part = ici_map.get(part.lower(), part)
+        mapped_part = treatment_map.get(part.lower(), part if keep_unmapped else None)
         if is_empty_mapped_value(mapped_part):
             continue
+        mapped_parts.append(str(mapped_part))
+
+    if not mapped_parts:
+        return None
+
+    return " + ".join(sorted(unique_in_order(mapped_parts)))
+
+
+def mapped_all_cancer_therapy_regimen(condition, therapy_maps):
+    if condition is None:
+        return None
+
+    mapped_parts = []
+    for part in split_combo(condition):
+        part_key = part.lower()
+        mapped_part = None
+        for therapy_map in therapy_maps:
+            mapped_part = therapy_map.get(part_key)
+            if not is_empty_mapped_value(mapped_part):
+                break
+        if is_empty_mapped_value(mapped_part):
+            mapped_part = part
         mapped_parts.append(str(mapped_part))
 
     if not mapped_parts:
@@ -94,7 +121,7 @@ def immunotherapy_episodes(parsed_events, ici_map, irae_treatment_map, ici_class
         if event.get("condition_type") != "immunotherapy":
             continue
 
-        label = mapped_condition(event, ici_map, irae_treatment_map)
+        label = mapped_ici_regimen(event.get("condition"), ici_map)
         if is_empty_mapped_value(label):
             continue
 
@@ -156,11 +183,18 @@ def normalized_map(raw_map):
     return normalized
 
 
-def mapped_condition(event, ici_map, irae_treatment_map):
+def mapped_condition(event, ici_map, irae_treatment_map, chemotherapy_map=None, targeted_therapy_map=None):
     condition = event.get("condition")
     condition_type = event.get("condition_type")
     if condition_type == "immunotherapy":
-        return mapped_ici_regimen(condition, ici_map)
+        return mapped_all_cancer_therapy_regimen(
+            condition,
+            [
+                ici_map,
+                chemotherapy_map or {},
+                targeted_therapy_map or {},
+            ],
+        )
 
     lookup = {
         "irae_treatment": irae_treatment_map,
@@ -185,14 +219,45 @@ def is_empty_mapped_value(value):
     return str(value).strip().lower() in {"", "none", "null", "na", "n/a"}
 
 
+def has_valid_condition(events, condition_type):
+    return any(
+        event.get("condition_type") == condition_type
+        and not is_empty_mapped_value(event.get("condition"))
+        and str(event.get("condition", "")).strip().lower() != "unknown"
+        for event in events
+    )
+
+
+def cohort_exclusion_reason(events):
+    if not has_valid_condition(events, "irae"):
+        return "no_irae_after_normalization"
+    if not has_valid_condition(events, "immunotherapy"):
+        return "no_valid_immunotherapy_after_normalization"
+    return None
+
+
+def append_skip_log(log_path, record):
+    if log_path is None:
+        return
+
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    with log_path.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(record) + "\n")
+
+
 def normalize_records(
     records,
     ici_map=None,
+    chemotherapy_map=None,
+    targeted_therapy_map=None,
     irae_treatment_map=None,
     irae_treatment_type_map=None,
     ici_class_map=None,
+    skip_log_path=None,
 ):
     ici_map = normalized_map(ici_map or {})
+    chemotherapy_map = normalized_map(chemotherapy_map or {})
+    targeted_therapy_map = normalized_map(targeted_therapy_map or {})
     irae_treatment_map = normalized_map(irae_treatment_map or {})
     irae_treatment_type_map = normalized_map(irae_treatment_type_map or {})
     ici_class_map = normalized_map(ici_class_map or {})
@@ -220,20 +285,51 @@ def normalize_records(
             parsed.append((event, start, start))
 
         if not parsed:
+            append_skip_log(
+                skip_log_path,
+                {
+                    "patient_id": patient_id,
+                    "source_files": sorted(
+                        {
+                            str(event.get("source_file"))
+                            for event in events
+                            if event.get("source_file")
+                        }
+                    ),
+                    "reason": "no_irae_after_normalization",
+                    "stage": "normalization",
+                    "event_count": 0,
+                },
+            )
             continue
 
         baseline = min(start for _, start, _ in parsed)
         episodes = immunotherapy_episodes(parsed, ici_map, irae_treatment_map, ici_class_map)
+        patient_normalized = []
         for event, start, end in parsed:
-            condition = mapped_condition(event, ici_map, irae_treatment_map)
+            condition = mapped_condition(
+                event,
+                ici_map,
+                irae_treatment_map,
+                chemotherapy_map=chemotherapy_map,
+                targeted_therapy_map=targeted_therapy_map,
+            )
             if (
                 event.get("condition_type") in {"immunotherapy", "irae_treatment"}
                 and is_empty_mapped_value(condition)
             ):
                 continue
             ici_class = None
+            ici_combo = None
+            ici_class_combo = None
+            chemotherapy = None
+            targeted_therapy = None
             if event.get("condition_type") == "immunotherapy":
-                ici_class = mapped_ici_class(condition, ici_class_map)
+                ici_combo = mapped_ici_regimen(event.get("condition"), ici_map)
+                ici_class_combo = mapped_ici_class(ici_combo, ici_class_map)
+                ici_class = ici_class_combo
+                chemotherapy = mapped_regimen(event.get("condition"), chemotherapy_map, keep_unmapped=False)
+                targeted_therapy = mapped_regimen(event.get("condition"), targeted_therapy_map, keep_unmapped=False)
 
             irae_treatment_type = None
             if event.get("condition_type") == "irae_treatment":
@@ -248,7 +344,7 @@ def normalize_records(
                     associated_ici_class = episode["class_label"]
                     time_to_onset_months = months_since(start, episode["start"])
 
-            normalized.append(
+            patient_normalized.append(
                 {
                     "patient_id": patient_id,
                     "source_file": event.get("source_file"),
@@ -261,6 +357,10 @@ def normalize_records(
                         event.get("condition") if condition != event.get("condition") else None
                     ),
                     "ici_class": ici_class,
+                    "ici_combo": ici_combo,
+                    "ici_class_combo": ici_class_combo,
+                    "chemotherapy": chemotherapy,
+                    "targeted_therapy": targeted_therapy,
                     "irae_type": event.get("irae_type"),
                     "irae_treatment_type": irae_treatment_type,
                     "associated_ici": associated_ici,
@@ -270,7 +370,43 @@ def normalize_records(
                 }
             )
 
-    return normalized
+        reason = cohort_exclusion_reason(patient_normalized)
+        if reason:
+            append_skip_log(
+                skip_log_path,
+                {
+                    "patient_id": patient_id,
+                    "source_files": sorted(
+                        {
+                            str(event.get("source_file"))
+                            for event in events
+                            if event.get("source_file")
+                        }
+                    ),
+                    "reason": reason,
+                    "stage": "normalization",
+                    "event_count": len(patient_normalized),
+                },
+            )
+            continue
+
+        normalized.extend(patient_normalized)
+
+    return deduplicate_records(normalized)
+
+
+def deduplicate_records(records):
+    deduplicated = []
+    seen = set()
+
+    for record in records:
+        key = json.dumps(record, sort_keys=True)
+        if key in seen:
+            continue
+        seen.add(key)
+        deduplicated.append(record)
+
+    return deduplicated
 
 
 def write_jsonl(records, path):
@@ -286,8 +422,11 @@ if __name__ == "__main__":
     parser.add_argument("--output", default="data/patient_events_normalized.jsonl", help="Output normalized JSONL.")
     parser.add_argument("--ici-map", default="data/treatment_terms/ici_map.json")
     parser.add_argument("--ici-class-map", default="data/treatment_terms/ici_class_map.json")
+    parser.add_argument("--chemotherapy-map", default="data/treatment_terms/chemotherapy_map.json")
+    parser.add_argument("--targeted-therapy-map", default="data/treatment_terms/targeted_therapy_map.json")
     parser.add_argument("--irae-treatment-map", default="data/treatment_terms/irae_treatment_map.json")
     parser.add_argument("--irae-treatment-type-map", default="data/treatment_terms/irae_treatment_type_map.json")
+    parser.add_argument("--skip-log", default="data/patient_events_skipped.jsonl")
     args = parser.parse_args()
 
     input_path = Path(args.input)
@@ -298,8 +437,11 @@ if __name__ == "__main__":
         records,
         ici_map=read_json(Path(args.ici_map)),
         ici_class_map=read_json(Path(args.ici_class_map)),
+        chemotherapy_map=read_json(Path(args.chemotherapy_map)),
+        targeted_therapy_map=read_json(Path(args.targeted_therapy_map)),
         irae_treatment_map=read_json(Path(args.irae_treatment_map)),
         irae_treatment_type_map=read_json(Path(args.irae_treatment_type_map)),
+        skip_log_path=Path(args.skip_log) if args.skip_log else None,
     )
     write_jsonl(normalized, output_path)
 

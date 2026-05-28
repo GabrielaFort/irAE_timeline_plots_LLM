@@ -40,45 +40,43 @@ You are extracting cancer immunotherapy regimen timeline events from clinical no
 
 Return JSON according to the schema. Return no explanations.
 
-Extract ONLY cancer immunotherapy regimen START/RESTART/CHANGE events.
+Extract ONLY cancer immunotherapy regimen START/RESTART/CHANGE events. Do not extract STOP or DISCONTINUATION events.
 Do **NOT** extract every cycle, dose, infusion, administration, continuation, maintenance mention, follow-up mention, or medication adjustment.
 
-Include:
-- immune checkpoint inhibitors
-- other cancer immunotherapies
-- immunotherapy combinations
+Include ONLY immune checkpoint inhibitors (ICI) drug combinations that include ICIs.
 
 Do NOT include:
-- chemotherapy
-- targeted therapy
-- radiation
 - surgery
 - supportive care
 - steroids or immunosuppressants used to treat irAEs
 - prophylaxis
 - non-cancer treatments
+- other immunotherapy (i.e. cytokines, cell therapies, vaccines, etc)
+- drug regimens that do not include ICIs (e.g. chemotherapy alone, targeted therapy alone, chemo + targeted therapy, etc)
 
 New event rules:
-1. Create an event when a new immunotherapy regimen starts.
-2. Create an event when an immunotherapy regimen changes.
-3. Create an event when an immunotherapy drug is added or removed.
-4. Create an event when immunotherapy restarts after a documented pause or discontinuation.
+1. Create an event when a new ICI regimen starts.
+2. Create an event when an ICI regimen changes.
+3. Create an event when an ICI drug is added or removed.
+4. Create an event when ICI therapy restarts after a documented pause or discontinuation.
 5. IMPORTANT: Do **NOT** create new events for repeated cycles/doses/infusions/mentions of the same regimen.
 6. Do **NOT** create events for continued therapy, maintenance mention, or planned next cycle unless the regimen changed.
 
 Combination rules:
-1. Combination is allowed ONLY for immunotherapy drugs.
-2. If multiple immunotherapy drugs start as one regimen, write one condition with drugs joined by " + ".
-3. If chemotherapy plus immunotherapy is listed, include ONLY the immunotherapy drug(s).
-4. Never include chemotherapy or targeted therapy inside the condition.
+1. Combination is allowed ONLY for combinations that include ICIs.
+2. If multiple drugs start as one regimen, write one condition with drugs joined by " + ".
+3. If chemotherapy, radiation, or targeted therapy plus ICI is listed, include the names of all drugs separated by " + ".
 
 Examples:
-- "carboplatin/pemetrexed/pembrolizumab" -> "Pembrolizumab"
+- "carboplatin/pemetrexed/pembrolizumab" -> "Pembrolizumab + Carboplatin + Pemetrexed"
 - "nivolumab plus ipilimumab" -> "Ipilimumab + Nivolumab"
 - "ipi/nivo followed by nivolumab maintenance" -> two events:
   1. "Ipilimumab + Nivolumab" at combination start
   2. "Nivolumab" at maintenance monotherapy start
 - repeated "C2 nivolumab", "C3 nivolumab", "C4 nivolumab" -> only one "Nivolumab" event at first start date
+- "nivolumab was held for cycle 3, then restarted in cycle 4" -> one "Nivolumab" event at first start date, then one "Nivolumab" event at restart date
+- "pragmatica trial (ramucimumab + pembrolizumab)" -> "Pembrolizumab + Ramucimumab", ignore the trial name
+- "AC (Adriamycin/Cyclophosphamide) + Pembrolizumab" -> "Pembrolizumab + Adriamycin + Cyclophosphamide"
 
 IMPORTANT Date rules:
 - Extract only start/restart/change dates.
@@ -89,8 +87,10 @@ IMPORTANT Date rules:
 - Examples: March 2020 -> 2020-03, March 10, 2022 -> 2022-03-10, "in 2021" -> 2021, "started in early 2020" -> 2020-01, "10/05/2023" -> 2023-10-05
 
 Condition rules:
-- Use concise generic drug names (e.g. "Atezolizumab", "Nivolumab + Ipilimumab").
+- Use concise generic drug names (e.g. "Atezolizumab", "Nivolumab + Ipilimumab", "Durvalumab").
 - No dose, route, frequency, cycle number, or other explanatory text.
+- If a trial is described, extract only the drug names, not the trial name.
+- If the name of an ICI is not clear be sure to double check all parts of the note.
 """
 
 IRAE_PROMPT = """
@@ -98,7 +98,7 @@ You are extracting immune-related adverse event onset episodes from clinical not
 
 Return JSON according to the schema. Return no explanations.
 
-Extract ONLY immune-related adverse event START/ONSET events.
+Extract ONLY immune-related adverse event START/ONSET events. 
 
 Do NOT extract:
 - immunotherapy drugs
@@ -128,6 +128,7 @@ Examples:
 - "colitis resolved, then recurred in July" -> two Colitis events if both onset dates are documented
 - "arthralgias attributed to nivolumab" -> "Arthralgia"
 - "hypothyroidism from pembrolizumab" -> "Hypothyroidism"
+- "colitis/enteritis" -> two events "Colitis" and "Enteritis" 
 
 IMPORTANT Date rules:
 - Extract only onset/start date.
@@ -150,7 +151,7 @@ You are extracting treatments used to manage immune-related adverse events (irAE
 
 Return JSON according to the schema. Return no explanations.
 
-Extract ONLY medications, procedures, or interventions that are explicitly being used to treat or manage an irAE.
+Extract ONLY medications, procedures, or interventions that are being used to treat or manage an irAE.
 
 IMPORTANT:
 An irAE treatment is the treatment/intervention, NOT the adverse event itself.
@@ -162,14 +163,12 @@ Extract:
 - Immunosuppressants: Mycophenolate, Tacrolimus, Cyclosporine, Methotrexate
 - Biologics/targeted immune treatments for irAEs: Infliximab, Vedolizumab, Tocilizumab, Abatacept, Dupilumab, IVIG
 - Hormone replacement for immune endocrinopathies: Levothyroxine, Hydrocortisone, Insulin
-- Symptom-directed treatments clearly used for irAE management: Loperamide for immune diarrhea, antihistamines for immune rash/pruritus, artificial tears or ophthalmic steroids for ocular irAE
+- Symptom-directed treatments clearly used for irAE management: Loperamide for immune diarrhea, antihistamines for immune rash/pruritus, artificial tears or ophthalmic steroids for ocular irAE, omeprazole for gastrointestinal irAEs, Acetaminophen for general irAE symptom management, etc.
 - Procedures clearly used for irAE management: Plasmapheresis, physical therapy, hydration if explicitly used for irAE management
 
 Do NOT extract:
 - The irAE itself: Rash, Itching, Pruritus, Colitis, Diarrhea, Pneumonitis, Hepatitis, Arthralgia, Hypothyroidism, Adrenal insufficiency
 - Cancer-directed treatments: immunotherapy, chemotherapy, targeted therapy, radiation, surgery
-- Prophylaxis unless explicitly described as part of irAE management
-- Chronic home medications unless clearly started for an irAE
 - Dose changes, tapers, refills, or continued treatment mentions
 
 Event rules:
@@ -177,7 +176,7 @@ Event rules:
 2. Create a new event only if the treatment restarts after being stopped.
 3. Do not create events for dose changes or tapers.
 4. Do not create events for continued use.
-5. Each treatment must be a separate event. Never combine treatments with "+".
+5. Each treatment **must** be a separate event. You should create a separate event for each distinct treatment mentioned, even if they start on the same day.
 
 Condition field rules:
 - The condition must be the treatment name only.
@@ -204,6 +203,12 @@ def parse_json_object(content):
         return json.loads(content[start:end + 1])
 
 
+def print_token_counts(step, response):
+    input_tokens = response.get("prompt_eval_count", "unknown")
+    output_tokens = response.get("eval_count", "unknown")
+    print(f"{step} tokens: input={input_tokens}, output={output_tokens}")
+
+
 def extract_single_type_events(model, temperature, note, prompt, condition_type):
     """Extract one event type from a clinical note using the LLM."""
     messages = [
@@ -214,8 +219,11 @@ def extract_single_type_events(model, temperature, note, prompt, condition_type)
         model=model,
         format=SINGLE_TYPE_EVENTS_SCHEMA,
         options={'temperature': temperature},
+        think=True,
+        stream=False,
         messages=messages,
     )
+    print_token_counts(condition_type, response)
     content = response['message']['content']
     print(f"{condition_type} LLM response content preview: {content[:120]}...")
     try:
@@ -233,6 +241,7 @@ def extract_single_type_events(model, temperature, note, prompt, condition_type)
                 }
             ],
         )
+        print_token_counts(f"{condition_type} retry", response)
         content = response['message']['content']
         print(f"Retry {condition_type} LLM response content preview: {content[:120]}...")
         try:
@@ -261,7 +270,47 @@ def extract_single_type_events(model, temperature, note, prompt, condition_type)
     return out
 
 
-def extract_events(model, temperature, note):
+def unique_values(values):
+    seen = set()
+    out = []
+    for value in values:
+        value = str(value).strip()
+        if not value or value.lower() in {"unknown", "none", "null", "na", "n/a"}:
+            continue
+        key = value.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(value)
+    return out
+
+
+def irae_treatment_prompt_for_mapped_iraes(mapped_events):
+    mapped_iraes = unique_values(
+        event.get("condition")
+        for event in mapped_events
+        if event.get("condition_type") == "irae"
+    )
+
+    prompt = IRAE_TREATMENT_PROMPT
+    if mapped_iraes:
+        prompt += (
+            "\n\nFor this note, extract treatments ONLY if they are clearly directed toward "
+            "one of these mapped irAEs. Do not extract treatments for any other condition, "
+            "symptom, toxicity, or adverse event, even if the treatment would otherwise look "
+            "like an irAE-directed treatment.\n\nMapped irAEs:\n- "
+            + "\n- ".join(mapped_iraes)
+        )
+    else:
+        prompt += (
+            "\n\nNo extracted adverse event in this note mapped to a valid irAE. "
+            "Return an empty events list for irAE-directed treatments."
+        )
+
+    return prompt
+
+
+def extract_events(model, temperature, note, irae_names=None, irae_map=None):
     """Extract structured events from a clinical note using separate LLM calls."""
     immunotherapy_events = extract_single_type_events(
         model=model,
@@ -277,11 +326,22 @@ def extract_events(model, temperature, note):
         prompt=IRAE_PROMPT,
         condition_type="irae",
     )
+
+    events = immunotherapy_events + irae_events
+    if irae_names is not None and irae_map is not None:
+        events = map_irae_events(
+            events=events,
+            model=model,
+            temperature=temperature,
+            irae_names_path=irae_names,
+            irae_map_path=irae_map,
+        )
+
     irae_treatment_events = extract_single_type_events(
         model=model,
         temperature=temperature,
         note=note,
-        prompt=IRAE_TREATMENT_PROMPT,
+        prompt=irae_treatment_prompt_for_mapped_iraes(events),
         condition_type="irae_treatment",
     )
     print(
@@ -290,7 +350,7 @@ def extract_events(model, temperature, note):
         f"{len(irae_events)} irAE, "
         f"{len(irae_treatment_events)} irAE treatment events"
     )
-    return immunotherapy_events + irae_events + irae_treatment_events
+    return events + irae_treatment_events
 
 
 def has_valid_condition(events, condition_type):
@@ -314,13 +374,12 @@ def cohort_exclusion_reason(events):
 
 
 def extract_and_map_events(model, temperature, note, irae_names, irae_map):
-    events = extract_events(model=model, temperature=temperature, note=note)
-    return map_irae_events(
-        events=events,
+    return extract_events(
         model=model,
         temperature=temperature,
-        irae_names_path=irae_names,
-        irae_map_path=irae_map,
+        note=note,
+        irae_names=irae_names,
+        irae_map=irae_map,
     )
 
 

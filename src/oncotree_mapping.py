@@ -99,6 +99,12 @@ def clean_response(value):
     return value
 
 
+def print_token_counts(step, response):
+    input_tokens = response.get("prompt_eval_count", "unknown")
+    output_tokens = response.get("eval_count", "unknown")
+    print(f"{step} tokens: input={input_tokens}, output={output_tokens}")
+
+
 def canonical_match(value, valid_values):
     lookup = {valid_value.lower(): valid_value for valid_value in valid_values}
     return lookup.get(str(value).strip().lower())
@@ -134,6 +140,7 @@ def create_tissue_prompt(tissues):
         "- Return a JSON object with one key, `value`.\n"
         "- Set `value` to the tissue name exactly as it appears in the list.\n"
         "- If there is no match, set `value` to: Unknown.\n\n"
+        "- Prefer `Skin` for any melanoma diagnosis.\n\n"
         "LIST OF TISSUES:\n"
         + "\n".join(tissues)
     )
@@ -155,6 +162,7 @@ def create_oncotree_name_prompt():
         "- Do not include explanations, reasoning, or extra keys.\n"
         "- If no appropriate match exists, set `value` to: Unknown.\n"
         "- Try to choose the most specific name possible based on the note details, but only if it is clearly supported by the text.\n"
+        "- Often for breast cancer, Invasive Breast Carcinoma is the most specific name that can be chosen, but choose more specific names if appropriate and clearly supported.\n"
         "- If there are multiple primary tumors mentioned, choose the one that appears most prominently (e.g., in the summary or assessment) or that is most likely to be the indication for immunotherapy.\n"
     )
 
@@ -171,6 +179,7 @@ def generate_oncotree_response(model, temperature, system_prompt, user_prompt):
         ],  
 
     )
+    print_token_counts("OncoTree mapping", response)
     raw_content = response["message"]["content"]
     try:
         parsed = json.loads(raw_content)

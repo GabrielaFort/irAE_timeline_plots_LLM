@@ -49,6 +49,12 @@ def canonical_match(value, valid_values):
     return lookup.get(str(value).strip().lower(), "Unknown")
 
 
+def print_token_counts(step, response):
+    input_tokens = response.get("prompt_eval_count", "unknown")
+    output_tokens = response.get("eval_count", "unknown")
+    print(f"{step} tokens: input={input_tokens}, output={output_tokens}")
+
+
 def generate_mapping_response(model, temperature, system_prompt, user_prompt):
     messages = [
         {"role": "system", "content": system_prompt},
@@ -63,6 +69,7 @@ def generate_mapping_response(model, temperature, system_prompt, user_prompt):
         options=options,
         messages=messages,
     )
+    print_token_counts("irAE mapping", response)
 
     raw_content = response["message"]["content"]
     try:

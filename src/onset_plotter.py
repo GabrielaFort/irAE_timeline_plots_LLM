@@ -182,8 +182,8 @@ def make_onset_facets(events, row_field, col_field, unit="weeks", max_x=52, max_
 
             if col_index == 1 and row_field != "all":
                 fig.update_yaxes(title_text=row_value, row=row_index, col=col_index)
-
-    fig.update_xaxes(range=[0, max_x], title_text=f"Time to Onset ({unit.title()})")
+    padding = 2
+    fig.update_xaxes(range=[(0-padding), (max_x+padding)], title_text=f"Time to Onset ({unit.title()})")
     fig.update_yaxes(range=[-0.35, 0.35], showticklabels=False, zeroline=False)
     fig.update_layout(
         template="plotly_white",
