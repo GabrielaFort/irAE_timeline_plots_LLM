@@ -3,6 +3,9 @@ from pathlib import Path
 
 import ollama
 
+DEFAULT_OPTIONS = {'temperature': 1.0,
+                   'top_p': 0.95,
+                   'top_k': 64}
 
 OUTPUT_SCHEMA = {
     "type": "object",
@@ -67,6 +70,7 @@ def generate_mapping_response(model, temperature, system_prompt, user_prompt):
         model=model,
         format=OUTPUT_SCHEMA,
         options=options,
+        #options = DEFAULT_OPTIONS,
         messages=messages,
     )
     print_token_counts("irAE mapping", response)

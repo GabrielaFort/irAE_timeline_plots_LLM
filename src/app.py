@@ -282,7 +282,7 @@ def field_summary(events, field, total_patients):
     )
 
 
-def show_field_summary(title, events, field, total_patients):
+def show_field_summary(title, events, field, total_patients, value_label=None):
     st.subheader(title)
     summary = field_summary(events, field, total_patients)
 
@@ -290,14 +290,17 @@ def show_field_summary(title, events, field, total_patients):
         st.info("No values found.")
         return
 
+    display_field = value_label or field
+    plot_summary = summary.rename(columns={field: display_field})
+
     fig = px.bar(
-        summary,
-        x=field,
+        plot_summary,
+        x=display_field,
         y="patient_count",
         hover_data=["patient_percent"],
     )
     fig.update_layout(
-        xaxis={"categoryorder": "array", "categoryarray": summary[field].tolist()},
+        xaxis={"categoryorder": "array", "categoryarray": plot_summary[display_field].tolist()},
         xaxis_title=None,
         yaxis_title="Patients",
         template="plotly_white",
@@ -306,7 +309,7 @@ def show_field_summary(title, events, field, total_patients):
     fig.update_xaxes(tickangle=45)
     st.plotly_chart(fig, width="stretch")
     with st.expander("See summary table"):
-        st.dataframe(summary, width="stretch", hide_index=True)
+        st.dataframe(plot_summary, width="stretch", hide_index=True)
 
 
 st.title("irAE Timeline Explorer")
@@ -413,7 +416,15 @@ with summary_tab:
     show_condition_summary("irAEs", selected_events, "irae", len(selected_patient_ids))
 
     st.header("Treatment")
-    show_condition_summary("ICIs", selected_events, "immunotherapy", len(selected_patient_ids))
+    show_condition_summary("Full Normalized Treatment Regimens", selected_events, "immunotherapy", len(selected_patient_ids))
+    show_field_summary("ICI Regimens", immunotherapy_events, "ici_combo", len(selected_patient_ids), value_label="ICI regimen")
+    show_field_summary(
+        "Treatment Categories",
+        immunotherapy_events,
+        "therapy_type_consolidated",
+        len(selected_patient_ids),
+        value_label="Treatment category",
+    )
     show_field_summary("ICI Classes", immunotherapy_events, "ici_class", len(selected_patient_ids))
     show_condition_summary("irAE Treatments", selected_events, "irae_treatment", len(selected_patient_ids))
     show_field_summary("irAE Treatment Types", irae_treatment_events, "irae_treatment_type", len(selected_patient_ids))

@@ -9,8 +9,12 @@ import matplotlib.pyplot as plt
 HEATMAP_SPECS = [
     ("iraes", "irAE Co-occurrence", "condition", "irae"),
     ("irae_types", "irAE Type Co-occurrence", "irae_type", "irae"),
-    ("icis", "ICI Co-occurrence", "condition", "immunotherapy"),
+    ("treatment_regimens", "Full Normalized Treatment Regimen Co-occurrence", "condition", "immunotherapy"),
+    ("ici_regimens", "ICI Regimen Co-occurrence", "ici_combo", "immunotherapy"),
+    ("treatment_categories", "Treatment Category Co-occurrence", "therapy_type_consolidated", "immunotherapy"),
     ("ici_classes", "ICI Class Co-occurrence", "ici_class", "immunotherapy"),
+    ("associated_treatment_regimens", "Associated Full Treatment Regimen Co-occurrence", "associated_treatment", "irae"),
+    ("associated_treatment_categories", "Associated Treatment Category Co-occurrence", "associated_therapy_type_consolidated", "irae"),
     ("associated_ici_classes", "Associated ICI Class Co-occurrence", "associated_ici_class", "irae"),
     ("irae_treatments", "irAE Treatment Co-occurrence", "condition", "irae_treatment"),
     ("irae_treatment_types", "irAE Treatment Type Co-occurrence", "irae_treatment_type", "irae_treatment"),
@@ -39,7 +43,7 @@ def split_combo_value(value):
 
 def record_values(record, field):
     value = record.get(field)
-    if field in {"condition", "ici_class", "associated_ici", "associated_ici_class"}:
+    if field in {"condition", "ici_combo", "ici_class", "associated_treatment", "associated_ici", "associated_ici_class"}:
         return split_combo_value(value)
     return [value]
 

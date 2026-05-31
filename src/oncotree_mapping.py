@@ -4,6 +4,10 @@ from pathlib import Path
 
 import ollama
 
+DEFAULT_OPTIONS = {'temperature': 1.0,
+                   'top_p': 0.95,
+                   'top_k': 64}
+
 def parse_lines_file(path):
     """Read a non-empty line-delimited text file."""
     path = Path(path)
@@ -71,7 +75,8 @@ def extract_primary_diagnosis(note, model, temperature):
             "If no primary cancer diagnosis is available, set `value` to: Unknown. "
             "This will be used for mapping to OncoTree tissue and OncoTree name mapping, so try to be as specific as possible if a diagnosis is present to allow for mapping to OncoTree terms. "
             "If there are multiple primary tumors mentioned, choose the one that appears most prominently (e.g., in the summary or assessment) or that is most likely to be the indication for immunotherapy. "
-            "Prefer primary tumor over metastatic sites. "
+            "Prefer primary tumor over metastatic sites. Do not include information about metastases. "
+            "Be sure to include specific histologic subtypes if mentioned (e.g. adenocarcinoma, squamous cell carcinoma, etc.) and avoid vague terms like 'cancer' or 'mass' if more specific information is available. "
         ),
         user_prompt=note,
     )
@@ -163,6 +168,7 @@ def create_oncotree_name_prompt():
         "- If no appropriate match exists, set `value` to: Unknown.\n"
         "- Try to choose the most specific name possible based on the note details, but only if it is clearly supported by the text.\n"
         "- Often for breast cancer, Invasive Breast Carcinoma is the most specific name that can be chosen, but choose more specific names if appropriate and clearly supported.\n"
+        "- Prefer Lung Adenocarcinoma for diagnoses of lung cancer that indicate adenocarcinoma histology, even if it also states poorly differentiated.\n"
         "- If there are multiple primary tumors mentioned, choose the one that appears most prominently (e.g., in the summary or assessment) or that is most likely to be the indication for immunotherapy.\n"
     )
 
@@ -173,6 +179,7 @@ def generate_oncotree_response(model, temperature, system_prompt, user_prompt):
         model = model,
         format = OUTPUT_SCHEMA,
         options = {"temperature": temperature},
+        #options = DEFAULT_OPTIONS,
         messages = [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},

@@ -148,8 +148,8 @@ def export_onset_facets(
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Export faceted irAE time-to-onset plots.")
     parser.add_argument("--input", default="data/patient_events_normalized.jsonl")
-    parser.add_argument("--output", default="outputs/onset_facets/onset_by_ici_and_irae_type.png")
-    parser.add_argument("--row-field", default="associated_ici")
+    parser.add_argument("--output", default="outputs/onset_facets/onset_by_treatment_category_and_irae_type.png")
+    parser.add_argument("--row-field", default="associated_therapy_type_consolidated")
     parser.add_argument("--col-field", default="irae_type")
     parser.add_argument("--max-rows", type=int, default=6)
     parser.add_argument("--max-cols", type=int, default=8)

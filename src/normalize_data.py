@@ -59,47 +59,84 @@ def unique_in_order(values):
     return out
 
 
-def mapped_ici_regimen(condition, ici_map):
-    return mapped_regimen(condition, ici_map)
+THERAPY_MAP_SPECS = [
+    ("ICI", "ici_map"),
+    ("ADC", "adc_map"),
+    ("chemotherapy", "chemotherapy_map"),
+    ("targeted therapy", "targeted_therapy_map"),
+]
 
 
-def mapped_regimen(condition, treatment_map, keep_unmapped=True):
+def normalize_therapy_regimen(condition, therapy_maps):
     if condition is None:
-        return None
+        return {
+            "condition": None,
+            "therapy_type": None,
+            "ici_combo": None,
+            "has_ici": False,
+        }
 
     mapped_parts = []
-    for part in split_combo(condition):
-        mapped_part = treatment_map.get(part.lower(), part if keep_unmapped else None)
-        if is_empty_mapped_value(mapped_part):
-            continue
-        mapped_parts.append(str(mapped_part))
+    therapy_types = []
+    ici_parts = []
 
-    if not mapped_parts:
-        return None
-
-    return " + ".join(sorted(unique_in_order(mapped_parts)))
-
-
-def mapped_all_cancer_therapy_regimen(condition, therapy_maps):
-    if condition is None:
-        return None
-
-    mapped_parts = []
     for part in split_combo(condition):
         part_key = part.lower()
-        mapped_part = None
-        for therapy_map in therapy_maps:
-            mapped_part = therapy_map.get(part_key)
-            if not is_empty_mapped_value(mapped_part):
-                break
-        if is_empty_mapped_value(mapped_part):
-            mapped_part = part
-        mapped_parts.append(str(mapped_part))
+        matched_null = False
+        matched_value = None
+        matched_type = None
 
-    if not mapped_parts:
+        for therapy_type, map_name in THERAPY_MAP_SPECS:
+            therapy_map = therapy_maps.get(map_name, {})
+            if part_key not in therapy_map:
+                continue
+
+            value = therapy_map[part_key]
+            if is_empty_mapped_value(value):
+                matched_null = True
+                continue
+
+            matched_value = str(value)
+            matched_type = therapy_type
+            break
+
+        if matched_value is None:
+            if matched_null:
+                continue
+            matched_value = part_key
+            matched_type = "unmapped"
+
+        mapped_parts.append(matched_value)
+        therapy_types.append(matched_type)
+        if matched_type == "ICI":
+            ici_parts.append(matched_value)
+
+    return {
+        "condition": " + ".join(mapped_parts) if mapped_parts else None,
+        "therapy_type": " + ".join(therapy_types) if therapy_types else None,
+        "therapy_type_consolidated": consolidated_therapy_type(therapy_types),
+        "ici_combo": " + ".join(ici_parts) if ici_parts else None,
+        "has_ici": bool(ici_parts),
+    }
+
+
+def consolidated_therapy_type(therapy_types):
+    if not therapy_types:
         return None
 
-    return " + ".join(sorted(unique_in_order(mapped_parts)))
+    ici_count = sum(1 for therapy_type in therapy_types if therapy_type == "ICI")
+    non_ici_types = unique_in_order(
+        therapy_type for therapy_type in therapy_types if therapy_type != "ICI"
+    )
+
+    if ici_count == 0:
+        return " plus ".join(non_ici_types) if non_ici_types else None
+
+    if not non_ici_types:
+        return "combo ICI" if ici_count > 1 else "single ICI"
+
+    ici_label = "combo ICI" if ici_count > 1 else "ICI"
+    return " plus ".join([ici_label, *non_ici_types])
 
 
 def mapped_ici_class(condition, ici_class_map):
@@ -113,7 +150,7 @@ def mapped_ici_class(condition, ici_class_map):
     return " + ".join(sorted(unique_in_order(classes)))
 
 
-def immunotherapy_episodes(parsed_events, ici_map, irae_treatment_map, ici_class_map):
+def immunotherapy_episodes(parsed_events, therapy_maps, ici_class_map):
     episodes = []
     seen = set()
 
@@ -121,8 +158,9 @@ def immunotherapy_episodes(parsed_events, ici_map, irae_treatment_map, ici_class
         if event.get("condition_type") != "immunotherapy":
             continue
 
-        label = mapped_ici_regimen(event.get("condition"), ici_map)
-        if is_empty_mapped_value(label):
+        regimen = normalize_therapy_regimen(event.get("condition"), therapy_maps)
+        label = regimen["ici_combo"]
+        if is_empty_mapped_value(label) or not regimen["has_ici"]:
             continue
 
         key = (start, label)
@@ -134,6 +172,9 @@ def immunotherapy_episodes(parsed_events, ici_map, irae_treatment_map, ici_class
                 "start": start,
                 "label": label,
                 "class_label": mapped_ici_class(label, ici_class_map),
+                "full_regimen": regimen["condition"],
+                "therapy_type": regimen["therapy_type"],
+                "therapy_type_consolidated": regimen["therapy_type_consolidated"],
             }
         )
 
@@ -183,18 +224,9 @@ def normalized_map(raw_map):
     return normalized
 
 
-def mapped_condition(event, ici_map, irae_treatment_map, chemotherapy_map=None, targeted_therapy_map=None):
+def mapped_condition(event, ici_map, irae_treatment_map):
     condition = event.get("condition")
     condition_type = event.get("condition_type")
-    if condition_type == "immunotherapy":
-        return mapped_all_cancer_therapy_regimen(
-            condition,
-            [
-                ici_map,
-                chemotherapy_map or {},
-                targeted_therapy_map or {},
-            ],
-        )
 
     lookup = {
         "irae_treatment": irae_treatment_map,
@@ -203,7 +235,8 @@ def mapped_condition(event, ici_map, irae_treatment_map, chemotherapy_map=None, 
     if lookup is None or condition is None:
         return condition
 
-    return lookup.get(str(condition).strip().lower(), condition)
+    condition_key = str(condition).strip().lower()
+    return lookup.get(condition_key, condition_key)
 
 
 def mapped_irae_treatment_type(condition, irae_treatment_type_map):
@@ -231,9 +264,18 @@ def has_valid_condition(events, condition_type):
 def cohort_exclusion_reason(events):
     if not has_valid_condition(events, "irae"):
         return "no_irae_after_normalization"
-    if not has_valid_condition(events, "immunotherapy"):
-        return "no_valid_immunotherapy_after_normalization"
+    if not has_valid_ici_immunotherapy(events):
+        return "no_ici_after_immunotherapy_normalization"
     return None
+
+
+def has_valid_ici_immunotherapy(events):
+    return any(
+        event.get("condition_type") == "immunotherapy"
+        and not is_empty_mapped_value(event.get("condition"))
+        and not is_empty_mapped_value(event.get("ici_combo"))
+        for event in events
+    )
 
 
 def append_skip_log(log_path, record):
@@ -248,6 +290,7 @@ def append_skip_log(log_path, record):
 def normalize_records(
     records,
     ici_map=None,
+    adc_map=None,
     chemotherapy_map=None,
     targeted_therapy_map=None,
     irae_treatment_map=None,
@@ -256,6 +299,7 @@ def normalize_records(
     skip_log_path=None,
 ):
     ici_map = normalized_map(ici_map or {})
+    adc_map = normalized_map(adc_map or {})
     chemotherapy_map = normalized_map(chemotherapy_map or {})
     targeted_therapy_map = normalized_map(targeted_therapy_map or {})
     irae_treatment_map = normalized_map(irae_treatment_map or {})
@@ -303,33 +347,40 @@ def normalize_records(
             )
             continue
 
+        therapy_maps = {
+            "ici_map": ici_map,
+            "adc_map": adc_map,
+            "chemotherapy_map": chemotherapy_map,
+            "targeted_therapy_map": targeted_therapy_map,
+        }
         baseline = min(start for _, start, _ in parsed)
-        episodes = immunotherapy_episodes(parsed, ici_map, irae_treatment_map, ici_class_map)
+        episodes = immunotherapy_episodes(parsed, therapy_maps, ici_class_map)
         patient_normalized = []
         for event, start, end in parsed:
-            condition = mapped_condition(
-                event,
-                ici_map,
-                irae_treatment_map,
-                chemotherapy_map=chemotherapy_map,
-                targeted_therapy_map=targeted_therapy_map,
-            )
+            therapy_type = None
+            therapy_type_consolidated = None
+            ici_combo = None
+            if event.get("condition_type") == "immunotherapy":
+                regimen = normalize_therapy_regimen(event.get("condition"), therapy_maps)
+                condition = regimen["condition"]
+                therapy_type = regimen["therapy_type"]
+                therapy_type_consolidated = regimen["therapy_type_consolidated"]
+                ici_combo = regimen["ici_combo"]
+            else:
+                condition = mapped_condition(event, ici_map, irae_treatment_map)
+
             if (
                 event.get("condition_type") in {"immunotherapy", "irae_treatment"}
                 and is_empty_mapped_value(condition)
             ):
                 continue
+            if event.get("condition_type") == "immunotherapy" and is_empty_mapped_value(ici_combo):
+                continue
             ici_class = None
-            ici_combo = None
             ici_class_combo = None
-            chemotherapy = None
-            targeted_therapy = None
             if event.get("condition_type") == "immunotherapy":
-                ici_combo = mapped_ici_regimen(event.get("condition"), ici_map)
                 ici_class_combo = mapped_ici_class(ici_combo, ici_class_map)
                 ici_class = ici_class_combo
-                chemotherapy = mapped_regimen(event.get("condition"), chemotherapy_map, keep_unmapped=False)
-                targeted_therapy = mapped_regimen(event.get("condition"), targeted_therapy_map, keep_unmapped=False)
 
             irae_treatment_type = None
             if event.get("condition_type") == "irae_treatment":
@@ -337,11 +388,17 @@ def normalize_records(
             time_to_onset_months = None
             associated_ici = None
             associated_ici_class = None
+            associated_treatment = None
+            associated_therapy_type = None
+            associated_therapy_type_consolidated = None
             if event.get("condition_type") == "irae":
                 episode = latest_episode_before(episodes, start)
                 if episode is not None:
                     associated_ici = episode["label"]
                     associated_ici_class = episode["class_label"]
+                    associated_treatment = episode["full_regimen"]
+                    associated_therapy_type = episode["therapy_type"]
+                    associated_therapy_type_consolidated = episode["therapy_type_consolidated"]
                     time_to_onset_months = months_since(start, episode["start"])
 
             patient_normalized.append(
@@ -359,12 +416,15 @@ def normalize_records(
                     "ici_class": ici_class,
                     "ici_combo": ici_combo,
                     "ici_class_combo": ici_class_combo,
-                    "chemotherapy": chemotherapy,
-                    "targeted_therapy": targeted_therapy,
+                    "therapy_type": therapy_type,
+                    "therapy_type_consolidated": therapy_type_consolidated,
                     "irae_type": event.get("irae_type"),
                     "irae_treatment_type": irae_treatment_type,
                     "associated_ici": associated_ici,
                     "associated_ici_class": associated_ici_class,
+                    "associated_treatment": associated_treatment,
+                    "associated_therapy_type": associated_therapy_type,
+                    "associated_therapy_type_consolidated": associated_therapy_type_consolidated,
                     "time_to_onset_months": time_to_onset_months,
                     "time_start": months_since(start, baseline),
                 }
@@ -421,6 +481,7 @@ if __name__ == "__main__":
     parser.add_argument("--input", default="data/patient_events.jsonl", help="Input event JSONL.")
     parser.add_argument("--output", default="data/patient_events_normalized.jsonl", help="Output normalized JSONL.")
     parser.add_argument("--ici-map", default="data/treatment_terms/ici_map.json")
+    parser.add_argument("--adc-map", default="data/treatment_terms/adc_map.json")
     parser.add_argument("--ici-class-map", default="data/treatment_terms/ici_class_map.json")
     parser.add_argument("--chemotherapy-map", default="data/treatment_terms/chemotherapy_map.json")
     parser.add_argument("--targeted-therapy-map", default="data/treatment_terms/targeted_therapy_map.json")
@@ -436,6 +497,7 @@ if __name__ == "__main__":
     normalized = normalize_records(
         records,
         ici_map=read_json(Path(args.ici_map)),
+        adc_map=read_json(Path(args.adc_map)),
         ici_class_map=read_json(Path(args.ici_class_map)),
         chemotherapy_map=read_json(Path(args.chemotherapy_map)),
         targeted_therapy_map=read_json(Path(args.targeted_therapy_map)),

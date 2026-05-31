@@ -12,7 +12,9 @@ FIG_SIZE = (12, 9)
 SUMMARY_SPECS = [
     ("iraes", "Most Common irAEs", "condition", "irae"),
     ("irae_types", "Most Common irAE Types", "irae_type", "irae"),
-    ("icis", "Most Common ICIs", "condition", "immunotherapy"),
+    ("treatment_regimens", "Full Normalized Treatment Regimens", "condition", "immunotherapy"),
+    ("ici_regimens", "ICI Regimens", "ici_combo", "immunotherapy"),
+    ("treatment_categories", "Treatment Categories", "therapy_type_consolidated", "immunotherapy"),
     ("ici_classes", "Most Common ICI Classes", "ici_class", "immunotherapy"),
     ("irae_treatments", "Most Common irAE Treatments", "condition", "irae_treatment"),
     ("irae_treatment_types", "Most Common irAE Treatment Types", "irae_treatment_type", "irae_treatment"),

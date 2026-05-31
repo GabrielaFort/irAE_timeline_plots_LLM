@@ -4,8 +4,12 @@ import plotly.graph_objects as go
 COOCCURRENCE_OPTIONS = {
     "irAE": ("condition", "irae"),
     "irAE Type": ("irae_type", "irae"),
-    "ICI": ("condition", "immunotherapy"),
+    "Full Treatment Regimen": ("condition", "immunotherapy"),
+    "ICI Regimen": ("ici_combo", "immunotherapy"),
+    "Treatment Category": ("therapy_type_consolidated", "immunotherapy"),
     "ICI Class": ("ici_class", "immunotherapy"),
+    "Associated Full Treatment Regimen": ("associated_treatment", "irae"),
+    "Associated Treatment Category": ("associated_therapy_type_consolidated", "irae"),
     "irAE treatment": ("condition", "irae_treatment"),
     "irAE Treatment Type": ("irae_treatment_type", "irae_treatment"),
 }
@@ -21,7 +25,7 @@ def split_combo_value(value):
 
 def event_values(event, field):
     value = event.get(field)
-    if field in {"condition", "ici_class", "associated_ici", "associated_ici_class"}:
+    if field in {"condition", "ici_combo", "ici_class", "associated_treatment", "associated_ici", "associated_ici_class"}:
         return split_combo_value(value)
     return [value]
 

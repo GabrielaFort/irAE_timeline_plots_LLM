@@ -14,7 +14,9 @@ MEDIAN_COLOR = "#D55E00"
 FACET_FIELDS = {
     "irAE Type": "irae_type",
     "OncoTree Tissue": "oncotree_tissue",
-    "Immunotherapy": "associated_ici",
+    "Full Treatment Regimen": "associated_treatment",
+    "ICI Regimen": "associated_ici",
+    "Treatment Category": "associated_therapy_type_consolidated",
     "Immunotherapy Class": "associated_ici_class",
 }
 

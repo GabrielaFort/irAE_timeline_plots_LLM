@@ -13,6 +13,9 @@ class EventJSONError(Exception):
         self.content = content
         self.event_type = event_type
 
+DEFAULT_OPTIONS = {'temperature': 1.0,
+                   'top_p': 0.95,
+                   'top_k': 64}
 
 SINGLE_TYPE_EVENTS_SCHEMA = {
     "type": "object",
@@ -44,6 +47,7 @@ Extract ONLY cancer immunotherapy regimen START/RESTART/CHANGE events. Do not ex
 Do **NOT** extract every cycle, dose, infusion, administration, continuation, maintenance mention, follow-up mention, or medication adjustment.
 
 Include ONLY immune checkpoint inhibitors (ICI) drug combinations that include ICIs.
+ICIs may include Relatlimab, Ipilimumab, Fianlimab, Avelumab, Durvalumab, Atezolizumab, Cemiplimab, Nivolumab, Pembrolizumab, Dostarlimab, Serplulimab, or any other checkpoint inhibitor (even less common investigational ones) mentioned in the note.
 
 Do NOT include:
 - surgery
@@ -165,6 +169,7 @@ Extract:
 - Hormone replacement for immune endocrinopathies: Levothyroxine, Hydrocortisone, Insulin
 - Symptom-directed treatments clearly used for irAE management: Loperamide for immune diarrhea, antihistamines for immune rash/pruritus, artificial tears or ophthalmic steroids for ocular irAE, omeprazole for gastrointestinal irAEs, Acetaminophen for general irAE symptom management, etc.
 - Procedures clearly used for irAE management: Plasmapheresis, physical therapy, hydration if explicitly used for irAE management
+- Other treatments used to manage toxicity from irAE treatment (e.g. bactrim, antibiotics, fluconazole)
 
 Do NOT extract:
 - The irAE itself: Rash, Itching, Pruritus, Colitis, Diarrhea, Pneumonitis, Hepatitis, Arthralgia, Hypothyroidism, Adrenal insufficiency
@@ -219,6 +224,7 @@ def extract_single_type_events(model, temperature, note, prompt, condition_type)
         model=model,
         format=SINGLE_TYPE_EVENTS_SCHEMA,
         options={'temperature': temperature},
+        #options=DEFAULT_OPTIONS,
         think=True,
         stream=False,
         messages=messages,
@@ -234,6 +240,7 @@ def extract_single_type_events(model, temperature, note, prompt, condition_type)
             model=model,
             format=SINGLE_TYPE_EVENTS_SCHEMA,
             options={'temperature': 0.0},
+            #options=DEFAULT_OPTIONS,
             messages=messages + [
                 {
                     'role': 'user',
