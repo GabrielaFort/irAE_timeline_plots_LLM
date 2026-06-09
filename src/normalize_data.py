@@ -66,6 +66,14 @@ THERAPY_MAP_SPECS = [
     ("targeted therapy", "targeted_therapy_map"),
 ]
 
+THERAPY_TYPE_ORDER = {
+    "ICI": 0,
+    "targeted therapy": 1,
+    "chemotherapy": 2,
+    "ADC": 3,
+    "unmapped": 4,
+}
+
 
 def normalize_therapy_regimen(condition, therapy_maps):
     if condition is None:
@@ -76,9 +84,7 @@ def normalize_therapy_regimen(condition, therapy_maps):
             "has_ici": False,
         }
 
-    mapped_parts = []
-    therapy_types = []
-    ici_parts = []
+    mapped_entries = []
 
     for part in split_combo(condition):
         part_key = part.lower()
@@ -106,10 +112,15 @@ def normalize_therapy_regimen(condition, therapy_maps):
             matched_value = part_key
             matched_type = "unmapped"
 
-        mapped_parts.append(matched_value)
-        therapy_types.append(matched_type)
-        if matched_type == "ICI":
-            ici_parts.append(matched_value)
+        mapped_entries.append((matched_value, matched_type))
+
+    mapped_entries = sorted(
+        unique_in_order(mapped_entries),
+        key=lambda item: (THERAPY_TYPE_ORDER.get(item[1], 99), item[0].lower()),
+    )
+    mapped_parts = [value for value, _ in mapped_entries]
+    therapy_types = [therapy_type for _, therapy_type in mapped_entries]
+    ici_parts = [value for value, therapy_type in mapped_entries if therapy_type == "ICI"]
 
     return {
         "condition": " + ".join(mapped_parts) if mapped_parts else None,

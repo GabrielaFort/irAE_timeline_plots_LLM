@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 EVENT_TYPES = ("immunotherapy", "irae", "irae_treatment")
-ONCOTREE_FIELDS = ("oncotree_tissue", "oncotree_name", "oncotree_code")
+ONCOTREE_FIELDS = ("oncotree_tissue", "oncotree_name")
 KEY_MODES = ("condition", "time", "condition_and_time")
 
 
@@ -103,6 +103,20 @@ def compare_multisets(gold_records, pred_records, key_mode):
     }
 
 
+def oncotree_accuracy_rows(source_file, oncotree_rows):
+    rows = []
+    matches = sum(1 for row in oncotree_rows if row["match"])
+    total = len(oncotree_rows)
+
+    for field in ONCOTREE_FIELDS:
+        field_rows = [row for row in oncotree_rows if row["field"] == field]
+        field_matches = sum(1 for row in field_rows if row["match"])
+        rows.append(accuracy_row(source_file, f"oncotree_{field}", field_matches, len(field_rows)))
+
+    rows.append(accuracy_row(source_file, "oncotree_overall", matches, total))
+    return rows
+
+
 def patient_oncotree_result(source_file, gold_records, pred_records):
     rows = []
     for field in ONCOTREE_FIELDS:
@@ -163,6 +177,16 @@ def metric_row(source_file, level, result):
     }
 
 
+def accuracy_row(source_file, level, correct, total):
+    return {
+        "source_file": source_file,
+        "level": level,
+        "correct": correct,
+        "total": total,
+        "accuracy": round(correct / total, 3) if total else 0,
+    }
+
+
 def write_csv(rows, path, fieldnames):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -175,7 +199,7 @@ def write_csv(rows, path, fieldnames):
 def main():
     parser = argparse.ArgumentParser(description="Validate normalized pipeline output against normalized gold-standard JSONL.")
     parser.add_argument("--gold", default="data/gold_standard_results_normalized.jsonl")
-    parser.add_argument("--pred", default="data/patient_events_normalized_052826.jsonl")
+    parser.add_argument("--pred", default="data/patient_events_normalized.jsonl")
     parser.add_argument("--output-dir", default="outputs/gold_validation")
     args = parser.parse_args()
 
@@ -185,6 +209,7 @@ def main():
     pred_by_source = by_source_file(pred)
 
     metric_rows = []
+    oncotree_metric_rows = []
     issue_output_rows = []
     oncotree_rows = []
 
@@ -197,7 +222,9 @@ def main():
         all_gold_for_scored_patients.extend(gold_patient)
         all_pred_for_scored_patients.extend(pred_patient)
 
-        oncotree_rows.extend(patient_oncotree_result(source_file, gold_patient, pred_patient))
+        patient_oncotree_rows = patient_oncotree_result(source_file, gold_patient, pred_patient)
+        oncotree_rows.extend(patient_oncotree_rows)
+        oncotree_metric_rows.extend(oncotree_accuracy_rows(source_file, patient_oncotree_rows))
 
         for event_type in EVENT_TYPES:
             gold_events = filtered(gold_patient, event_type)
@@ -225,6 +252,8 @@ def main():
         result = compare_multisets(all_gold_for_scored_patients, all_pred_for_scored_patients, key_mode)
         metric_rows.append(metric_row("ALL", f"overall_{key_mode}", result))
 
+    oncotree_metric_rows.extend(oncotree_accuracy_rows("ALL", oncotree_rows))
+
     output_dir = Path(args.output_dir)
     write_csv(
         metric_rows,
@@ -240,6 +269,11 @@ def main():
         oncotree_rows,
         output_dir / "oncotree_issues.csv",
         ["source_file", "level", "field", "gold", "predicted", "match"],
+    )
+    write_csv(
+        oncotree_metric_rows,
+        output_dir / "oncotree_metrics.csv",
+        ["source_file", "level", "correct", "total", "accuracy"],
     )
 
     overall = compare_multisets(all_gold_for_scored_patients, all_pred_for_scored_patients, "condition_and_time")

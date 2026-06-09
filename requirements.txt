@@ -1,5 +1,8 @@
 ollama
+numpy<2
 pandas
 plotly
 streamlit
 matplotlib
+seaborn
+scipy
