@@ -166,10 +166,10 @@ def create_oncotree_name_prompt():
         "- Focus on the **primary** tumor diagnosis.\n"
         "- Do not include explanations, reasoning, or extra keys.\n"
         "- If no appropriate match exists, set `value` to: Unknown.\n"
-        "- Try to choose the most specific name possible based on the note details, but only if it is clearly supported by the text.\n"
+        "- Try to choose the most specific name possible based on the diagnosis details, but only if it is clearly supported by the diagnosis.\n"
         "- Often for breast cancer, Invasive Breast Carcinoma is the most specific name that can be chosen, but choose more specific names if appropriate and clearly supported.\n"
         "- Prefer Lung Adenocarcinoma for diagnoses of lung cancer that indicate adenocarcinoma histology, even if it also states poorly differentiated.\n"
-        "- Choose the most specific name but only if clearly supported by the note - do not infer or assume details that are not explicitly stated in the note.\n"
+        "- Choose the most specific name but only if clearly supported by the diagnosis - do not infer or assume details that are not explicitly stated in the diagnosis.\n"
         "- If there are multiple primary tumors mentioned, choose the one that appears most prominently (e.g., in the summary or assessment) or that is most likely to be the indication for immunotherapy.\n"
     )
 
