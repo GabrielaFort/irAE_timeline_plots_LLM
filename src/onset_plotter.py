@@ -6,6 +6,8 @@ import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
+from primary_irae_filter import filter_primary_iraes
+
 
 WEEKS_PER_MONTH = 4.34524
 POINT_COLOR = "#0072B2"
@@ -111,7 +113,8 @@ def empty_figure(message):
     return fig
 
 
-def make_onset_facets(events, row_field, col_field, unit="weeks", max_x=52, max_rows=6, max_cols=8):
+def make_onset_facets(events, row_field, col_field, unit="weeks", max_x=52, max_rows=6, max_cols=8, primary_only=False):
+    events = filter_primary_iraes(events, primary_only)
     records = onset_records(events)
     if not records:
         return empty_figure("No irAE records with time-to-onset values found.")

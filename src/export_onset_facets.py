@@ -11,6 +11,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+from primary_irae_filter import filter_primary_iraes
+
 
 WEEKS_PER_MONTH = 4.34524
 LINE_COLOR = "#0072B2"
@@ -96,7 +98,9 @@ def export_onset_distribution(
     unit,
     max_x,
     dpi,
+    primary_only=False,
 ):
+    records = filter_primary_iraes(records, primary_only)
     irae_records = [
         record
         for record in records
@@ -212,7 +216,9 @@ def export_onset_facets(
     unit,
     max_x,
     dpi,
+    primary_only=False,
 ):
+    records = filter_primary_iraes(records, primary_only)
     irae_records = [
         record
         for record in records
@@ -289,6 +295,7 @@ if __name__ == "__main__":
     parser.add_argument("--unit", choices=["weeks", "months"], default="weeks")
     parser.add_argument("--max-x", type=float, default=52)
     parser.add_argument("--dpi", type=int, default=300)
+    parser.add_argument("--primary-only", action="store_true")
     args = parser.parse_args()
 
     output_path = Path(args.output)
@@ -303,6 +310,7 @@ if __name__ == "__main__":
         unit=args.unit,
         max_x=args.max_x,
         dpi=args.dpi,
+        primary_only=args.primary_only,
     )
     export_onset_facets(
         records=records,
@@ -314,6 +322,7 @@ if __name__ == "__main__":
         unit=args.unit,
         max_x=args.max_x,
         dpi=args.dpi,
+        primary_only=args.primary_only,
     )
     print(f"Wrote {output_path}")
     print(f"Wrote {facets_output_path}")

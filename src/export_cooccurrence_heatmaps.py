@@ -4,6 +4,10 @@ import textwrap
 from pathlib import Path
 
 import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+
+from primary_irae_filter import filter_primary_iraes
 
 
 HEATMAP_SPECS = [
@@ -13,13 +17,8 @@ HEATMAP_SPECS = [
     ("ici_regimens", "ICI Regimen Co-occurrence", "ici_combo", "immunotherapy"),
     ("treatment_categories", "Treatment Category Co-occurrence", "therapy_type_consolidated", "immunotherapy"),
     ("ici_classes", "ICI Class Co-occurrence", "ici_class", "immunotherapy"),
-    ("associated_treatment_regimens", "Associated Full Treatment Regimen Co-occurrence", "associated_treatment", "irae"),
-    ("associated_treatment_categories", "Associated Treatment Category Co-occurrence", "associated_therapy_type_consolidated", "irae"),
-    ("associated_ici_classes", "Associated ICI Class Co-occurrence", "associated_ici_class", "irae"),
     ("irae_treatments", "irAE Treatment Co-occurrence", "condition", "irae_treatment"),
     ("irae_treatment_types", "irAE Treatment Type Co-occurrence", "irae_treatment_type", "irae_treatment"),
-    ("oncotree_tissues", "OncoTree Tissue Co-occurrence", "oncotree_tissue", None),
-    ("oncotree_names", "OncoTree Name Co-occurrence", "oncotree_name", None),
 ]
 
 
@@ -81,78 +80,70 @@ def top_patient_sets(by_value, top_n):
 def cooccurrence_matrices(by_value):
     labels = list(by_value)
     count_matrix = []
-    jaccard_matrix = []
+    score_matrix = []
 
     for row_label in labels:
         count_row = []
-        jaccard_row = []
+        score_row = []
         for col_label in labels:
             overlap = len(by_value[row_label] & by_value[col_label])
-            union = len(by_value[row_label] | by_value[col_label])
+            smaller_count = min(len(by_value[row_label]), len(by_value[col_label]))
             count_row.append(overlap)
-            jaccard_row.append(overlap / union if union else 0)
+            score_row.append(overlap / smaller_count if smaller_count else 0)
         count_matrix.append(count_row)
-        jaccard_matrix.append(jaccard_row)
+        score_matrix.append(score_row)
 
-    return labels, count_matrix, jaccard_matrix
+    return labels, count_matrix, score_matrix
 
 
 def wrap_label(value, width=22):
     return textwrap.fill(str(value), width=width)
 
 
-def write_heatmap(labels, count_matrix, jaccard_matrix, title, output_path, dpi):
+def write_heatmap(labels, count_matrix, score_matrix, title, output_path, dpi):
     if len(labels) < 2:
         return False
 
     size = max(8, min(16, 0.65 * len(labels) + 4))
-    fig, ax = plt.subplots(figsize=(size, size))
-    image = ax.imshow(jaccard_matrix, cmap="Blues", vmin=0, vmax=1)
-
     wrapped = [wrap_label(label) for label in labels]
-    ax.set_xticks(range(len(labels)))
-    ax.set_yticks(range(len(labels)))
-    ax.set_xticklabels(wrapped, rotation=45, ha="right", fontsize=9, fontweight="bold")
-    ax.set_yticklabels(wrapped, fontsize=9, fontweight="bold")
-    ax.set_title(title, fontsize=16, fontweight="bold", pad=20)
+    scores = pd.DataFrame(score_matrix, index=wrapped, columns=wrapped)
+    counts = pd.DataFrame(count_matrix, index=wrapped, columns=wrapped)
 
-    for row_index, row in enumerate(count_matrix):
-        for col_index, value in enumerate(row):
-            jaccard = jaccard_matrix[row_index][col_index]
-            ax.text(
-                col_index,
-                row_index,
-                str(value),
-                ha="center",
-                va="center",
-                color="white" if jaccard > 0.5 else "black",
-                fontsize=8,
-                fontweight="bold",
-            )
-
-    colorbar = fig.colorbar(image, ax=ax, fraction=0.046, pad=0.04)
-    colorbar.set_label("Jaccard overlap", fontweight="bold")
-    fig.tight_layout()
-    fig.savefig(output_path, dpi=dpi)
-    plt.close(fig)
+    grid = sns.clustermap(
+        scores,
+        annot=counts,
+        fmt="",
+        cmap="Reds",
+        vmin=0,
+        vmax=1,
+        figsize=(size, size),
+        cbar_kws={"label": "Co-occurrence score"},
+        linewidths=0,
+    )
+    grid.ax_heatmap.set_title(title, fontsize=16, fontweight="bold", pad=20)
+    grid.ax_heatmap.set_xticklabels(grid.ax_heatmap.get_xticklabels(), rotation=45, ha="right", fontsize=9, fontweight="bold")
+    grid.ax_heatmap.set_yticklabels(grid.ax_heatmap.get_yticklabels(), fontsize=9, fontweight="bold")
+    grid.fig.savefig(output_path, dpi=dpi, bbox_inches="tight")
+    plt.close(grid.fig)
     return True
 
 
-def export_heatmaps(records, output_dir, top_n, dpi, include_unknown):
+def export_heatmaps(records, output_dir, top_n, dpi, include_unknown, primary_only=False):
     output_dir.mkdir(parents=True, exist_ok=True)
 
     for filename, title, field, condition_type in HEATMAP_SPECS:
+        heatmap_records = filter_primary_iraes(records, primary_only) if condition_type == "irae" else records
         by_value = patient_sets(
-            records,
+            heatmap_records,
             field=field,
             condition_type=condition_type,
             include_unknown=include_unknown,
         )
         by_value = top_patient_sets(by_value, top_n=top_n)
-        labels, count_matrix, jaccard_matrix = cooccurrence_matrices(by_value)
+        labels, count_matrix, score_matrix = cooccurrence_matrices(by_value)
         output_path = output_dir / f"{filename}_cooccurrence.png"
 
-        if write_heatmap(labels, count_matrix, jaccard_matrix, title, output_path, dpi=dpi):
+        if write_heatmap(labels, count_matrix, score_matrix, title, output_path, dpi=dpi):
             print(f"Wrote {output_path}")
         else:
             print(f"Skipped {title}: fewer than 2 values")
@@ -165,6 +156,7 @@ if __name__ == "__main__":
     parser.add_argument("--top-n", type=int, default=20, help="Maximum number of terms per heatmap.")
     parser.add_argument("--dpi", type=int, default=300)
     parser.add_argument("--include-unknown", action="store_true")
+    parser.add_argument("--primary-only", action="store_true")
     args = parser.parse_args()
 
     records = read_jsonl(Path(args.input))
@@ -174,4 +166,5 @@ if __name__ == "__main__":
         top_n=args.top_n,
         dpi=args.dpi,
         include_unknown=args.include_unknown,
+        primary_only=args.primary_only,
     )

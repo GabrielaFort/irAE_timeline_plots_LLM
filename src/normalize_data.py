@@ -45,8 +45,7 @@ def months_since(start, baseline):
 
 
 def split_combo(value):
-    normalized = str(value).replace("/", "+")
-    return [part.strip() for part in normalized.split("+") if part.strip()]
+    return [part.strip() for part in str(value).split("+") if part.strip()]
 
 
 def unique_in_order(values):
@@ -59,13 +58,6 @@ def unique_in_order(values):
     return out
 
 
-THERAPY_MAP_SPECS = [
-    ("ICI", "ici_map"),
-    ("ADC", "adc_map"),
-    ("chemotherapy", "chemotherapy_map"),
-    ("targeted therapy", "targeted_therapy_map"),
-]
-
 THERAPY_TYPE_ORDER = {
     "ICI": 0,
     "targeted therapy": 1,
@@ -75,59 +67,68 @@ THERAPY_TYPE_ORDER = {
 }
 
 
-def normalize_therapy_regimen(condition, therapy_maps):
+def normalize_therapy_regimen(condition, rxnorm_cache, ingredient_class_map):
     if condition is None:
         return {
             "condition": None,
             "therapy_type": None,
+            "therapy_type_consolidated": None,
             "ici_combo": None,
+            "ici_class_combo": None,
             "has_ici": False,
+            "ingredients": [],
         }
 
+    ingredients = rxnorm_ingredients_for_condition(condition, rxnorm_cache)
     mapped_entries = []
+    for ingredient in ingredients:
+        class_info = ingredient_class(ingredient, ingredient_class_map)
+        therapy_type = class_info.get("therapy_type") or "unmapped"
+        mapped_entries.append(
+            (
+                display_ingredient_name(ingredient, ingredient_class_map),
+                therapy_type,
+                ingredient,
+            )
+        )
 
-    for part in split_combo(condition):
-        part_key = part.lower()
-        matched_null = False
-        matched_value = None
-        matched_type = None
+    if any(therapy_type == "ICI" for _, therapy_type, _ in mapped_entries):
+        mapped_entries = [
+            (value, therapy_type, ingredient)
+            for value, therapy_type, ingredient in mapped_entries
+            if not (
+                therapy_type == "unmapped"
+                and ingredient_class(ingredient, ingredient_class_map).get("irae_treatment_type")
+            )
+        ]
 
-        for therapy_type, map_name in THERAPY_MAP_SPECS:
-            therapy_map = therapy_maps.get(map_name, {})
-            if part_key not in therapy_map:
-                continue
-
-            value = therapy_map[part_key]
-            if is_empty_mapped_value(value):
-                matched_null = True
-                continue
-
-            matched_value = str(value)
-            matched_type = therapy_type
-            break
-
-        if matched_value is None:
-            if matched_null:
-                continue
-            matched_value = part_key
-            matched_type = "unmapped"
-
-        mapped_entries.append((matched_value, matched_type))
-
+    seen_entries = set()
+    unique_entries = []
+    for value, therapy_type, ingredient in mapped_entries:
+        key = (ingredient.get("rxcui") or value.lower(), therapy_type)
+        if key in seen_entries:
+            continue
+        seen_entries.add(key)
+        unique_entries.append((value, therapy_type, ingredient))
     mapped_entries = sorted(
-        unique_in_order(mapped_entries),
+        unique_entries,
         key=lambda item: (THERAPY_TYPE_ORDER.get(item[1], 99), item[0].lower()),
     )
-    mapped_parts = [value for value, _ in mapped_entries]
-    therapy_types = [therapy_type for _, therapy_type in mapped_entries]
-    ici_parts = [value for value, therapy_type in mapped_entries if therapy_type == "ICI"]
+    mapped_parts = [value for value, _, _ in mapped_entries]
+    therapy_types = [therapy_type for _, therapy_type, _ in mapped_entries]
+    ici_ingredients = [
+        ingredient for _, therapy_type, ingredient in mapped_entries if therapy_type == "ICI"
+    ]
+    ici_parts = ingredient_names(ici_ingredients, ingredient_class_map)
 
     return {
         "condition": " + ".join(mapped_parts) if mapped_parts else None,
         "therapy_type": " + ".join(therapy_types) if therapy_types else None,
         "therapy_type_consolidated": consolidated_therapy_type(therapy_types),
         "ici_combo": " + ".join(ici_parts) if ici_parts else None,
+        "ici_class_combo": mapped_rxnorm_ici_class(ici_ingredients, ingredient_class_map),
         "has_ici": bool(ici_parts),
+        "ingredients": ingredients,
     }
 
 
@@ -150,18 +151,11 @@ def consolidated_therapy_type(therapy_types):
     return " plus ".join([ici_label, *non_ici_types])
 
 
-def mapped_ici_class(condition, ici_class_map):
-    if condition is None:
-        return None
-
-    classes = [
-        str(ici_class_map.get(part.lower(), part))
-        for part in split_combo(condition)
-    ]
-    return " + ".join(sorted(unique_in_order(classes)))
-
-
-def immunotherapy_episodes(parsed_events, therapy_maps, ici_class_map):
+def immunotherapy_episodes(
+    parsed_events,
+    rxnorm_cache,
+    ingredient_class_map,
+):
     episodes = []
     seen = set()
 
@@ -169,7 +163,11 @@ def immunotherapy_episodes(parsed_events, therapy_maps, ici_class_map):
         if event.get("condition_type") != "immunotherapy":
             continue
 
-        regimen = normalize_therapy_regimen(event.get("condition"), therapy_maps)
+        regimen = normalize_therapy_regimen(
+            event.get("condition"),
+            rxnorm_cache,
+            ingredient_class_map,
+        )
         label = regimen["ici_combo"]
         if is_empty_mapped_value(label) or not regimen["has_ici"]:
             continue
@@ -182,7 +180,7 @@ def immunotherapy_episodes(parsed_events, therapy_maps, ici_class_map):
             {
                 "start": start,
                 "label": label,
-                "class_label": mapped_ici_class(label, ici_class_map),
+                "class_label": regimen.get("ici_class_combo"),
                 "full_regimen": regimen["condition"],
                 "therapy_type": regimen["therapy_type"],
                 "therapy_type_consolidated": regimen["therapy_type_consolidated"],
@@ -224,37 +222,94 @@ def read_json(path):
         return json.load(f)
 
 
-def normalized_map(raw_map):
-    normalized = {}
-    for key, value in raw_map.items():
-        if isinstance(value, list):
-            for item in value:
-                normalized[str(item).strip().lower()] = key
-        else:
-            normalized[str(key).strip().lower()] = value
-    return normalized
+def read_json_or_empty(path):
+    if path is None or not path.exists():
+        return {}
+    return read_json(path)
 
 
-def mapped_condition(event, ici_map, irae_treatment_map):
-    condition = event.get("condition")
-    condition_type = event.get("condition_type")
-
-    lookup = {
-        "irae_treatment": irae_treatment_map,
-    }.get(condition_type)
-
-    if lookup is None or condition is None:
-        return condition
-
-    condition_key = str(condition).strip().lower()
-    return lookup.get(condition_key, condition_key)
-
-
-def mapped_irae_treatment_type(condition, irae_treatment_type_map):
-    if condition is None:
+def accepted_rxnorm_entry(term, rxnorm_cache):
+    entry = (rxnorm_cache or {}).get(str(term or "").strip().lower())
+    if not entry or entry.get("status") != "accepted":
         return None
+    return entry
 
-    return irae_treatment_type_map.get(str(condition).strip().lower(), condition)
+
+def normalized_ingredient_name(ingredient):
+    return str(ingredient.get("name") or "").strip().lower()
+
+
+def ingredient_class(ingredient, ingredient_class_map):
+    value = ingredient_class_map.get(normalized_ingredient_name(ingredient))
+    if isinstance(value, str):
+        return {"therapy_type": value}
+    return value or {}
+
+
+def display_ingredient_name(ingredient, ingredient_class_map):
+    class_info = ingredient_class(ingredient, ingredient_class_map)
+    if class_info.get("name"):
+        return str(class_info["name"])
+    return normalized_ingredient_name(ingredient)
+
+
+def unique_ingredients(ingredients):
+    seen = set()
+    out = []
+    for ingredient in ingredients:
+        key = ingredient.get("rxcui") or str(ingredient.get("name", "")).lower()
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        out.append(ingredient)
+    return out
+
+
+def rxnorm_ingredients_for_condition(condition, rxnorm_cache):
+    ingredients = []
+    for part in split_combo(condition):
+        entry = accepted_rxnorm_entry(part, rxnorm_cache)
+        if not entry:
+            continue
+        ingredients.extend(entry.get("ingredients") or [])
+    return unique_ingredients(ingredients)
+
+
+def ingredient_names(ingredients, ingredient_class_map):
+    return [
+        display_ingredient_name(ingredient, ingredient_class_map)
+        for ingredient in ingredients
+        if normalized_ingredient_name(ingredient)
+    ]
+
+
+def ingredient_log_values(ingredients):
+    return [
+        {
+            "rxcui": ingredient.get("rxcui"),
+            "name": ingredient.get("name"),
+            "normalized_name": normalized_ingredient_name(ingredient),
+        }
+        for ingredient in ingredients
+    ]
+
+
+def mapped_rxnorm_irae_treatment_type(ingredients, ingredient_class_map):
+    treatment_types = []
+    for ingredient in ingredients:
+        treatment_type = ingredient_class(ingredient, ingredient_class_map).get("irae_treatment_type")
+        if treatment_type:
+            treatment_types.append(str(treatment_type))
+    return " + ".join(sorted(unique_in_order(treatment_types))) if treatment_types else None
+
+
+def mapped_rxnorm_ici_class(ingredients, ingredient_class_map):
+    classes = []
+    for ingredient in ingredients:
+        ici_class = ingredient_class(ingredient, ingredient_class_map).get("ici_class")
+        if ici_class:
+            classes.append(str(ici_class))
+    return " + ".join(sorted(unique_in_order(classes))) if classes else None
 
 
 def is_empty_mapped_value(value):
@@ -298,24 +353,31 @@ def append_skip_log(log_path, record):
         f.write(json.dumps(record) + "\n")
 
 
+def append_row_skip(row_skip_log_path, event, patient_id, reason, condition=None, ingredients=None):
+    append_skip_log(
+        row_skip_log_path,
+        {
+            "patient_id": patient_id,
+            "source_file": event.get("source_file"),
+            "condition_type": event.get("condition_type"),
+            "condition": event.get("condition"),
+            "start_date": event.get("start_date"),
+            "reason": reason,
+            "normalized_condition": condition,
+            "ingredients": ingredient_log_values(ingredients or []),
+        },
+    )
+
+
 def normalize_records(
     records,
-    ici_map=None,
-    adc_map=None,
-    chemotherapy_map=None,
-    targeted_therapy_map=None,
-    irae_treatment_map=None,
-    irae_treatment_type_map=None,
-    ici_class_map=None,
+    rxnorm_cache=None,
+    ingredient_class_map=None,
     skip_log_path=None,
+    row_skip_log_path=None,
 ):
-    ici_map = normalized_map(ici_map or {})
-    adc_map = normalized_map(adc_map or {})
-    chemotherapy_map = normalized_map(chemotherapy_map or {})
-    targeted_therapy_map = normalized_map(targeted_therapy_map or {})
-    irae_treatment_map = normalized_map(irae_treatment_map or {})
-    irae_treatment_type_map = normalized_map(irae_treatment_type_map or {})
-    ici_class_map = normalized_map(ici_class_map or {})
+    rxnorm_cache = rxnorm_cache or {}
+    ingredient_class_map = ingredient_class_map or {}
     by_patient = defaultdict(list)
     for record in records:
         patient_id = record.get("patient_id") or "unknown"
@@ -358,44 +420,92 @@ def normalize_records(
             )
             continue
 
-        therapy_maps = {
-            "ici_map": ici_map,
-            "adc_map": adc_map,
-            "chemotherapy_map": chemotherapy_map,
-            "targeted_therapy_map": targeted_therapy_map,
-        }
         baseline = min(start for _, start, _ in parsed)
-        episodes = immunotherapy_episodes(parsed, therapy_maps, ici_class_map)
+        episodes = immunotherapy_episodes(
+            parsed,
+            rxnorm_cache,
+            ingredient_class_map,
+        )
         patient_normalized = []
         for event, start, end in parsed:
             therapy_type = None
             therapy_type_consolidated = None
             ici_combo = None
+            rxnorm_ingredients = []
             if event.get("condition_type") == "immunotherapy":
-                regimen = normalize_therapy_regimen(event.get("condition"), therapy_maps)
+                regimen = normalize_therapy_regimen(
+                    event.get("condition"),
+                    rxnorm_cache,
+                    ingredient_class_map,
+                )
                 condition = regimen["condition"]
                 therapy_type = regimen["therapy_type"]
                 therapy_type_consolidated = regimen["therapy_type_consolidated"]
                 ici_combo = regimen["ici_combo"]
+                rxnorm_ingredients = regimen.get("ingredients") or []
             else:
-                condition = mapped_condition(event, ici_map, irae_treatment_map)
+                if event.get("condition_type") == "irae_treatment":
+                    rxnorm_ingredients = rxnorm_ingredients_for_condition(
+                        event.get("condition"),
+                        rxnorm_cache,
+                    )
+                    names = ingredient_names(rxnorm_ingredients, ingredient_class_map)
+                    condition = " + ".join(names) if names else None
+                else:
+                    condition = event.get("condition")
 
             if (
                 event.get("condition_type") in {"immunotherapy", "irae_treatment"}
                 and is_empty_mapped_value(condition)
             ):
+                append_row_skip(
+                    row_skip_log_path,
+                    event,
+                    patient_id,
+                    "no_accepted_rxnorm_ingredients",
+                    condition=condition,
+                    ingredients=rxnorm_ingredients,
+                )
                 continue
             if event.get("condition_type") == "immunotherapy" and is_empty_mapped_value(ici_combo):
+                append_row_skip(
+                    row_skip_log_path,
+                    event,
+                    patient_id,
+                    "no_ici_after_class_mapping",
+                    condition=condition,
+                    ingredients=rxnorm_ingredients,
+                )
                 continue
             ici_class = None
             ici_class_combo = None
             if event.get("condition_type") == "immunotherapy":
-                ici_class_combo = mapped_ici_class(ici_combo, ici_class_map)
+                ici_class_combo = mapped_rxnorm_ici_class(
+                    [
+                        ingredient
+                        for ingredient in rxnorm_ingredients
+                        if ingredient_class(ingredient, ingredient_class_map).get("therapy_type") == "ICI"
+                    ],
+                    ingredient_class_map,
+                )
                 ici_class = ici_class_combo
 
             irae_treatment_type = None
             if event.get("condition_type") == "irae_treatment":
-                irae_treatment_type = mapped_irae_treatment_type(condition, irae_treatment_type_map)
+                irae_treatment_type = mapped_rxnorm_irae_treatment_type(
+                    rxnorm_ingredients,
+                    ingredient_class_map,
+                )
+                if is_empty_mapped_value(irae_treatment_type):
+                    append_row_skip(
+                        row_skip_log_path,
+                        event,
+                        patient_id,
+                        "no_irae_treatment_type_after_class_mapping",
+                        condition=condition,
+                        ingredients=rxnorm_ingredients,
+                    )
+                    continue
             time_to_onset_months = None
             associated_ici = None
             associated_ici_class = None
@@ -491,30 +601,25 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Normalize patient event dates to months from first event.")
     parser.add_argument("--input", default="data/patient_events.jsonl", help="Input event JSONL.")
     parser.add_argument("--output", default="data/patient_events_normalized.jsonl", help="Output normalized JSONL.")
-    parser.add_argument("--ici-map", default="data/treatment_terms/ici_map.json")
-    parser.add_argument("--adc-map", default="data/treatment_terms/adc_map.json")
-    parser.add_argument("--ici-class-map", default="data/treatment_terms/ici_class_map.json")
-    parser.add_argument("--chemotherapy-map", default="data/treatment_terms/chemotherapy_map.json")
-    parser.add_argument("--targeted-therapy-map", default="data/treatment_terms/targeted_therapy_map.json")
-    parser.add_argument("--irae-treatment-map", default="data/treatment_terms/irae_treatment_map.json")
-    parser.add_argument("--irae-treatment-type-map", default="data/treatment_terms/irae_treatment_type_map.json")
+    parser.add_argument("--rxnorm-cache", default="data/treatment_terms/rxnorm_cache.json")
+    parser.add_argument("--ingredient-class-map", default="data/treatment_terms/ingredient_class_map.json")
     parser.add_argument("--skip-log", default="data/patient_events_skipped.jsonl")
+    parser.add_argument("--row-skip-log", default="data/patient_event_rows_skipped.jsonl")
     args = parser.parse_args()
 
     input_path = Path(args.input)
     output_path = Path(args.output)
+    row_skip_log_path = Path(args.row_skip_log) if args.row_skip_log else None
+    if row_skip_log_path and row_skip_log_path.exists():
+        row_skip_log_path.unlink()
 
     records = read_jsonl(input_path)
     normalized = normalize_records(
         records,
-        ici_map=read_json(Path(args.ici_map)),
-        adc_map=read_json(Path(args.adc_map)),
-        ici_class_map=read_json(Path(args.ici_class_map)),
-        chemotherapy_map=read_json(Path(args.chemotherapy_map)),
-        targeted_therapy_map=read_json(Path(args.targeted_therapy_map)),
-        irae_treatment_map=read_json(Path(args.irae_treatment_map)),
-        irae_treatment_type_map=read_json(Path(args.irae_treatment_type_map)),
+        rxnorm_cache=read_json_or_empty(Path(args.rxnorm_cache)) if args.rxnorm_cache else {},
+        ingredient_class_map=read_json_or_empty(Path(args.ingredient_class_map)) if args.ingredient_class_map else {},
         skip_log_path=Path(args.skip_log) if args.skip_log else None,
+        row_skip_log_path=row_skip_log_path,
     )
     write_jsonl(normalized, output_path)
 

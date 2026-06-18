@@ -11,7 +11,9 @@ from onset_plotter import FACET_FIELDS, make_onset_facets
 from timeline_plotter import make_plot
 
 
-DEFAULT_EVENTS_PATH = Path("data/patient_events_normalized.jsonl")
+#DEFAULT_EVENTS_PATH = Path("data/patient_events_normalized.jsonl")
+DEFAULT_EVENTS_PATH = Path("data/events_060926_gemma4_e4b_normalized_myositis_mg_myocarditis.jsonl")
+
 ONCOTREE_DIR = Path("data/oncotree_tissues")
 
 st.set_page_config(page_title="irAE Timelines", layout="wide", initial_sidebar_state="expanded")
@@ -431,7 +433,7 @@ with summary_tab:
 
 with cooccurrence_tab:
     st.subheader("Co-occurrence Heatmap")
-    option_col, top_col = st.columns([3, 1])
+    option_col, top_col, primary_col = st.columns([3, 1, 1])
     with option_col:
         cooccurrence_label = st.selectbox(
             "Label type",
@@ -440,6 +442,8 @@ with cooccurrence_tab:
         )
     with top_col:
         cooccurrence_top_n = st.slider("Top N", min_value=5, max_value=30, value=15)
+    with primary_col:
+        cooccurrence_primary_only = st.checkbox("Primary irAEs", value=False, key="cooccurrence_primary_only")
 
     heatmap_field, heatmap_condition_type = COOCCURRENCE_OPTIONS[cooccurrence_label]
     heatmap_fig = make_cooccurrence_heatmap(
@@ -448,12 +452,13 @@ with cooccurrence_tab:
         condition_type=heatmap_condition_type,
         top_n=cooccurrence_top_n,
         include_unknown=False,
+        primary_only=cooccurrence_primary_only,
     )
     st.plotly_chart(heatmap_fig, width="stretch")
 
 with onset_tab:
     st.subheader("Time to irAE Onset")
-    facet_col, limit_col = st.columns([3, 1])
+    facet_col, limit_col, primary_col = st.columns([3, 1, 1])
     with facet_col:
         col_label = st.selectbox(
             "Facet by",
@@ -462,6 +467,8 @@ with onset_tab:
         )
     with limit_col:
         max_cols = st.slider("Max columns", min_value=1, max_value=12, value=8)
+    with primary_col:
+        onset_primary_only = st.checkbox("Primary irAEs", value=False, key="onset_primary_only")
 
     row_field = "all"
     col_field = FACET_FIELDS[col_label]
@@ -473,5 +480,6 @@ with onset_tab:
         max_x=52,
         max_rows=1,
         max_cols=max_cols,
+        primary_only=onset_primary_only,
     )
     st.plotly_chart(onset_fig, width="stretch")

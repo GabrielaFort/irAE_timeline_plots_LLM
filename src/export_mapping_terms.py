@@ -22,6 +22,10 @@ def is_unknown(value):
     return str(value or "").strip().lower() in {"", "unknown", "none", "null", "na", "n/a"}
 
 
+def split_combo(value):
+    return [part.strip() for part in str(value or "").split("+") if part.strip()]
+
+
 def add(counter, category, value):
     value = str(value or "").strip()
     if value:
@@ -48,29 +52,90 @@ def collect_terms(records):
             else:
                 add_with_raw(terms, "mapped_irae", condition, record.get("raw_condition"))
         elif condition_type == "immunotherapy":
-            add(terms, "immunotherapy", condition)
+            for part in split_combo(condition):
+                add(terms, "immunotherapy", part)
         elif condition_type == "irae_treatment":
-            add(terms, "irae_treatment", condition)
+            for part in split_combo(condition):
+                add(terms, "irae_treatment", part)
 
     return terms
 
 
-def write_csv(terms, output_path):
+def cache_entry_for(term, rxnorm_cache):
+    return (rxnorm_cache or {}).get(str(term or "").strip().lower()) or {}
+
+
+def normalized_term(entry):
+    ingredients = entry.get("ingredients") or []
+    return " + ".join(
+        str(ingredient.get("name"))
+        for ingredient in ingredients
+        if ingredient.get("name")
+    )
+
+
+def ingredient_rxcuis(entry):
+    ingredients = entry.get("ingredients") or []
+    return " + ".join(
+        str(ingredient.get("rxcui"))
+        for ingredient in ingredients
+        if ingredient.get("rxcui")
+    )
+
+
+def write_csv(terms, output_path, rxnorm_cache=None):
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["category", "term", "raw_term", "count"])
+        writer.writerow(
+            [
+                "category",
+                "term",
+                "raw_term",
+                "count",
+                "rxnorm_status",
+                "rxnorm_match_method",
+                "rxnorm_matched_name",
+                "rxnorm_ingredients",
+                "rxnorm_ingredient_rxcuis",
+            ]
+        )
         for (category, term, raw_term), count in sorted(terms.items()):
-            writer.writerow([category, term, raw_term, count])
+            entry = cache_entry_for(term, rxnorm_cache)
+            status = entry.get("status")
+            if not status and category in {"immunotherapy", "irae_treatment"} and rxnorm_cache is not None:
+                status = "not_in_cache"
+            writer.writerow(
+                [
+                    category,
+                    term,
+                    raw_term,
+                    count,
+                    status,
+                    entry.get("match_method"),
+                    entry.get("matched_name"),
+                    normalized_term(entry),
+                    ingredient_rxcuis(entry),
+                ]
+            )
+
+
+def read_json(path):
+    if path is None or not path.exists():
+        return None
+    with path.open("r", encoding="utf-8") as f:
+        return json.load(f)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Export unique terms for mapping file review.")
     parser.add_argument("--input", default="data/patient_events.jsonl")
     parser.add_argument("--output", default="data/mapping_terms_review.csv")
+    parser.add_argument("--rxnorm-cache", default=None)
     args = parser.parse_args()
 
     records = read_jsonl(Path(args.input))
     terms = collect_terms(records)
-    write_csv(terms, Path(args.output))
+    rxnorm_cache = read_json(Path(args.rxnorm_cache)) if args.rxnorm_cache else None
+    write_csv(terms, Path(args.output), rxnorm_cache=rxnorm_cache)
     print(f"Wrote {len(terms)} unique terms to {args.output}")

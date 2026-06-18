@@ -85,13 +85,14 @@ def generate_mapping_response(model, temperature, system_prompt, user_prompt):
 
 def create_irae_name_prompt(irae_names):
     return (
-        "You are mapping extracted immune-related adverse event terms to a "
+        "You are a medical expert mapping extracted immune-related adverse event terms to a "
         "canonical irAE terminology list.\n\n"
         "Rules:\n"
         "- Choose only from the provided list.\n"
         "- Return a JSON object with one key, `value`.\n"
-        "- Set `value` to the best matching irAE name exactly as it appears in the list.\n"
-        "- If there is no good match, set `value` to: Unknown.\n\n"
+        "- Set `value` to the best matching irAE name **exactly** as it appears in the list.\n"
+        "- If there is no good match, set `value` to: Unknown.\n"
+        "- Try to avoid inappropriate mappings. If the term is too broad or ambiguous to confidently map, set `value` to: Unknown.\n\n"
         "Accepted irAE names:\n"
         + "\n".join(irae_names)
     )

@@ -10,14 +10,14 @@ BAR_COLOR = "#0072B2"
 FIG_SIZE = (12, 9)
 
 SUMMARY_SPECS = [
-    ("iraes", "Most Common irAEs", "condition", "irae"),
-    ("irae_types", "Most Common irAE Types", "irae_type", "irae"),
+    ("iraes", "irAEs", "condition", "irae"),
+    ("irae_types", "irAE Types", "irae_type", "irae"),
     ("treatment_regimens", "Full Normalized Treatment Regimens", "condition", "immunotherapy"),
     ("ici_regimens", "ICI Regimens", "ici_combo", "immunotherapy"),
     ("treatment_categories", "Treatment Categories", "therapy_type_consolidated", "immunotherapy"),
-    ("ici_classes", "Most Common ICI Classes", "ici_class", "immunotherapy"),
-    ("irae_treatments", "Most Common irAE Treatments", "condition", "irae_treatment"),
-    ("irae_treatment_types", "Most Common irAE Treatment Types", "irae_treatment_type", "irae_treatment"),
+    ("ici_classes", "ICI Classes", "ici_class", "immunotherapy"),
+    ("irae_treatments", "irAE Treatments", "condition", "irae_treatment"),
+    ("irae_treatment_types", "irAE Treatment Types", "irae_treatment_type", "irae_treatment"),
     ("oncotree_tissues", "OncoTree Tissues", "oncotree_tissue", None),
     ("oncotree_names", "OncoTree Names", "oncotree_name", None),
 ]

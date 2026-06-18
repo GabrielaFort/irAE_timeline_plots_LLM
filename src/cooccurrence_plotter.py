@@ -1,5 +1,7 @@
 import plotly.graph_objects as go
 
+from primary_irae_filter import filter_primary_iraes
+
 
 COOCCURRENCE_OPTIONS = {
     "irAE": ("condition", "irae"),
@@ -63,20 +65,20 @@ def top_patient_sets(by_value, top_n):
 def cooccurrence_matrices(by_value):
     labels = list(by_value)
     counts = []
-    jaccard = []
+    scores = []
 
     for row_label in labels:
         count_row = []
-        jaccard_row = []
+        score_row = []
         for col_label in labels:
             overlap = len(by_value[row_label] & by_value[col_label])
-            union = len(by_value[row_label] | by_value[col_label])
+            smaller_count = min(len(by_value[row_label]), len(by_value[col_label]))
             count_row.append(overlap)
-            jaccard_row.append(overlap / union if union else 0)
+            score_row.append(overlap / smaller_count if smaller_count else 0)
         counts.append(count_row)
-        jaccard.append(jaccard_row)
+        scores.append(score_row)
 
-    return labels, counts, jaccard
+    return labels, counts, scores
 
 
 def empty_figure(message):
@@ -86,7 +88,10 @@ def empty_figure(message):
     return fig
 
 
-def make_cooccurrence_heatmap(events, field, condition_type=None, top_n=20, include_unknown=False):
+def make_cooccurrence_heatmap(events, field, condition_type=None, top_n=20, include_unknown=False, primary_only=False):
+    if condition_type == "irae":
+        events = filter_primary_iraes(events, primary_only)
+
     by_value = patient_sets(
         events,
         field=field,
@@ -94,14 +99,14 @@ def make_cooccurrence_heatmap(events, field, condition_type=None, top_n=20, incl
         include_unknown=include_unknown,
     )
     by_value = top_patient_sets(by_value, top_n)
-    labels, counts, jaccard = cooccurrence_matrices(by_value)
+    labels, counts, scores = cooccurrence_matrices(by_value)
 
     if len(labels) < 2:
         return empty_figure("Fewer than two values found for this cohort.")
 
     fig = go.Figure(
         data=go.Heatmap(
-            z=jaccard,
+            z=scores,
             x=labels,
             y=labels,
             text=counts,
@@ -109,12 +114,12 @@ def make_cooccurrence_heatmap(events, field, condition_type=None, top_n=20, incl
             colorscale="Blues",
             zmin=0,
             zmax=1,
-            colorbar={"title": "Jaccard"},
+            colorbar={"title": "Co-occurrence score"},
             hovertemplate=(
                 "Row: %{y}<br>"
                 "Column: %{x}<br>"
                 "Patients with both: %{text}<br>"
-                "Jaccard: %{z:.3f}<extra></extra>"
+                "Score: %{z:.3f}<extra></extra>"
             ),
         )
     )
