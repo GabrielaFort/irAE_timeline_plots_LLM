@@ -1,0 +1,124 @@
+{
+   "oncotree_children_codes": [
+      "TET",
+      "TNET"
+   ],
+   "oncotree_name": "Thymus",
+   "oncotree_main_type": "Thymic Cancer",
+   "oncotree_tissue": "Thymus",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["THYMUS"],
+   "ncit_entries": [{
+      "ncit_name": "Thymus Gland",
+      "ncit_synonyms": [
+         "THYMUS",
+         "thymus",
+         "Reticuloendothelial System, Thymus",
+         "Thymus gland structure (body structure)",
+         "thymus organ",
+         "Thymus"
+      ],
+      "ncit_definitions": [
+         "A bi-lobed organ surrounded by a connective tissue capsule. It is located in the upper anterior portion of the chest, behind the sternum. It is composed predominantly of lymphocytes and fewer epithelial cells. Connective tissue septa separate the lobes into lobules. The lobules contain an outer portion (cortical zone) which is rich in lymphocytes and an inner portion (medullary zone) which is rich in epithelial cells. It is an organ essential for the development of the immune system. Its function is the maturation of the progenitor lymphoid cells to thymocytes and subsequently to mature T-cells. It reaches its greatest weight at puberty and subsequently begins to involute.",
+         "A primary lymphoid organ generally located in the mediastinum near the thoracic inlet and/or along lateral aspects of the neck.",
+         "Anatomical structure of largely lymphoid tissue that functions in cell-mediated immunity by being the site where T cells develop.",
+         "An organ that is part of the lymphatic system, in which T lymphocytes grow and multiply. The thymus is in the chest behind the breastbone."
+      ],
+      "ncit_code": "C12433"
+   }],
+   "oncotree_code": "THYMUS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Thymic Carcinoma",
+   "oncotree_main_type": "Thymic Tumor",
+   "oncotree_tissue": "Thymus",
+   "oncotree_parent_code": "TET",
+   "oncotree_branch_codes": [
+      "THYMUS",
+      "TET",
+      "THYC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Thymus Carcinoma",
+      "ncit_synonyms": [
+         "thymic carcinoma",
+         "Thymic Carcinoma (Excluding Well Differentiated Thymic Carcinoma)",
+         "Thymoma Type C",
+         "Thymic Carcinoma",
+         "type C thymoma",
+         "Thymic Carcinoma Excluding Well Differentiated Thymic Carcinoma"
+      ],
+      "ncit_definitions": [
+         "A rare type of thymus gland cancer. It usually spreads, has a high risk of recurrence, and has a poor survival rate. Thymic carcinoma is divided into subtypes, depending on the types of cells in which the cancer began.",
+         "A diverse group of carcinomas of the thymus gland, previously known as thymoma type C.  It includes morphologic variants derived from purely epithelial cells, as well as from cells with neuroendocrine differentiation."
+      ],
+      "ncit_code": "C7569"
+   }],
+   "oncotree_code": "THYC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Thymoma",
+   "oncotree_main_type": "Thymic Tumor",
+   "oncotree_tissue": "Thymus",
+   "oncotree_parent_code": "TET",
+   "oncotree_branch_codes": [
+      "THYMUS",
+      "TET",
+      "THYM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Thymoma",
+      "ncit_synonyms": ["Thymoma, NOS"],
+      "ncit_definitions": [
+         "A tumor of the thymus, an organ that is part of the lymphatic system and is located in the chest, behind the breastbone.",
+         "A neoplasm arising from the epithelial cells of the thymus.  Although thymomas are usually encapsulated tumors, they may invade the capsule and infiltrate the surrounding tissues or even metastasize to distant anatomic sites.  The following morphologic subtypes are currently recognized: type A, type B, type AB, metaplastic, micronodular, microscopic, and sclerosing thymoma.  Thymomas type B are further subdivided into types B1, B2, and B3. Thymoma type B3 usually has the most aggressive clinical course."
+      ],
+      "ncit_code": "C3411"
+   }],
+   "oncotree_code": "THYM"
+}
+{
+   "oncotree_children_codes": [
+      "THYC",
+      "THYM"
+   ],
+   "oncotree_name": "Thymic Epithelial Tumor",
+   "oncotree_main_type": "Thymic Tumor",
+   "oncotree_tissue": "Thymus",
+   "oncotree_parent_code": "THYMUS",
+   "oncotree_branch_codes": [
+      "THYMUS",
+      "TET"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Thymus Epithelial Neoplasm",
+      "ncit_synonyms": [
+         "Epithelial Neoplasm of Thymus",
+         "Thymic Epithelium Neoplasm",
+         "Epithelial Tumor of the Thymus",
+         "Epithelial Tumor of Thymus",
+         "Thymic Epithelial Neoplasm",
+         "Thymus Epithelial Tumor",
+         "Epithelial Neoplasm of the Thymus",
+         "Thymic Epithelial Tumor"
+      ],
+      "ncit_definitions": ["An epithelial neoplasm that affects the thymus gland. This category includes thymomas, carcinomas, and neuroendocrine neoplasms."],
+      "ncit_code": "C6450"
+   }],
+   "oncotree_code": "TET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Thymic Neuroendocrine Tumor",
+   "oncotree_main_type": "Thymic Tumor",
+   "oncotree_tissue": "Thymus",
+   "oncotree_parent_code": "THYMUS",
+   "oncotree_branch_codes": [
+      "THYMUS",
+      "TNET"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "TNET"
+}

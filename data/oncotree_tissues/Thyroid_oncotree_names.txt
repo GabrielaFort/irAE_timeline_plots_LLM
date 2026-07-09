@@ -1,0 +1,10 @@
+Thyroid
+Oncocytic Adenoma of the Thyroid
+Anaplastic Thyroid Cancer
+Well-Differentiated Thyroid Cancer
+Follicular Thyroid Cancer
+Hyalinizing Trabecular Adenoma of the Thyroid
+Hurthle Cell Thyroid Cancer
+Medullary Thyroid Cancer
+Papillary Thyroid Cancer
+Poorly Differentiated Thyroid Cancer

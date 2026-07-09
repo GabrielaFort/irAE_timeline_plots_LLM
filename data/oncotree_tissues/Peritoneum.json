@@ -1,0 +1,65 @@
+{
+   "oncotree_children_codes": [
+      "PEMESO",
+      "PSEC"
+   ],
+   "oncotree_name": "Peritoneum",
+   "oncotree_main_type": "Peritoneal Cancer",
+   "oncotree_tissue": "Peritoneum",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["PERITONEUM"],
+   "ncit_entries": [{
+      "ncit_name": "Peritoneum",
+      "ncit_synonyms": [
+         "Human Peritoneal Membrane",
+         "Peritoneum, NOS"
+      ],
+      "ncit_definitions": [
+         "The tissue that lines the wall of the abdominal cavity, intestine, mesentery, and pelvic organs. It consists of the parietal peritoneum and the visceral peritoneum.",
+         "The membrane that lines the abdominal and pelvic cavities.",
+         "The tissue that lines the abdominal wall and covers most of the organs in the abdomen.",
+         "A serous membrane that lines the peritoneal cavity."
+      ],
+      "ncit_code": "C12770"
+   }],
+   "oncotree_code": "PERITONEUM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Peritoneal Mesothelioma",
+   "oncotree_main_type": "Mesothelioma",
+   "oncotree_tissue": "Peritoneum",
+   "oncotree_parent_code": "PERITONEUM",
+   "oncotree_branch_codes": [
+      "PERITONEUM",
+      "PEMESO"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Peritoneal Mesothelial Neoplasm",
+      "ncit_synonyms": [
+         "Peritoneal Mesothelial Tumor",
+         "Mesothelial Neoplasm of the Peritoneum",
+         "Peritoneal Mesothelioma",
+         "Mesothelioma of peritoneum",
+         "Mesothelial Neoplasm of Peritoneum",
+         "Mesothelial Tumor of Peritoneum",
+         "Mesothelial Tumor of the Peritoneum"
+      ],
+      "ncit_definitions": ["A mesothelial neoplasm that arises from the peritoneum. It includes adenomatoid tumor, well differentiated papillary mesothelial tumor, multicystic mesothelioma, and malignant mesothelioma."],
+      "ncit_code": "C7633"
+   }],
+   "oncotree_code": "PEMESO"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Peritoneal Serous Carcinoma",
+   "oncotree_main_type": "Peritoneal Cancer, NOS",
+   "oncotree_tissue": "Peritoneum",
+   "oncotree_parent_code": "PERITONEUM",
+   "oncotree_branch_codes": [
+      "PERITONEUM",
+      "PSEC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PSEC"
+}

@@ -1,0 +1,767 @@
+{
+   "oncotree_children_codes": [
+      "HNMUCM",
+      "HNSC",
+      "OHNCA",
+      "NPC",
+      "PTH",
+      "SACA",
+      "SBL"
+   ],
+   "oncotree_name": "Head and Neck",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["HEAD_NECK"],
+   "ncit_entries": [{
+      "ncit_name": "Head and Neck",
+      "ncit_synonyms": [
+         "H and N",
+         "Head & Neck",
+         "craniocervical region"
+      ],
+      "ncit_definitions": [
+         "The anteriormost subdivision of the body that includes the head, jaws, pharyngeal region and the neck (if present). In vertebrates this is the subdivision that includes the cervical vertebrae.",
+         "For oncology, an area of the body generally construed to comprise the base of skull and facial bones, sinuses, orbits, salivary glands, oral cavity, oropharynx, larynx, thyroid, facial and neck musculature and lymph nodes draining these areas.",
+         "The area of the body comprising the skull, facial bones and the cervical vertebrae, sinuses, orbits, salivary glands, oral cavity, oropharynx, larynx, thyroid, facial and neck musculature, soft tissue and lymph nodes draining these areas."
+      ],
+      "ncit_code": "C12418"
+   }],
+   "oncotree_code": "HEAD_NECK"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Acinic Cell Carcinoma",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "ACCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acinar Cell Carcinoma",
+      "ncit_synonyms": [
+         "Acinar carcinoma",
+         "CARCINOMA, ACINAR CELL, MALIGNANT",
+         "Acinic Cell Carcinoma",
+         "Acinic Cell Adenocarcinoma",
+         "Acinar adenocarcinoma",
+         "Acinar Cell Adenocarcinoma",
+         "Acinic cell adenocarcinoma",
+         "Acinar Adenocarcinoma",
+         "Acinar Carcinoma"
+      ],
+      "ncit_definitions": [
+         "A malignant glandular epithelial neoplasm comprising secretory cells forming acinar patterns.",
+         "A malignant glandular epithelial neoplasm consisting of secretory cells forming acinar patterns. Representative examples include the acinar cell carcinoma of the pancreas and the acinar adenocarcinoma of the prostate gland."
+      ],
+      "ncit_code": "C3768"
+   }],
+   "oncotree_code": "ACCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mucoepidermoid Carcinoma",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "MUCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mucoepidermoid Carcinoma",
+      "ncit_synonyms": [
+         "MEC",
+         "Mucoepidermoid tumor"
+      ],
+      "ncit_definitions": ["A carcinoma morphologically characterized the presence of cuboidal mucous cells, goblet-like mucous cells, squamoid cells, cystic changes, and a fibrotic stromal formation. It can occur in several anatomic sites, including parotid gland, oral cavity, paranasal sinus, skin, breast, lung, larynx, and lacrimal ducts. It is classified as low or high grade."],
+      "ncit_code": "C3772"
+   }],
+   "oncotree_code": "MUCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Salivary Gland Oncocytoma",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "SGO"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Salivary Gland Oncocytoma",
+      "ncit_synonyms": [
+         "Oncocytoma of the Salivary Gland",
+         "Oxyphilic Adenoma of Salivary Gland",
+         "Salivary Gland Oxyphilic Adenoma",
+         "Oncocytoma of Salivary Gland",
+         "Oxyphilic Adenoma of the Salivary Gland"
+      ],
+      "ncit_definitions": ["A rare benign epithelial neoplasm composed of oncocytes, which are large cells with a large amount of granular eosinophilic cytoplasm containing numerous tightly-packed mitochondria.  Approximately 85% to 90% occur in the parotid gland; most of the remainder occur in the submandibular gland. The peak incidence is in the seventh through ninth decades of life. In almost all cases, swelling is the only complaint of the patient."],
+      "ncit_code": "C5932"
+   }],
+   "oncotree_code": "SGO"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Epithelial-Myoepithelial Carcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "OHNCA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "OHNCA",
+      "EMYOCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Epithelial-Myoepithelial Carcinoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A malignant neoplasm which occurs mostly in the major salivary glands (most frequently in the parotid gland), but also in the minor salivary glands of the oral mucosa and the tracheobronchial tree. It is characterized by the presence of ductal structures which are lined by an inner layer of cuboidal epithelial-type cells and an outer layer of myoepithelial cells with clear or eosinophilic cytoplasm."],
+      "ncit_code": "C4199"
+   }],
+   "oncotree_code": "EMYOCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Larynx Squamous Cell Carcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HNSC",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "HNSC",
+      "LXSC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Laryngeal Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "Epidermoid Carcinoma of Larynx",
+         "Epidermoid Carcinoma of the Larynx",
+         "Laryngeal Conventional Squamous Cell Carcinoma",
+         "Larynx Epidermoid Carcinoma",
+         "Larynx Squamous Cell Carcinoma",
+         "Laryngeal Throat Squamous Cell Cancer",
+         "Squamous Cell Carcinoma of the Larynx",
+         "Laryngeal Epidermoid Carcinoma",
+         "Squamous Cell Carcinoma of Larynx"
+      ],
+      "ncit_definitions": ["A squamous cell carcinoma that arises from the larynx.  It is the most common histologic type of laryngeal carcinoma.  It can arise from the glottis, supraglottic area, or it can be transglottic.  Glottic squamous cell carcinoma is the most frequent laryngeal carcinoma in the United States.  The symptoms, clinical behavior and the prognosis depend on the site of origin within the larynx."],
+      "ncit_code": "C4044"
+   }],
+   "oncotree_code": "LXSC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Head and Neck Neuroendocrine Carcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "OHNCA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "OHNCA",
+      "HNNE"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HNNE"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sinonasal Adenocarcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "OHNCA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "OHNCA",
+      "SNA"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SNA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Head and Neck Mucosal Melanoma",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HEAD_NECK",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "HNMUCM"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HNMUCM"
+}
+{
+   "oncotree_children_codes": ["CCOC"],
+   "oncotree_name": "Odontogenic Carcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "OHNCA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "OHNCA",
+      "ODGC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Malignant Odontogenic Neoplasm",
+      "ncit_synonyms": [
+         "Odontogenic tumor, malignant",
+         "ODONTOMA, MALIGNANT",
+         "Malignant Odontogenic Tumor"
+      ],
+      "ncit_definitions": [
+         "A malignant neoplasm of tooth origin.",
+         "A rare neoplasm arising from tooth-forming tissues. It occurs in the maxillofacial skeleton or the gingiva. Symptoms include swelling, pain, bleeding, mobility of affected teeth, and oral mucosa ulcerations. It may metastasize to lymph nodes and distant anatomic sites early."
+      ],
+      "ncit_code": "C4812"
+   }],
+   "oncotree_code": "ODGC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Head and Neck Squamous Cell Carcinoma of Unknown Primary",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HNSC",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "HNSC",
+      "HNSCUP"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HNSCUP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sinonasal Squamous Cell Carcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HNSC",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "HNSC",
+      "SNSC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Sinonasal Non-Keratinizing Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "Schneiderian Carcinoma",
+         "Schneiderian carcinoma",
+         "Sinonasal Transitional Cell Carcinoma",
+         "Ringertz Carcinoma",
+         "Sinonasal Schneiderian Carcinoma",
+         "Non-Keratinizing Sinonasal Squamous Cell Carcinoma",
+         "Sinonasal Cylindrical Cell Carcinoma"
+      ],
+      "ncit_definitions": ["A squamous cell carcinoma of the sinonasal tract characterized by a plexiform or ribbon-like growth pattern, cytological atypia, and lack of histological evidence of keratinization."],
+      "ncit_code": "C54287"
+   }],
+   "oncotree_code": "SNSC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Parathyroid Carcinoma",
+   "oncotree_main_type": "Parathyroid Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "PTH",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "PTH",
+      "PTHC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PTHC"
+}
+{
+   "oncotree_children_codes": [
+      "LXSC",
+      "HNSCUP",
+      "SNSC",
+      "OPHSC",
+      "HPHSC",
+      "OCSC"
+   ],
+   "oncotree_name": "Head and Neck Squamous Cell Carcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HEAD_NECK",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "HNSC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Head and Neck Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "Squamous Cell Carcinoma of Head and Neck",
+         "Squamous Cell Carcinoma of the Head and Neck",
+         "HNSCC",
+         "Head and neck squamous cell carcinoma, NOS",
+         "SCCHN",
+         "squamous cell carcinoma of the head and neck"
+      ],
+      "ncit_definitions": [
+         "Cancer of the head and neck that begins in squamous cells (thin, flat cells that form the surface of the skin, eyes, various internal organs, and the lining of hollow organs and ducts of some glands). Squamous cell carcinoma of the head and neck includes cancers of the nasal cavity, sinuses, lips, mouth, salivary glands, throat, and larynx (voice box). Most head and neck cancers are squamous cell carcinomas.",
+         "A squamous cell carcinoma that arises from any of the following anatomic sites: lip and oral cavity, nasal cavity, paranasal sinuses, pharynx, larynx, and salivary glands."
+      ],
+      "ncit_code": "C34447"
+   }],
+   "oncotree_code": "HNSC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "NUT Midline Carcinoma of the Head and Neck",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "OHNCA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "OHNCA",
+      "NMCHN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "NUT Carcinoma",
+      "ncit_synonyms": [
+         "Midline carcinoma of children and young adults with NUT rearrangement",
+         "Carcinoma with t(15;19)(q13;p13.1) Translocation",
+         "Nuclear Protein in Testis Midline Carcinoma",
+         "Midline Carcinoma of Children and Young Adults with NUT Rearrangement",
+         "NMC",
+         "NUT midline carcinoma",
+         "Nuclear Protein in Testis (NUT) Midline Carcinoma",
+         "NUT Midline Carcinoma"
+      ],
+      "ncit_definitions": ["A rare, highly aggressive and lethal carcinoma that affects children and young adults.  It arises from midline epithelial structures, most commonly the head, neck, and mediastinum.  It is a poorly differentiated carcinoma and is characterized by mutations and rearrangement of the NUT gene.  A balanced translocation t(15;19) is present that results in the creation of a fusion gene involving the NUT gene, most commonly BRD4-NUT fusion gene."],
+      "ncit_code": "C45716"
+   }],
+   "oncotree_code": "NMCHN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pleomorphic Adenoma",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "PADA"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PADA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sinonasal Undifferentiated Carcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "OHNCA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "OHNCA",
+      "SNUC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Sinonasal Undifferentiated Carcinoma",
+      "ncit_synonyms": [
+         "Undifferentiated Sinonasal Cancer",
+         "Sinonasal Anaplastic Carcinoma"
+      ],
+      "ncit_definitions": ["A rare, highly aggressive carcinoma that arises from the sinonasal tract.  It is characterized by the presence of small to medium size malignant cells.  The prognosis is poor."],
+      "ncit_code": "C54294"
+   }],
+   "oncotree_code": "SNUC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Clear Cell Odontogenic Carcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "ODGC",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "OHNCA",
+      "ODGC",
+      "CCOC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Clear Cell Odontogenic Carcinoma",
+      "ncit_synonyms": [
+         "Clear Cell Odontogenic Tumor",
+         "Clear Cell Ameloblastoma",
+         "Clear cell odontogenic tumor"
+      ],
+      "ncit_definitions": ["A usually aggressive malignant neoplasm arising from tooth-forming tissues. It more often affects older females and more frequently occurs in the mandible. It is characterized by the presence of malignant epithelial cells with clear cytoplasm and a fibrotic stroma formation. It may recur and metastasize. Metastases may occur in the lymph nodes, lungs, and bones. Treatment of choice is resection with clean margins."],
+      "ncit_code": "C54300"
+   }],
+   "oncotree_code": "CCOC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Salivary Duct Carcinoma",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "SDCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Salivary Duct Carcinoma",
+      "ncit_synonyms": [
+         "High Grade Salivary Duct Carcinoma",
+         "SDC",
+         "Carcinoma of the Salivary Duct",
+         "Carcinoma of Salivary Duct"
+      ],
+      "ncit_definitions": ["An aggressive, high grade adenocarcinoma that arises from the salivary glands. It usually affects elderly males and presents as a rapidly enlarging mass. It metastasizes to regional lymph nodes and distant anatomic sites."],
+      "ncit_code": "C5904"
+   }],
+   "oncotree_code": "SDCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adenoid Cystic Carcinoma",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "ACYC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Adenoid Cystic Carcinoma",
+      "ncit_synonyms": [
+         "Adenocystic carcinoma",
+         "adenoid cystic cancer",
+         "Cylindroid Adenocarcinoma",
+         "Adenocystic Carcinoma"
+      ],
+      "ncit_definitions": [
+         "A malignant tumor arising from the epithelial cells.  Microscopically, the neoplastic epithelial cells form cylindrical spatial configurations (cribriform or classic type of adenoid cystic carcinoma), cordlike structures (tubular type of adenoid cystic carcinoma), or solid structures (basaloid variant of adenoid cystic carcinoma).  Adenoid cystic carcinomas mostly occur in the salivary glands.  Other primary sites of involvement include the lacrimal gland, the larynx, and the lungs.  Adenoid cystic carcinomas spread along nerve sheaths, resulting in severe pain, and they tend to recur.  Lymph node metastases are unusual; hematogenous tumor spread is characteristic.",
+         "A rare type of cancer that usually begins in the salivary glands."
+      ],
+      "ncit_code": "C2970"
+   }],
+   "oncotree_code": "ACYC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Oropharynx Squamous Cell Carcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HNSC",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "HNSC",
+      "OPHSC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "OPHSC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Salivary Carcinoma, Other",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "OSACA"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "OSACA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mammary Analogue Secretory Carcinoma of Salivary Gland Origin",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "HNMASC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HNMASC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Basal Cell Adenocarcinoma",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "BCAC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "BCAC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adenosquamous Carcinoma of the Tongue",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "OHNCA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "OHNCA",
+      "ASCT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ASCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Polymorphous Adenocarcinoma",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "PAC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PAC"
+}
+{
+   "oncotree_children_codes": [
+      "EMYOCA",
+      "HNNE",
+      "SNA",
+      "ODGC",
+      "NMCHN",
+      "SNUC",
+      "ASCT"
+   ],
+   "oncotree_name": "Head and Neck Carcinoma, Other",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HEAD_NECK",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "OHNCA"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "OHNCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Carcinoma ex Pleomorphic Adenoma",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "CAEXPA"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "CAEXPA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Hypopharynx Squamous Cell Carcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HNSC",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "HNSC",
+      "HPHSC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hypopharyngeal Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "Hypopharyngeal Epidermoid Carcinoma",
+         "Epidermoid Carcinoma of the Hypopharynx",
+         "Epidermoid Carcinoma of Hypopharynx",
+         "Hypopharyngeal Conventional Squamous Cell Carcinoma",
+         "Hypopharyngeal Throat Squamous Cell Cancer",
+         "Squamous Cell Carcinoma of Hypopharynx",
+         "Squamous Cell Carcinoma of the Hypopharynx"
+      ],
+      "ncit_definitions": ["A squamous cell carcinoma arising from the hypopharynx.  Signs and symptoms include dysphagia, hemoptysis, and the presence of a neck mass."],
+      "ncit_code": "C4043"
+   }],
+   "oncotree_code": "HPHSC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Nasopharyngeal Carcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HEAD_NECK",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "NPC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Nasopharyngeal Carcinoma",
+      "ncit_synonyms": [
+         "Nasopharynx Cancer",
+         "NPC",
+         "Cancer of the Nasopharynx",
+         "Nasopharyngeal Throat Cancer",
+         "Cancer of Nasopharynx",
+         "Carcinoma of Nasopharynx",
+         "nasopharyngeal cancer",
+         "Carcinoma of the Nasopharynx",
+         "Nasopharyngeal Cancer"
+      ],
+      "ncit_definitions": [
+         "A carcinoma arising from the nasopharyngeal epithelium.  It includes the following types: keratinizing squamous cell carcinoma, nonkeratinizing carcinoma (differentiated and undifferentiated), basaloid squamous cell carcinoma, and papillary adenocarcinoma.",
+         "Cancer that forms in tissues of the nasopharynx (upper part of the throat behind the nose). Most nasopharyngeal cancers are squamous cell carcinomas (cancer that begins in flat cells lining the nasopharynx)."
+      ],
+      "ncit_code": "C3871"
+   }],
+   "oncotree_code": "NPC"
+}
+{
+   "oncotree_children_codes": ["PTHC"],
+   "oncotree_name": "Parathyroid Cancer",
+   "oncotree_main_type": "Parathyroid Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HEAD_NECK",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "PTH"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PTH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Salivary Adenocarcinoma",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "SAAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Salivary Gland Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma of Salivary Gland",
+         "Adenocarcinoma of the Salivary Gland"
+      ],
+      "ncit_definitions": ["An adenocarcinoma arising from the salivary gland.  It includes the salivary gland polymorphous low grade adenocarcinoma, salivary gland oncocytic carcinoma, salivary gland mucinous adenocarcinoma, salivary gland low grade cribriform cystadenocarcinoma, salivary gland cystadenocarcinoma, salivary gland basal cell adenocarcinoma, salivary gland acinic cell carcinoma, salivary duct carcinoma, and salivary gland adenocarcinoma not otherwise specified."],
+      "ncit_code": "C8021"
+   }],
+   "oncotree_code": "SAAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Oral Cavity Squamous Cell Carcinoma",
+   "oncotree_main_type": "Head and Neck Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HNSC",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "HNSC",
+      "OCSC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Oral Cavity Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "OSCC",
+         "SCC of Oral Cavity",
+         "Squamous Cell Carcinoma of the Oral Cavity",
+         "Squamous Cell Carcinoma of the Mouth",
+         "Oral Cavity SCC",
+         "SCC of the Mouth",
+         "Squamous Cell Carcinoma of Mouth",
+         "Mouth Squamous Cell Carcinoma",
+         "Oral Cavity Squamous Cell Cancer",
+         "SCC of Mouth",
+         "Squamous Cell Carcinoma of Oral Cavity",
+         "Mouth SCC",
+         "SCC of the Oral Cavity"
+      ],
+      "ncit_definitions": ["A squamous cell carcinoma arising from the oral cavity. It affects predominantly adults in their fifth and sixth decades of life and is associated with alcohol and tobacco use. Human papillomavirus is present in approximately half of the cases. It is characterized by a tendency to metastasize early to the lymph nodes. When the tumor is small, patients are often asymptomatic. Physical examination may reveal erythematous or white lesions or plaques. The majority of patients present with signs and symptoms of locally advanced disease including mucosal ulceration, pain, difficulty with speaking, chewing, and swallowing, bleeding, weight loss, and neck swelling. Patients may also present with swollen neck lymph nodes without any symptoms from the oropharyngeal tumor. The most significant prognostic factors are the size of the tumor and the lymph nodes status."],
+      "ncit_code": "C4833"
+   }],
+   "oncotree_code": "OCSC"
+}
+{
+   "oncotree_children_codes": [
+      "ACCC",
+      "MUCC",
+      "SGO",
+      "PADA",
+      "SDCA",
+      "ACYC",
+      "OSACA",
+      "HNMASC",
+      "BCAC",
+      "PAC",
+      "CAEXPA",
+      "SAAD",
+      "MYEC"
+   ],
+   "oncotree_name": "Salivary Carcinoma",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HEAD_NECK",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Salivary Gland Carcinoma",
+      "ncit_synonyms": [
+         "Carcinoma of the Salivary Gland",
+         "Carcinoma of Salivary Gland",
+         "Salivary Gland Cancer"
+      ],
+      "ncit_definitions": ["A carcinoma that arises from the major or minor salivary glands.  Representative examples include carcinoma ex pleomorphic adenoma, adenocarcinoma, adenoid cystic carcinoma, and mucoepidermoid carcinoma."],
+      "ncit_code": "C9272"
+   }],
+   "oncotree_code": "SACA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myoepithelial Carcinoma",
+   "oncotree_main_type": "Salivary Gland Cancer",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "SACA",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SACA",
+      "MYEC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Salivary Gland Myoepithelial Carcinoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A locally aggressive carcinoma that arises from the salivary glands, predominantly the parotid gland. It is characterized by the presence of a malignant cellular infiltrate exhibiting myoepithelial differentiation. Patients usually present with a painless mass."],
+      "ncit_code": "C35700"
+   }],
+   "oncotree_code": "MYEC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sialoblastoma",
+   "oncotree_main_type": "Sialoblastoma",
+   "oncotree_tissue": "Head and Neck",
+   "oncotree_parent_code": "HEAD_NECK",
+   "oncotree_branch_codes": [
+      "HEAD_NECK",
+      "SBL"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SBL"
+}

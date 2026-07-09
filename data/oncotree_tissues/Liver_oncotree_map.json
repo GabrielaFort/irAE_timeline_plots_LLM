@@ -1,0 +1,12 @@
+{
+  "Liver": "LIVER",
+  "Fibrolamellar Carcinoma": "FLC",
+  "Undifferentiated Embryonal Sarcoma of the Liver": "UESL",
+  "Malignant Nonepithelial Tumor of the Liver": "LIMNET",
+  "Hepatocellular Adenoma": "LIAD",
+  "Liver Angiosarcoma": "LIAS",
+  "Hepatocellular Carcinoma plus Intrahepatic Cholangiocarcinoma": "HCCIHCH",
+  "Hepatocellular Carcinoma": "HCC",
+  "Malignant Rhabdoid Tumor of the Liver": "MRTL",
+  "Hepatoblastoma": "LIHB"
+}

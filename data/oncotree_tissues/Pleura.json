@@ -1,0 +1,98 @@
+{
+   "oncotree_children_codes": ["PLMESO"],
+   "oncotree_name": "Pleura",
+   "oncotree_main_type": "Pleural Cancer",
+   "oncotree_tissue": "Pleura",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["PLEURA"],
+   "ncit_entries": [{
+      "ncit_name": "Pleura",
+      "ncit_synonyms": [
+         "wall of pleural sac",
+         "Pleural",
+         "Pleura, NOS",
+         "PLEURAL TISSUE",
+         "Pleural Tissue"
+      ],
+      "ncit_definitions": [
+         "A thin layer of tissue that covers the lungs and lines the interior wall of the chest cavity. It protects and cushions the lungs. This tissue secretes a small amount of fluid that acts as a lubricant, allowing the lungs to move smoothly in the chest cavity while breathing.",
+         "The tissue that lines the wall of the thoracic cavity and the surface of the lungs.",
+         "The invaginated serous membrane that surrounds the lungs (the visceral portion) and lines the walls of the pleural cavity (parietal portion).",
+         "The serous membrane that lines the wall of the thoracic cavity and the surface of the lungs."
+      ],
+      "ncit_code": "C12469"
+   }],
+   "oncotree_code": "PLEURA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pleural Mesothelioma, Epithelioid Type",
+   "oncotree_main_type": "Mesothelioma",
+   "oncotree_tissue": "Pleura",
+   "oncotree_parent_code": "PLMESO",
+   "oncotree_branch_codes": [
+      "PLEURA",
+      "PLMESO",
+      "PLEMESO"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PLEMESO"
+}
+{
+   "oncotree_children_codes": [
+      "PLEMESO",
+      "PLBMESO",
+      "PLSMESO"
+   ],
+   "oncotree_name": "Pleural Mesothelioma",
+   "oncotree_main_type": "Mesothelioma",
+   "oncotree_tissue": "Pleura",
+   "oncotree_parent_code": "PLEURA",
+   "oncotree_branch_codes": [
+      "PLEURA",
+      "PLMESO"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pleural Mesothelial Neoplasm",
+      "ncit_synonyms": [
+         "Mesothelial Tumor of the Pleura",
+         "Mesothelioma of pleura",
+         "Mesothelial Tumor of Pleura",
+         "Pleural Mesothelial Tumor",
+         "Pleural Mesothelioma",
+         "Mesothelial Neoplasm of Pleura",
+         "Mesothelial Neoplasm of the Pleura"
+      ],
+      "ncit_definitions": ["A mesothelial neoplasm that arises from the pleura. It includes adenomatoid tumor, well differentiated papillary mesothelial tumor, and malignant mesothelioma."],
+      "ncit_code": "C9351"
+   }],
+   "oncotree_code": "PLMESO"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pleural Mesothelioma, Biphasic Type",
+   "oncotree_main_type": "Mesothelioma",
+   "oncotree_tissue": "Pleura",
+   "oncotree_parent_code": "PLMESO",
+   "oncotree_branch_codes": [
+      "PLEURA",
+      "PLMESO",
+      "PLBMESO"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PLBMESO"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pleural Mesothelioma, Sarcomatoid Type",
+   "oncotree_main_type": "Mesothelioma",
+   "oncotree_tissue": "Pleura",
+   "oncotree_parent_code": "PLMESO",
+   "oncotree_branch_codes": [
+      "PLEURA",
+      "PLMESO",
+      "PLSMESO"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PLSMESO"
+}

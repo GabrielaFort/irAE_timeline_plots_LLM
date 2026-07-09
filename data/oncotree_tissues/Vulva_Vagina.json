@@ -1,0 +1,303 @@
+{
+   "oncotree_children_codes": [
+      "VA",
+      "VGCT",
+      "VMA",
+      "VMM",
+      "VPDC",
+      "VSC"
+   ],
+   "oncotree_name": "Vulva/Vagina",
+   "oncotree_main_type": "Vulvar/Vaginal Cancer",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["VULVA"],
+   "ncit_entries": [{
+      "ncit_name": "Vulva",
+      "ncit_synonyms": [
+         "Vulval structure (body structure)",
+         "Vulva, NOS",
+         "female pudendum",
+         "mammalian vulva",
+         "External Genitalia",
+         "puboperineal region",
+         "pudendum femininum"
+      ],
+      "ncit_definitions": [
+         "The external female genital organs, including the clitoris, vaginal lips, and the opening to the vagina.",
+         "External genital organs of the female mammal.",
+         "The external, visible part of the female genitalia surrounding the urethral and vaginal opening(s).",
+         "The external, visible part of the female genitalia surrounding the urethral and vaginal opening. The vulva includes the clitoris and inner as well as outer labia."
+      ],
+      "ncit_code": "C12408"
+   }],
+   "oncotree_code": "VULVA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Yolk Sac Tumor",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VGCT",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VGCT",
+      "VYST"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Vaginal Yolk Sac Tumor",
+      "ncit_synonyms": [
+         "Vaginal Endodermal Sinus Tumor",
+         "Vaginal Endodermal Sinus Neoplasm",
+         "Vaginal Yolk Sac Neoplasm"
+      ],
+      "ncit_definitions": ["A rare yolk sac tumor that arises from the vagina."],
+      "ncit_code": "C6379"
+   }],
+   "oncotree_code": "VYST"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Embryonal Carcinoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VGCT",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VGCT",
+      "VOEC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "VOEC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Dysgerminoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VGCT",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VGCT",
+      "VDYS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Dysgerminoma",
+      "ncit_synonyms": [
+         "DYSGERMINOMA, MALIGNANT",
+         "Dysgerminoma of the Ovary",
+         "Dysgerminoma of Ovary",
+         "Ovarian Dysgerminoma",
+         "Ovarian dysgerminoma"
+      ],
+      "ncit_definitions": [
+         "A seminomatous germ cell tumor originating in the ovary.",
+         "A type of tumor that begins in the type of cells that give rise to egg cells and is most often found in the ovaries. Dysgerminomas may also occur in other places in the body, including the central nervous system. They are the most common type of ovarian germ cell tumor and can spread to other parts of the body. They are most common in females who are younger than 20 years old.",
+         "A malignant germ cell tumor arising from the ovary.  Morphologically, it is identical to seminoma and consists of a monotonous population of germ cells with abundant pale cytoplasm and uniform nuclei.  The stroma invariably contains chronic inflammatory cells, mostly T-lymphocytes. It responds to chemotherapy or radiotherapy and the prognosis relates to the tumor stage.",
+         "A malignant germ cell neoplasm characterized by the presence of a monotonous primitive germ cell population, primarily in the ovary."
+      ],
+      "ncit_code": "C8106"
+   }],
+   "oncotree_code": "VDYS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Vaginal Adenocarcinoma",
+   "oncotree_main_type": "Vaginal Cancer",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VULVA",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Vaginal Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma of Vagina",
+         "Adenocarcinoma of the Vagina",
+         "Vagina Adenocarcinoma"
+      ],
+      "ncit_definitions": ["An adenocarcinoma arising from the vagina.  Morphologic variants include the clear cell, endometrioid, mesonephric, and mucinous adenocarcinoma."],
+      "ncit_code": "C7981"
+   }],
+   "oncotree_code": "VA"
+}
+{
+   "oncotree_children_codes": [
+      "VYST",
+      "VOEC",
+      "VDYS",
+      "VIMT",
+      "VMGCT",
+      "VMT",
+      "VPE"
+   ],
+   "oncotree_name": "Germ Cell Tumor of the Vulva",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VULVA",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VGCT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "VGCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Immature Teratoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VGCT",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VGCT",
+      "VIMT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Immature Teratoma",
+      "ncit_synonyms": [
+         "Grade 2 Teratoma",
+         "Embryonal teratoma",
+         "Immature teratoma, NOS"
+      ],
+      "ncit_definitions": [
+         "A teratoma characterized by the presence of an extensive component of immature, fetal-type tissues.",
+         "A rare type of malignant (cancer) germ cell tumor (type of tumor that begins in the cells that give rise to sperm or eggs) that often contains several different types of tissue such as hair, muscle, and bone."
+      ],
+      "ncit_code": "C4286"
+   }],
+   "oncotree_code": "VIMT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mixed Germ Cell Tumor",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VGCT",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VGCT",
+      "VMGCT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mixed Germ Cell Tumor",
+      "ncit_synonyms": [
+         "Combined Germ Cell Neoplasm",
+         "Combined Germ Cell Tumor",
+         "Mixed Germ Cell Neoplasm"
+      ],
+      "ncit_definitions": ["A malignant germ cell tumor characterized by the presence of at least two different germ cell tumor components. The different germ cell tumor components include choriocarcinoma, embryonal carcinoma, yolk sac tumor, teratoma, and seminoma. It occurs in the ovary, testis, and extragonadal sites including central nervous system and mediastinum."],
+      "ncit_code": "C4290"
+   }],
+   "oncotree_code": "VMGCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mucinous Adenocarcinoma of the Vulva/Vagina",
+   "oncotree_main_type": "Vulvar Carcinoma",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VULVA",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VMA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Vaginal Mucinous Adenocarcinoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A rare adenocarcinoma that arises from the vagina with histologic features resembling cervical mucinous adenocarcinoma."],
+      "ncit_code": "C40252"
+   }],
+   "oncotree_code": "VMA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mucosal Melanoma of the Vulva/Vagina",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VULVA",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VMM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Vaginal Melanoma",
+      "ncit_synonyms": [
+         "Melanoma of Vagina",
+         "Melanoma of the Vagina"
+      ],
+      "ncit_definitions": ["A primary malignant neoplasm of the vagina composed of malignant melanocytes."],
+      "ncit_code": "C27394"
+   }],
+   "oncotree_code": "VMM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mature Teratoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VGCT",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VGCT",
+      "VMT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mature Teratoma",
+      "ncit_synonyms": ["Grade 0 Teratoma"],
+      "ncit_definitions": [
+         "A type of benign (not cancer) germ cell tumor (type of tumor that begins in the cells that give rise to sperm or eggs) that often contains several different types of tissue such as hair, muscle, and bone.",
+         "A teratoma which may be cystic; it is composed entirely of well differentiated, adult-type mature tissues, without evidence of fetal-type immature tissues (grade 0 teratoma)."
+      ],
+      "ncit_code": "C9015"
+   }],
+   "oncotree_code": "VMT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Poorly Differentiated Vaginal Carcinoma",
+   "oncotree_main_type": "Vaginal Cancer",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VULVA",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VPDC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "VPDC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Polyembryoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VGCT",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VGCT",
+      "VPE"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "VPE"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Squamous Cell Carcinoma of the Vulva/Vagina",
+   "oncotree_main_type": "Vaginal Cancer",
+   "oncotree_tissue": "Vulva/Vagina",
+   "oncotree_parent_code": "VULVA",
+   "oncotree_branch_codes": [
+      "VULVA",
+      "VSC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Vaginal Squamous Cell Carcinoma, Not Otherwise Specified",
+      "ncit_synonyms": [
+         "Vaginal Squamous Cell Cancer, NOS",
+         "Vaginal Squamous Cell Carcinoma, NOS"
+      ],
+      "ncit_definitions": ["Vaginal squamous cell carcinoma in which information on the p16 immunohistochemistry or HPV testing status is not available."],
+      "ncit_code": "C7736"
+   }],
+   "oncotree_code": "VSC"
+}

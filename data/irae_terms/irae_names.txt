@@ -1,0 +1,108 @@
+Acute kidney injury
+Adrenal insufficiency
+Angioedema
+Anemia
+Arthralgia
+Aplastic anemia
+Alopecia
+Arrhythmia
+Aseptic meningitis
+Bullous dermatoses
+Blepharitis
+Bronchospasm
+Bronchitis
+Capillary leak syndrome
+Cholangitis
+Chelitis
+Celiac disease
+Conjunctivitis
+Colitis
+Colonic perforation
+Cytokine release syndrome
+Cystitis
+Dermatitis
+Diabetes mellitus
+Diarrhea
+Diffuse alveolar hemorrhage
+Dry eye syndrome
+Dry mouth
+Duodenitis
+Dysgeusia
+Eosinophilia
+Facial palsy
+Encephalitis
+Enteritis
+Episcleritis
+Esophagitis
+Gastritis
+Guillain-Barré syndrome
+Granulomatous reaction
+Hand-foot syndrome
+Hepatitis
+Hemophagocytic lymphohistiocytosis
+Hyperthyroidism
+Hypercalcemia
+Hypocalcemia
+Hypoglycemia
+Hyperglycemia
+Hypogonadism
+Hypoparathyroidism
+Hypophysitis
+Hypothyroidism
+Hypogammaglobulinemia
+Immune effector cell-associated neurotoxicity syndrome
+Infusion reaction
+Inflammatory arthritis
+Keratitis
+Leukopenia
+Lichenoid dermatitis
+Lymphopenia
+Lipodystrophy
+Myasthenia gravis
+Myocarditis
+Myositis
+Multiple sclerosis
+Mucositis
+Nail toxicity
+Nephritis
+Neuropathy
+Neutropenia
+Neurosarcoidosis
+Neuromyelitis optica spectrum disorder
+Optic neuritis
+Parotitis
+Pancreatitis
+Pancytopenia
+Pericarditis
+Pleural effusion
+Pneumonitis
+Polymyalgia rheumatica
+Poliosis
+Posterior reversible encephalopathy syndrome
+Pruritus
+Psoriasiform dermatitis
+Pure red cell aplasia
+Proteinuria
+Pyoderma gangrenosum
+Rash
+Raynaud phenomenon
+Retinopathy
+Renal tubular acidosis
+Sarcoid-like reaction
+Sialadenitis
+Seizures
+SIADH
+Severe cutaneous adverse reaction
+Sensorineural Hearing Loss
+Sjögren-like syndrome
+Scleroderma-like syndrome
+Tinnitus
+Thrombotic thrombocytopenic purpura
+Thrombocytopenia
+Thyroiditis
+Transaminitis
+Uveitis
+Vaginitis
+Vasculitis
+Vocal cord paralysis
+Vitiligo

@@ -1,0 +1,16 @@
+Pancreas
+Mucinous Cystic Neoplasm
+Intraductal Oncocytic Papillary Neoplasm
+Solid Pseudopapillary Neoplasm of the Pancreas
+Pancreatic Adenocarcinoma
+Pancreatoblastoma
+Acinar Cell Carcinoma of the Pancreas
+Cystic Tumor of the Pancreas
+Osteoclastic Giant Cell Tumor
+Intraductal Tubulopapillary Neoplasm
+Intraductal Papillary Mucinous Neoplasm
+Pancreatic Neuroendocrine Carcinoma
+Pancreatic Neuroendocrine Tumor
+Adenosquamous Carcinoma of the Pancreas
+Serous Cystadenoma of the Pancreas
+Undifferentiated Carcinoma of the Pancreas

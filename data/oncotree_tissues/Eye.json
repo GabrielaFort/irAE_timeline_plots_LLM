@@ -1,0 +1,188 @@
+{
+   "oncotree_children_codes": [
+      "OM",
+      "RBL",
+      "LGT"
+   ],
+   "oncotree_name": "Eye",
+   "oncotree_main_type": "Eye Cancer",
+   "oncotree_tissue": "Eye",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["EYE"],
+   "ncit_entries": [{
+      "ncit_name": "Eye",
+      "ncit_synonyms": [
+         "Structure of eye proper (body structure)",
+         "Optic",
+         "Ocular",
+         "Eyeball",
+         "Eye, NOS",
+         "ophthalmic",
+         "Ophthalmic"
+      ],
+      "ncit_definitions": [
+         "An organ that detects light.",
+         "The organ of sight or vision.",
+         "The sensory organ of vision.",
+         "Having to do with the eye."
+      ],
+      "ncit_code": "C12401"
+   }],
+   "oncotree_code": "EYE"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Conjunctival Melanoma",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Eye",
+   "oncotree_parent_code": "OM",
+   "oncotree_branch_codes": [
+      "EYE",
+      "OM",
+      "CM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Conjunctival Melanoma",
+      "ncit_synonyms": [
+         "Melanoma of the Conjunctiva",
+         "Melanoma of Conjunctiva",
+         "Conjunctiva Melanoma",
+         "Malignant Melanoma of the Conjunctiva",
+         "Malignant Conjunctiva Melanoma",
+         "Malignant Conjunctival Melanoma",
+         "Malignant Melanoma of Conjunctiva"
+      ],
+      "ncit_definitions": ["A melanoma that arises from the conjunctiva."],
+      "ncit_code": "C4550"
+   }],
+   "oncotree_code": "CM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adenoid Cystic Carcinoma of the Lacrimal Gland",
+   "oncotree_main_type": "Lacrimal Gland Tumor",
+   "oncotree_tissue": "Eye",
+   "oncotree_parent_code": "LGT",
+   "oncotree_branch_codes": [
+      "EYE",
+      "LGT",
+      "ACLG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ACLG"
+}
+{
+   "oncotree_children_codes": [
+      "CM",
+      "UM"
+   ],
+   "oncotree_name": "Ocular Melanoma",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Eye",
+   "oncotree_parent_code": "EYE",
+   "oncotree_branch_codes": [
+      "EYE",
+      "OM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ocular Melanoma",
+      "ncit_synonyms": [
+         "Melanoma of Eye",
+         "Eye Melanoma",
+         "Melanoma of the Eye"
+      ],
+      "ncit_definitions": [
+         "A rare cancer of melanocytes (cells that produce the pigment melanin) found in the eye.",
+         "A melanoma that arises from the structures of the eye."
+      ],
+      "ncit_code": "C8562"
+   }],
+   "oncotree_code": "OM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uveal Melanoma",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Eye",
+   "oncotree_parent_code": "OM",
+   "oncotree_branch_codes": [
+      "EYE",
+      "OM",
+      "UM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uveal Melanoma",
+      "ncit_synonyms": [
+         "Melanoma of the Uvea",
+         "Melanoma of Uvea",
+         "Intraocular Melanoma",
+         "intraocular melanoma",
+         "MELANOMA, UVEAL, MALIGNANT",
+         "Uveal Tract Melanoma",
+         "UVM"
+      ],
+      "ncit_definitions": [
+         "A rare cancer of melanocytes (cells that produce the pigment melanin) found in the eye.",
+         "A malignant neoplasm of the uvea composed of melanocytes.",
+         "A melanoma derived from melanocytes of the uveal tract.  It is the most common primary intraocular tumor in the United States and Western Europe.  Similar to melanoma of the skin, it is rare in Africa and Asia.  Diagnostic procedures include ophthalmoscopic exam, fluorescein angiography and ultrasound.  Treatment includes: surgical excision of the eye, iridocyclectomy and tumor resection.  Recent treatments also include radiotherapy or photo coagulation.  Classification of uveal melanomas recognizes four cell types within these tumors: epithelioid, intermediate, mixed cell, and spindle cell types.  The spindle cell type uveal melanomas are further sub-classified as spindle cell type A and spindle cell type B."
+      ],
+      "ncit_code": "C7712"
+   }],
+   "oncotree_code": "UM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Retinoblastoma",
+   "oncotree_main_type": "Retinoblastoma",
+   "oncotree_tissue": "Eye",
+   "oncotree_parent_code": "EYE",
+   "oncotree_branch_codes": [
+      "EYE",
+      "RBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Retinoblastoma",
+      "ncit_synonyms": [
+         "RB",
+         "Retinoblastoma, NOS",
+         "RETINOBLASTOMA, MALIGNANT"
+      ],
+      "ncit_definitions": [
+         "A malignant tumor that originates in the nuclear layer of the retina. As the most common primary tumor of the eye in children, retinoblastoma is still relatively uncommon, accounting for only 1% of all malignant tumors in pediatric patients. Approximately 95% of cases are diagnosed before age 5. These tumors may be multifocal, bilateral, congenital, inherited, or acquired. Seventy-five percent of retinoblastomas are unilateral; 60% occur sporadically. A predisposition to retinoblastoma has been associated with 13q14 cytogenetic abnormalities. Patients with the inherited form also appear to be at increased risk for secondary nonocular malignancies such as osteosarcoma, malignant fibrous histiocytoma, and fibrosarcoma.",
+         "Cancer that forms in the tissues of the retina (the light-sensitive layers of nerve tissue at the back of the eye). Retinoblastoma usually occurs in children younger than 5 years. It may be hereditary or nonhereditary (sporadic).",
+         "A malignant neoplasm originating in the nuclear layer of the retina."
+      ],
+      "ncit_code": "C7541"
+   }],
+   "oncotree_code": "RBL"
+}
+{
+   "oncotree_children_codes": [
+      "ACLG",
+      "SCLG"
+   ],
+   "oncotree_name": "Lacrimal Gland Tumor",
+   "oncotree_main_type": "Lacrimal Gland Tumor",
+   "oncotree_tissue": "Eye",
+   "oncotree_parent_code": "EYE",
+   "oncotree_branch_codes": [
+      "EYE",
+      "LGT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LGT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Squamous Cell Carcinoma of the Lacrimal Gland",
+   "oncotree_main_type": "Lacrimal Gland Tumor",
+   "oncotree_tissue": "Eye",
+   "oncotree_parent_code": "LGT",
+   "oncotree_branch_codes": [
+      "EYE",
+      "LGT",
+      "SCLG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SCLG"
+}

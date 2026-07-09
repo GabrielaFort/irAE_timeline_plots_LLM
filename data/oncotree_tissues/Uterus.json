@@ -1,0 +1,948 @@
+{
+   "oncotree_children_codes": [
+      "USARC",
+      "OUTT",
+      "GTD",
+      "UCEC"
+   ],
+   "oncotree_name": "Uterus",
+   "oncotree_main_type": "Uterine Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["UTERUS"],
+   "ncit_entries": [{
+      "ncit_name": "Uterus",
+      "ncit_synonyms": [
+         "Womb",
+         "Genital System, Female, Uterus",
+         "Utero",
+         "Uterus, NOS",
+         "Uterine structure (body structure)",
+         "womb",
+         "Uterine"
+      ],
+      "ncit_definitions": [
+         "The small, hollow, pear-shaped organ in a woman's pelvis. This is the organ in which a fetus develops.",
+         "A hollow, thick-walled, muscular organ located within the pelvic cavity of a woman. Within the uterus the fertilized egg implants and the fetus develops during pregnancy.",
+         "A hollow muscular organ within which the fertilized egg implants and the embryo/fetus develops during pregnancy.",
+         "The female muscular organ of gestation in which the developing embryo or fetus is nourished until birth."
+      ],
+      "ncit_code": "C12405"
+   }],
+   "oncotree_code": "UTERUS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Poorly Differentiated Carcinoma of the Uterus",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UCEC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC",
+      "UPDC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "UPDC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Leiomyoma",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "USMT",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "USMT",
+      "ULM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uterine Corpus Leiomyoma",
+      "ncit_synonyms": [
+         "Leiomyoma of the Corpus Uteri",
+         "Leiomyoma of Uterine Corpus",
+         "Corpus Uteri Fibroid",
+         "Uterine Body Fibroid",
+         "Leiomyoma of Corpus Uteri",
+         "Uterine Corpus Leiomyomata",
+         "Leiomyoma of the Uterine Corpus",
+         "Fibroid of Body of Uterus",
+         "Fibroid of the Body of Uterus",
+         "Fibroid of the Corpus Uteri",
+         "Uterine Corpus Fibroid",
+         "Uterine Fibroids",
+         "Fibroid of Uterine Corpus",
+         "Leiomyoma of Uterine Body",
+         "Uterine Body Leiomyoma",
+         "Fibroid of Corpus Uteri",
+         "Leiomyoma of Body of Uterus",
+         "Body of Uterus Leiomyoma",
+         "Corpus Uteri Leiomyoma",
+         "Fibroid of the Uterine Corpus",
+         "Fibroid of Uterine Body",
+         "Fibroid uterus",
+         "Uterine Fibroid",
+         "Body of Uterus Fibroid",
+         "Fibromyoma",
+         "Leiomyoma of the Uterine Body",
+         "Leiomyoma of the Body of Uterus",
+         "Fibroid of the Uterine Body",
+         "Leiomyofibroma"
+      ],
+      "ncit_definitions": ["A benign smooth muscle neoplasm arising from the body of the uterus. It is characterized by the presence of spindle cells with cigar-shaped nuclei, interlacing fascicles, and a whorled pattern."],
+      "ncit_code": "C3434"
+   }],
+   "oncotree_code": "ULM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Mucinous Carcinoma",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UCEC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC",
+      "UMC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Endometrial Mucinous Adenocarcinoma",
+      "ncit_synonyms": ["Uterine Corpus Mucinous Adenocarcinoma"],
+      "ncit_definitions": ["A primary, usually low grade adenocarcinoma of the endometrium in which the majority of the malignant epithelial cells contain abundant intracytoplasmic mucin."],
+      "ncit_code": "C40144"
+   }],
+   "oncotree_code": "UMC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Neuroendocrine Carcinoma",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UCEC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC",
+      "UNEC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "UNEC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UCEC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC",
+      "USC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Endometrial Serous Adenocarcinoma",
+      "ncit_synonyms": [
+         "Serous endometrial adenocarcinoma",
+         "Uterine Papillary Serous Carcinoma",
+         "Uterine Serous Adenocarcinoma",
+         "Uterine Corpus Serous Adenocarcinoma",
+         "Uterine Serous Carcinoma",
+         "Uterine Serous Papillary Adenocarcinoma"
+      ],
+      "ncit_definitions": ["A high-grade, aggressive adenocarcinoma arising from the endometrium. It is characterized by the presence of complex papillary patterns with cellular budding. Atypical mitoses, necrosis, and psammoma bodies may be present. It is classified as type II endometrial carcinoma and it is not associated with endometrial hyperplasia. It tends to invade deeply into the myometrium and spreads into the lymphatic vessels. Patients frequently present with spread of the tumor beyond the uterus at the time of diagnosis. The prognosis is usually poor."],
+      "ncit_code": "C27838"
+   }],
+   "oncotree_code": "USC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Myxoid Leiomyosarcoma",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "USMT",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "USMT",
+      "UMLMS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uterine Corpus Myxoid Leiomyosarcoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A morphologic variant of leiomyosarcoma arising from the uterus corpus.  It is characterized by the presence of cellular pleomorphism, malignant cells with large nuclei, and a myxoid stroma."],
+      "ncit_code": "C40175"
+   }],
+   "oncotree_code": "UMLMS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Undifferentiated Carcinoma",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UCEC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC",
+      "UUC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Cervical Undifferentiated Carcinoma",
+      "ncit_synonyms": ["Undifferentiated Cervical Cancer"],
+      "ncit_definitions": ["A rare carcinoma that arises from the cervix and is characterized by the lack of specific cellular differentiation."],
+      "ncit_code": "C6345"
+   }],
+   "oncotree_code": "UUC"
+}
+{
+   "oncotree_children_codes": [
+      "IHM",
+      "CHM",
+      "PHM"
+   ],
+   "oncotree_name": "Molar Pregnancy",
+   "oncotree_main_type": "Gestational Trophoblastic Disease",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "GTD",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "GTD",
+      "MP"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hydatidiform Mole",
+      "ncit_synonyms": [
+         "Hydatid mole",
+         "molar pregnancy",
+         "Hydatid Mole",
+         "Molar Pregnancy"
+      ],
+      "ncit_definitions": [
+         "A slow-growing tumor that develops from trophoblastic cells (cells that help an embryo attach to the uterus and help form the placenta) after fertilization of an egg by a sperm. A hydatidiform mole contains many cysts (sacs of fluid). It is usually benign (not cancer) but it may spread to nearby tissues (invasive mole). It may also become a malignant tumor called choriocarcinoma. Hydatidiform mole is the most common type of gestational trophoblastic tumor.",
+         "A gestational trophoblastic disorder characterized by marked enlargement of the chorionic villi, hyperplasia of the villous trophoblastic cells and hydropic changes.",
+         "A placental disorder characterized by abnormal development with marked enlargement of the chorionic villi and hydropic changes which consist of hyperplasia of the villous trophoblastic cells."
+      ],
+      "ncit_code": "C3110"
+   }],
+   "oncotree_code": "MP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Undifferentiated Uterine Sarcoma",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "USARC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "UUS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uterine Corpus Undifferentiated Sarcoma",
+      "ncit_synonyms": [
+         "Undifferentiated uterine sarcoma",
+         "Uterine Corpus Undifferentiated Endometrial Sarcoma",
+         "Undifferentiated Uterine Sarcoma"
+      ],
+      "ncit_definitions": ["A rare, high grade sarcoma that arises from the endometrial stroma or myometrium without a specific type of differentiation. It was previously also known as high grade endometrial stromal sarcoma. In 2014, high grade endometrial stromal sarcoma was reclassified and is currently considered a distinct and rare neoplasm. Undifferentiated uterine sarcoma has a worse prognosis."],
+      "ncit_code": "C8972"
+   }],
+   "oncotree_code": "UUS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Adenosquamous Carcinoma",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UCEC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC",
+      "UASC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Cervical Adenosquamous Carcinoma",
+      "ncit_synonyms": [
+         "Uterine Cervix Adenosquamous Cell Carcinoma",
+         "Cervical Adenosquamous Cancer",
+         "Adenosquamous Cell Carcinoma of the Cervix Uteri",
+         "Adenosquamous Carcinoma",
+         "Adenosquamous Cell Carcinoma of Cervix",
+         "Adenosquamous Cell Carcinoma of the Cervix",
+         "Cervix Uteri Adenosquamous Cell Carcinoma",
+         "Adenosquamous Cell Carcinoma of Uterine Cervix",
+         "Adenosquamous Cell Carcinoma of Cervix Uteri",
+         "Cervical Adenosquamous Cell Carcinoma",
+         "Cervix Adenosquamous Cell Carcinoma",
+         "Adenosquamous Cell Carcinoma of the Uterine Cervix"
+      ],
+      "ncit_definitions": ["An uncommon carcinoma arising from the cervix.  It is composed of malignant glandular epithelial cells and malignant squamous epithelial cells."],
+      "ncit_code": "C4519"
+   }],
+   "oncotree_code": "UASC"
+}
+{
+   "oncotree_children_codes": [
+      "UUS",
+      "OUSARC",
+      "USMT",
+      "ESS",
+      "UAS",
+      "UPECOMA"
+   ],
+   "oncotree_name": "Uterine Sarcoma/Mesenchymal",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UTERUS",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uterine Corpus Sarcoma",
+      "ncit_synonyms": [
+         "Sarcoma of Uterine Corpus",
+         "uterine sarcoma",
+         "Sarcoma of the Uterine Body",
+         "Uterus Sarcoma",
+         "Uterine Sarcoma",
+         "Sarcoma of the Body of Uterus",
+         "Sarcoma of Uterus",
+         "Corpus Uteri Sarcoma",
+         "Sarcoma of the Uterus",
+         "Uterine Body Sarcoma",
+         "Body of Uterus Sarcoma",
+         "Sarcoma of the Uterine Corpus",
+         "Sarcoma of Uterine Body",
+         "Sarcoma of Body of Uterus",
+         "Sarcoma of the Corpus Uteri",
+         "Sarcoma of Corpus Uteri"
+      ],
+      "ncit_definitions": [
+         "A malignant mesenchymal neoplasm arising from the wall of the uterine corpus (uterine body).  The most representative examples are leiomyosarcoma and endometrial stromal sarcoma.",
+         "A rare type of uterine cancer that forms in muscle or other tissues of the uterus (the small, hollow, pear-shaped organ in a woman's pelvis in which a fetus develops). It usually occurs after menopause. The two main types are leiomyosarcoma (cancer that begins in smooth muscle cells) and endometrial stromal sarcoma (cancer that begins in connective tissue cells)."
+      ],
+      "ncit_code": "C6339"
+   }],
+   "oncotree_code": "USARC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Leiomyosarcoma",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "USMT",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "USMT",
+      "ULMS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uterine Corpus Leiomyosarcoma",
+      "ncit_synonyms": [
+         "Body of Uterus Leiomyosarcoma",
+         "Leiomyosarcoma of the uterus",
+         "Leiomyosarcoma of Uterine Corpus",
+         "Corpus Uteri Leiomyosarcoma",
+         "Leiomyosarcoma of the Uterus",
+         "Leiomyosarcoma of the Body of Uterus",
+         "Leiomyosarcoma of Body of Uterus",
+         "Leiomyosarcoma of Uterus",
+         "Leiomyosarcoma of the Corpus Uteri",
+         "Uterine Body Leiomyosarcoma",
+         "Leiomyosarcoma of the Uterine Body",
+         "Leiomyosarcoma of Corpus Uteri",
+         "Leiomyosarcoma of the Uterine Corpus",
+         "Leiomyosarcoma - uterus",
+         "Leiomyosarcoma of Uterine Body"
+      ],
+      "ncit_definitions": ["An aggressive malignant smooth muscle neoplasm, arising from the uterine corpus.  It is characterized by a proliferation of neoplastic spindle cells."],
+      "ncit_code": "C6340"
+   }],
+   "oncotree_code": "ULMS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Low-Grade Endometrial Stromal Sarcoma",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "ESS",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "ESS",
+      "LGESS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Low Grade Endometrioid Stromal Sarcoma",
+      "ncit_synonyms": [
+         "Endolymphatic stromal myosis",
+         "Endolymphatic Stromal Myosis",
+         "Low-Grade Endometrioid Stromal Sarcoma"
+      ],
+      "ncit_definitions": ["An infiltrating mesenchymal neoplasm arising from the uterine corpus, cervix, vagina, ovary, and extremely rarely from the peritoneum. It is characterized by the presence of oval to spindle-shape cells that resemble the cells of the endometrial stroma, without evidence of significant atypia and pleomorphism. Numerous small vessels are also present. It is usually characterized by indolent growth and late recurrences."],
+      "ncit_code": "C4263"
+   }],
+   "oncotree_code": "LGESS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Other Uterine Tumor",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UTERUS",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "OUTT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "OUTT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Invasive Hydatidiform Mole",
+   "oncotree_main_type": "Gestational Trophoblastic Disease",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "MP",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "GTD",
+      "MP",
+      "IHM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Invasive Hydatidiform Mole",
+      "ncit_synonyms": [
+         "Chorioadenoma",
+         "Chorioadenoma Destruens",
+         "chorioadenoma destruens",
+         "Invasive Gestational Trophoblastic Neoplasm",
+         "Chorioadenoma destruens",
+         "Invasive Mole"
+      ],
+      "ncit_definitions": [
+         "A type of cancer that grows into the muscular wall of the uterus. It is formed after conception (fertilization of an egg by a sperm). It may spread to other parts of the body, such as the vagina, vulva, and lung.",
+         "A complete hydatidiform mole or very rarely a partial mole that invades the myometrium."
+      ],
+      "ncit_code": "C6985"
+   }],
+   "oncotree_code": "IHM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Dedifferentiated Carcinoma",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UCEC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC",
+      "UDDC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "UDDC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "High-Grade Endometrial Stromal Sarcoma",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "ESS",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "ESS",
+      "HGESS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HGESS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Sarcoma, Other",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "USARC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "OUSARC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "OUSARC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Complete Hydatidiform Mole",
+   "oncotree_main_type": "Gestational Trophoblastic Disease",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "MP",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "GTD",
+      "MP",
+      "CHM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Complete Hydatidiform Mole",
+      "ncit_synonyms": [
+         "Classical Hydatidiform Mole",
+         "Complete Molar Pregnancy",
+         "Complete Hydatid Mole",
+         "Complete Mole"
+      ],
+      "ncit_definitions": [
+         "A placental disorder where the majority of the chorionic villi are hydropic.",
+         "A gestational trophoblastic disorder in which there is no embryo or normal placental tissue and the chorionic villi are hydropic."
+      ],
+      "ncit_code": "C4871"
+   }],
+   "oncotree_code": "CHM"
+}
+{
+   "oncotree_children_codes": [
+      "ULM",
+      "UMLMS",
+      "ULMS",
+      "USTUMP",
+      "UELMS"
+   ],
+   "oncotree_name": "Uterine Smooth Muscle Tumor",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "USARC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "USMT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uterine Corpus Smooth Muscle Neoplasm",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A benign, intermediate, or malignant neoplasm that arises from the uterine corpus and is composed of neoplastic cells with smooth muscle differentiation."],
+      "ncit_code": "C40176"
+   }],
+   "oncotree_code": "USMT"
+}
+{
+   "oncotree_children_codes": [
+      "MP",
+      "ETT",
+      "UCCA",
+      "PSTT"
+   ],
+   "oncotree_name": "Gestational Trophoblastic Disease",
+   "oncotree_main_type": "Gestational Trophoblastic Disease",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UTERUS",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "GTD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gestational Trophoblastic Tumor",
+      "ncit_synonyms": [
+         "gestational trophoblastic neoplasia",
+         "GTT"
+      ],
+      "ncit_definitions": [
+         "A diverse group of pregnancy-related tumors characterized by excessive proliferation of trophoblasts. It includes gestational choriocarcinoma, epithelioid trophoblastic tumor, placental site trophoblastic tumor, and mixed trophoblastic tumor.",
+         "Any of a group of tumors that develops from trophoblastic cells (cells that help an embryo attach to the uterus and help form the placenta) after fertilization of an egg by a sperm. The two main types of gestational trophoblastic tumors are hydatidiform mole and choriocarcinoma."
+      ],
+      "ncit_code": "C4699"
+   }],
+   "oncotree_code": "GTD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Mixed Endometrial Carcinoma",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UCEC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC",
+      "UMEC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "UMEC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Partial Hydatidiform Mole",
+   "oncotree_main_type": "Gestational Trophoblastic Disease",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "MP",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "GTD",
+      "MP",
+      "PHM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Partial Hydatidiform Mole",
+      "ncit_synonyms": [
+         "Partial Hydatid Mole",
+         "Partial Mole",
+         "Partial Molar Pregnancy",
+         "Incomplete Hydatidiform Mole",
+         "Incomplete Molar Pregnancy",
+         "Incomplete Hydatid Mole"
+      ],
+      "ncit_definitions": [
+         "A placental disorder characterized by the presence of two populations of chorionic villi: one population which is of unremarkable development and a second one which shows hydropic changes.",
+         "A gestational trophoblastic disorder characterized by the presence of an abnormal fetus and two populations of chorionic villi: one population which is unremarkable and a second one which shows hydropic changes."
+      ],
+      "ncit_code": "C4293"
+   }],
+   "oncotree_code": "PHM"
+}
+{
+   "oncotree_children_codes": [
+      "LGESS",
+      "HGESS"
+   ],
+   "oncotree_name": "Endometrial Stromal Sarcoma",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "USARC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "ESS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Endometrioid Stromal Sarcoma",
+      "ncit_synonyms": [
+         "ESS",
+         "Endometrial Stromal Sarcoma",
+         "Sarcoma, Endometrial Stromal",
+         "Endometrial stromal sarcoma",
+         "STROMAL SARCOMA, ENDOMETRIAL, MALIGNANT"
+      ],
+      "ncit_definitions": [
+         "A malignant, mesenchymal tumor of the uterine stroma.",
+         "A malignant mesenchymal neoplasm that affects the uterine corpus and rarely the ovaries, cervix, vagina, and peritoneum. In the uterine corpus it is classified as low-grade or high-grade endometrial stromal sarcoma. In the remainder of the anatomic sites, it is classified as low-grade endometrioid stromal sarcoma."
+      ],
+      "ncit_code": "C8973"
+   }],
+   "oncotree_code": "ESS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Epithelioid Trophoblastic Tumor",
+   "oncotree_main_type": "Gestational Trophoblastic Disease",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "GTD",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "GTD",
+      "ETT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Epithelioid Trophoblastic Tumor",
+      "ncit_synonyms": [
+         "ETT",
+         "Trophoblastic tumor, epithelioid"
+      ],
+      "ncit_definitions": ["A gestational trophoblastic tumor characterized by the presence of a monomorphous cellular population of intermediate trophoblastic cells infiltrating in a nodular pattern."],
+      "ncit_code": "C6900"
+   }],
+   "oncotree_code": "ETT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Smooth Muscle Tumor of Uncertain Malignant Potential",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "USMT",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "USMT",
+      "USTUMP"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uterine Corpus Smooth Muscle Tumor of Uncertain Malignant Potential",
+      "ncit_synonyms": [
+         "Borderline Uterine Corpus Smooth Muscle Neoplasm",
+         "Uterine Corpus Smooth Muscle Neoplasm of Uncertain Malignant Potential",
+         "Uterine Corpus STUMP"
+      ],
+      "ncit_definitions": ["A smooth muscle neoplasm that arises from the uterine corpus and cannot be reliably diagnosed as benign or malignant because of the presence of ambiguous morphologic findings."],
+      "ncit_code": "C40177"
+   }],
+   "oncotree_code": "USTUMP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Mesonephric Carcinoma",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UCEC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC",
+      "UMNC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "UMNC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Epithelioid Leiomyosarcoma",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "USMT",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "USMT",
+      "UELMS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uterine Corpus Epithelioid Leiomyosarcoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A morphologic variant of leiomyosarcoma arising from the uterine corpus.  It is characterized by the presence of epithelioid round cells with eosinophilic to clear cytoplasm."],
+      "ncit_code": "C40174"
+   }],
+   "oncotree_code": "UELMS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Adenosarcoma",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "USARC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "UAS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uterine Corpus Adenosarcoma",
+      "ncit_synonyms": [
+         "Adenosarcoma of the Uterine Body",
+         "Adenosarcoma of Uterine Body",
+         "Adenosarcoma of the Uterine Corpus",
+         "Uterine Corpus Mullerian Adenosarcoma",
+         "Uterine Corpus Müllerian Adenosarcoma",
+         "Adenosarcoma of Body of Uterus",
+         "Body of Uterus Adenosarcoma",
+         "Uterine Body Adenosarcoma",
+         "Adenosarcoma of the Body of Uterus",
+         "Adenosarcoma of Uterine Corpus"
+      ],
+      "ncit_definitions": ["A primary polypoid malignant neoplasm of the uterine corpus characterized by the presence of a sarcomatous mesenchymal component and a benign epithelial component. Patients usually present with abnormal vaginal bleeding. It is considered a low grade malignant neoplasm and may recur following resection."],
+      "ncit_code": "C6336"
+   }],
+   "oncotree_code": "UAS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Clear Cell Carcinoma",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UCEC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC",
+      "UCCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Human Papillomavirus-Independent Cervical Adenocarcinoma, Clear Cell-Type",
+      "ncit_synonyms": [
+         "HPV- Independent Cervical Adenocarcinoma, Clear Cell-Type",
+         "Human Papillomavirus-Independent Cervical Adenocarcinoma, Clear Cell Type",
+         "Clear Cell Adenocarcinoma of Cervix",
+         "Cervix Clear Cell Adenocarcinoma",
+         "Clear Cell Adenocarcinoma of the Cervix",
+         "Cervical Clear Cell Carcinoma",
+         "Cervix Clear Cell Carcinoma",
+         "Clear Cell Adenocarcinoma of the Cervix Uteri",
+         "Clear Cell Adenocarcinoma of Cervix Uteri",
+         "Clear Cell Carcinoma of Uterine Cervix",
+         "Uterine Cervix Clear Cell Carcinoma",
+         "Cervical Clear Cell Adenocarcinoma",
+         "Clear Cell Adenocarcinoma of Uterine Cervix",
+         "Clear Cell Carcinoma of Cervix",
+         "Clear Cell Adenocarcinoma of the Uterine Cervix",
+         "Uterine Cervix Clear Cell Adenocarcinoma",
+         "Clear Cell Carcinoma of the Cervix",
+         "Clear Cell Carcinoma of the Uterine Cervix",
+         "Cervix Uteri Clear Cell Carcinoma",
+         "Clear Cell Carcinoma of the Cervix Uteri",
+         "HPV- Independent Cervical Adenocarcinoma, Clear Cell Type",
+         "Cervix Uteri Clear Cell Adenocarcinoma",
+         "Clear Cell Carcinoma of Cervix Uteri"
+      ],
+      "ncit_definitions": ["Cervical adenocarcinoma not associated with human papillomavirus infection and characterized by the presence of clear and hobnail cells. It is associated with in utero exposure to diethylstilbestrol (DES)."],
+      "ncit_code": "C6344"
+   }],
+   "oncotree_code": "UCCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Choriocarcinoma",
+   "oncotree_main_type": "Gestational Trophoblastic Disease",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "GTD",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "GTD",
+      "UCCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uterine Corpus Choriocarcinoma",
+      "ncit_synonyms": [
+         "Gestational Uterine Corpus Choriocarcinoma",
+         "Uterine Corpus Gestational Choriocarcinoma"
+      ],
+      "ncit_definitions": ["An aggressive malignant tumor arising from trophoblastic cells in the uterus during pregnancy.  Approximately half of the cases develop from a complete hydatidiform mole.  There is often marked elevation of human chorionic gonadotropin (hCG) in the blood.  Choriocarcinomas disseminate rapidly through the hematogenous route; the lungs are most frequently affected."],
+      "ncit_code": "C27246"
+   }],
+   "oncotree_code": "UCCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UCEC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC",
+      "UCS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uterine Carcinosarcoma",
+      "ncit_synonyms": [
+         "Carcinosarcoma of the uterus",
+         "Malignant Mixed Mesodermal (Mullerian) Tumor of the Uterus",
+         "Uterine Malignant Mixed Mesodermal (Müllerian) Tumor",
+         "Uterine Malignant Mixed Mesodermal (Mullerian) Tumor",
+         "Carcinosarcoma of the Uterus",
+         "Malignant Mixed Mesodermal (Müllerian) Tumor of the Uterus"
+      ],
+      "ncit_definitions": ["A usually aggressive malignant neoplasm arising from the uterine corpus and less often the cervix.  It is characterized by the presence of two components: a malignant epithelial component and a sarcomatous component.  In the uterine corpus the epithelial component is usually glandular whereas in the cervix is usually non-glandular.  Carcinosarcoma of the cervix, although it is aggressive, it may have a better prognosis compared to the uterine corpus carcinosarcoma."],
+      "ncit_code": "C42700"
+   }],
+   "oncotree_code": "UCS"
+}
+{
+   "oncotree_children_codes": [
+      "UPDC",
+      "UMC",
+      "UNEC",
+      "USC",
+      "UUC",
+      "UASC",
+      "UDDC",
+      "UMEC",
+      "UMNC",
+      "UCCC",
+      "UCS",
+      "UEC"
+   ],
+   "oncotree_name": "Endometrial Carcinoma",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UTERUS",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Endometrial Carcinoma",
+      "ncit_synonyms": [
+         "Carcinoma of the Endometrium",
+         "Endometrial Cancer",
+         "Uterine Corpus Endomential Carcinoma",
+         "endometrial cancer",
+         "UCEC",
+         "Carcinoma of Endometrium",
+         "CARCINOMA, ENDOMETRIAL, MALIGNANT"
+      ],
+      "ncit_definitions": [
+         "A malignant tumor arising from the epithelium that lines the cavity of the uterine body.  The vast majority of endometrial carcinomas are adenocarcinomas; squamous cell and adenosquamous carcinomas represent a minority of the cases.  Endometrioid adenocarcinoma is the most frequently seen variant of endometrial adenocarcinoma.  Uterine bleeding is an initial clinical sign.  The prognosis depends on the stage of the tumor, the depth of myometrial wall invasion, and the degree of differentiation.",
+         "A malignant epithelial neoplasm arising from the lining of the uterine body cavity.",
+         "Cancer that forms in the tissue lining the uterus (the small, hollow, pear-shaped organ in a woman's pelvis in which a fetus develops). Most endometrial cancers are adenocarcinomas (cancers that begin in cells that make and release mucus and other fluids)."
+      ],
+      "ncit_code": "C7558"
+   }],
+   "oncotree_code": "UCEC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Endometrioid Carcinoma",
+   "oncotree_main_type": "Endometrial Cancer",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "UCEC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "UCEC",
+      "UEC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Endometrial Endometrioid Adenocarcinoma",
+      "ncit_synonyms": [
+         "Endometrioid endomet. adenocar.",
+         "EEC",
+         "Endometrial Endometrioid Carcinoma",
+         "Endometrioid Carcinoma of Endometrium",
+         "Uterine Corpus Endometrioid Adenocarcinoma",
+         "Uterine Corpus Endometrioid Carcinoma",
+         "Endometrioid Adenocarcinoma of Endometrium",
+         "Endometrioid Carcinoma of the Endometrium",
+         "Endometrioid Adenocarcinoma of the Endometrium",
+         "Endometrioid endometrial adenocarcinoma"
+      ],
+      "ncit_definitions": ["A primary endometrial adenocarcinoma composed of neoplastic cells that form complex glandular patterns associated with budding and branching of the neoplastic glands.  The neoplastic glands resemble those of the normal endometrium and may or may not be associated with sheet-like proliferation of malignant cells.  Endometrioid adenocarcinoma is the most commonly seen morphologic variant of endometrial adenocarcinoma."],
+      "ncit_code": "C6287"
+   }],
+   "oncotree_code": "UEC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Placental Site Trophoblastic Tumor",
+   "oncotree_main_type": "Gestational Trophoblastic Disease",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "GTD",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "GTD",
+      "PSTT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Placental Site Trophoblastic Tumor",
+      "ncit_synonyms": [
+         "Placental-Site Gestational Trophoblastic Tumor",
+         "Placental-Site GTT",
+         "PSTT",
+         "Placental-Site Gestational Trophoblastic Neoplasm",
+         "Placental Site Gestational Trophoblastic Tumor"
+      ],
+      "ncit_definitions": ["A rare gestational trophoblastic tumor characterized by the presence of a diffuse cellular infiltrate composed of intermediate trophoblasts and cytotrophoblasts and by the absense of a significant population of syncytiotrophoblasts."],
+      "ncit_code": "C3757"
+   }],
+   "oncotree_code": "PSTT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Uterine Perivascular Epithelioid Cell Tumor",
+   "oncotree_main_type": "Uterine Sarcoma",
+   "oncotree_tissue": "Uterus",
+   "oncotree_parent_code": "USARC",
+   "oncotree_branch_codes": [
+      "UTERUS",
+      "USARC",
+      "UPECOMA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Uterine Corpus PEComa",
+      "ncit_synonyms": ["Uterine Corpus Perivascular Epithelioid Cell Tumor"],
+      "ncit_definitions": ["A neoplasm with perivascular epithelioid cell differentiation arising from the uterine corpus wall."],
+      "ncit_code": "C40180"
+   }],
+   "oncotree_code": "UPECOMA"
+}

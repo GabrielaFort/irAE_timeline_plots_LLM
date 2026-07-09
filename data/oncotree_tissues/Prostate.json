@@ -1,0 +1,137 @@
+{
+   "oncotree_children_codes": [
+      "PRAD",
+      "PRSCC",
+      "PRNE",
+      "PRSC",
+      "BCCP"
+   ],
+   "oncotree_name": "Prostate",
+   "oncotree_main_type": "Prostate Cancer",
+   "oncotree_tissue": "Prostate",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["PROSTATE"],
+   "ncit_entries": [{
+      "ncit_name": "Prostate Gland",
+      "ncit_synonyms": [
+         "GLAND, PROSTATE",
+         "Genital System, Male, Prostate",
+         "prostate",
+         "male prostate",
+         "Prostate",
+         "Prostatic structure (body structure)",
+         "Prostatic Gland"
+      ],
+      "ncit_definitions": [
+         "The walnut shaped accessory sex gland of the male reproductive system. It is located in the pelvis just below the bladder, surrounding the prostatic part of the urethra. The prostate gland secretes a fluid which is part of the semen.",
+         "The prostate gland is a partly muscular, partly glandular body that is situated near the base of the mammalian male urethra and secretes an alkaline viscid fluid which is a major constituent of the ejaculatory fluid.",
+         "The male reproductive accessory gland that produces prostatic fluid and is located adjacent to or around the urethra distal to the urinary bladder in mammals.",
+         "A gland in the male reproductive system. The prostate surrounds the part of the urethra (the tube that empties the bladder) just below the bladder, and produces a fluid that forms part of the semen."
+      ],
+      "ncit_code": "C12410"
+   }],
+   "oncotree_code": "PROSTATE"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Prostate Adenocarcinoma",
+   "oncotree_main_type": "Prostate Cancer",
+   "oncotree_tissue": "Prostate",
+   "oncotree_parent_code": "PROSTATE",
+   "oncotree_branch_codes": [
+      "PROSTATE",
+      "PRAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Prostate Adenocarcinoma",
+      "ncit_synonyms": [
+         "PRAD",
+         "Adenocarcinoma of the Prostate",
+         "Adenocarcinoma of Prostate"
+      ],
+      "ncit_definitions": ["An adenocarcinoma arising from the prostate gland.  It is one of the most common malignant tumors afflicting men.  The majority of adenocarcinomas arise in the peripheral zone and a minority occurs in the central or the transitional zone of the prostate gland.  Grading of prostatic adenocarcinoma predicts disease progression and correlates with survival.  Several grading systems have been proposed, of which the Gleason system is the most commonly used.  Gleason sums of 2 to 4 represent well-differentiated disease, 5 to 7 moderately differentiated disease and 8 to 10 poorly differentiated disease.  Prostatic-specific antigen (PSA) serum test is widely used as a screening test for the early detection of prostatic adenocarcinoma.  Treatment options include radical prostatectomy, radiation therapy, androgen ablation and cryotherapy.  Watchful waiting or surveillance alone is an option for older patients with low-grade or low-stage disease."],
+      "ncit_code": "C2919"
+   }],
+   "oncotree_code": "PRAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Prostate Small Cell Carcinoma",
+   "oncotree_main_type": "Prostate Cancer",
+   "oncotree_tissue": "Prostate",
+   "oncotree_parent_code": "PROSTATE",
+   "oncotree_branch_codes": [
+      "PROSTATE",
+      "PRSCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Prostate Small Cell Neuroendocrine Carcinoma",
+      "ncit_synonyms": [
+         "Small Cell Carcinoma of Prostate",
+         "Small Cell Carcinoma of the Prostate",
+         "Prostate Small Cell NEC",
+         "Oat Cell Carcinoma of Prostate",
+         "Prostate Oat Cell Carcinoma",
+         "Prostate Small Cell Carcinoma",
+         "Oat Cell Carcinoma of the Prostate"
+      ],
+      "ncit_definitions": ["A rare small cell neuroendocrine carcinoma that arises from the prostate gland."],
+      "ncit_code": "C6766"
+   }],
+   "oncotree_code": "PRSCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Prostate Neuroendocrine Carcinoma",
+   "oncotree_main_type": "Prostate Cancer",
+   "oncotree_tissue": "Prostate",
+   "oncotree_parent_code": "PROSTATE",
+   "oncotree_branch_codes": [
+      "PROSTATE",
+      "PRNE"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Prostate Neuroendocrine Neoplasm",
+      "ncit_synonyms": [
+         "Neuroendocrine Neoplasm of Prostate",
+         "Neuroendocrine Neoplasm of the Prostate"
+      ],
+      "ncit_definitions": ["A neoplasm with neuroendocrine differentiation that arises from the prostate gland."],
+      "ncit_code": "C5545"
+   }],
+   "oncotree_code": "PRNE"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Prostate Squamous Cell Carcinoma",
+   "oncotree_main_type": "Prostate Cancer",
+   "oncotree_tissue": "Prostate",
+   "oncotree_parent_code": "PROSTATE",
+   "oncotree_branch_codes": [
+      "PROSTATE",
+      "PRSC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Prostate Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "Squamous Cell Carcinoma of the Prostate",
+         "Squamous Cell Carcinoma of Prostate"
+      ],
+      "ncit_definitions": ["An invasive prostate carcinoma characterized by the presence of malignant cells with squamous differentiation. There is no evidence of glandular differentiation."],
+      "ncit_code": "C5536"
+   }],
+   "oncotree_code": "PRSC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Basal Cell Carcinoma of Prostate",
+   "oncotree_main_type": "Prostate Cancer",
+   "oncotree_tissue": "Prostate",
+   "oncotree_parent_code": "PROSTATE",
+   "oncotree_branch_codes": [
+      "PROSTATE",
+      "BCCP"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "BCCP"
+}

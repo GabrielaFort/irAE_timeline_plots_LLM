@@ -1,0 +1,431 @@
+{
+   "oncotree_children_codes": [
+      "BLSC",
+      "URMM",
+      "UPA",
+      "UTUC",
+      "IMTB",
+      "IUP",
+      "SRCBC",
+      "BLAD",
+      "BLCA",
+      "SCBC",
+      "UCA",
+      "URCA",
+      "SCB"
+   ],
+   "oncotree_name": "Bladder/Urinary Tract",
+   "oncotree_main_type": "Bladder/Urinary Tract Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["BLADDER"],
+   "ncit_entries": [{
+      "ncit_name": "Bladder",
+      "ncit_synonyms": [
+         "URINARY BLADDER",
+         "urinary bladder",
+         "Urinary System, Bladder",
+         "Urinary bladder structure (body structure)",
+         "Bladder, NOS",
+         "Urinary Bladder",
+         "vesica urinaria"
+      ],
+      "ncit_definitions": [
+         "Distensible musculomembranous organ situated in the anterior part of the pelvic cavity in which urine collects before excretion.",
+         "The organ that stores urine.",
+         "The distensible sac-like organ that functions as a reservoir of urine, collecting from the kidneys and eliminating via the urethra.",
+         "The distensible sac-like organ that functions as a reservoir of urine, collecting from the kidneys and eliminating via the urethra. (NCI)"
+      ],
+      "ncit_code": "C12414"
+   }],
+   "oncotree_code": "BLADDER"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Bladder Squamous Cell Carcinoma",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "BLSC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Bladder Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "Epidermoid Carcinoma of Bladder",
+         "Squamous Cell Carcinoma of the Bladder",
+         "Urinary Bladder Epidermoid Carcinoma",
+         "Urinary Bladder Squamous Cell Carcinoma",
+         "Bladder Epidermoid Carcinoma",
+         "Epidermoid Carcinoma of the Bladder",
+         "Bladder Squamous Cell Cancer",
+         "Epidermoid Carcinoma of Urinary Bladder",
+         "Squamous Cell Carcinoma of the Urinary Bladder",
+         "Squamous Cell Carcinoma of Urinary Bladder",
+         "Epidermoid Carcinoma of the Urinary Bladder",
+         "Squamous Cell Carcinoma of Bladder"
+      ],
+      "ncit_definitions": ["A squamous cell carcinoma of the bladder arising from metaplastic epithelium.  It represents less than 10% of bladder carcinomas.  The exception is the Middle East along the Nile Valley, where it represents the most common form of carcinoma because of the endemic nature of schistosomiasis.  Bladder squamous cell carcinoma is often associated with long-standing chronic inflammation of the bladder and usually has a poor prognosis.  The diagnosis of squamous cell carcinoma of the bladder should be reserved for those tumors that are predominantly keratin forming."],
+      "ncit_code": "C4031"
+   }],
+   "oncotree_code": "BLSC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mucosal Melanoma of the Urethra",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "URMM"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "URMM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Urothelial Papilloma",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "UPA"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "UPA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Upper Tract Urothelial Carcinoma",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "UTUC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Renal Pelvis and Ureter Urothelial Carcinoma",
+      "ncit_synonyms": [
+         "Transitional Cell Cancer of the Renal Pelvis and Ureter",
+         "Transitional Cell Carcinoma of Renal Pelvis and Ureter",
+         "Renal Pelvis and Ureter Urothelial Cancer",
+         "Renal Pelvis and Ureter Transitional Cell Carcinoma",
+         "Upper Urinary Tract Urothelial Carcinoma",
+         "Urothelial Carcinoma of the Renal Pelvis and Ureter",
+         "Renal Pelvis and Ureter Transitional Cell Cancer",
+         "Transitional Cell Cancer of Renal Pelvis and Ureter",
+         "Urothelial Carcinoma of the Upper Urinary Tract",
+         "TCC of the Renal Pelvis and Ureter",
+         "Renal Pelvis and Ureter TCC",
+         "TCC of Renal Pelvis and Ureter"
+      ],
+      "ncit_definitions": ["A urothelial carcinoma that arises from the renal pelvis and ureter."],
+      "ncit_code": "C7716"
+   }],
+   "oncotree_code": "UTUC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Urachal Adenocarcinoma",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "URCA",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "URCA",
+      "UA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Urachal Adenocarcinoma",
+      "ncit_synonyms": ["Bladder Urachal Adenocarcinoma"],
+      "ncit_definitions": ["A rare bladder adenocarcinoma that develops from the urachal remnant."],
+      "ncit_code": "C39843"
+   }],
+   "oncotree_code": "UA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Inflammatory Myofibroblastic Bladder Tumor",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "IMTB"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Bladder Inflammatory Myofibroblastic Tumor",
+      "ncit_synonyms": [
+         "Inflammatory Myofibroblastic Tumor of the Bladder",
+         "Inflammatory Myofibroblastic Tumor of the Urinary Bladder",
+         "Urinary Bladder Inflammatory Myofibroblastic Neoplasm",
+         "Bladder Inflammatory Myofibroblastic Neoplasm",
+         "Inflammatory Myofibroblastic Neoplasm of Urinary Bladder",
+         "Urinary Bladder Inflammatory Myofibroblastic Tumor",
+         "Inflammatory Myofibroblastic Neoplasm of Bladder",
+         "Inflammatory Myofibroblastic Tumor of Urinary Bladder",
+         "Inflammatory Myofibroblastic Tumor of Bladder",
+         "Inflammatory Myofibroblastic Neoplasm of the Bladder",
+         "Inflammatory Myofibroblastic Neoplasm of the Urinary Bladder"
+      ],
+      "ncit_definitions": ["An intermediate fibroblastic neoplasm that arises from the bladder and is characterized by the presence of spindle-shaped fibroblasts and myofibroblasts, and a chronic inflammatory infiltrate composed of eosinophils, lymphocytes, and plasma cells."],
+      "ncit_code": "C6177"
+   }],
+   "oncotree_code": "IMTB"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Urethral Squamous Cell Carcinoma",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "UCA",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "UCA",
+      "USCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Urethral Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "Urethral Epidermoid Carcinoma",
+         "Epidermoid Carcinoma of Urethra",
+         "Urethral Squamous Cell Cancer",
+         "Squamous Cell Carcinoma of the Urethra",
+         "Squamous Cell Carcinoma of Urethra",
+         "Urethra Epidermoid Carcinoma",
+         "Urethra Squamous Cell Carcinoma",
+         "Epidermoid Carcinoma of the Urethra"
+      ],
+      "ncit_definitions": ["A well differentiated, moderately differentiated, or poorly differentiated squamous cell carcinoma that arises from the male or female urethra."],
+      "ncit_code": "C6165"
+   }],
+   "oncotree_code": "USCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Inverted Urothelial Papilloma",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "IUP"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "IUP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Plasmacytoid/Signet Ring Cell Bladder Carcinoma",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "SRCBC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Invasive Bladder Plasmacytoid Urothelial Carcinoma",
+      "ncit_synonyms": [
+         "Invasive Bladder Lymphoma-Like/Plasmacytoid Urothelial Carcinoma",
+         "Invasive Bladder Urothelial Carcinoma, Lymphoma-Like/Plasmacytoid Variant",
+         "Infiltrating Bladder Urothelial Carcinoma, Lymphoma-Like/Plasmacytoid Variant",
+         "Infiltrating Bladder Urothelial Carcinoma, Plasmacytoid Variant",
+         "Bladder Plasmacytoid Urothelial Carcinoma",
+         "Invasive Bladder Urothelial Carcinoma, Plasmacytoid Variant"
+      ],
+      "ncit_definitions": ["Invasive bladder urothelial carcinoma characterized by the presence of malignant cells with plasmacytoid features."],
+      "ncit_code": "C39823"
+   }],
+   "oncotree_code": "SRCBC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Bladder Adenocarcinoma",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "BLAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Bladder Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma of the Bladder",
+         "Adenocarcinoma of Bladder",
+         "Urinary Bladder Adenocarcinoma",
+         "Adenocarcinoma of Urinary Bladder",
+         "Bladder Adenocarcinoma Excluding Clear Cell Adenocarcinoma and Endometrioid Adenocarcinoma",
+         "Adenocarcinoma of the Urinary Bladder"
+      ],
+      "ncit_definitions": ["A rare adenocarcinoma arising from metaplastic bladder epithelium. It is frequently associated with long-standing local irritation. The majority of cases originate from the trigone and the posterior wall of the bladder. This group does not include clear cell and endometrioid adenocarcinomas."],
+      "ncit_code": "C4032"
+   }],
+   "oncotree_code": "BLAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Bladder Urothelial Carcinoma",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "BLCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Bladder Urothelial Carcinoma",
+      "ncit_synonyms": [
+         "Bladder Transitional Cell Carcinoma",
+         "Transitional Cell Carcinoma of the Urinary Bladder",
+         "Urinary Bladder Urothelial Carcinoma",
+         "Urinary Bladder Transitional Cell Carcinoma",
+         "Bladder Urothelial Cancer",
+         "Urothelial Carcinoma of the Urinary Bladder"
+      ],
+      "ncit_definitions": ["A carcinoma that arises from the urothelial lining of the bladder.  It is the most common morphologic type of urinary bladder carcinoma. It usually affects males in their sixth and seventh decades of life.  Hematuria is the most common symptom at presentation. Pathologic stage is the strongest predictor of survival."],
+      "ncit_code": "C39851"
+   }],
+   "oncotree_code": "BLCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Small Cell Bladder Cancer",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "SCBC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Bladder Small Cell Neuroendocrine Carcinoma",
+      "ncit_synonyms": [
+         "Bladder Small Cell Neuroendocrine Cancer",
+         "Bladder Small Cell Carcinoma",
+         "Small Cell Neuroendocrine Carcinoma of the Urinary Bladder",
+         "Small Cell Neuroendocrine Carcinoma of Urinary Bladder"
+      ],
+      "ncit_definitions": ["A small cell neuroendocrine carcinoma arising from the bladder."],
+      "ncit_code": "C9461"
+   }],
+   "oncotree_code": "SCBC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Urethral Adenocarcinoma",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "UCA",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "UCA",
+      "UAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Urethral Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma of the Urethra",
+         "Urethra Adenocarcinoma",
+         "Adenocarcinoma of Urethra"
+      ],
+      "ncit_definitions": ["An adenocarcinoma that arises from the male or female urethra."],
+      "ncit_code": "C6167"
+   }],
+   "oncotree_code": "UAD"
+}
+{
+   "oncotree_children_codes": [
+      "USCC",
+      "UAD",
+      "UCU"
+   ],
+   "oncotree_name": "Urethral Cancer",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "UCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Urethral Carcinoma",
+      "ncit_synonyms": [
+         "Urethral Cancer",
+         "Carcinoma of the Urethra",
+         "urethral cancer",
+         "Carcinoma of Urethra",
+         "Urethra Carcinoma"
+      ],
+      "ncit_definitions": [
+         "A carcinoma that arises from the urethra. Morphologically, the tumors are similar to those described in the bladder.",
+         "A rare cancer that forms in tissues of the urethra (the tube through which urine empties the bladder and leaves the body). Types of urethral cancer include transitional cell carcinoma (cancer that begins in cells that can change shape and stretch without breaking apart), squamous cell carcinoma (cancer that begins in flat cells lining the urethra), and adenocarcinoma (cancer that begins in cells that make and release mucus and other fluids)."
+      ],
+      "ncit_code": "C9106"
+   }],
+   "oncotree_code": "UCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Urethral Urothelial Carcinoma",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "UCA",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "UCA",
+      "UCU"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "UCU"
+}
+{
+   "oncotree_children_codes": ["UA"],
+   "oncotree_name": "Urachal Carcinoma",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "URCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Urachal Carcinoma",
+      "ncit_synonyms": [
+         "Bladder Urachal Cancer",
+         "Bladder Urachal Carcinoma"
+      ],
+      "ncit_definitions": ["A rare variant of carcinoma of the urachal remnant of bladder."],
+      "ncit_code": "C39842"
+   }],
+   "oncotree_code": "URCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sarcomatoid Carcinoma of the Urinary Bladder",
+   "oncotree_main_type": "Bladder Cancer",
+   "oncotree_tissue": "Bladder/Urinary Tract",
+   "oncotree_parent_code": "BLADDER",
+   "oncotree_branch_codes": [
+      "BLADDER",
+      "SCB"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Invasive Bladder Sarcomatoid Urothelial Carcinoma",
+      "ncit_synonyms": [
+         "Infiltrating Bladder Urothelial Carcinoma, Sarcomatoid Variant",
+         "Bladder Carcinosarcoma",
+         "Bladder Sarcomatoid Urothelial Carcinoma",
+         "Infiltrating Bladder Urothelial Carcinoma Sarcomatoid Variant",
+         "Invasive Bladder Urothelial Carcinoma, Sarcomatoid Variant"
+      ],
+      "ncit_definitions": ["An invasive urothelial carcinoma of the bladder that exhibits spindle cell sarcomatoid features."],
+      "ncit_code": "C39824"
+   }],
+   "oncotree_code": "SCB"
+}

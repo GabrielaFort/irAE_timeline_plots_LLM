@@ -1,0 +1,251 @@
+{
+   "oncotree_children_codes": [
+      "ARCH",
+      "EGCT",
+      "AIS",
+      "CUP",
+      "MIXED"
+   ],
+   "oncotree_name": "Other",
+   "oncotree_main_type": "Other Cancer",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["OTHER"],
+   "ncit_entries": [{
+      "ncit_name": "Other",
+      "ncit_synonyms": [
+         "OT",
+         "Other or Miscellaneous"
+      ],
+      "ncit_definitions": [
+         "Different than the one(s) previously specified or mentioned. (NCI)",
+         "Different than the one(s) previously specified or mentioned.",
+         "A proper value is applicable but not known.",
+         "Other (COT/POT/OM)"
+      ],
+      "ncit_code": "C17649"
+   }],
+   "oncotree_code": "OTHER"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adenocarcinoma in Retrorectal Cystic Hamartoma",
+   "oncotree_main_type": "Adenocarcinoma in Retrorectal Cystic Hamartoma",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "OTHER",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "ARCH"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ARCH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Extra Gonadal Germ Cell Tumor",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "OTHER",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "EGCT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "EGCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Neuroendocrine Carcinoma, NOS",
+   "oncotree_main_type": "Cancer of Unknown Primary",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "CUP",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "CUP",
+      "NECNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "NECNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Small Cell Carcinoma of Unknown Primary",
+   "oncotree_main_type": "Cancer of Unknown Primary",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "CUP",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "CUP",
+      "SCUP"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SCUP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adenocarcinoma, NOS",
+   "oncotree_main_type": "Cancer of Unknown Primary",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "CUP",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "CUP",
+      "ADNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ADNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Undifferentiated Malignant Neoplasm",
+   "oncotree_main_type": "Cancer of Unknown Primary",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "CUP",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "CUP",
+      "UDMN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Undifferentiated Malignant Neoplasm",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A neoplasm that has minimal to no differentiating features."],
+      "ncit_code": "C36051"
+   }],
+   "oncotree_code": "UDMN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Acinar Cell Carcinoma, NOS",
+   "oncotree_main_type": "Cancer of Unknown Primary",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "CUP",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "CUP",
+      "ACN"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ACN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Squamous Cell Carcinoma, NOS",
+   "oncotree_main_type": "Cancer of Unknown Primary",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "CUP",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "CUP",
+      "SCCNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SCCNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Poorly Differentiated Carcinoma, NOS",
+   "oncotree_main_type": "Cancer of Unknown Primary",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "CUP",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "CUP",
+      "PDC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PDC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Cancer of Unknown Primary, NOS",
+   "oncotree_main_type": "Cancer of Unknown Primary",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "CUP",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "CUP",
+      "CUPNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "CUPNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Neuroendocrine Tumor, NOS",
+   "oncotree_main_type": "Cancer of Unknown Primary",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "CUP",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "CUP",
+      "NETNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "NETNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adenocarcinoma In Situ",
+   "oncotree_main_type": "Adenocarcinoma In Situ",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "OTHER",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "AIS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Adenocarcinoma In Situ",
+      "ncit_synonyms": [
+         "AIS",
+         "Adenocarcinoma in situ, NOS"
+      ],
+      "ncit_definitions": ["A lesion in which the normally situated glands are partially or completely replaced by atypical cells with malignant characteristics."],
+      "ncit_code": "C4123"
+   }],
+   "oncotree_code": "AIS"
+}
+{
+   "oncotree_children_codes": [
+      "NECNOS",
+      "SCUP",
+      "ADNOS",
+      "UDMN",
+      "ACN",
+      "SCCNOS",
+      "PDC",
+      "CUPNOS",
+      "NETNOS"
+   ],
+   "oncotree_name": "Cancer of Unknown Primary",
+   "oncotree_main_type": "Cancer of Unknown Primary",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "OTHER",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "CUP"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Carcinoma of Unknown Primary",
+      "ncit_synonyms": [
+         "Advanced Carcinoma Of Unknown Primary",
+         "Carcinoma of Unknown Primary Origin"
+      ],
+      "ncit_definitions": ["A carcinoma that has spread to other regions from an unknown primary anatomic site."],
+      "ncit_code": "C3812"
+   }],
+   "oncotree_code": "CUP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mixed Cancer Types",
+   "oncotree_main_type": "Cancer of Unknown Primary",
+   "oncotree_tissue": "Other",
+   "oncotree_parent_code": "OTHER",
+   "oncotree_branch_codes": [
+      "OTHER",
+      "MIXED"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MIXED"
+}

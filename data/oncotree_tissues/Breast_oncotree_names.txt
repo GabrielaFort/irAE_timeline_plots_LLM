@@ -1,0 +1,36 @@
+Breast
+Breast Angiosarcoma
+Breast Invasive Cancer, NOS
+Adenomyoepithelioma of the Breast
+Breast Fibroepithelial Neoplasms
+Metaplastic Squamous Cell Carcinoma
+Fibroadenoma
+Breast Lobular Carcinoma In Situ
+Breast Neoplasm, NOS
+Metaplastic Breast Cancer
+Breast Mixed Ductal and Lobular Carcinoma
+Carcinoma with Chondroid Metaplasia
+Metaplastic Carcinosarcoma
+Metaplastic Adenocarcinoma with Spindle Cell Differentiation
+Solid Papillary Carcinoma of the Breast
+Breast Invasive Mixed Mucinous Carcinoma
+Mixed Type Metaplastic Breast Cancer
+Benign Phyllodes Tumor of the Breast
+Paget Disease of the Nipple
+Phyllodes Tumor of the Breast
+Breast Carcinoma with Signet Ring
+Inflammatory Breast Cancer
+Breast Invasive Ductal Carcinoma
+Malignant Phyllodes Tumor of the Breast
+Juvenile Secretory Carcinoma of the Breast
+Breast Invasive Lobular Carcinoma
+Breast Invasive Carcinosarcoma, NOS
+Breast Sarcoma
+Invasive Breast Carcinoma
+Carcinoma with Osseous Metaplasia
+Breast Ductal Carcinoma In Situ
+Breast Invasive Carcinoma, NOS
+Metaplastic Adenosquamous Carcinoma
+Epithelial Type Metaplastic Breast Cancer
+Borderline Phyllodes Tumor of the Breast
+Adenoid Cystic Breast Cancer

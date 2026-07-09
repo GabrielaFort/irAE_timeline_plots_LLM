@@ -1,0 +1,12 @@
+Testis
+Seminoma
+Testicular Mesothelioma
+Germ Cell Tumor with Somatic-Type Malignancy
+Teratoma
+Choriocarcinoma
+Non-Seminomatous Germ Cell Tumor
+Mixed Germ Cell Tumor
+Sex Cord Stromal Tumor
+Embryonal Carcinoma
+Yolk Sac Tumor
+Testicular Lymphoma

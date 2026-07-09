@@ -1,0 +1,264 @@
+{
+   "oncotree_children_codes": [
+      "GN",
+      "GNBL",
+      "NBL",
+      "NST"
+   ],
+   "oncotree_name": "Peripheral Nervous System",
+   "oncotree_main_type": "Peripheral Nervous System Cancer",
+   "oncotree_tissue": "Peripheral Nervous System",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["PNS"],
+   "ncit_entries": [{
+      "ncit_name": "Peripheral Nervous System",
+      "ncit_synonyms": [],
+      "ncit_definitions": [
+         "That part of the nervous system consisting of the nerves and neurons that reside or extend outside the central nervous system.",
+         "A major division of the nervous system that contains nerves which connect the central nervous system (CNS) with sensory organs, other organs, muscles, blood vessels and glands."
+      ],
+      "ncit_code": "C12465"
+   }],
+   "oncotree_code": "PNS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Ganglioneuroma",
+   "oncotree_main_type": "Peripheral Nervous System",
+   "oncotree_tissue": "Peripheral Nervous System",
+   "oncotree_parent_code": "PNS",
+   "oncotree_branch_codes": [
+      "PNS",
+      "GN"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "GN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Malignant Peripheral Nerve Sheath Tumor",
+   "oncotree_main_type": "Nerve Sheath Tumor",
+   "oncotree_tissue": "Peripheral Nervous System",
+   "oncotree_parent_code": "NST",
+   "oncotree_branch_codes": [
+      "PNS",
+      "NST",
+      "MPNST"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Malignant Peripheral Nerve Sheath Tumor",
+      "ncit_synonyms": [
+         "SCHWANNOMA, MALIGNANT",
+         "Malignant Neurilemmoma",
+         "Malignant Schwannoma",
+         "Neurofibrosarcoma, Malignant",
+         "Neurogenic sarcoma",
+         "Malig. periph. nerve sheath tum.",
+         "Neurofibrosarcoma",
+         "Malignant Peripheral Nerve Sheath Tumour",
+         "Malignant Peripheral Nerve Sheath Neoplasm",
+         "Neurilemoma, malignant",
+         "MPNST",
+         "MPNST, NOS"
+      ],
+      "ncit_definitions": [
+         "An uncommon, highly aggressive malignant tumor, arising from the peripheral nerves and affecting mostly adults in their third to sixth decades of life.  It usually occurs in medium-sized and large nerves of the buttock, thigh, upper arm, or the paraspinal region.  It may be associated with neurofibromatosis 1 (NF1).",
+         "A type of soft tissue sarcoma that develops in cells that form a protective sheath (covering) around peripheral nerves, which are nerves that are outside of the central nervous system (brain and spinal cord).",
+         "A malignant neoplasm, originating from the sheaths of the peripheral nerve."
+      ],
+      "ncit_code": "C3798"
+   }],
+   "oncotree_code": "MPNST"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Ganglioneuroblastoma",
+   "oncotree_main_type": "Peripheral Nervous System",
+   "oncotree_tissue": "Peripheral Nervous System",
+   "oncotree_parent_code": "PNS",
+   "oncotree_branch_codes": [
+      "PNS",
+      "GNBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ganglioneuroblastoma",
+      "ncit_synonyms": ["GANGLIONEUROBLASTOMA, MALIGNANT"],
+      "ncit_definitions": [
+         "A malignant neoplasm characterized by the presence of neuroblastic and ganglion cells and a stroma with Schwannian differentiation.",
+         "A malignant neuroblastic tumor characterized by the presence of neuroblastic cells, ganglion cells, and a stroma with Schwannian differentiation constituting more than fifty-percent of the tumor volume.  There are two histologic subtypes identified: ganglioneuroblastoma, intermixed and ganglioneuroblastoma, nodular."
+      ],
+      "ncit_code": "C3790"
+   }],
+   "oncotree_code": "GNBL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Neurofibroma",
+   "oncotree_main_type": "Nerve Sheath Tumor",
+   "oncotree_tissue": "Peripheral Nervous System",
+   "oncotree_parent_code": "NST",
+   "oncotree_branch_codes": [
+      "PNS",
+      "NST",
+      "NFIB"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Neurofibroma",
+      "ncit_synonyms": [
+         "NEUROFIBROMA, BENIGN",
+         "Neurofibroma, NOS",
+         "Neurofibroma (WHO Grade I)"
+      ],
+      "ncit_definitions": [
+         "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths. It is composed of perineurial-like fibroblasts and Schwann cells. It usually presents as a localized cutaneous lesion and less often as a circumscribed peripheral nerve mass. Patients with neurofibromatosis type 1 present with multiple masses. Neurofibromas which arise from major nerves and plexiform neurofibromas are precursor lesions to malignant peripheral nerve sheath tumors.",
+         "A benign tumor that develops from the cells and tissues that cover nerves.",
+         "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths, composed of perineurial-like fibroblasts and Schwann cells."
+      ],
+      "ncit_code": "C3272"
+   }],
+   "oncotree_code": "NFIB"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Neuroblastoma",
+   "oncotree_main_type": "Peripheral Nervous System",
+   "oncotree_tissue": "Peripheral Nervous System",
+   "oncotree_parent_code": "PNS",
+   "oncotree_branch_codes": [
+      "PNS",
+      "NBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Neuroblastoma",
+      "ncit_synonyms": [
+         "Neuroblastoma (NBL)",
+         "Neuroblastoma (Schwannian Stroma-Poor)",
+         "Neural Crest Tumor, Malignant",
+         "Neuroblastoma (Schwannian Stroma-poor)",
+         "NEUROBLASTOMA, MALIGNANT",
+         "Neuroblastoma, NOS"
+      ],
+      "ncit_definitions": [
+         "A malignant neoplasm comprised of neuroblasts that commonly arises in or near the adrenal glands.",
+         "A malignant neoplasm composed of neuroblastic cells.",
+         "A malignant neuroblastic tumor characterized by the presence of neuroblastic cells, the absence of ganglion cells, and the absence of a prominent Schwannian stroma formation.",
+         "Cancer that arises in immature nerve cells and affects mostly infants and children."
+      ],
+      "ncit_code": "C3270"
+   }],
+   "oncotree_code": "NBL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Melanotic Schwannoma",
+   "oncotree_main_type": "Nerve Sheath Tumor",
+   "oncotree_tissue": "Peripheral Nervous System",
+   "oncotree_parent_code": "SCHW",
+   "oncotree_branch_codes": [
+      "PNS",
+      "NST",
+      "SCHW",
+      "MSCHW"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Melanotic Schwannoma",
+      "ncit_synonyms": [
+         "Pigmented schwannoma",
+         "Melanocytic Schwannoma",
+         "Melanocytic Neurilemmoma",
+         "Melanotic Neurinoma",
+         "Pigmented Neurilemmoma",
+         "Melanotic Neurilemmoma",
+         "Pigmented Schwannoma"
+      ],
+      "ncit_definitions": ["A rare circumscribed, non-encapsulated and grossly pigmented nerve sheath tumor. It is composed of cells with the immunophenotypic and electron microscopic features of Schwann cells which contain melanosomes and are positive for melanoma markers. It usually involves spinal nerve roots but may occur in other locations. It may be associated with PRKAR1A gene mutation and Carney complex. Malignant behavior has been reported in a significant number of patients."],
+      "ncit_code": "C6970"
+   }],
+   "oncotree_code": "MSCHW"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Cellular Schwannoma",
+   "oncotree_main_type": "Nerve Sheath Tumor",
+   "oncotree_tissue": "Peripheral Nervous System",
+   "oncotree_parent_code": "SCHW",
+   "oncotree_branch_codes": [
+      "PNS",
+      "NST",
+      "SCHW",
+      "CSCHW"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Cellular Schwannoma",
+      "ncit_synonyms": [
+         "Cellular Neurinoma",
+         "Cellular Neurilemmoma"
+      ],
+      "ncit_definitions": ["A morphologic variant of schwannoma characterized by hypercellularity, Antoni A pattern, and the absence of well-formed Verocay bodies."],
+      "ncit_code": "C4724"
+   }],
+   "oncotree_code": "CSCHW"
+}
+{
+   "oncotree_children_codes": [
+      "MPNST",
+      "NFIB",
+      "SCHW"
+   ],
+   "oncotree_name": "Nerve Sheath Tumor",
+   "oncotree_main_type": "Nerve Sheath Tumor",
+   "oncotree_tissue": "Peripheral Nervous System",
+   "oncotree_parent_code": "PNS",
+   "oncotree_branch_codes": [
+      "PNS",
+      "NST"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Nerve Sheath Neoplasm",
+      "ncit_synonyms": [
+         "Nerve Sheath Tumor",
+         "Tumor of Nerve Sheath",
+         "Neoplasm of the Nerve Sheath",
+         "Neoplasm of Nerve Sheath",
+         "Nerve Sheath Tumors"
+      ],
+      "ncit_definitions": ["A benign or malignant neoplasm arising from the perineural cells in the sheaths surrounding the nerves. Representative examples include neurofibroma, schwannoma, and malignant peripheral nerve sheath tumor."],
+      "ncit_code": "C4972"
+   }],
+   "oncotree_code": "NST"
+}
+{
+   "oncotree_children_codes": [
+      "MSCHW",
+      "CSCHW"
+   ],
+   "oncotree_name": "Schwannoma",
+   "oncotree_main_type": "Nerve Sheath Tumor",
+   "oncotree_tissue": "Peripheral Nervous System",
+   "oncotree_parent_code": "NST",
+   "oncotree_branch_codes": [
+      "PNS",
+      "NST",
+      "SCHW"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Schwannoma",
+      "ncit_synonyms": [
+         "Benign Neurilemmoma",
+         "SCHWANNOMA, BENIGN",
+         "Schwannoma (WHO Grade I)",
+         "Benign Schwannoma",
+         "Neurinoma",
+         "Neurilemmoma",
+         "Schwannoma, NOS",
+         "Schwannoma (Who Grade I)"
+      ],
+      "ncit_definitions": [
+         "A tumor of the peripheral nervous system that arises in the nerve sheath (protective covering).  It is almost always benign, but rare malignant schwannomas have been reported.",
+         "A benign, usually encapsulated slow growing tumor composed of Schwann cells.  It affects peripheral and cranial nerves.  It recurs infrequently and only rare cases associated with malignant transformation have been reported.",
+         "A benign neoplasm of the peripheral nervous system composed of well-differentiated Schwann cells."
+      ],
+      "ncit_code": "C3269"
+   }],
+   "oncotree_code": "SCHW"
+}

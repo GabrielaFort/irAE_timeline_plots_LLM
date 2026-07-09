@@ -1,0 +1,954 @@
+{
+   "oncotree_children_codes": [
+      "BRAME",
+      "BFN",
+      "LCIS",
+      "BNNOS",
+      "MBC",
+      "IBC",
+      "JSCB",
+      "PBS",
+      "BRCA",
+      "DCIS"
+   ],
+   "oncotree_name": "Breast",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["BREAST"],
+   "ncit_entries": [{
+      "ncit_name": "Breast",
+      "ncit_synonyms": [
+         "Breasts",
+         "Breast, NOS",
+         "Breast structure (body structure)"
+      ],
+      "ncit_definitions": [
+         "One of two hemispheric projections of variable size situated in the subcutaneous layer over the pectoralis major muscle on either side of the chest. (NCI)",
+         "One of two hemispheric projections of variable size situated in the subcutaneous layer over the pectoralis major muscle on either side of the chest.",
+         "Glandular organ located on the chest. The breast is made up of connective tissue, fat, and breast tissue that contains the glands that can make milk."
+      ],
+      "ncit_code": "C12971"
+   }],
+   "oncotree_code": "BREAST"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Breast Angiosarcoma",
+   "oncotree_main_type": "Breast Sarcoma",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "PBS",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "PBS",
+      "BA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Angiosarcoma",
+      "ncit_synonyms": [
+         "Angiosarcoma of the Breast",
+         "Hemangiosarcoma of the Breast",
+         "Hemangiosarcoma of Breast",
+         "Breast Hemangiosarcoma",
+         "Angiosarcoma of Breast"
+      ],
+      "ncit_definitions": ["A malignant vascular neoplasm arising from the breast."],
+      "ncit_code": "C5184"
+   }],
+   "oncotree_code": "BA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Breast Invasive Cancer, NOS",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BRCA",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BRCA",
+      "BRCANOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "BRCANOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adenomyoepithelioma of the Breast",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BREAST",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BRAME"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Adenomyoepithelioma",
+      "ncit_synonyms": [
+         "Adenomyoepithelioma",
+         "Adenomyoepithelioma of the Breast"
+      ],
+      "ncit_definitions": ["A usually benign tumor arising from the breast. It is characterized by the proliferation of cells with myoepithelial differentiation around spaces which are lined by epithelial cells. Rarely, the epithelial and/or myoepithelial cells may undergo malignant transformation. Cases with malignant transformation may follow an aggressive clinical course, including recurrences and local and distant metastases."],
+      "ncit_code": "C6899"
+   }],
+   "oncotree_code": "BRAME"
+}
+{
+   "oncotree_children_codes": [
+      "FA",
+      "PT"
+   ],
+   "oncotree_name": "Breast Fibroepithelial Neoplasms",
+   "oncotree_main_type": "Breast Sarcoma",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BREAST",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BFN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Fibroepithelial Neoplasm",
+      "ncit_synonyms": ["Breast Fibroepithelial Tumor"],
+      "ncit_definitions": ["A benign, malignant, or borderline biphasic neoplasm that arises from the breast parenchyma. It is characterized by the presence of an epithelial and a mesenchymal (stromal) component. The typical examples are fibroadenoma and phyllodes tumor."],
+      "ncit_code": "C40405"
+   }],
+   "oncotree_code": "BFN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Metaplastic Squamous Cell Carcinoma",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "EMBC",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "MBC",
+      "EMBC",
+      "MSCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "SCC of the Breast",
+         "Squamous Carcinoma of Breast",
+         "Squamous Cell Carcinoma of the Breast",
+         "Squamous Cell Carcinoma of Breast",
+         "Primary Squamous Cell Carcinoma of the Breast",
+         "SCC of Breast",
+         "Squamous Breast Carcinoma",
+         "Squamous Cell Breast Carcinoma",
+         "Primary Squamous Cell Breast Carcinoma",
+         "Primary Squamous Cell Carcinoma of Breast",
+         "Squamous Carcinoma of the Breast"
+      ],
+      "ncit_definitions": ["A rare carcinoma that arises from the breast parenchyma and is entirely composed of squamous cells."],
+      "ncit_code": "C5177"
+   }],
+   "oncotree_code": "MSCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Fibroadenoma",
+   "oncotree_main_type": "Breast Sarcoma",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BFN",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BFN",
+      "FA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Fibroadenoma",
+      "ncit_synonyms": [
+         "Fibroadenoma of Breast",
+         "Fibroadenoma of the Breast",
+         "FIBROADENOMA, BENIGN",
+         "Fibroadenoma",
+         "fibroadenoma"
+      ],
+      "ncit_definitions": [
+         "A benign neoplasm originating from glandular cells with a fibrous or fibroblastic component.",
+         "A benign (not cancer) tumor that usually forms in the breast from both fibrous and glandular tissue. Fibroadenomas are the most common benign breast tumors.",
+         "A benign tumor of the breast characterized by the presence of stromal and epithelial elements. It presents as a painless, solitary, slow growing, firm, and mobile mass. It is the most common benign breast lesion. It usually occurs in women of childbearing age. The majority of fibroadenomas do not recur after complete excision. A slightly increased risk of developing cancer within fibroadenomas or in the breast tissue of patients previously treated for fibroadenomas has been reported."
+      ],
+      "ncit_code": "C3744"
+   }],
+   "oncotree_code": "FA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Breast Lobular Carcinoma In Situ",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BREAST",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "LCIS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Lobular Carcinoma In Situ",
+      "ncit_synonyms": [
+         "Non-Infiltrating Lobular Carcinoma",
+         "LCIS",
+         "Lobular Ca in situ of Breast",
+         "Non-Infiltrating Lobular Breast Carcinoma",
+         "Non-Invasive Lobular Carcinoma of the Breast",
+         "Non-Invasive Lobular Carcinoma of Breast",
+         "Lobular Carcinoma in situ of Breast",
+         "Lobular carcinoma in situ of breast",
+         "Lobular Carcinoma in situ",
+         "Lobular carcinoma in situ, NOS",
+         "lobular carcinoma in situ",
+         "Lobular Breast Carcinoma In Situ",
+         "LCIS, NOS",
+         "Lobular Ca in situ of the Breast",
+         "Lobular Carcinoma In Situ of the Breast (LCIS)",
+         "Non-Invasive Lobular Breast Carcinoma",
+         "Non-Infiltrating Lobular Carcinoma of the Breast",
+         "Lobular Carcinoma In Situ (LCIS)",
+         "Lobular Carcinoma In Situ of the Breast",
+         "Lobular carcinoma in situ",
+         "Lobular carcinoma in situ of unspecified breast",
+         "Non-Infiltrating Lobular Carcinoma of Breast"
+      ],
+      "ncit_definitions": [
+         "A non-invasive adenocarcinoma of the breast characterized by a proliferation of monomorphic cells completely filling the lumina.  The overall lobular architecture is preserved.  It is frequently multifocal (90% in some series) and bilateral.  It seldom becomes invasive; however there is an increased risk of infiltrating ductal adenocarcinoma.",
+         "A condition in which abnormal cells are found in the lobules of the breast. Lobular carcinoma in situ seldom becomes invasive cancer; however, having it in one breast increases the risk of developing breast cancer in either breast."
+      ],
+      "ncit_code": "C4018"
+   }],
+   "oncotree_code": "LCIS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Breast Neoplasm, NOS",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BREAST",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BNNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "BNNOS"
+}
+{
+   "oncotree_children_codes": [
+      "MMBC",
+      "EMBC"
+   ],
+   "oncotree_name": "Metaplastic Breast Cancer",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BREAST",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "MBC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Metaplastic Carcinoma",
+      "ncit_synonyms": [
+         "MpBC",
+         "Metaplastic Carcinoma of the Breast",
+         "Metaplastic Carcinoma of Breast",
+         "Metaplastic Breast Carcinoma"
+      ],
+      "ncit_definitions": ["A group of invasive breast carcinomas characterized by the presence of an adenocarcinomatous component which is admixed with a dominant component that is composed of squamous cells, spindle cells, or mesenchymal cells."],
+      "ncit_code": "C5164"
+   }],
+   "oncotree_code": "MBC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Breast Mixed Ductal and Lobular Carcinoma",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BRCA",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BRCA",
+      "MDLC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Mixed Ductal and Lobular Carcinoma",
+      "ncit_synonyms": [
+         "Mixed Ductal and Lobular Carcinoma of Breast",
+         "Mixed Lobular and Ductal Carcinoma of Breast",
+         "Mixed Lobular and Ductal Carcinoma",
+         "Mixed Lobular and Ductal Carcinoma of the Breast",
+         "Mixed Ductal and Lobular Carcinoma of the Breast",
+         "Mixed Ductal and Lobular Carcinoma",
+         "Ductal and Lobular Carcinoma",
+         "Mixed Lobular and Ductal Breast Carcinoma",
+         "Mixed Ductal and Lobular Breast Carcinoma"
+      ],
+      "ncit_definitions": ["A breast carcinoma characterized by the presence of a lobular and a ductal component. The ductal component comprises less than 50 percent of the tumor."],
+      "ncit_code": "C5160"
+   }],
+   "oncotree_code": "MDLC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Carcinoma with Chondroid Metaplasia",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "MMBC",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "MBC",
+      "MMBC",
+      "CCHM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Carcinoma with Chondroid Metaplasia",
+      "ncit_synonyms": ["Breast Carcinoma with Cartilaginous Metaplasia"],
+      "ncit_definitions": ["An invasive carcinoma of the breast showing differentiation towards cartilaginous structures."],
+      "ncit_code": "C47847"
+   }],
+   "oncotree_code": "CCHM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Metaplastic Carcinosarcoma",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "MMBC",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "MBC",
+      "MMBC",
+      "MCS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MCS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Metaplastic Adenocarcinoma with Spindle Cell Differentiation",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "EMBC",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "MBC",
+      "EMBC",
+      "MASCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Squamous Cell Carcinoma, Spindle Cell Variant",
+      "ncit_synonyms": ["Squamous Cell Breast Carcinoma, Spindle Cell Variant"],
+      "ncit_definitions": ["A squamous cell carcinoma that arises from the breast parenchyma and is characterized by the presence of spindle-shaped malignant cells."],
+      "ncit_code": "C40358"
+   }],
+   "oncotree_code": "MASCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Solid Papillary Carcinoma of the Breast",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BRCA",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BRCA",
+      "SPC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Solid Papillary Carcinoma",
+      "ncit_synonyms": [
+         "Solid Papillary Breast Carcinoma",
+         "Solid Papillary Carcinoma of the Breast"
+      ],
+      "ncit_definitions": ["A well circumscribed, low grade neoplasm that arises from the breast.  It is characterized by the presence of sheets of malignant epithelial cells that are supported by fibrovascular structures.  When there is an invasive component present, it is usually a mucinous carcinoma."],
+      "ncit_code": "C6870"
+   }],
+   "oncotree_code": "SPC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Breast Invasive Mixed Mucinous Carcinoma",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BRCA",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BRCA",
+      "IMMC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Mucinous Carcinoma",
+      "ncit_synonyms": [
+         "Mucinous Carcinoma of the Breast",
+         "Colloid Carcinoma of Breast",
+         "Infiltrating Colloid Breast Carcinoma",
+         "Invasive Mucinous Breast Carcinoma",
+         "Mucinous Breast Cancer",
+         "Mucinous Breast Carcinoma",
+         "Invasive Colloid Breast Carcinoma",
+         "Mucinous Carcinoma of Breast",
+         "Colloid Carcinoma of the Breast",
+         "Colloid Breast Carcinoma",
+         "Infiltrating Mucinous Breast Carcinoma"
+      ],
+      "ncit_definitions": ["An invasive adenocarcinoma of the breast characterized by the presence of islands of small and uniform cells, surrounded by large amounts of mucin.  Pure mucinous breast carcinomas generally have a favorable prognosis."],
+      "ncit_code": "C9131"
+   }],
+   "oncotree_code": "IMMC"
+}
+{
+   "oncotree_children_codes": [
+      "CCHM",
+      "MCS",
+      "COM"
+   ],
+   "oncotree_name": "Mixed Type Metaplastic Breast Cancer",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "MBC",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "MBC",
+      "MMBC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Mixed Epithelial/Mesenchymal Metaplastic Carcinoma",
+      "ncit_synonyms": [
+         "Mixed Epithelial/Mesenchymal Metaplastic Breast Carcinoma",
+         "Breast Carcinosarcoma"
+      ],
+      "ncit_definitions": ["An invasive breast carcinoma characterized by the presence of a mesenchymal cellular component.  The mesenchymal cellular component ranges from cartilaginous and osseous, to purely sarcomatous."],
+      "ncit_code": "C40364"
+   }],
+   "oncotree_code": "MMBC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Benign Phyllodes Tumor of the Breast",
+   "oncotree_main_type": "Breast Sarcoma",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "PT",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BFN",
+      "PT",
+      "BPT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Benign Breast Phyllodes Tumor",
+      "ncit_synonyms": [
+         "Benign Phyllodes Tumor of Breast",
+         "Benign Phyllodes Neoplasm of the Breast",
+         "Benign Phyllodes Neoplasm of Breast",
+         "Benign Phyllodes Tumor of the Breast",
+         "Breast Benign Phyllodes Neoplasm"
+      ],
+      "ncit_definitions": ["A usually unilateral, benign and well circumscribed biphasic neoplasm that arises from the breast.  It usually affects middle-aged women.  It is characterized by the presence of a double layer of epithelial cells that are arranged in clefts, surrounded by a cellular, monomorphic spindle cell mesenchymal component.  Mitoses are rare.  Necrotic changes may be present in large tumors."],
+      "ncit_code": "C5196"
+   }],
+   "oncotree_code": "BPT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Paget Disease of the Nipple",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "DCIS",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "DCIS",
+      "PD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Nipple Paget Disease",
+      "ncit_synonyms": [
+         "Nipple Paget's Disease",
+         "Paget Disease of the Nipple",
+         "Paget's disease of the nipple",
+         "Paget's Disease of the Nipple",
+         "Paget's Disease of Nipple"
+      ],
+      "ncit_definitions": [
+         "A malignant epithelial cellular proliferation characterized by the presence of atypical cells with large nuclei and abundant pale cytoplasm within the squamous epithelium of the nipple.  In almost all cases there is an underlying intraductal breast carcinoma or intraductal and invasive carcinoma.  The skin changes range from redness to eczematous appearance.",
+         "A form of breast cancer in which the tumor grows from ducts beneath the nipple onto the surface of the nipple. Symptoms commonly include itching and burning and an eczema-like condition around the nipple, sometimes accompanied by oozing or bleeding."
+      ],
+      "ncit_code": "C3301"
+   }],
+   "oncotree_code": "PD"
+}
+{
+   "oncotree_children_codes": [
+      "BPT",
+      "MPT",
+      "BLPT"
+   ],
+   "oncotree_name": "Phyllodes Tumor of the Breast",
+   "oncotree_main_type": "Breast Sarcoma",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BFN",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BFN",
+      "PT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Phyllodes Tumor",
+      "ncit_synonyms": [
+         "Cystosarcoma Phyllodes of the Breast",
+         "Phyllodes Neoplasm of the Breast",
+         "Cystosarcoma phylloides - breast",
+         "Cystosarcoma Phyllodes of Breast",
+         "Phyllodes Tumor of the Breast",
+         "Phyllodes Neoplasm of Breast",
+         "Breast Cystosarcoma Phyllodes",
+         "Phyllodes Breast Tumor",
+         "Phyllodes Tumor of Breast",
+         "Cystosarcoma phylloides of the breast",
+         "Phyllodes Breast Neoplasm",
+         "Breast Phyllodes Neoplasm"
+      ],
+      "ncit_definitions": ["A benign, malignant, or borderline circumscribed biphasic neoplasm that arises from the breast.  It usually affects middle-aged women.  It is characterized by the presence of a double layer of epithelial cells that are arranged in clefts, surrounded by a spindle cell mesenchymal (stromal) component."],
+      "ncit_code": "C7575"
+   }],
+   "oncotree_code": "PT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Breast Carcinoma with Signet Ring",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BRCA",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BRCA",
+      "BRSRCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Signet Ring Cell Adenocarcinoma",
+      "ncit_synonyms": [
+         "Primary Mammary Signet Ring Cell Carcinoma",
+         "Primary Signet Ring Cell Breast Carcinoma",
+         "Primary SRC Breast Carcinoma",
+         "SRC Carcinoma of the Breast",
+         "Breast Signet Ring Cell Carcinoma",
+         "Signet Ring Cell Carcinoma of Breast",
+         "SRC Carcinoma of Breast",
+         "Primary Signet Ring Cell Carcinoma of Breast",
+         "Breast Signet-Ring Cell Carcinoma",
+         "SRC Breast Carcinoma",
+         "Primary SRC Carcinoma of Breast",
+         "Signet Ring Cell Carcinoma of the Breast",
+         "Mammary Signet Ring Cell Carcinoma",
+         "Primary SRC Carcinoma of the Breast",
+         "Signet Ring Cell Breast Carcinoma",
+         "Primary Signet Ring Cell Carcinoma of the Breast"
+      ],
+      "ncit_definitions": ["An invasive breast adenocarcinoma characterized by the presence of malignant epithelial cells with signet ring appearance."],
+      "ncit_code": "C5175"
+   }],
+   "oncotree_code": "BRSRCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Inflammatory Breast Cancer",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BREAST",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "IBC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Inflammatory Carcinoma",
+      "ncit_synonyms": [
+         "Inflammatory Breast Carcinoma",
+         "Inflammatory Carcinoma of Breast",
+         "Inflammatory carcinoma",
+         "Inflammatory Carcinoma of the Breast",
+         "inflammatory breast cancer",
+         "Inflammatory breast carcinoma",
+         "Inflammatory Breast Cancer",
+         "Mastitis Carcinomatosa"
+      ],
+      "ncit_definitions": [
+         "An advanced, invasive breast adenocarcinoma characterized by the presence of distinct changes in the overlying skin. These changes include diffuse erythema, edema, peau d'orange (skin of an orange) appearance, tenderness, induration, warmth, enlargement, and in some cases a palpable mass. The skin changes are the consequence of lymphatic obstruction from the underlying invasive breast adenocarcinoma. Microscopically, the dermal lymphatics show prominent infiltration by malignant cells. The invasive breast adenocarcinoma is usually of ductal, NOS type. There is not significant inflammatory cell infiltrate present, despite the name of this carcinoma.",
+         "A type of breast cancer in which the breast looks red and swollen and feels warm. The skin of the breast may also show the pitted appearance called peau d'orange (like the skin of an orange). The redness and warmth occur because the cancer cells block the lymph vessels in the skin."
+      ],
+      "ncit_code": "C4001"
+   }],
+   "oncotree_code": "IBC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Breast Invasive Ductal Carcinoma",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BRCA",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BRCA",
+      "IDC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Invasive Breast Carcinoma of No Special Type",
+      "ncit_synonyms": [
+         "Invasive Ductal Carcinoma of the Breast",
+         "infiltrating ductal carcinoma",
+         "Infiltrating Ductal Adenocarcinoma",
+         "Infiltrating Ductal Carcinoma of Breast",
+         "Infiltrating Ductal Carcinoma",
+         "Infiltrating Ductal Carcinoma of the Breast",
+         "Invasive Ductal Breast Carcinoma",
+         "Invasive Ductal Carcinoma, Not Otherwise Specified",
+         "Invasive Ductal Carcinoma of Breast",
+         "Invasive Ductal Carcinoma",
+         "Invasive Ductal Carcinoma, NST",
+         "Invasive Ductal Carcinoma, NOS",
+         "Invasive Ductal Carcinoma, No Specific Type",
+         "Invasive Ductal Adenocarcinoma",
+         "IBC NST",
+         "Infiltrating Ductal Breast Carcinoma"
+      ],
+      "ncit_definitions": [
+         "The most common type of invasive breast cancer. It starts in the cells that line the milk ducts in the breast, grows outside the ducts, and often spreads to the lymph nodes.",
+         "A term that refers to a large and heterogeneous group of invasive breast carcinomas that cannot be classified morphologically as any of the special histological types. (WHO 2019)"
+      ],
+      "ncit_code": "C4194"
+   }],
+   "oncotree_code": "IDC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Malignant Phyllodes Tumor of the Breast",
+   "oncotree_main_type": "Breast Sarcoma",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "PT",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BFN",
+      "PT",
+      "MPT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Malignant Breast Phyllodes Tumor",
+      "ncit_synonyms": [
+         "Malignant Phyllodes Tumor of the Breast",
+         "Malignant Phyllodes Breast Neoplasm",
+         "Malignant Mammary Phyllodes Tumor",
+         "Malignant Mammary Phyllodes Neoplasm",
+         "Malignant Phyllodes Neoplasm of the Breast",
+         "Malignant Phyllodes Tumor of Breast",
+         "Malignant Breast Phyllodes Neoplasm",
+         "Malignant Phyllodes Neoplasm of Breast"
+      ],
+      "ncit_definitions": ["A phyllodes tumor of the breast characterized by infiltrative margins and a sarcomatous stromal component.  The sarcomatous stroma usually displays features of fibrosarcoma.  Liposarcomatous, osteosarcomatous, or rhabdomyosarcomatous elements may also be present."],
+      "ncit_code": "C4504"
+   }],
+   "oncotree_code": "MPT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Juvenile Secretory Carcinoma of the Breast",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BREAST",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "JSCB"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "JSCB"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Breast Invasive Lobular Carcinoma",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BRCA",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BRCA",
+      "ILC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Invasive Breast Lobular Carcinoma",
+      "ncit_synonyms": [
+         "Invasive Lobular Carcinoma",
+         "Invasive Lobular Carcinoma of Breast",
+         "Infiltrating Lobular Carcinoma of Breast",
+         "Infiltrating Lobular Carcinoma of the Breast",
+         "Invasive Lobular Breast Carcinoma",
+         "Infiltrating Lobular Adenocarcinoma",
+         "Invasive Lobular Adenocarcinoma",
+         "Invasive Lobular Carcinoma of the Breast",
+         "Invasive lobular carcinoma",
+         "Classic Invasive Lobular Carcinoma",
+         "Invasive Lobular Carcinoma, Classic Type",
+         "Infiltrating Lobular Breast Carcinoma"
+      ],
+      "ncit_definitions": ["An infiltrating lobular adenocarcinoma of the breast.  The malignant cells lack cohesion and are arranged individually or in a linear manner (Indian files), or as narrow trabeculae within the stroma.  The malignant cells are usually smaller than those of ductal carcinoma, are less pleomorphic, and have fewer mitotic figures."],
+      "ncit_code": "C7950"
+   }],
+   "oncotree_code": "ILC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Breast Invasive Carcinosarcoma, NOS",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BRCA",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BRCA",
+      "CSNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "CSNOS"
+}
+{
+   "oncotree_children_codes": ["BA"],
+   "oncotree_name": "Breast Sarcoma",
+   "oncotree_main_type": "Breast Sarcoma",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BREAST",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "PBS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Sarcoma",
+      "ncit_synonyms": [
+         "Sarcoma of the Breast",
+         "Sarcoma of Breast"
+      ],
+      "ncit_definitions": ["A malignant mesenchymal neoplasm that arises from the breast.  Representative examples include angiosarcoma, liposarcoma, leiomyosarcoma, rhabdomyosarcoma, and extraskeletal osteosarcoma."],
+      "ncit_code": "C4670"
+   }],
+   "oncotree_code": "PBS"
+}
+{
+   "oncotree_children_codes": [
+      "BRCANOS",
+      "MDLC",
+      "SPC",
+      "IMMC",
+      "BRSRCC",
+      "IDC",
+      "ILC",
+      "CSNOS",
+      "BRCNOS",
+      "ACBC"
+   ],
+   "oncotree_name": "Invasive Breast Carcinoma",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BREAST",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BRCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Invasive Breast Carcinoma",
+      "ncit_synonyms": [
+         "Invasive Carcinoma of the Breast",
+         "Infiltrating Carcinoma of Breast",
+         "Invasive Breast Cancer",
+         "infiltrating breast cancer",
+         "Infiltrating Carcinoma of the Breast",
+         "Invasive mammary carcinoma",
+         "Invasive Carcinoma of Breast",
+         "invasive breast cancer",
+         "Infiltrating Breast Carcinoma",
+         "Invasive Mammary Carcinoma"
+      ],
+      "ncit_definitions": [
+         "A carcinoma that infiltrates the breast parenchyma.  The vast majority are adenocarcinomas arising from the terminal ductal lobular unit (TDLU).  Often, the invasive adenocarcinoma co-exists with ductal or lobular carcinoma in situ.  It is the most common carcinoma affecting women.",
+         "Cancer that has spread from where it started in the breast into surrounding, healthy tissue. Most invasive breast cancers start in the ducts (tubes that carry milk from the lobules to the nipple). Invasive breast cancer can spread to other parts of the body through the blood and lymph systems."
+      ],
+      "ncit_code": "C9245"
+   }],
+   "oncotree_code": "BRCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Carcinoma with Osseous Metaplasia",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "MMBC",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "MBC",
+      "MMBC",
+      "COM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Carcinoma with Osseous Metaplasia",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["An invasive breast carcinoma showing differentiation towards bone structures."],
+      "ncit_code": "C47848"
+   }],
+   "oncotree_code": "COM"
+}
+{
+   "oncotree_children_codes": ["PD"],
+   "oncotree_name": "Breast Ductal Carcinoma In Situ",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BREAST",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "DCIS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Ductal Carcinoma In Situ",
+      "ncit_synonyms": [
+         "Non-Invasive Ductal Breast Carcinoma",
+         "Intraductal Breast Carcinoma",
+         "Non-Invasive Ductal Adenocarcinoma of Breast",
+         "Ductal Carcinoma In Situ (DCIS)",
+         "Non-Infiltrating Intraductal Adenocarcinoma of the Breast",
+         "Intraductal Carcinoma",
+         "Ductal Carcinoma In Situ of the Breast",
+         "intraductal carcinoma",
+         "Non-Infiltrating Ductal Carcinoma of Breast",
+         "DCIS, NOS",
+         "Intraductal carcinoma in situ of unspecified breast",
+         "Non-Infiltrating Intraductal Adenocarcinoma",
+         "Non-Infiltrating Intraductal Breast Adenocarcinoma",
+         "Intraductal carcinoma in situ of breast",
+         "Non-Invasive Intraductal Breast Adenocarcinoma",
+         "Non-Invasive Ductal Carcinoma of Breast",
+         "Breast Ductal Carcinoma In Situ, NOS",
+         "Non-Infiltrating Ductal Carcinoma of the Breast",
+         "Non-Invasive Ductal Adenocarcinoma of the Breast",
+         "Non-Infiltrating Ductal Adenocarcinoma of the Breast",
+         "Non-Invasive Ductal Breast Adenocarcinoma",
+         "Non-Invasive Ductal Carcinoma of the Breast",
+         "Non-Infiltrating Ductal Adenocarcinoma of Breast",
+         "Ductal carcinoma in situ",
+         "Non-Invasive Intraductal Adenocarcinoma of Breast",
+         "Intraductal Carcinoma of the Breast",
+         "Non-Infiltrating Ductal Breast Adenocarcinoma",
+         "ductal carcinoma in situ",
+         "Ductal Carcinoma In Situ of Breast",
+         "Non-Infiltrating Ductal Breast Carcinoma",
+         "Ductal Carcinoma In Situ",
+         "Ductal Breast Carcinoma In Situ",
+         "DCIS",
+         "Non-Infiltrating Intraductal Adenocarcinoma of Breast",
+         "Non-Infiltrating Intraductal Carcinoma",
+         "Non-Invasive Intraductal Adenocarcinoma of the Breast",
+         "Intraductal Carcinoma of Breast"
+      ],
+      "ncit_definitions": [
+         "A breast carcinoma entirely confined to the mammary ducts. It is also known as DCIS. There is no evidence of invasion of the basement membrane. Currently, it is classified into three categories: High-grade DCIS, intermediate-grade DCIS and low-grade DCIS. In this classification the DCIS grade is defined by a combination of nuclear grade, architectural growth pattern and presence of necrosis. The size of the lesion as well as the grade and the clearance margins play a major role in dictating the most appropriate therapy for DCIS.",
+         "A noninvasive condition in which abnormal cells are found in the lining of a breast duct. The abnormal cells have not spread outside the duct to other tissues in the breast. In some cases, ductal carcinoma in situ may become invasive cancer and spread to other tissues, although it is not known at this time how to predict which lesions will become invasive."
+      ],
+      "ncit_code": "C2924"
+   }],
+   "oncotree_code": "DCIS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Breast Invasive Carcinoma, NOS",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BRCA",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BRCA",
+      "BRCNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "BRCNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Metaplastic Adenosquamous Carcinoma",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "EMBC",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "MBC",
+      "EMBC",
+      "MASC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Adenosquamous Carcinoma",
+      "ncit_synonyms": ["Adenosquamous Breast Carcinoma"],
+      "ncit_definitions": ["An invasive breast carcinoma characterized by the presence of tubular and glandular neoplastic cell structures, admixed with islands of neoplastic cells showing squamous differentiation."],
+      "ncit_code": "C40361"
+   }],
+   "oncotree_code": "MASC"
+}
+{
+   "oncotree_children_codes": [
+      "MSCC",
+      "MASCC",
+      "MASC"
+   ],
+   "oncotree_name": "Epithelial Type Metaplastic Breast Cancer",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "MBC",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "MBC",
+      "EMBC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "EMBC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Borderline Phyllodes Tumor of the Breast",
+   "oncotree_main_type": "Breast Sarcoma",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "PT",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BFN",
+      "PT",
+      "BLPT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Borderline Breast Phyllodes Tumor",
+      "ncit_synonyms": [
+         "Borderline Phyllodes Neoplasm of Breast",
+         "Borderline Breast Phyllodes Neoplasm",
+         "Borderline Phyllodes Tumor of Breast",
+         "Borderline Phyllodes Tumor of the Breast",
+         "Borderline Phyllodes Neoplasm of the Breast",
+         "Low Grade Malignant Breast Phyllodes Tumor"
+      ],
+      "ncit_definitions": ["A phyllodes tumor of the breast characterized by the presence of intermediate features and a stroma which usually resembles low grade fibrosarcoma."],
+      "ncit_code": "C5316"
+   }],
+   "oncotree_code": "BLPT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adenoid Cystic Breast Cancer",
+   "oncotree_main_type": "Breast Cancer",
+   "oncotree_tissue": "Breast",
+   "oncotree_parent_code": "BRCA",
+   "oncotree_branch_codes": [
+      "BREAST",
+      "BRCA",
+      "ACBC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Adenoid Cystic Carcinoma",
+      "ncit_synonyms": [
+         "Mammary Adenocystic Carcinoma",
+         "Adenocystic Breast Carcinoma",
+         "Adenoid Cystic Breast Carcinoma",
+         "Adenoid Cystic Carcinoma of Breast",
+         "Adenocystic Carcinoma of Breast",
+         "Adenoid Cystic Carcinoma of the Breast",
+         "Adenocystic Carcinoma of the Breast"
+      ],
+      "ncit_definitions": ["An adenoid cystic carcinoma primarily involving the breast.  Three morphologic patterns are seen: cribriform, trabecular, and solid.  The prognosis is excellent."],
+      "ncit_code": "C5130"
+   }],
+   "oncotree_code": "ACBC"
+}

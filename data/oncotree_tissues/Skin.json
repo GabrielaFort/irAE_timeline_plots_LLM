@@ -1,0 +1,717 @@
+{
+   "oncotree_children_codes": [
+      "BCC",
+      "AN",
+      "PORO",
+      "SPIR",
+      "DF",
+      "EMPD",
+      "EMPSGC",
+      "MAC",
+      "MCC",
+      "DTE",
+      "MEL",
+      "DFSP",
+      "PPCT",
+      "SKAC",
+      "CSCC",
+      "AFX",
+      "ADPA",
+      "SGAD",
+      "SEBA",
+      "POCA",
+      "AECA"
+   ],
+   "oncotree_name": "Skin",
+   "oncotree_main_type": "Skin Cancer",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["SKIN"],
+   "ncit_entries": [{
+      "ncit_name": "Skin",
+      "ncit_synonyms": [
+         "entire skin",
+         "skin organ",
+         "Skin structure (body structure)",
+         "Human Skin",
+         "skin of body",
+         "Skin, total",
+         "Skin, NOS",
+         "Integument"
+      ],
+      "ncit_definitions": [
+         "An organ that constitutes the external surface of the body. It consists of the epidermis, dermis, and skin appendages.",
+         "The organ covering the body that consists of the dermis and epidermis.",
+         "An organ that constitutes the external surface of the body. It consists of the epidermis, dermis, and skin appendages. (NCI)"
+      ],
+      "ncit_code": "C12470"
+   }],
+   "oncotree_code": "SKIN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Basal Cell Carcinoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "BCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Skin Basal Cell Carcinoma",
+      "ncit_synonyms": [
+         "Skin Basal Cell Cancer",
+         "Basal Cell Epithelioma",
+         "Basal cell carcinoma",
+         "Basal Cell Cancer",
+         "BCC",
+         "basal cell cancer",
+         "Basal Cell Skin Carcinoma",
+         "Basal Cell Carcinoma of the Skin",
+         "Basal Cell Carcinoma",
+         "basal cell carcinoma",
+         "Basal Cell Carcinoma of Skin",
+         "Basal cell epithelioma"
+      ],
+      "ncit_definitions": [
+         "Cancer that begins in the lower part of the epidermis (the outer layer of the skin). It may appear as a small white or flesh-colored bump that grows slowly and may bleed. Basal cell cancers are usually found on areas of the body exposed to the sun. Basal cell cancers rarely metastasize (spread) to other parts of the body. They are the most common form of skin cancer.",
+         "The most frequently seen skin cancer. It arises from basal cells of the epidermis and pilosebaceous units. Clinically it is divided into the following types: nodular, ulcerative, superficial, multicentric, erythematous, and sclerosing or morphea-like. More than 95% of these carcinomas occur in patients over 40. They develop on hair-bearing skin, most commonly on sun-exposed areas. Approximately 85% are found on the head and neck and the remaining 15% on the trunk and extremities. Basal cell carcinoma usually grows in a slow and indolent fashion. However, if untreated, the tumor may invade the subcutaneous fat, skeletal muscle and bone. Distant metastases are rare. Excision, curettage and irradiation cure most basal cell carcinomas."
+      ],
+      "ncit_code": "C2921"
+   }],
+   "oncotree_code": "BCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Atypical Nevus",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "AN"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "AN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Poroma/Acrospiroma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "PORO"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Poroma",
+      "ncit_synonyms": ["Poroid Tumor"],
+      "ncit_definitions": ["A benign, well circumscribed adnexal neoplasm arising from the intraepidermal portion of the sweat gland duct. It usually presents as a solitary, dome-shaped papule, nodule, or plaque on acral sites. It is characterized by a proliferation of uniform basaloid cells in the dermis and is associated with the presence of focal ductal and cystic structures. Complete excision is curative."],
+      "ncit_code": "C27273"
+   }],
+   "oncotree_code": "PORO"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Spiroma/Spiradenoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "SPIR"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Spiradenoma",
+      "ncit_synonyms": [
+         "Spiradenoma, NOS",
+         "Eccrine spiradenoma",
+         "Eccrine Spiradenoma",
+         "Benign Eccrine Spiradenoma"
+      ],
+      "ncit_definitions": ["A benign epithelial neoplasm with eccrine or apocrine differentiation, arising from the sweat glands. It usually presents as a solitary, well circumscribed, firm nodule in the face and upper trunk. It is characterized by the presence of basaloid cells forming nodules in the dermis. Cases of carcinoma arising from long standing spiradenomas have been reported."],
+      "ncit_code": "C4170"
+   }],
+   "oncotree_code": "SPIR"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Dermatofibroma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "DF"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Skin Fibrous Histiocytoma",
+      "ncit_synonyms": [
+         "Dermatofibroma",
+         "Subepidermal nodular fibrosis",
+         "Benign Skin Fibrous Histiocytoma",
+         "Cutaneous Fibrous Histiocytoma",
+         "Benign Fibrous Histiocytoma of Skin",
+         "Benign Fibrous Histiocytoma of the Skin",
+         "Fibrous Histiocytoma of the Skin",
+         "Benign Fibrous Cutaneous Histiocytoma",
+         "Fibrous Histiocytoma of Skin",
+         "Benign Cutaneous Fibrous Histiocytoma"
+      ],
+      "ncit_definitions": ["A solitary, slowly growing, nodular tumor most often affecting the extremities. It is composed of fibrous and histiocytic cells which infiltrate the dermis and occasionally the underlying subcutaneous tissue.  Usually local excision is curative. Recurrences are reported only in a small minority of cases."],
+      "ncit_code": "C6801"
+   }],
+   "oncotree_code": "DF"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Extramammary Paget Disease",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "EMPD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Extramammary Paget Disease",
+      "ncit_synonyms": [
+         "Paget's Disease of Skin",
+         "Paget's Disease of the Skin",
+         "Paget Disease, Extramammary",
+         "Cutaneous Paget's Disease",
+         "Paget disease, extramammary",
+         "EMPD",
+         "Extramammary Paget's Disease",
+         "Paget's Skin Disease",
+         "Paget Disease Extramammary"
+      ],
+      "ncit_definitions": ["A malignant neoplasm in which there is infiltration of the skin by neoplastic large cells with abundant pale cytoplasm and large nuclei with prominent nucleoli (Paget cells). It may affect the anus, penis, scrotum, and vulva."],
+      "ncit_code": "C3302"
+   }],
+   "oncotree_code": "EMPD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Endocrine Mucin Producing Sweat Gland Carcinoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "EMPSGC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "EMPSGC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Lentigo Maligna Melanoma",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "MEL",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "MEL",
+      "SKLMM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Lentigo Maligna Melanoma",
+      "ncit_synonyms": [
+         "Melanoma in Hutchinson Melanotic Freckle",
+         "Malignant Lentigo Melanoma",
+         "LMM"
+      ],
+      "ncit_definitions": ["A melanoma of the skin characterized by single cell infiltration of the papillary dermis by atypical melanocytes, in a background of lentigo maligna changes."],
+      "ncit_code": "C9151"
+   }],
+   "oncotree_code": "SKLMM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Microcystic Adnexal Carcinoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "MAC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Microcystic Adnexal Carcinoma",
+      "ncit_synonyms": [
+         "Eccrine Epithelioma",
+         "Syringomatous Carcinoma",
+         "MAC",
+         "Syringomatous carcinoma"
+      ],
+      "ncit_definitions": ["A low-grade adenocarcinoma with ductal differentiation, arising from the sweat glands. It presents as a scar usually in the face. It is characterized by the formation of small ducts and it frequently involves nerves and perineural spaces."],
+      "ncit_code": "C7581"
+   }],
+   "oncotree_code": "MAC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Merkel Cell Carcinoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "MCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Merkel Cell Carcinoma",
+      "ncit_synonyms": [
+         "Merkel Cell Cancer",
+         "Merkel cell cancer",
+         "Merkel cell tumor",
+         "Merkel cell carcinoma, unspecified",
+         "MCC"
+      ],
+      "ncit_definitions": ["A rare aggressive neuroendocrine carcinoma that usually arises from the skin. Rarely, it arises from extracutaneous sites, including the oral cavity, salivary glands, breast, vulva, and vaginal wall. The tumor is composed of small round cells with scanty cytoplasm. Merkel cell polyomavirus is implicated in the majority of cases."],
+      "ncit_code": "C9231"
+   }],
+   "oncotree_code": "MCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Desmoplastic Trichoepithelioma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "DTE"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Columnar Trichoblastoma",
+      "ncit_synonyms": [
+         "Desmoplastic Trichoepithelioma",
+         "Sclerosing Epithelial Hamartoma"
+      ],
+      "ncit_definitions": ["A benign adnexal tumor occurring in the face of young female subjects. It is characterized by the presence of epithelial neoplastic cells and keratinous cysts in a desmoplastic stroma."],
+      "ncit_code": "C27524"
+   }],
+   "oncotree_code": "DTE"
+}
+{
+   "oncotree_children_codes": [
+      "SKLMM",
+      "ACRM",
+      "SPZM",
+      "MUP",
+      "SKCM",
+      "SKCN",
+      "DESM"
+   ],
+   "oncotree_name": "Melanoma",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "MEL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Melanoma",
+      "ncit_synonyms": [
+         "MELANOMA, MALIGNANT",
+         "Malignant Melanoma",
+         "Melanoma, NOS"
+      ],
+      "ncit_definitions": [
+         "A form of cancer that begins in melanocytes (cells that make the pigment melanin). It may begin in a mole (skin melanoma), but can also begin in other pigmented tissues, such as in the eye or in the intestines.",
+         "A malignant neoplasm composed of melanocytes.",
+         "A malignant neoplasm comprised of melanocytes typically arising in the skin.",
+         "A malignant, usually aggressive tumor composed of atypical, neoplastic melanocytes. Most often, melanomas arise in the skin (cutaneous melanomas) and include the following histologic subtypes: superficial spreading melanoma, nodular melanoma, acral lentiginous melanoma, and lentigo maligna melanoma. Cutaneous melanomas may arise from acquired or congenital melanocytic or dysplastic nevi. Melanomas may also arise in other anatomic sites including the gastrointestinal system, eye, urinary tract, and reproductive system. Melanomas frequently metastasize to lymph nodes, liver, lungs, and brain."
+      ],
+      "ncit_code": "C3224"
+   }],
+   "oncotree_code": "MEL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Acral Melanoma",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "MEL",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "MEL",
+      "ACRM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acral Lentiginous Melanoma",
+      "ncit_synonyms": [
+         "Acral lentiginous melanoma, malignant",
+         "Acral Lentiginous Malignant Melanoma"
+      ],
+      "ncit_definitions": ["A form of melanoma occurring most often on the plantar, palmar, subungual, and periungual skin.  It presents as a pigmented macular lesion with irregular borders.  Morphologically, it consists of atypical spindled and dendritic melanocytes.  The epidermis is often hyperplastic and there is pagetoid infiltration of the epidermis by anaplastic cells."],
+      "ncit_code": "C4022"
+   }],
+   "oncotree_code": "ACRM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Dermatofibrosarcoma Protuberans",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "DFSP"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Dermatofibrosarcoma Protuberans",
+      "ncit_synonyms": [
+         "DFSP",
+         "Dermatofibrosarcoma",
+         "Dermatofibrosarcoma protuberans, NOS"
+      ],
+      "ncit_definitions": [
+         "A type of tumor that begins as a hard nodule and grows slowly. These tumors are usually found in the dermis (the inner layer of the two main layers of tissue that make up the skin) of the limbs or trunk of the body. They can grow into surrounding tissue but do not spread to other parts of the body. These tumors are related to giant cell fibroblastomas.",
+         "A low grade fibroblastic neoplasm presenting as a nodular cutaneous mass, most often on the trunk and the proximal extremities.  The tumor diffusely infiltrates the dermis and the subcutaneous tissues.  It is considered a locally aggressive neoplasm, which often recurs but rarely metastasizes."
+      ],
+      "ncit_code": "C4683"
+   }],
+   "oncotree_code": "DFSP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Proliferating Pilar Cystic Tumor",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "PPCT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PPCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Spitzoid Melanoma",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "MEL",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "MEL",
+      "SPZM"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SPZM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Melanoma of Unknown Primary",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "MEL",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "MEL",
+      "MUP"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MUP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Skin Adnexal Carcinoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "SKAC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Skin Adnexal Carcinoma",
+      "ncit_synonyms": [
+         "Carcinoma of Adnexa",
+         "Cutaneous Adnexal Carcinoma",
+         "CARCINOMA, ADNEXAL, MALIGNANT",
+         "Skin appendage carcinoma",
+         "Carcinoma of Skin Appendage",
+         "Adnexal carcinoma",
+         "Skin Appendage Carcinoma",
+         "Adnexal Carcinoma"
+      ],
+      "ncit_definitions": [
+         "A carcinoma arising from the sebaceous glands, sweat glands, or the hair follicles. Representative examples include sebaceous carcinoma, apocrine carcinoma, eccrine carcinoma, and pilomatrical carcinoma.",
+         "A malignant epithelial neoplasm arising from sebaceous or sweat glands or from hair follicles."
+      ],
+      "ncit_code": "C3775"
+   }],
+   "oncotree_code": "SKAC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Cutaneous Squamous Cell Carcinoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "CSCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Skin Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "Epidermoid Carcinoma of Skin",
+         "Squamous cell carcinoma of the skin",
+         "Skin Squamous Cell Cancer",
+         "Squamous Cell Skin Carcinoma",
+         "Squamous Cell Carcinoma of the Skin",
+         "Squamous cell carcinoma - skin",
+         "Epidermoid Skin Carcinoma",
+         "Epidermoid Carcinoma of the Skin",
+         "Cutaneous Squamous Cell Carcinoma",
+         "Squamous Cell Carcinoma of Skin"
+      ],
+      "ncit_definitions": ["A carcinoma arising from the squamous cells of the epidermis.  Skin squamous cell carcinoma is most commonly found on sun-exposed areas.  The majority of the tumors are well-differentiated."],
+      "ncit_code": "C4819"
+   }],
+   "oncotree_code": "CSCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Atypical Fibroxanthoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "AFX"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Atypical Fibroxanthoma",
+      "ncit_synonyms": [
+         "Malignant Fibrous Histiocytoma of Skin",
+         "AFX",
+         "Atypical Fibroxanthoma of Skin",
+         "Superficial Malignant Fibrous Histiocytoma",
+         "Atypical Cutaneous Fibroxanthoma",
+         "Skin Malignant Fibrous Histiocytoma",
+         "Atypical fibrous histiocytoma",
+         "Atypical Fibrous Histiocytoma",
+         "Atypical Skin Fibroxanthoma",
+         "Atypical Fibroxanthoma of the Skin"
+      ],
+      "ncit_definitions": ["An intermediate cutaneous mesenchymal neoplasm of uncertain differentiation, usually affecting the actinic-damaged skin of the elderly.  The tumor presents as a single cutaneous nodule which is often ulcerated.  Microscopically, it is characterized by the presence of highly atypical cytologic features, pleomorphism and abundant mitotic figures. The vast majority of patients have an excellent prognosis following conservative therapy. Recurrences are infrequent, and metastasis is rare."],
+      "ncit_code": "C4246"
+   }],
+   "oncotree_code": "AFX"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Cutaneous Melanoma",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "MEL",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "MEL",
+      "SKCM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Cutaneous Melanoma",
+      "ncit_synonyms": [
+         "Melanoma of the Skin",
+         "Cutaneous (Skin) Melanoma",
+         "Melanoma of Skin",
+         "Skin, Melanoma",
+         "Malignant Melanoma of Skin",
+         "Malignant melanoma of skin, unspecified",
+         "Malignant Melanoma of Skin Stage Unspecified",
+         "Malignant Cutaneous Melanoma",
+         "CM",
+         "Malignant Melanoma (of Skin), Stage Unspecified",
+         "Skin Melanoma"
+      ],
+      "ncit_definitions": ["A primary melanoma arising from atypical melanocytes in the skin.  Precursor lesions include acquired and congenital melanocytic nevi, and dysplastic nevi.  Several histologic variants have been recognized, including superficial spreading melanoma, acral lentiginous melanoma, nodular melanoma, and lentigo maligna melanoma."],
+      "ncit_code": "C3510"
+   }],
+   "oncotree_code": "SKCM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Congenital Nevus",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "MEL",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "MEL",
+      "SKCN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Congenital Cutaneous Nevus",
+      "ncit_synonyms": [
+         "Congenital Cutaneous Melanocytic Nevus",
+         "Congenital Nevus of Skin",
+         "Congenital Nevus of the Skin",
+         "Congenital Melanocytic Nevi",
+         "Congenital Melanocytic Nevus",
+         "Congenital Melanocytic Nevus of the Skin",
+         "Congenital Pigmented Melanocytic Nevus",
+         "Congenital Skin Nevus",
+         "Cutaneous Congenital Melanocytic Nevus",
+         "Congenital Melanocytic Nevus of Skin",
+         "Congenital Pigmented Nevus of Skin",
+         "Congenital Pigmented Skin Nevus",
+         "Congenital Pigmented Nevus of the Skin"
+      ],
+      "ncit_definitions": ["A cutaneous nevus that is present at birth. It may present as a small macular, papular, or plaque-like lesion or as a large brown to black hairy skin lesion."],
+      "ncit_code": "C3944"
+   }],
+   "oncotree_code": "SKCN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Aggressive Digital Papillary Adenocarcinoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "ADPA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Digital Papillary Adenocarcinoma",
+      "ncit_synonyms": [
+         "Aggressive Digital Papillary Adenoma",
+         "Digital Papillary Carcinoma",
+         "Digital Papillary Eccrine Carcinoma",
+         "Digital Papillary Adenoma",
+         "Papillary Digital Eccrine Carcinoma",
+         "Aggressive Digital Papillary Adenocarcinoma",
+         "Aggressive digital papillary adenoma"
+      ],
+      "ncit_definitions": ["An adenocarcinoma arising from the sweat glands. Most cases present as nodular lesions on the digits, usually in the hands. It is characterized by the presence of epithelial cells in the dermis forming nodules. Cystic structures containing papillary projections are also present. It may recur and metastasize, most commonly to the lungs."],
+      "ncit_code": "C27534"
+   }],
+   "oncotree_code": "ADPA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sweat Gland Adenocarcinoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "SGAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Sweat Gland Tubular Carcinoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": [],
+      "ncit_code": "C3682"
+   }],
+   "oncotree_code": "SGAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sebaceous Carcinoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "SEBA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Sebaceous Carcinoma",
+      "ncit_synonyms": [
+         "Carcinoma of the Sebaceous Gland",
+         "Sebaceous Cancer",
+         "Carcinoma, Sebaceous Cell",
+         "Sebaceous Gland Carcinoma",
+         "Sebaceous Adenocarcinoma",
+         "ADENOCARCINOMA, SEBACEOUS, MALIGNANT",
+         "Carcinoma of Sebaceous Gland"
+      ],
+      "ncit_definitions": [
+         "A malignant adenocarcinoma with sebaceous differentiation.",
+         "An adenocarcinoma with sebaceous differentiation. It presents as a painless mass and it may be multifocal. It grows in the ocular adnexae and in the skin of head and neck, trunk, genitals, and extremities. It is characterized by the presence of malignant cells with multivesicular and clear cytoplasm. It may recur and metastasize."
+      ],
+      "ncit_code": "C40310"
+   }],
+   "oncotree_code": "SEBA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Desmoplastic Melanoma",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "MEL",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "MEL",
+      "DESM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Desmoplastic Melanoma",
+      "ncit_synonyms": ["Desmoplastic Cutaneous (Skin) Melanoma"],
+      "ncit_definitions": [
+         "A melanoma of the skin characterized by a proliferation of atypical spindled melanocytes in the dermis, in a background of abundant collagen. It usually presents as an amelanotic raised nodular lesion.",
+         "A rare form of malignant melanoma marked by nonpigmented lesions on sun-exposed areas of the body, most commonly on the head and neck."
+      ],
+      "ncit_code": "C37257"
+   }],
+   "oncotree_code": "DESM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Porocarcinoma/Spiroadenocarcinoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "POCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Porocarcinoma",
+      "ncit_synonyms": [
+         "Malignant Eccrine Poroma",
+         "Eccrine Porocarcinoma",
+         "Epidermotropic Eccrine Carcinoma"
+      ],
+      "ncit_definitions": ["A carcinoma with eccrine differentiation arising from the sweat glands. It may arise de novo or as a malignant transformation of a pre-existing poroma. It usually grows in the legs, buttocks, feet, and trunk and usually presents as an ulcerative plaque. It is characterized by the presence of intraepidermal and dermal nests of malignant epithelial cells. It may recur after excision and metastasize to the lymph nodes and less frequently to distal anatomic sites."],
+      "ncit_code": "C5560"
+   }],
+   "oncotree_code": "POCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sweat Gland Carcinoma/Apocrine Eccrine Carcinoma",
+   "oncotree_main_type": "Skin Cancer, Non-Melanoma",
+   "oncotree_tissue": "Skin",
+   "oncotree_parent_code": "SKIN",
+   "oncotree_branch_codes": [
+      "SKIN",
+      "AECA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Sweat Gland Carcinoma",
+      "ncit_synonyms": [
+         "CARCINOMA, SWEAT GLAND, MALIGNANT",
+         "Carcinoma of Sweat Gland",
+         "Sweat Gland Adenocarcinoma",
+         "Carcinoma of the Sweat Gland"
+      ],
+      "ncit_definitions": [
+         "A malignant neoplasm arising from sweat glands.",
+         "A carcinoma that arises from the sweat glands. Representative examples include porocarcinoma, hidradenocarcinoma, microcystic adnexal carcinoma, skin adenoid cystic carcinoma, apocrine carcinoma, and digital papillary adenocarcinoma."
+      ],
+      "ncit_code": "C6938"
+   }],
+   "oncotree_code": "AECA"
+}

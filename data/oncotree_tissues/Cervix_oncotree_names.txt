@@ -1,0 +1,24 @@
+Cervix
+Cervical Adenosquamous Carcinoma
+Cervical Adenocarcinoma
+Cervical Clear Cell Carcinoma
+Cervical Endometrioid Carcinoma
+Cervical Adenoid Basal Carcinoma
+Cervical Adenoid Cystic Carcinoma
+Cervical Leiomyosarcoma
+Endocervical Adenocarcinoma
+Intestinal Type Mucinous Carcinoma
+Cervical Neuroendocrine Tumor
+Mucinous Carcinoma
+Mesonephric Carcinoma
+Cervical Rhabdomyosarcoma
+Cervical Serous Carcinoma
+Cervical Squamous Cell Carcinoma
+Gastric Type Mucinous Carcinoma
+Cervical Adenocarcinoma In Situ
+Villoglandular Carcinoma
+Villoglandular Adenocarcinoma of the Cervix
+Mixed Cervical Carcinoma
+Glassy Cell Carcinoma of the Cervix
+Signet Ring Mucinous Carcinoma
+Small Cell Carcinoma of the Cervix

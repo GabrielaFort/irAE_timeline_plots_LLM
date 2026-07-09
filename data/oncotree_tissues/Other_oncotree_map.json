@@ -1,0 +1,17 @@
+{
+  "Other": "OTHER",
+  "Adenocarcinoma in Retrorectal Cystic Hamartoma": "ARCH",
+  "Extra Gonadal Germ Cell Tumor": "EGCT",
+  "Neuroendocrine Carcinoma, NOS": "NECNOS",
+  "Small Cell Carcinoma of Unknown Primary": "SCUP",
+  "Adenocarcinoma, NOS": "ADNOS",
+  "Undifferentiated Malignant Neoplasm": "UDMN",
+  "Acinar Cell Carcinoma, NOS": "ACN",
+  "Squamous Cell Carcinoma, NOS": "SCCNOS",
+  "Poorly Differentiated Carcinoma, NOS": "PDC",
+  "Cancer of Unknown Primary, NOS": "CUPNOS",
+  "Neuroendocrine Tumor, NOS": "NETNOS",
+  "Adenocarcinoma In Situ": "AIS",
+  "Cancer of Unknown Primary": "CUP",
+  "Mixed Cancer Types": "MIXED"
+}

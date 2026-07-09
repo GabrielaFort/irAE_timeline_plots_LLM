@@ -1,0 +1,14 @@
+{
+  "Testis": "TESTIS",
+  "Seminoma": "SEM",
+  "Testicular Mesothelioma": "TMESO",
+  "Germ Cell Tumor with Somatic-Type Malignancy": "GCTSTM",
+  "Teratoma": "TT",
+  "Choriocarcinoma": "TCCA",
+  "Non-Seminomatous Germ Cell Tumor": "NSGCT",
+  "Mixed Germ Cell Tumor": "MGCT",
+  "Sex Cord Stromal Tumor": "TSCST",
+  "Embryonal Carcinoma": "EMBCA",
+  "Yolk Sac Tumor": "TYST",
+  "Testicular Lymphoma": "TLYM"
+}

@@ -1,0 +1,127 @@
+CNS/Brain
+Anaplastic Ganglioglioma
+Diffuse Hemispheric Glioma, H3 G34-Mutant
+Hemangiopericytoma of the Central Nervous System
+Desmoplastic Infantile Astrocytoma
+Embryonal Carcinoma
+Desmoplastic Infantile Ganglioglioma
+High-Grade Glioma, NOS
+Adult-Type Diffuse Glioma
+Medulloepithelioma
+Diffuse Low-Grade Glioma, MAPK Pathway-Altered
+Primary Neuroepithelial Tumor
+Primary CNS Melanoma
+Spindle Cell Oncocytoma of the Adenohypophysis
+Malignant Lymphoma
+Medulloblastoma with Extensive Nodularity
+Glioblastoma, IDH-Wildtype
+Diffuse Midline Glioma, H3 K27-Altered
+Anaplastic Medulloblastoma, NOS
+Yolk Sac Tumor
+Diffuse Pediatric-Type High-Grade Glioma, H3-Wildtype and IDH-Wildtype
+Pituitary Adenoma
+Mixed Germ Cell Tumor
+Dysembryoplastic Neuroepithelial Tumor
+Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted
+Medulloblastoma with Extensive Nodularity, NOS
+Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted, Grade 2
+Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted, Grade 3
+Pituitary Carcinoma
+Pineocytoma
+Medulloblastoma
+Pineal Tumor
+Miscellaneous Brain Tumor
+Pituicytoma
+Mature Teratoma
+Craniopharyngioma, Adamantinomatous Type
+Malignant Tumor
+Atypical Teratoid/Rhabdoid Tumor
+Atypical Choroid Plexus Papilloma
+Gliosarcoma
+Angiocentric Glioma
+Melanotic Medulloblastoma
+Papillary Glioneuronal Tumor
+Subependymoma
+Small Cell Glioblastoma
+Craniopharyngioma, Papillary Type
+Malignant Teratoma
+Polymorphous Low-Grade Neuroepithelial Tumor of the Young
+Rosette-forming Glioneuronal Tumor of the Fourth Ventricle
+Medullomyoblastoma
+Desmoplastic/Nodular Medulloblastoma
+Pediatric-Type Diffuse High-Grade Glioma
+Primary CNS Melanocytic Tumors
+Meningioma
+Encapsulated Glioma
+Granular Cell Tumor
+Anaplastic Medulloblastoma, SHH Subtype
+Myxopapillary Ependymoma
+Medulloblastoma with Extensive Nodularity, SHH Subtype
+Primitive Neuroectodermal Tumor
+Infant-Type Hemispheric Glioma
+Papillary Tumor of the Pineal Region
+Pediatric-Type Diffuse Low-Grade Glioma
+Anaplastic Pleomorphic Xanthoastrocytoma
+Atypical Pituitary Adenoma
+Germ Cell Tumor, Brain
+Desmoplastic/Nodular Medulloblastoma, NOS
+Ependymomal Tumor
+Astrocytoma, IDH-Mutant, Grade 2
+Astrocytoma, IDH-Mutant, Grade 3
+Astrocytoma, IDH-Mutant, Grade 4
+Cerebellar Liponeurocytoma
+Clear Cell Ependymoma
+Anaplastic Medulloblastoma, Non-WNT, Non-SHH
+Clear cell Meningioma
+High-Grade Neuroepithelial Tumor
+Chordoid Glioma of the Third Ventricle
+Diffuse Glioma
+Germinoma
+Hemangioblastoma
+Immature Teratoma
+Pilocytic Astrocytoma
+Medulloblastoma, Group 4
+Gangliocytoma
+Medulloblastoma, Group 3
+Choriocarcinoma
+Ganglioglioma
+Medulloblastoma, WNT Subtype
+Pineoblastoma
+Primary Brain Tumor
+Low-Grade Glioma, NOS
+Rhabdoid Meningioma
+Solitary Fibrous Tumor of the Central Nervous System
+Medulloblastoma, SHH Subtype
+Ependymoma
+Chordoid Meningioma
+Glioma, NOS
+Melanocytoma
+Central Neurocytoma
+Large Cell/Anaplastic Medulloblastoma
+Desmoplastic/Nodular Medulloblastoma, SHH Subtype
+Choroid Plexus Carcinoma
+Choroid Plexus Papilloma
+Choroid Plexus Tumor
+Extraventricular Neurocytoma
+Anaplastic Meningioma
+Dysplastic Gangliocytoma of the Cerebellum/Lhermitte-Duclos Disease
+Medulloblastoma, Non-WNT, Non-SHH
+Pilomyxoid Astrocytoma
+Anaplastic Ependymoma
+Astrocytoma, IDH-Mutant
+Miscellaneous Neuroepithelial Tumor
+Astroblastoma
+Olfactory Neuroblastoma
+Papillary Meningioma
+Meningothelial Tumor
+Atypical Meningioma
+Medulloblastoma, NOS
+Embryonal Tumor
+Pineal Parenchymal Tumor of Intermediate Differentiation
+Embryonal Tumor with Abundant Neuropil and True Rosettes
+Mesenchymal Chondrosarcoma of the CNS
+Pleomorphic Xanthoastrocytoma
+Sellar Tumor
+Diffuse Astrocytoma, MYB- or MYBL1-Altered
+Anaplastic Medulloblastoma, Group 3
+Anaplastic Medulloblastoma, Group 4

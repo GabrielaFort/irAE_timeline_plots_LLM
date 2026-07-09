@@ -1,0 +1,1247 @@
+{
+   "oncotree_children_codes": [
+      "LIPO",
+      "AA",
+      "SFT",
+      "GS",
+      "LM",
+      "MYXO",
+      "MF",
+      "ANGS",
+      "MFH",
+      "PGNG",
+      "MFS",
+      "TGCT",
+      "PECOMA",
+      "SYNS",
+      "IFS",
+      "GIST",
+      "MPC",
+      "EPIS",
+      "STMYEC",
+      "SARCNOS",
+      "IMS",
+      "IMT",
+      "CCS",
+      "RAS",
+      "EHAE",
+      "FIBS",
+      "AFH",
+      "RCSNOS",
+      "LGFMS",
+      "MGST",
+      "RMS",
+      "ALT",
+      "ASPS",
+      "INTS",
+      "DSRCT",
+      "LMS",
+      "HEMA",
+      "PMHE",
+      "ESST",
+      "DCS",
+      "DES"
+   ],
+   "oncotree_name": "Soft Tissue",
+   "oncotree_main_type": "Soft Tissue Cancer",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["SOFT_TISSUE"],
+   "ncit_entries": [{
+      "ncit_name": "Soft Tissue",
+      "ncit_synonyms": [],
+      "ncit_definitions": [
+         "Refers to muscle, fat, fibrous tissue, blood vessels, or other supporting tissue of the body.",
+         "Refers to muscle, fat, fibrous tissue, blood vessels, organ parenchyma, or other supporting tissue of the body.",
+         "A general term comprising tissue that is not hardened or calcified; including muscle, fat, blood vessels, nerves, tendons, ligaments and fascia."
+      ],
+      "ncit_code": "C12471"
+   }],
+   "oncotree_code": "SOFT_TISSUE"
+}
+{
+   "oncotree_children_codes": [
+      "DDLS",
+      "PLLS",
+      "WDLS",
+      "MRLS"
+   ],
+   "oncotree_name": "Liposarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "LIPO"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Liposarcoma",
+      "ncit_synonyms": [
+         "Liposarcoma, NOS",
+         "LIPOSARCOMA, MALIGNANT",
+         "Malignant Lipomatous Neoplasm"
+      ],
+      "ncit_definitions": [
+         "A usually painless malignant tumor that arises from adipose tissue.  Microscopically, it may contain a spectrum of neoplastic adipocytes ranging from lipoblasts to pleomorphic malignant adipocytes.  Morphologic variants include: well differentiated, dedifferentiated, pleomorphic, and myxoid liposarcoma.  The metastatic potential is higher in less differentiated tumors.",
+         "A malignant neoplasm composed of adipose tissue."
+      ],
+      "ncit_code": "C3194"
+   }],
+   "oncotree_code": "LIPO"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Aggressive Angiomyxoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "AA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Deep (Aggressive) Angiomyxoma",
+      "ncit_synonyms": [
+         "Deep Angiomyxoma",
+         "Aggressive Angiomyxoma",
+         "Aggressive angiomyxoma",
+         "Deep \"Aggressive\" Angiomyxoma"
+      ],
+      "ncit_definitions": ["A locally infiltrating, non-metastasizing angiomyxoma arising from the pelviperineal region.  It may recur following resection"],
+      "ncit_code": "C6936"
+   }],
+   "oncotree_code": "AA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sclerosing Epithelioid Fibrosarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "FIBS",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "FIBS",
+      "SEF"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Sclerosing Epithelioid Fibrosarcoma",
+      "ncit_synonyms": ["SEF"],
+      "ncit_definitions": ["A well-circumscribed malignant fibroblastic neoplasm that usually arises from the soft tissue. It is characterized by the presence of nests of malignant epithelioid fibroblasts and sclerotic collagen stroma formation."],
+      "ncit_code": "C49027"
+   }],
+   "oncotree_code": "SEF"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Solitary Fibrous Tumor/Hemangiopericytoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "SFT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Solitary Fibrous Tumor",
+      "ncit_synonyms": [
+         "SFT",
+         "Localized Fibrous Mesothelioma",
+         "Localized fibrous tumor",
+         "Hemangiopericytoma",
+         "Localized Fibrous Tumor",
+         "Submesothelial Fibroma"
+      ],
+      "ncit_definitions": ["A localized neoplasm of probable fibroblastic derivation. It is characterized by the presence of round to spindle-shaped cells, hylanized stroma formation, thin-walled branching blood vessels, and thin bands of collagen."],
+      "ncit_code": "C7634"
+   }],
+   "oncotree_code": "SFT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Glomangiosarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "GS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Malignant Glomus Tumor",
+      "ncit_synonyms": [
+         "Glomangiosarcoma",
+         "Malignant Glomus Neoplasm",
+         "Glomus tumor, malignant"
+      ],
+      "ncit_definitions": ["A very rare morphologic variant of glomus tumor with a size greater than 2 cm.  The tumor arises in subfascial or visceral tissues. It is characterized by the presence of atypical mitotic figures, or marked nuclear atypia, or the combination of both.  It has an aggressive clinical course."],
+      "ncit_code": "C4221"
+   }],
+   "oncotree_code": "GS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Leiomyoma",
+   "oncotree_main_type": "Soft Tissue Cancer",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "LM"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LM"
+}
+{
+   "oncotree_children_codes": ["OFMT"],
+   "oncotree_name": "Myxoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "MYXO"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myxoma",
+      "ncit_synonyms": [
+         "Myxoma, NOS",
+         "MYXOMA, BENIGN"
+      ],
+      "ncit_definitions": [
+         "A benign soft tissue neoplasm with a myxoid stroma formation.",
+         "A benign soft tissue neoplasm characterized by the presence of spindle and stellate cells, lobulated growth pattern, and myxoid stroma formation."
+      ],
+      "ncit_code": "C6577"
+   }],
+   "oncotree_code": "MYXO"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Alveolar Rhabdomyosarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "RMS",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "RMS",
+      "ARMS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Alveolar Rhabdomyosarcoma",
+      "ncit_synonyms": [
+         "ARMS",
+         "Monomorphous Round Cell Rhabdomyosarcoma"
+      ],
+      "ncit_definitions": [
+         "A soft tissue tumor that is most common in older children and teenagers. It begins in embryonic muscle cells (cells that develop into muscles in the body). It can occur at many places in the body, but usually occurs in the trunk, arms, or legs.",
+         "A rapidly growing rhabdomyosarcoma characterized by the presence of round cells with myoblastic differentiation and a fibrovascular stroma resembling an alveolar growth pattern. The tumor usually presents in the extremities."
+      ],
+      "ncit_code": "C3749"
+   }],
+   "oncotree_code": "ARMS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Proximal-Type Epithelioid Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "EPIS",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "EPIS",
+      "PTES"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Proximal-Type Epithelioid Sarcoma",
+      "ncit_synonyms": [
+         "Central Epithelioid Sarcoma",
+         "Proximal Epithelioid Sarcoma",
+         "Large Cell Epithelioid Sarcoma"
+      ],
+      "ncit_definitions": ["An epithelioid sarcoma predominantly involving the pelvis, perineum, and genital organs.  It tends to have a more aggressive clinical course as compared to the more frequently seen distal-type epithelioid sarcoma."],
+      "ncit_code": "C27472"
+   }],
+   "oncotree_code": "PTES"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myofibroma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "MF"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myofibroma",
+      "ncit_synonyms": ["Solitary Myofibroma"],
+      "ncit_definitions": ["A benign, localized, nodular and well-circumscribed neoplasm usually seen as a congenital neoplasm or in the first year of life. It is characterized by a biphasic growth pattern and is composed of small, undifferentiated mesenchymal cells associated with branching thin-walled vessels and more mature neoplastic spindle cells with abundant eosinophilic cytoplasm in a collagenous stroma."],
+      "ncit_code": "C7052"
+   }],
+   "oncotree_code": "MF"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Ossifying Fibromyxoid Tumor",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "MYXO",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "MYXO",
+      "OFMT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ossifying Fibromyxoid Tumor",
+      "ncit_synonyms": [
+         "OFMT",
+         "Ossifying Fibromyxoid Neoplasm",
+         "Ossifying Fibromyxoma"
+      ],
+      "ncit_definitions": ["A rare soft tissue tumor of uncertain lineage characterized by the presence of neoplastic spindle to round cells forming cords in a fibromyxoid stroma.  The lesions are associated with the formation of metaplastic bone.  Most patients present with painless subcutaneous masses.  Recurrences have been reported in a minority of patients."],
+      "ncit_code": "C6582"
+   }],
+   "oncotree_code": "OFMT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Angiosarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "ANGS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Angiosarcoma",
+      "ncit_synonyms": [
+         "Malignant Angioendothelioma",
+         "Malignant Hemangioendothelioma",
+         "Hemangiosarcoma",
+         "hemangiosarcoma",
+         "HEMANGIOSARCOMA, MALIGNANT"
+      ],
+      "ncit_definitions": [
+         "A malignant tumor arising from the endothelial cells of the blood vessels.  Microscopically, it is characterized by frequently open vascular anastomosing and branching channels.  The malignant cells that line the vascular channels are spindle or epithelioid and often display hyperchromatic nuclei.  Angiosarcomas most frequently occur in the skin and breast.  Patients with long-standing lymphedema are at increased risk of developing angiosarcoma.",
+         "A malignant vascular neoplasm arising from endothelial cells.",
+         "A type of cancer that begins in the cells that line blood vessels."
+      ],
+      "ncit_code": "C3088"
+   }],
+   "oncotree_code": "ANGS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "MFH"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Undifferentiated Pleomorphic Sarcoma",
+      "ncit_synonyms": [
+         "malignant fibrous histiocytoma",
+         "Unclassified Pleomorphic Sarcoma (Formerly \"Malignant Fibrous Histiocytoma\")",
+         "Undifferentiated Pleomorphic Soft Tissue Sarcoma",
+         "FIBROSARCOMA, PLEOMORPHIC, MALIGNANT",
+         "Malignant fibrous histiocytoma",
+         "Malignant Fibrous Histiocytoma of Soft Tissue and Bone",
+         "Malignant Fibroxanthoma",
+         "MFH",
+         "Unclassified Pleomorphic Sarcoma",
+         "Histiocytoma, Fibrous, Malignant",
+         "Malignant Fibrous Histiocytoma of the Soft Tissue and Bone",
+         "Fibroxanthosarcoma",
+         "malignant fibrous cytoma",
+         "Unclassified Pleomorphic Sarcoma (Formerly \"MFH\")",
+         "UPS",
+         "Storiform-Pleomorphic Malignant Fibrous Histiocytoma",
+         "Malignant Fibrous Histiocytoma",
+         "Storiform-Pleomorphic MFH",
+         "Storiform-Pleomorphic Fibrous Histiocytoma"
+      ],
+      "ncit_definitions": [
+         "A malignant neoplasm composed of a fibroblastic and a histiocytic component.",
+         "A soft tissue sarcoma that usually occurs in the limbs, most commonly the legs, and may also occur in the abdomen.",
+         "An undifferentiated soft tissue sarcoma characterized by the presence of a pleomorphic malignant cellular infiltrate.  It is also known as malignant fibrous histiocytoma."
+      ],
+      "ncit_code": "C4247"
+   }],
+   "oncotree_code": "MFH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Paraganglioma",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "PGNG"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Paraganglioma",
+      "ncit_synonyms": [
+         "Paraganglioma, NOS",
+         "Neoplasm of Paraganglion",
+         "Neoplasm of the Paraganglion",
+         "Tumor of the Paraganglion",
+         "Paraganglionic Tumor",
+         "Tumor of Paraganglion",
+         "Paraganglion Tumor",
+         "Paraganglionic Neoplasm",
+         "Paraganglion Neoplasm"
+      ],
+      "ncit_definitions": [
+         "A rare, usually benign tumor that develops from cells of the paraganglia. Paraganglia are a collection of cells that came from embryonic nervous tissue, and are found near the adrenal glands and some blood vessels and nerves. Paragangliomas that develop in the adrenal gland are called pheochromocytomas. Those that develop outside of the adrenal glands near blood vessels or nerves are called glomus tumors or chemodectomas.",
+         "A neoplasm arising from paraganglia located along the sympathetic or parasympathetic nerves.  Infrequently, it may arise outside the usual distribution of the sympathetic and parasympathetic paraganglia.  Tumors arising from the adrenal gland medulla are called pheochromocytomas.  Morphologically, paragangliomas usually display a nesting (Zellballen) growth pattern.  There are no reliable morphologic criteria to distinguish between benign and malignant paragangliomas.  The only definitive indicator of malignancy is the presence of regional or distant metastases."
+      ],
+      "ncit_code": "C3308"
+   }],
+   "oncotree_code": "PGNG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myxofibrosarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "MFS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myxofibrosarcoma",
+      "ncit_synonyms": [
+         "Myxoid MFH",
+         "Fibromyxosarcoma",
+         "Myxoid Malignant Fibrous Histiocytoma"
+      ],
+      "ncit_definitions": ["A malignant fibroblastic neoplasm arising from the soft tissue. It is characterized by the presence of spindle-shaped cells, cellular pleomorphism, thin-walled blood vessels, fibrous septa, and myxoid stroma."],
+      "ncit_code": "C6496"
+   }],
+   "oncotree_code": "MFS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Tenosynovial Giant Cell Tumor Diffuse Type",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "TGCT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Tenosynovial Giant Cell Tumor, Diffuse Type",
+      "ncit_synonyms": [
+         "Diffuse Giant Cell Tumor of the Tenosynovium",
+         "Diffuse Tenosynovial Giant Cell Tumor",
+         "Diffuse Giant Cell Neoplasm of Tenosynovium",
+         "Diffuse Giant Cell Neoplasm of the Tenosynovium",
+         "Diffuse Giant Cell Neoplasm of Tendon Sheath",
+         "Diffuse Giant Cell Tumor of Tenosynovium",
+         "Pigmented Villonodular Synovitis",
+         "Diffuse Tenosynovial Giant Cell Neoplasm",
+         "Diffuse Giant Cell Tumor of Tendon Sheath"
+      ],
+      "ncit_definitions": ["A locally aggressive, diffusely infiltrating tumor, arising in the tendon sheath.  It is composed of synovial-like mononuclear cells, hemosiderin-laden macrophages, foam cells, and inflammatory cells.  Multinucleated osteoclast-like giant cells are usually present, although in a minority of cases they may be absent or rare.  It predominantly affects young adults.  Symptoms include joint swelling, pain, and joint effusion."],
+      "ncit_code": "C3401"
+   }],
+   "oncotree_code": "TGCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Dedifferentiated Liposarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "LIPO",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "LIPO",
+      "DDLS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Dedifferentiated Liposarcoma",
+      "ncit_synonyms": ["DDLPS"],
+      "ncit_definitions": ["An atypical lipomatous tumor/well differentiated liposarcoma that shows progression to a usually non-lipomatous, high grade sarcoma.  The non-lipomatous sarcoma component may be present in the primary lesion or at the site of recurrence."],
+      "ncit_code": "C3704"
+   }],
+   "oncotree_code": "DDLS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Perivascular Epithelioid Cell Tumor",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "PECOMA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "PEComa",
+      "ncit_synonyms": [
+         "Tumor with Perivascular Epithelioid Cell Differentiation",
+         "Neoplasm with Perivascular Epithelioid Cell Differentiation"
+      ],
+      "ncit_definitions": ["A soft tissue mesenchymal tumor with perivascular epithelioid cell differentiation. Representative examples include angiomyolipoma, clear cell-sugar-tumor of the lung, and lymphangioleiomyomatosis."],
+      "ncit_code": "C38150"
+   }],
+   "oncotree_code": "PECOMA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Histiocytic Dendritic Cell Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "DCS",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "DCS",
+      "HDCS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Histiocytic Sarcoma",
+      "ncit_synonyms": ["SARCOMA, HISTIOCYTIC, MALIGNANT"],
+      "ncit_definitions": [
+         "A malignant neoplasm composed of cells resembling histiocytes.",
+         "An aggressive malignant neoplasm with a poor response to therapy, usually presenting as stage III/IV disease. It is characterized by the presence of neoplastic cells with morphologic and immunophenotypic characteristics similar to those seen in mature histiocytes."
+      ],
+      "ncit_code": "C27349"
+   }],
+   "oncotree_code": "HDCS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Synovial Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "SYNS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Synovial Sarcoma",
+      "ncit_synonyms": [
+         "SS",
+         "Synovioma, NOS",
+         "Synovial sarcoma, NOS",
+         "SARCOMA, SYNOVIAL, MALIGNANT"
+      ],
+      "ncit_definitions": [
+         "A malignant tumor that develops in the synovial membrane of the joints.",
+         "A malignant neoplasm that usually arises in the synovial membranes of the joints and the synovial cells of the tendons and bursae.",
+         "A malignant neoplasm characterized by the chromosomal translocation t(X;18)(p11;q11).  It can occur at any age, but mainly affects young adults, more commonly males.  Although any site can be affected, the vast majority of the cases arise in the deep soft tissues of extremities, especially around the knee.  Microscopically, synovial sarcoma is classified as monophasic (with a spindle or epithelial cell component) or biphasic (with both spindle and epithelial cell components).  Synovial sarcomas can recur or metastasize to the lungs, bones, and lymph nodes."
+      ],
+      "ncit_code": "C3400"
+   }],
+   "oncotree_code": "SYNS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Infantile Fibrosarcoma",
+   "oncotree_main_type": "Infantile Fibrosarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "IFS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "IFS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Gastrointestinal Stromal Tumor",
+   "oncotree_main_type": "Gastrointestinal Stromal Tumor",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "GIST"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastrointestinal Stromal Tumor",
+      "ncit_synonyms": [
+         "GIST",
+         "GIST, NOS",
+         "Gastrointestinal Stromal Tumor (GIST)",
+         "Gastrointestinal stromal tumor, unspecified site",
+         "Gastrointestinal Stromal Neoplasm",
+         "GISTs",
+         "Gastrointestinal stromal tumor, NOS"
+      ],
+      "ncit_definitions": [
+         "A type of tumor that usually begins in cells in the wall of the gastrointestinal tract. It can be benign or malignant.",
+         "A stromal tumor most commonly seen in the gastrointestinal tract. Rare cases of solitary masses in the omentum or the mesentery have also been reported (extragastrointestinal gastrointestinal stromal tumor).  It is a tumor that differentiates along the lines of interstitial cells of Cajal.  Most cases contain KIT- or PDGFRA-activating mutations. Until recently, surgery has been the only effective therapy for this tumor.  However, many patients still experience recurrence.  Conventional chemotherapy and radiation therapy have been of limited value.  A KIT tyrosine kinase inhibitor, imatinib mesylate (also known as STI-571 or Gleevec), is now effective in the treatment of relapsed and unresectable cases."
+      ],
+      "ncit_code": "C3868"
+   }],
+   "oncotree_code": "GIST"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myopericytoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "MPC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myopericytoma",
+      "ncit_synonyms": [
+         "MPC",
+         "Hemangiopericytoma",
+         "Solitary Myofibroma"
+      ],
+      "ncit_definitions": ["A usually slow growing, subcutaneous nodular neoplasm arising from myopericytes.  It is composed of myoid cells arranged in a perivascular growth pattern.  The vast majority of cases have a benign clinical course."],
+      "ncit_code": "C50401"
+   }],
+   "oncotree_code": "MPC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Embryonal Rhabdomyosarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "RMS",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "RMS",
+      "ERMS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Embryonal Rhabdomyosarcoma",
+      "ncit_synonyms": ["ERMS"],
+      "ncit_definitions": [
+         "A soft tissue tumor that is most common in infants and young children. It begins in muscles, usually in the head, neck, or genitourinary tract.",
+         "A poorly circumscribed morphologic variant of rhabdomyosarcoma that shows primitive skeletal muscle differentiation in any stage of myogenesis."
+      ],
+      "ncit_code": "C8971"
+   }],
+   "oncotree_code": "ERMS"
+}
+{
+   "oncotree_children_codes": ["PTES"],
+   "oncotree_name": "Epithelioid Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "EPIS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Epithelioid Sarcoma",
+      "ncit_synonyms": [
+         "Epithelioid cell sarcoma",
+         "Epithelioid Cell Sarcoma",
+         "ES"
+      ],
+      "ncit_definitions": ["An aggressive malignant neoplasm of uncertain differentiation, characterized by the presence of epithelioid cells forming nodular patterns.  The nodules often undergo central necrosis, resulting in a pseudogranulomatous growth pattern.  It usually occurs in young adults.  The most common sites of involvement are the extremities (distal-type epithelioid sarcoma), and less frequently the pelvis, perineum, and genital organs (proximal-type epithelioid sarcoma)."],
+      "ncit_code": "C3714"
+   }],
+   "oncotree_code": "EPIS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Soft Tissue Myoepithelial Carcinoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "STMYEC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Malignant Myoepithelioma",
+      "ncit_synonyms": [
+         "Myoepithelial Carcinoma",
+         "Myoepithelial carcinoma",
+         "MYOEPITHELIOMA, MALIGNANT"
+      ],
+      "ncit_definitions": [
+         "A malignant neoplasm composed of myoepithelial cells.",
+         "An infiltrating malignant tumor characterized by the presence of atypical cells with myoepithelial differentiation. Representative examples include malignant breast myoepithelioma and salivary gland myoepithelial carcinoma."
+      ],
+      "ncit_code": "C7596"
+   }],
+   "oncotree_code": "STMYEC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sarcoma, NOS",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "SARCNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SARCNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myofibromatosis",
+   "oncotree_main_type": "Myofibromatosis",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "IMS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "IMS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Inflammatory Myofibroblastic Tumor",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "IMT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Inflammatory Myofibroblastic Tumor",
+      "ncit_synonyms": [
+         "IMT",
+         "Inflammatory Myofibroblastic Neoplasm",
+         "Inflammatory Pseudotumor",
+         "Inflammatory Fibrosarcoma"
+      ],
+      "ncit_definitions": ["A multinodular intermediate fibroblastic neoplasm that arises from soft tissue or viscera, in children and young adults.  It is characterized by the presence of spindle-shaped fibroblasts and myofibroblasts, and a chronic inflammatory infiltrate composed of eosinophils, lymphocytes, and plasma cells."],
+      "ncit_code": "C6481"
+   }],
+   "oncotree_code": "IMT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Spindle Cell/Sclerosing Rhabdomyosarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "RMS",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "RMS",
+      "SCSRMS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SCSRMS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Clear Cell Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "CCS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Clear Cell Sarcoma of Soft Tissue",
+      "ncit_synonyms": [
+         "Melanoma of the Soft Parts",
+         "Clear cell sarcoma - not kidney",
+         "malignant melanoma of soft parts",
+         "Clear Cell Sarcoma of Soft Parts",
+         "Melanoma, malignant, of soft parts",
+         "Clear cell sarcoma/Malignant melanoma of soft parts (excluding Clear cell sarcoma of the kidney)",
+         "Clear Cell Sarcoma of Tendons and Aponeuroses",
+         "Melanoma of Soft Parts"
+      ],
+      "ncit_definitions": [
+         "A rare malignant neoplasm with melanocytic differentiation characterized by the presence of polygonal or spindle shaped clear cells. This sarcoma usually affects the tendons and aponeuroses and is associated with a poor prognosis due to recurrences and metastases.",
+         "A soft tissue tumor that begins in a tendon (tough, fibrous, cord-like tissue that connects muscle to bone or to another structure). Clear cell sarcoma of soft tissue has certain markers that are also found on malignant melanoma (a type of skin cancer). It usually occurs in the leg or arm."
+      ],
+      "ncit_code": "C3745"
+   }],
+   "oncotree_code": "CCS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Radiation-Associated Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "RAS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Radiation-Related Sarcoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A sarcoma that arises in the bones or soft tissues following exposure to ionizing or non-ionizing radiation."],
+      "ncit_code": "C93125"
+   }],
+   "oncotree_code": "RAS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Epithelioid Hemangioendothelioma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "EHAE"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Epithelioid Hemangioendothelioma",
+      "ncit_synonyms": [
+         "Epithelioid Angiosarcoma",
+         "Epithelioid hemangioendothelioma, malignant",
+         "Epithelioid hemangioendothelioma, NOS",
+         "Epithelioid Angioendothelioma"
+      ],
+      "ncit_definitions": ["A low-grade malignant blood vessel neoplasm characterized by the presence of epithelioid endothelial cells. The neoplastic cells are arranged in cords and nests that are embedded in a myxoid to hyalinized stroma."],
+      "ncit_code": "C3800"
+   }],
+   "oncotree_code": "EHAE"
+}
+{
+   "oncotree_children_codes": ["SEF"],
+   "oncotree_name": "Fibrosarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "FIBS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Fibrosarcoma",
+      "ncit_synonyms": [
+         "Fibrosarcoma, NOS",
+         "FIBROSARCOMA, MALIGNANT",
+         "Malignant Fibromatous Neoplasm"
+      ],
+      "ncit_definitions": [
+         "A malignant mesenchymal neoplasm of the soft tissue and bone.",
+         "A malignant mesenchymal fibroblastic neoplasm affecting the soft tissue and bone."
+      ],
+      "ncit_code": "C3043"
+   }],
+   "oncotree_code": "FIBS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pleomorphic Liposarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "LIPO",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "LIPO",
+      "PLLS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pleomorphic Liposarcoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A rare, aggressive liposarcoma characterized by the presence of varying proportions of pleomorphic lipoblasts in a background that resembles undifferentiated pleomorphic sarcoma."],
+      "ncit_code": "C3705"
+   }],
+   "oncotree_code": "PLLS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Angiomatoid Fibrous Histiocytoma",
+   "oncotree_main_type": "Angiomatoid Fibrous Histiocytoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "AFH"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "AFH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Round Cell Sarcoma, NOS",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "RCSNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "RCSNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Well-Differentiated Liposarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "LIPO",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "LIPO",
+      "WDLS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Well Differentiated Liposarcoma",
+      "ncit_synonyms": ["Well-Differentiated Liposarcoma"],
+      "ncit_definitions": [],
+      "ncit_code": "C4250"
+   }],
+   "oncotree_code": "WDLS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Low-Grade Fibromyxoid Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "LGFMS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Low Grade Fibromyxoid Sarcoma",
+      "ncit_synonyms": ["Low-grade fibromyxoid sarcoma"],
+      "ncit_definitions": ["A low-grade, late-metastasizing variant of fibrosarcoma characterized by alternating fibrous and myxoid areas and a whorling growth pattern.  The neoplastic cells have a spindle morphology, and lack hyperchromasia or significant nuclear atypia.  Approximately 40% of cases show the focal presence of collagen rosettes.  A t(7;16)(q33;p11) translocation has been identified in the majority of cases, associated with the presence of FUS-CREB3L2 fusion protein.  Rare cases carry the t(11;16)(p11;p11) translocation which is associated with the presence of the FUS-CREB3L1 fusion protein."],
+      "ncit_code": "C45202"
+   }],
+   "oncotree_code": "LGFMS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Malignant Glomus Tumor",
+   "oncotree_main_type": "Malignant Glomus Tumor",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "MGST"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MGST"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pleomorphic Rhabdomyosarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "RMS",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "RMS",
+      "PLRMS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pleomorphic Rhabdomyosarcoma",
+      "ncit_synonyms": ["Pleomorphic rhabdomyosarcoma, NOS"],
+      "ncit_definitions": ["An aggressive malignant mesenchymal neoplasm with skeletal muscle differentiation, occurring in adults and rarely in children.  The tumor is characterized by the presence of bizarre round, spindle, and polygonal cells.  Clinical presentation includes a rapidly enlarging painful mass usually of the lower extremities."],
+      "ncit_code": "C4258"
+   }],
+   "oncotree_code": "PLRMS"
+}
+{
+   "oncotree_children_codes": [
+      "ARMS",
+      "ERMS",
+      "SCSRMS",
+      "PLRMS",
+      "SCRMS"
+   ],
+   "oncotree_name": "Rhabdomyosarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "RMS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Rhabdomyosarcoma",
+      "ncit_synonyms": [
+         "Rhabdomyosarcoma, NOS",
+         "RHABDOMYOSARCOMA, MALIGNANT"
+      ],
+      "ncit_definitions": [
+         "A malignant mesenchymal neoplasm arising from skeletal muscle.",
+         "A rare aggressive malignant mesenchymal neoplasm that arises from striated (skeletal or cardiac) muscle cells. It usually occurs in children and young adults.",
+         "A malignant neoplasm arising from skeletal myocytes.",
+         "Cancer that forms in the soft tissues in a type of muscle called striated muscle. Rhabdomyosarcoma can occur anywhere in the body."
+      ],
+      "ncit_code": "C3359"
+   }],
+   "oncotree_code": "RMS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Atypical Lipomatous Tumor",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "ALT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ALT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Spindle Cell Rhabdomyosarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "RMS",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "RMS",
+      "SCRMS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Spindle Cell Rhabdomyosarcoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": [
+         "An uncommon variant of rhabdomyosarcoma characterized by the presence of whorls of spindle cells forming a storiform pattern. In children it usually arises in the paratesticular region. In adults it usually arises from the deep soft tissues in the head and neck.",
+         "An uncommon variant of rhabdomyosarcoma that is characterized by the presence of whorls of spindle cells forming a storiform pattern. In children, it usually arises in the paratesticular region; in adults it usually arises from the deep soft tissues in the head and neck."
+      ],
+      "ncit_code": "C6519"
+   }],
+   "oncotree_code": "SCRMS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Alveolar Soft Part Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "ASPS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Alveolar Soft Part Sarcoma",
+      "ncit_synonyms": [
+         "ASPS",
+         "Alveolar soft-part sarcoma"
+      ],
+      "ncit_definitions": [
+         "A soft tissue tumor that is most common in older children and teenagers. It begins in the soft supporting tissue that connects and surrounds the organs and other tissues. Alveolar soft part sarcoma usually occurs in the legs, but can also occur in the arms, hands, head, or neck. It can cause the growth of new blood vessels that help the tumor grow and spread.",
+         "A rare malignant neoplasm characterized by the presence of large epithelioid cells with abundant cytoplasm forming nests and pseudoalveolar structures. The groups of the epithelioid cells are separated by thin-walled sinusoidal spaces. It occurs most often in adolescents and young adults. In adults the most common sites of involvement are the extremities, and in infants and children, the head and neck. It usually presents as a slowly growing mass and it frequently metastasizes to other anatomic sites. The most common sites of metastasis are the lungs, bone, and brain."
+      ],
+      "ncit_code": "C3750"
+   }],
+   "oncotree_code": "ASPS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myxoid/Round-Cell Liposarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "LIPO",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "LIPO",
+      "MRLS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myxoid Liposarcoma",
+      "ncit_synonyms": [
+         "Myxoid/Round Cell Liposarcoma",
+         "MLPS",
+         "Myxoliposarcoma"
+      ],
+      "ncit_definitions": ["A liposarcoma characterized by the presence of round non-lipogenic primitive mesenchymal cells and small signet ring lipoblasts within a myxoid stoma with a branching vascular pattern.  This category includes hypercellular lesions with round cell morphology, formerly known as round cell liposarcoma."],
+      "ncit_code": "C27781"
+   }],
+   "oncotree_code": "MRLS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Intimal Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "INTS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Intimal Sarcoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A malignant neoplasm arising from the large blood vessels.  It is characterized by the presence of tumor cells that grow within the lumen of the blood vessels.  The intraluminal tumor growth may result in vascular obstruction and spread of tumor emboli to peripheral organs.  The prognosis is usually poor."],
+      "ncit_code": "C53677"
+   }],
+   "oncotree_code": "INTS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Desmoplastic Small-Round-Cell Tumor",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "DSRCT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Desmoplastic Small Round Cell Tumor",
+      "ncit_synonyms": [
+         "DSRCT",
+         "Desmoplas. small round cell tumor",
+         "Desmoplastic Small Round-Cell Neoplasm",
+         "Desmoplastic Small Round-Cell Tumor",
+         "Polyphenotypic Small Round Cell Tumor"
+      ],
+      "ncit_definitions": [
+         "A rare, aggressive cancer that usually affects young males and usually is located in the abdomen.",
+         "An aggressive malignant soft tissue neoplasm of uncertain differentiation.  It is characterized by a recurrent chromosomal translocation t(11;22)(p13;q12) and the presence of small round cells in a desmoplastic stroma.  It usually affects children and young adults.  The most common site of involvement is the abdomen.  Patients usually present with abdominal distention, pain, ascites, and a palpable abdominal mass.  The prognosis is usually poor."
+      ],
+      "ncit_code": "C8300"
+   }],
+   "oncotree_code": "DSRCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Leiomyosarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "LMS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Leiomyosarcoma",
+      "ncit_synonyms": [
+         "Leiomyosarcoma, NOS",
+         "Leiomyosarcoma - not uterine",
+         "Leiomyosarcomas",
+         "Leiomyosarcoma (excluding uterine leiomyosarcoma)",
+         "Malignant Smooth Muscle Neoplasm",
+         "LEIOMYOSARCOMA, MALIGNANT",
+         "Malignant Smooth Muscle Tumor"
+      ],
+      "ncit_definitions": [
+         "A malignant tumor of smooth muscle cells that can arise almost anywhere in the body but is most common in the uterus, abdomen, or pelvis.",
+         "An aggressive malignant mesenchymal neoplasm that arises from smooth muscle cells and is characterized by a proliferation of neoplastic spindle cells. Morphologic variants include epithelioid, granular cell, inflammatory, and myxoid leiomyosarcoma. It usually occurs in post-menopausal women.",
+         "A malignant neoplasm, originating from smooth muscle cells.",
+         "A malignant (cancer) tumor of smooth muscle cells that can arise almost anywhere in the body, but is most common in the uterus, abdomen, or pelvis."
+      ],
+      "ncit_code": "C3158"
+   }],
+   "oncotree_code": "LMS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Hemangioma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "HEMA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hemangioma",
+      "ncit_synonyms": [
+         "Angioma",
+         "HEMANGIOMA, BENIGN",
+         "Hemangioma, NOS",
+         "Benign Angioma",
+         "Benign Hemangioma"
+      ],
+      "ncit_definitions": [
+         "A benign, vascular neoplasm characterized by the formation of capillary-sized vascular channels.",
+         "A benign vascular neoplasm characterized by the formation of capillary-sized or cavernous vascular channels.",
+         "A benign vascular lesion characterized by the formation of capillary-sized or cavernous vascular channels."
+      ],
+      "ncit_code": "C3085"
+   }],
+   "oncotree_code": "HEMA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pseudomyogenic Hemangioendothelioma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "PMHE"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PMHE"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Ewing Sarcoma of Soft Tissue",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "ESST"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ESST"
+}
+{
+   "oncotree_children_codes": ["HDCS"],
+   "oncotree_name": "Dendritic Cell Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "DCS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Histiocytic and Dendritic Cell Neoplasm",
+      "ncit_synonyms": [
+         "Histiocytic and Dendritic Cell Neoplasms",
+         "Histiocytic and Dendritic Cell Tumors",
+         "Histiocytic Neoplasm"
+      ],
+      "ncit_definitions": ["A group of rare tumors that affect the hematopoietic and lymphoid tissues. The cells of origin are the histiocytes and accessory cells. This category includes the following: Langerhans cell histiocytosis, Langerhans cell sarcoma, indeterminate dendritic cell histiocytosis, interdigitating dendritic cell sarcoma, histiocytic sarcoma, disseminated juvenile xanthogranuloma, Erdheim-Chester disease, Rosai-Dorfman-Destombes disease, ALK-positive histiocytosis, and follicular dendritic cell sarcoma."],
+      "ncit_code": "C9294"
+   }],
+   "oncotree_code": "DCS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Desmoid/Aggressive Fibromatosis",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Soft Tissue",
+   "oncotree_parent_code": "SOFT_TISSUE",
+   "oncotree_branch_codes": [
+      "SOFT_TISSUE",
+      "DES"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Desmoid Fibromatosis",
+      "ncit_synonyms": [
+         "Deep Fibromatosis/Desmoid Tumor",
+         "Aggressive fibromatosis",
+         "Desmoid Tumor",
+         "Deep Fibromatosis",
+         "Aggressive Fibromatosis",
+         "Desmoid-Type Fibromatosis",
+         "desmoid tumor"
+      ],
+      "ncit_definitions": [
+         "A tumor of the tissue that surrounds muscles, usually in the abdomen. A desmoid tumor rarely metastasizes (spreads to other parts of the body).",
+         "An insidious, locally aggressive, poorly circumscribed neoplasm arising from the deep soft tissues. It is characterized by the presence of elongated spindle-shaped fibroblasts, collagenous stroma formation, and an infiltrative growth pattern. It lacks metastatic potential."
+      ],
+      "ncit_code": "C9182"
+   }],
+   "oncotree_code": "DES"
+}

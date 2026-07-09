@@ -1,0 +1,613 @@
+{
+   "oncotree_children_codes": [
+      "APAD",
+      "SIC",
+      "ARMM",
+      "LAMN",
+      "COADREAD",
+      "ANSC",
+      "TAC",
+      "AGA",
+      "CMC",
+      "GINET",
+      "SBC"
+   ],
+   "oncotree_name": "Bowel",
+   "oncotree_main_type": "Bowel Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["BOWEL"],
+   "ncit_entries": [{
+      "ncit_name": "Intestine",
+      "ncit_synonyms": [
+         "Intestines",
+         "Bowel",
+         "Intestinal tract, NOS",
+         "bowel",
+         "Intestinal structure (body structure)"
+      ],
+      "ncit_definitions": [
+         "The long, tube-shaped organ in the abdomen that completes the process of digestion. The intestine has two parts, the small intestine and the large intestine.",
+         "The portion of the gastrointestinal tract between the stomach and the anus. It includes the small intestine and large intestine.",
+         "The portion of the gastrointestinal tract that includes the small and large intestines.",
+         "Segment of the alimentary canal extending from the stomach to the anus and, in humans and other mammals, consists of two segments, the small intestine and the large intestine."
+      ],
+      "ncit_code": "C12736"
+   }],
+   "oncotree_code": "BOWEL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Well-Differentiated Neuroendocrine Tumor of the Appendix",
+   "oncotree_main_type": "Gastrointestinal Neuroendocrine Tumor",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "GINET",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "GINET",
+      "AWDNET"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Appendix Neuroendocrine Tumor",
+      "ncit_synonyms": [
+         "Appendix NET",
+         "Appendix Well Differentiated Neuroendocrine Neoplasm",
+         "Appendix Well-Differentiated Neuroendocrine Neoplasm"
+      ],
+      "ncit_definitions": ["A well-differentiated, low-, intermediate-, or high-grade neoplasm with neuroendocrine differentiation that arises from the appendix."],
+      "ncit_code": "C96422"
+   }],
+   "oncotree_code": "AWDNET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Duodenal Adenocarcinoma",
+   "oncotree_main_type": "Small Bowel Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "SBC",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "SBC",
+      "DA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Duodenal Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma of Duodenum",
+         "Adenocarcinoma of the Duodenum"
+      ],
+      "ncit_definitions": ["An adenocarcinoma that arises from the duodenum.  Histologic variants include mucinous adenocarcinoma and signet ring cell carcinoma."],
+      "ncit_code": "C7889"
+   }],
+   "oncotree_code": "DA"
+}
+{
+   "oncotree_children_codes": [
+      "GCCAP",
+      "CTAAP",
+      "MAAP",
+      "SRAP"
+   ],
+   "oncotree_name": "Appendiceal Adenocarcinoma",
+   "oncotree_main_type": "Appendiceal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "BOWEL",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "APAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Appendix Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma of the Appendix",
+         "Appendiceal Adenocarcinoma",
+         "Adenocarcinoma of Appendix"
+      ],
+      "ncit_definitions": ["A malignant neoplasm arising from the glandular epithelium of the appendix with invasion of the appendiceal wall beyond the muscularis mucosa.  The majority of cases are well differentiated adenocarcinomas with mucinous stroma formation.  Clinically, it may present as an abdominal mass or with symptoms of acute appendicitis.  Patients with chronic ulcerative colitis are at a higher risk in developing appendiceal adenocarcinomas compared to the general population."],
+      "ncit_code": "C7718"
+   }],
+   "oncotree_code": "APAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Small Intestinal Carcinoma",
+   "oncotree_main_type": "Small Bowel Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "BOWEL",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "SIC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Small Intestinal Carcinoma",
+      "ncit_synonyms": [
+         "Cancer of Small Bowel",
+         "Carcinoma of the Small Bowel",
+         "Carcinoma of Small Intestine",
+         "Small Intestinal Cancer",
+         "Carcinoma of Small Bowel",
+         "Small intestine cancer, NOS",
+         "small intestine cancer",
+         "Small Bowel Carcinoma",
+         "Cancer of the Small Bowel",
+         "Small Intestine Cancer",
+         "Carcinoma of the Small Intestine",
+         "Small Bowel Cancer"
+      ],
+      "ncit_definitions": [
+         "A carcinoma arising from the small intestine. The vast majority are adenocarcinomas. The remaining cases are adenosquamous, squamous, or undifferentiated carcinomas.",
+         "A rare cancer that forms in tissues of the small intestine (the part of the digestive tract between the stomach and the large intestine). The most common type is adenocarcinoma (cancer that begins in cells that make and release mucus and other fluids). Other types of small intestine cancer include sarcoma (cancer that begins in connective or supportive tissue), carcinoid tumor (a slow-growing type of cancer), gastrointestinal stromal tumor (a type of soft tissue sarcoma), and lymphoma (cancer that begins in immune system cells)."
+      ],
+      "ncit_code": "C7724"
+   }],
+   "oncotree_code": "SIC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Goblet Cell Adenocarcinoma of the Appendix",
+   "oncotree_main_type": "Appendiceal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "APAD",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "APAD",
+      "GCCAP"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "GCCAP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anorectal Mucosal Melanoma",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "BOWEL",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "ARMM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Anal Melanoma",
+      "ncit_synonyms": [
+         "Malignant Melanoma of Anus",
+         "Malignant Melanoma of the Anus",
+         "Melanoma of Anus",
+         "Malignant melanoma of anal skin",
+         "Melanoma of the Anus",
+         "Anal Malignant Melanoma"
+      ],
+      "ncit_definitions": ["A melanoma arising from the anus.  Clinical presentation includes rectal bleeding, tenesmus, pain, and change in bowel habit.  The prognosis is usually poor."],
+      "ncit_code": "C4639"
+   }],
+   "oncotree_code": "ARMM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Rectal Adenocarcinoma",
+   "oncotree_main_type": "Colorectal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "COADREAD",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "COADREAD",
+      "READ"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Rectal Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma of Rectum",
+         "Adenocarcinoma of the Rectum",
+         "Adenocarcinoma - rectum",
+         "Adenocarcinoma of the rectum"
+      ],
+      "ncit_definitions": ["An adenocarcinoma arising from the rectum.  It is more frequently seen in populations with a Western type diet and in patients with a history of chronic inflammatory bowel disease.  Signs and symptoms include intestinal bleeding, anemia, and change in bowel habits.  According to the degree of cellular differentiation, rectal adenocarcinomas are divided into well, moderately, and poorly differentiated.  Histologic variants include mucinous adenocarcinoma, signet ring cell carcinoma, medullary carcinoma, serrated adenocarcinoma, cribriform comedo-type adenocarcinoma, and micropapillary adenocarcinoma."],
+      "ncit_code": "C9383"
+   }],
+   "oncotree_code": "READ"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Colonic Type Adenocarcinoma of the Appendix",
+   "oncotree_main_type": "Appendiceal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "APAD",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "APAD",
+      "CTAAP"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "CTAAP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Low-grade Appendiceal Mucinous Neoplasm",
+   "oncotree_main_type": "Appendiceal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "BOWEL",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "LAMN"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LAMN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Colon Adenocarcinoma In Situ",
+   "oncotree_main_type": "Colorectal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "COADREAD",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "COADREAD",
+      "CAIS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "CAIS"
+}
+{
+   "oncotree_children_codes": [
+      "READ",
+      "CAIS",
+      "MACR",
+      "SRCCR",
+      "COAD"
+   ],
+   "oncotree_name": "Colorectal Adenocarcinoma",
+   "oncotree_main_type": "Colorectal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "BOWEL",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "COADREAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Colorectal Adenocarcinoma",
+      "ncit_synonyms": ["Colorectal (Colon or Rectal) Adenocarcinoma"],
+      "ncit_definitions": ["The most common type of colorectal carcinoma.  It is characterized by the presence of malignant glandular epithelial cells invading through the muscularis mucosa into the submucosa.  Histologic variants include mucinous adenocarcinoma, signet ring cell carcinoma, medullary carcinoma, serrated adenocarcinoma, cribriform comedo-type adenocarcinoma, and micropapillary adenocarcinoma."],
+      "ncit_code": "C5105"
+   }],
+   "oncotree_code": "COADREAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anal Squamous Cell Carcinoma",
+   "oncotree_main_type": "Anal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "BOWEL",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "ANSC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Anal Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "Squamous Cell Carcinoma of Anus",
+         "Epidermoid Anal Carcinoma",
+         "Squamous cell carcinoma - anus",
+         "Epidermoid Carcinoma of the Anus",
+         "Squamous Cell Carcinoma of the Anus",
+         "Epidermoid Carcinoma of Anus",
+         "Squamous cell carcinoma of the anus",
+         "Squamous Cell Anal Carcinoma",
+         "Anal Squamous Cell Cancer"
+      ],
+      "ncit_definitions": ["A squamous cell carcinoma (SCC) arising from the anal canal or the anal margin (perianal skin). Human papillomavirus is detected in the majority of cases. Homosexual HIV-positive men have an increased risk of developing anal squamous cell carcinoma in comparison to the general male population. Symptoms include anal pruritus, discomfort when sitting, pain, change in bowel habit, and bleeding. The prognosis is generally better for anal margin SCC than for anal canal SCC."],
+      "ncit_code": "C9161"
+   }],
+   "oncotree_code": "ANSC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Tubular Adenoma of the Colon",
+   "oncotree_main_type": "Tubular Adenoma of the Colon",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "BOWEL",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "TAC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "TAC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "High-Grade Neuroendocrine Carcinoma of the Colon and Rectum",
+   "oncotree_main_type": "Gastrointestinal Neuroendocrine Tumor",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "GINET",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "GINET",
+      "HGNEC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Colorectal Neuroendocrine Carcinoma",
+      "ncit_synonyms": [
+         "Colorectal NEC",
+         "Colorectal (Colon or Rectal) Neuroendocrine Cancer"
+      ],
+      "ncit_definitions": ["An aggressive high-grade carcinoma with neuroendocrine differentiation that arises from the colon or rectum. It is composed of malignant small or large cells. The mitotic count is more than 20 per 2 mm2 and/or the Ki-67 index is more than 20%."],
+      "ncit_code": "C96156"
+   }],
+   "oncotree_code": "HGNEC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anal Gland Adenocarcinoma",
+   "oncotree_main_type": "Anal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "BOWEL",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "AGA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Anal Glands Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma of Anal Glands",
+         "Adenocarcinoma of anal glands",
+         "Adenocarcinoma of Anal Gland",
+         "Adenocarcinoma of the Anal Gland"
+      ],
+      "ncit_definitions": ["An anal adenocarcinoma arising from the epithelium of the anal glands.  The overlying anal mucosa does not show evidence of neoplastic changes."],
+      "ncit_code": "C5609"
+   }],
+   "oncotree_code": "AGA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mucinous Adenocarcinoma of the Appendix",
+   "oncotree_main_type": "Appendiceal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "APAD",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "APAD",
+      "MAAP"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Appendix Mucinous Adenocarcinoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["An adenocarcinoma arising from the appendix, characterized by the presence of mucinous stroma formation."],
+      "ncit_code": "C43558"
+   }],
+   "oncotree_code": "MAAP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Medullary Carcinoma of the Colon",
+   "oncotree_main_type": "Colorectal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "BOWEL",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "CMC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Colon Medullary Carcinoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A rare, invasive colon adenocarcinoma characterized by the presence of sheets of malignant epithelial cells with vesicular nuclei, prominent nucleoli, and abundant eosinophilic cytoplasm.  It usually has a favorable prognosis."],
+      "ncit_code": "C60641"
+   }],
+   "oncotree_code": "CMC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mucinous Adenocarcinoma of the Colon and Rectum",
+   "oncotree_main_type": "Colorectal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "COADREAD",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "COADREAD",
+      "MACR"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Colorectal Mucinous Adenocarcinoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["An invasive colorectal adenocarcinoma characterized by the presence of extracellular mucin pools that contain malignant glandular epithelial structures.  The extracellular mucin pools occupy more than 50% of the malignant lesion."],
+      "ncit_code": "C43585"
+   }],
+   "oncotree_code": "MACR"
+}
+{
+   "oncotree_children_codes": [
+      "AWDNET",
+      "HGNEC",
+      "SBWDNET",
+      "RWDNET"
+   ],
+   "oncotree_name": "Gastrointestinal Neuroendocrine Tumors",
+   "oncotree_main_type": "Gastrointestinal Neuroendocrine Tumor",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "BOWEL",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "GINET"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Digestive System Neuroendocrine Tumor",
+      "ncit_synonyms": [
+         "Gastroenteropancreatic NET",
+         "Digestive System NET",
+         "Gastrointestinal NET",
+         "Digestive System Well Differentiated Neuroendocrine Tumor",
+         "Gastrointestinal Neuroendocrine Tumor",
+         "GEP-NET",
+         "Gastrointestinal System Neuroendocrine Tumor",
+         "Gastroenteropancreatic Neuroendocrine Tumor"
+      ],
+      "ncit_definitions": ["A well-differentiated neuroendocrine neoplasm of low, intermediate, or high grade arising from the digestive system. It is characterized by the presence of cells with features similar to those of the normal endocrine cells of the digestive system. The neoplastic cells express immunohistochemical evidence of neuroendocrine differentiation and hormones."],
+      "ncit_code": "C95404"
+   }],
+   "oncotree_code": "GINET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Signet Ring Cell Adenocarcinoma of the Colon and Rectum",
+   "oncotree_main_type": "Colorectal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "COADREAD",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "COADREAD",
+      "SRCCR"
+   ],
+   "ncit_entries": [
+      {
+         "ncit_name": "Rectal Signet Ring Cell Adenocarcinoma",
+         "ncit_synonyms": [
+            "Signet Ring Adenocarcinoma of Rectum",
+            "Signet Ring Cell Adenocarcinoma of the Rectum",
+            "Signet Ring Cell Adenocarcinoma of Rectum",
+            "Signet Ring Adenocarcinoma of the Rectum",
+            "Rectal Signet-Ring Cell Adenocarcinoma"
+         ],
+         "ncit_definitions": ["An infiltrating adenocarcinoma arising from the rectum.  It is characterized by the presence of malignant glandular cells with prominent intracytoplasmic mucin.  These cells constitute more than 50% of the malignant cellular population."],
+         "ncit_code": "C9168"
+      },
+      {
+         "ncit_name": "Colon Signet Ring Cell Adenocarcinoma",
+         "ncit_synonyms": [
+            "Signet Ring Cell Colon Adenocarcinoma",
+            "Colonic Signet Ring Cell Adenocarcinoma",
+            "Signet Ring Cell Adenocarcinoma of Colon",
+            "Colon Signet-Ring Cell Adenocarcinoma",
+            "Signet Ring Cell Adenocarcinoma of the Colon"
+         ],
+         "ncit_definitions": ["An invasive adenocarcinoma of the colon characterized by the presence of malignant glandular epithelial cells which contain prominent intracytoplasmic mucin (signet ring cells).  The signet ring cells constitute more than 50% of the malignant cells."],
+         "ncit_code": "C7967"
+      }
+   ],
+   "oncotree_code": "SRCCR"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Colon Adenocarcinoma",
+   "oncotree_main_type": "Colorectal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "COADREAD",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "COADREAD",
+      "COAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Colon Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma of Colon",
+         "Colonic Adenocarcinoma",
+         "Adenocarcinoma - colon",
+         "Adenocarcinoma of the colon",
+         "Adenocarcinoma of the Colon"
+      ],
+      "ncit_definitions": ["An adenocarcinoma arising from the colon.  It is more frequently seen in populations with a Western type diet and in patients with a history of chronic inflammatory bowel disease.  Signs and symptoms include intestinal bleeding, anemia, and change in bowel habits.  According to the degree of cellular differentiation, colonic adenocarcinomas are divided into well, moderately, and poorly differentiated.  Histologic variants include mucinous adenocarcinoma, signet ring cell carcinoma, medullary carcinoma, serrated adenocarcinoma, cribriform comedo-type adenocarcinoma, and micropapillary adenocarcinoma."],
+      "ncit_code": "C4349"
+   }],
+   "oncotree_code": "COAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Small Bowel Well-Differentiated Neuroendocrine Tumor",
+   "oncotree_main_type": "Gastrointestinal Neuroendocrine Tumor",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "GINET",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "GINET",
+      "SBWDNET"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Bladder Small Cell Neuroendocrine Carcinoma",
+      "ncit_synonyms": [
+         "Bladder Small Cell Neuroendocrine Cancer",
+         "Bladder Small Cell Carcinoma",
+         "Small Cell Neuroendocrine Carcinoma of the Urinary Bladder",
+         "Small Cell Neuroendocrine Carcinoma of Urinary Bladder"
+      ],
+      "ncit_definitions": ["A small cell neuroendocrine carcinoma arising from the bladder."],
+      "ncit_code": "C9461"
+   }],
+   "oncotree_code": "SBWDNET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Well-Differentiated Neuroendocrine Tumor of the Rectum",
+   "oncotree_main_type": "Gastrointestinal Neuroendocrine Tumor",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "GINET",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "GINET",
+      "RWDNET"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Colorectal Neuroendocrine Tumor",
+      "ncit_synonyms": [
+         "Colorectal NET",
+         "Colorectal Well Differentiated Neuroendocrine Neoplasm",
+         "Colorectal Well-Differentiated Neuroendocrine Neoplasm"
+      ],
+      "ncit_definitions": ["A well-differentiated, low-, intermediate-, or high-grade neoplasm with neuroendocrine differentiation that arises from the colon or rectum."],
+      "ncit_code": "C96159"
+   }],
+   "oncotree_code": "RWDNET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Signet Ring Cell Type of the Appendix",
+   "oncotree_main_type": "Appendiceal Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "APAD",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "APAD",
+      "SRAP"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Appendix Signet Ring Cell Adenocarcinoma",
+      "ncit_synonyms": [
+         "Appendix Signet Ring Cell Carcinoma",
+         "Appendix Signet-Ring Cell Carcinoma"
+      ],
+      "ncit_definitions": ["An adenocarcinoma arising from the appendix, characterized by the presence of signet-ring, mucin-producing malignant cells.  The signet-ring cells constitute more than fifty-percent of the malignant cells."],
+      "ncit_code": "C43554"
+   }],
+   "oncotree_code": "SRAP"
+}
+{
+   "oncotree_children_codes": ["DA"],
+   "oncotree_name": "Small Bowel Cancer",
+   "oncotree_main_type": "Small Bowel Cancer",
+   "oncotree_tissue": "Bowel",
+   "oncotree_parent_code": "BOWEL",
+   "oncotree_branch_codes": [
+      "BOWEL",
+      "SBC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Small Intestinal Carcinoma",
+      "ncit_synonyms": [
+         "Cancer of Small Bowel",
+         "Carcinoma of the Small Bowel",
+         "Carcinoma of Small Intestine",
+         "Small Intestinal Cancer",
+         "Carcinoma of Small Bowel",
+         "Small intestine cancer, NOS",
+         "small intestine cancer",
+         "Small Bowel Carcinoma",
+         "Cancer of the Small Bowel",
+         "Small Intestine Cancer",
+         "Carcinoma of the Small Intestine",
+         "Small Bowel Cancer"
+      ],
+      "ncit_definitions": [
+         "A carcinoma arising from the small intestine. The vast majority are adenocarcinomas. The remaining cases are adenosquamous, squamous, or undifferentiated carcinomas.",
+         "A rare cancer that forms in tissues of the small intestine (the part of the digestive tract between the stomach and the large intestine). The most common type is adenocarcinoma (cancer that begins in cells that make and release mucus and other fluids). Other types of small intestine cancer include sarcoma (cancer that begins in connective or supportive tissue), carcinoid tumor (a slow-growing type of cancer), gastrointestinal stromal tumor (a type of soft tissue sarcoma), and lymphoma (cancer that begins in immune system cells)."
+      ],
+      "ncit_code": "C7724"
+   }],
+   "oncotree_code": "SBC"
+}

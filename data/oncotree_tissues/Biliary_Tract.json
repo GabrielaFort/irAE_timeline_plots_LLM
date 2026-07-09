@@ -1,0 +1,239 @@
+{
+   "oncotree_children_codes": [
+      "IPN",
+      "ICPN"
+   ],
+   "oncotree_name": "Biliary Tract",
+   "oncotree_main_type": "Biliary Tract Cancer",
+   "oncotree_tissue": "Biliary Tract",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["BILIARY_TRACT"],
+   "ncit_entries": [{
+      "ncit_name": "Biliary Tract",
+      "ncit_synonyms": [
+         "Bile Tract",
+         "Biliary System",
+         "Tract, Biliary",
+         "biliary system",
+         "Biliary tract, NOS"
+      ],
+      "ncit_definitions": [
+         "The system that transports bile from the hepatocytes in the liver to the small intestine. It is comprised of the intrahepatic bile ducts, hepatic ducts, common bile duct, cystic duct, and the gallbladder.",
+         "The organs and ducts that make and store bile (a fluid made by the liver that helps digest fat), and release it into the small intestine. The biliary tract includes the gallbladder and bile ducts inside and outside the liver.",
+         "The duct system that transports bile from its origination by hepatocytes in the liver to the small intestine. It is comprised of the common bile duct that connects the liver and gall bladder to the small intestine and the cystic duct that connects the gall bladder to the common bile duct. (NCI)"
+      ],
+      "ncit_code": "C12678"
+   }],
+   "oncotree_code": "BILIARY_TRACT"
+}
+{
+   "oncotree_children_codes": [
+      "SCGBC",
+      "GBAD",
+      "GBASC"
+   ],
+   "oncotree_name": "Gallbladder Cancer",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Biliary Tract",
+   "oncotree_parent_code": "ICPN",
+   "oncotree_branch_codes": [
+      "BILIARY_TRACT",
+      "ICPN",
+      "GBC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gallbladder Carcinoma",
+      "ncit_synonyms": [
+         "Cancer of the Gallbladder",
+         "gallbladder cancer",
+         "Gall bladder carcinoma (adeno)",
+         "Gall bladder carcinoma (adenocarcinoma)",
+         "Cancer of Gallbladder",
+         "Carcinoma of the Gallbladder",
+         "Gallbladder Cancer",
+         "Carcinoma of Gallbladder"
+      ],
+      "ncit_definitions": [
+         "A malignant tumor arising from the epithelium of the gallbladder. It is usually associated with the presence of gallstones. Clinical symptoms are not specific and usually present late in the course. Morphologically, most gallbladder carcinomas are adenocarcinomas; squamous cell carcinomas, adenosquamous carcinomas, signet ring carcinomas, and undifferentiated carcinomas can also occur.",
+         "Cancer that forms in tissues of the gallbladder. The gallbladder is a pear-shaped organ below the liver that collects and stores bile (a fluid made by the liver to digest fat). Gallbladder cancer begins in the innermost layer of tissue and spreads through the outer layers as it grows."
+      ],
+      "ncit_code": "C3844"
+   }],
+   "oncotree_code": "GBC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Small Cell Gallbladder Carcinoma",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Biliary Tract",
+   "oncotree_parent_code": "GBC",
+   "oncotree_branch_codes": [
+      "BILIARY_TRACT",
+      "ICPN",
+      "GBC",
+      "SCGBC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SCGBC"
+}
+{
+   "oncotree_children_codes": ["CHOL"],
+   "oncotree_name": "Intraductal Papillary Neoplasm of the Bile Duct",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Biliary Tract",
+   "oncotree_parent_code": "BILIARY_TRACT",
+   "oncotree_branch_codes": [
+      "BILIARY_TRACT",
+      "IPN"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "IPN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Extrahepatic Cholangiocarcinoma",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Biliary Tract",
+   "oncotree_parent_code": "CHOL",
+   "oncotree_branch_codes": [
+      "BILIARY_TRACT",
+      "IPN",
+      "CHOL",
+      "EHCH"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "EHCH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Perihilar Cholangiocarcinoma",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Biliary Tract",
+   "oncotree_parent_code": "CHOL",
+   "oncotree_branch_codes": [
+      "BILIARY_TRACT",
+      "IPN",
+      "CHOL",
+      "PHCH"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Large Duct Intrahepatic Cholangiocarcinoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["An intrahepatic cholangiocarcinoma that arises from the intrahepatic large bile ducts."],
+      "ncit_code": "C96804"
+   }],
+   "oncotree_code": "PHCH"
+}
+{
+   "oncotree_children_codes": ["GBC"],
+   "oncotree_name": "Intracholecystic Papillary Neoplasm",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Biliary Tract",
+   "oncotree_parent_code": "BILIARY_TRACT",
+   "oncotree_branch_codes": [
+      "BILIARY_TRACT",
+      "ICPN"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ICPN"
+}
+{
+   "oncotree_children_codes": [
+      "EHCH",
+      "PHCH",
+      "IHCH"
+   ],
+   "oncotree_name": "Cholangiocarcinoma",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Biliary Tract",
+   "oncotree_parent_code": "IPN",
+   "oncotree_branch_codes": [
+      "BILIARY_TRACT",
+      "IPN",
+      "CHOL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Cholangiocarcinoma",
+      "ncit_synonyms": [
+         "Cholangiocellular Carcinoma",
+         "Cholangiocar.- intra/extrahepatic",
+         "CC",
+         "Intrahepatic Bile Duct Cancer (Cholangiocarcinoma)",
+         "CHOLANGIOCARCINOMA, MALIGNANT",
+         "Cholangiocarcinoma, intrahepatic and extrahepatic bile ducts (adenocarcinoma)",
+         "cholangiosarcoma"
+      ],
+      "ncit_definitions": [
+         "A carcinoma that arises from the intrahepatic bile ducts, the hepatic ducts, or the common bile duct distal to the insertion of the cystic duct. The vast majority of tumors are adenocarcinomas.",
+         "A malignant neoplasm arising from/comprising cells resembling those of bile ducts.",
+         "A rare type of cancer that develops in cells that line the bile ducts in the liver. Cancer that forms where the right and left ducts meet is called Klatskin tumor."
+      ],
+      "ncit_code": "C4436"
+   }],
+   "oncotree_code": "CHOL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Intrahepatic Cholangiocarcinoma",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Biliary Tract",
+   "oncotree_parent_code": "CHOL",
+   "oncotree_branch_codes": [
+      "BILIARY_TRACT",
+      "IPN",
+      "CHOL",
+      "IHCH"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Intrahepatic Cholangiocarcinoma",
+      "ncit_synonyms": [
+         "Intrahepatic Carcinoma of the Bile Duct",
+         "CHOLANGIOCARCINOMA, INTRAHEPATIC, MALIGNANT",
+         "Intrahepatic Bile Duct Cancer (Cholangiocarcinoma)",
+         "Intrahepatic Cholangiocellular Carcinoma",
+         "Intrahepatic bile duct carcinoma",
+         "ICC",
+         "iCC",
+         "iCCA",
+         "ICCA",
+         "Intrahepatic Bile Duct Carcinoma",
+         "Intrahepatic Carcinoma of Bile Duct"
+      ],
+      "ncit_definitions": [
+         "A malignant neoplasm of the liver arising from/comprising cells resembling those of bile ducts.",
+         "A carcinoma that arises from the intrahepatic bile duct epithelium in any site of the intrahepatic biliary tree.  Grossly, the malignant lesions are solid, nodular, and grayish.  Morphologically, the vast majority of cases are adenocarcinomas.  Signs and symptoms include malaise, weight loss, right upper quadrant abdominal pain, and night sweats.  Early detection is difficult and the prognosis is generally poor."
+      ],
+      "ncit_code": "C35417"
+   }],
+   "oncotree_code": "IHCH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Gallbladder Adenocarcinoma, NOS",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Biliary Tract",
+   "oncotree_parent_code": "GBC",
+   "oncotree_branch_codes": [
+      "BILIARY_TRACT",
+      "ICPN",
+      "GBC",
+      "GBAD"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "GBAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adenosquamous Carcinoma of the Gallbladder",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Biliary Tract",
+   "oncotree_parent_code": "GBC",
+   "oncotree_branch_codes": [
+      "BILIARY_TRACT",
+      "ICPN",
+      "GBC",
+      "GBASC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "GBASC"
+}

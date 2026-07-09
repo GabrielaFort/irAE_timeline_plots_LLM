@@ -1,0 +1,107 @@
+{
+   "oncotree_children_codes": ["AMPCA"],
+   "oncotree_name": "Ampulla of Vater",
+   "oncotree_main_type": "Ampullary Carcinoma",
+   "oncotree_tissue": "Ampulla of Vater",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["AMPULLA_OF_VATER"],
+   "ncit_entries": [{
+      "ncit_name": "Ampulla of Vater",
+      "ncit_synonyms": [
+         "Hepatopancreatic Ampulla",
+         "ampulla biliaropancreatica",
+         "biliaropancreatic ampulla",
+         "Ampulla",
+         "Vater's Ampulla",
+         "hepatopancreatic ampulla",
+         "papilla Vateri",
+         "ampulla of bile duct",
+         "Vater's ampulla"
+      ],
+      "ncit_definitions": [
+         "The junction of the common bile and main pancreatic ducts, which protrudes into the medial aspect of the descending duodenum at the major duodenal papilla.",
+         "A dilation of the duodenal papilla that is the opening of the juncture of the common bile duct and the main pancreatic duct.",
+         "The junction of the common bile and main pancreatic ducts, which protrudes into the medial aspect of the descending duodenum at the major duodenal papilla. The flow of bile and pancreatic juices into the duodenum through the Ampulla of Vater is controlled by the sphincter of Oddi.",
+         "An enlargement of the ducts from the liver and pancreas at the point where they enter the small intestine."
+      ],
+      "ncit_code": "C13011"
+   }],
+   "oncotree_code": "AMPULLA_OF_VATER"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Intestinal Ampullary Carcinoma",
+   "oncotree_main_type": "Ampullary Cancer",
+   "oncotree_tissue": "Ampulla of Vater",
+   "oncotree_parent_code": "AMPCA",
+   "oncotree_branch_codes": [
+      "AMPULLA_OF_VATER",
+      "AMPCA",
+      "IAMPCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ampulla of Vater Intestinal-Type Adenocarcinoma",
+      "ncit_synonyms": ["Ampulla of Vater Invasive Intestinal Type Adenocarcinoma"],
+      "ncit_definitions": ["An invasive adenocarcinoma arising from the ampulla of Vater. Morphologically, it is characterized by the presence of intestinal-type malignant epithelial cells."],
+      "ncit_code": "C27415"
+   }],
+   "oncotree_code": "IAMPCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pancreatobiliary Ampullary Carcinoma",
+   "oncotree_main_type": "Ampullary Cancer",
+   "oncotree_tissue": "Ampulla of Vater",
+   "oncotree_parent_code": "AMPCA",
+   "oncotree_branch_codes": [
+      "AMPULLA_OF_VATER",
+      "AMPCA",
+      "PAMPCA"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PAMPCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mixed Ampullary Carcinoma",
+   "oncotree_main_type": "Ampullary Cancer",
+   "oncotree_tissue": "Ampulla of Vater",
+   "oncotree_parent_code": "AMPCA",
+   "oncotree_branch_codes": [
+      "AMPULLA_OF_VATER",
+      "AMPCA",
+      "MAMPCA"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MAMPCA"
+}
+{
+   "oncotree_children_codes": [
+      "IAMPCA",
+      "PAMPCA",
+      "MAMPCA"
+   ],
+   "oncotree_name": "Ampullary Carcinoma",
+   "oncotree_main_type": "Ampullary Cancer",
+   "oncotree_tissue": "Ampulla of Vater",
+   "oncotree_parent_code": "AMPULLA_OF_VATER",
+   "oncotree_branch_codes": [
+      "AMPULLA_OF_VATER",
+      "AMPCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ampulla of Vater Carcinoma",
+      "ncit_synonyms": [
+         "Ampullary Carcinoma",
+         "Ampulla of Vater Cancer",
+         "ampulla of Vater cancer",
+         "ampullary cancer"
+      ],
+      "ncit_definitions": [
+         "Cancer that forms in the ampulla of Vater (an enlargement of the ducts from the liver and pancreas where they join and enter the small intestine). Symptoms include jaundice, abdominal pain, nausea, vomiting, and weight loss.",
+         "A carcinoma arising from the ampulla of Vater.  The vast majority of cases are adenocarcinomas.  Signs and symptoms include jaundice, abdominal pain, anorexia, nausea, vomiting, and weight loss."
+      ],
+      "ncit_code": "C3908"
+   }],
+   "oncotree_code": "AMPCA"
+}

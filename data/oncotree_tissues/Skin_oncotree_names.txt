@@ -1,0 +1,29 @@
+Skin
+Basal Cell Carcinoma
+Atypical Nevus
+Poroma/Acrospiroma
+Spiroma/Spiradenoma
+Dermatofibroma
+Extramammary Paget Disease
+Endocrine Mucin Producing Sweat Gland Carcinoma
+Lentigo Maligna Melanoma
+Microcystic Adnexal Carcinoma
+Merkel Cell Carcinoma
+Desmoplastic Trichoepithelioma
+Melanoma
+Acral Melanoma
+Dermatofibrosarcoma Protuberans
+Proliferating Pilar Cystic Tumor
+Spitzoid Melanoma
+Melanoma of Unknown Primary
+Skin Adnexal Carcinoma
+Cutaneous Squamous Cell Carcinoma
+Atypical Fibroxanthoma
+Cutaneous Melanoma
+Congenital Nevus
+Aggressive Digital Papillary Adenocarcinoma
+Sweat Gland Adenocarcinoma
+Sebaceous Carcinoma
+Desmoplastic Melanoma
+Porocarcinoma/Spiroadenocarcinoma
+Sweat Gland Carcinoma/Apocrine Eccrine Carcinoma

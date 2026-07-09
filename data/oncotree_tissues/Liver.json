@@ -1,0 +1,254 @@
+{
+   "oncotree_children_codes": [
+      "FLC",
+      "UESL",
+      "LIMNET",
+      "LIAD",
+      "LIAS",
+      "HCCIHCH",
+      "HCC",
+      "MRTL",
+      "LIHB"
+   ],
+   "oncotree_name": "Liver",
+   "oncotree_main_type": "Liver Cancer",
+   "oncotree_tissue": "Liver",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["LIVER"],
+   "ncit_entries": [{
+      "ncit_name": "Liver",
+      "ncit_synonyms": [
+         "Organ System, Hepatic",
+         "Gastrointestinal Tract, Liver",
+         "Hepatic Organ System",
+         "Body System, Hepatic",
+         "Hepatic Body System",
+         "Liver structure (body structure)"
+      ],
+      "ncit_definitions": [
+         "An abdominal organ that has variable lobation which are composed mainly of hepatic lobules.",
+         "An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes.",
+         "A large organ located in the upper abdomen. The liver cleanses the blood and aids in digestion by secreting bile.",
+         "A triangular-shaped organ located under the diaphragm in the right hypochondrium. It is the largest internal organ of the body, weighting up to 2 kg. Metabolism and bile secretion are its main functions. It is composed of cells which have the ability to regenerate."
+      ],
+      "ncit_code": "C12392"
+   }],
+   "oncotree_code": "LIVER"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Fibrolamellar Carcinoma",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Liver",
+   "oncotree_parent_code": "LIVER",
+   "oncotree_branch_codes": [
+      "LIVER",
+      "FLC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Fibrolamellar Carcinoma",
+      "ncit_synonyms": [
+         "Fibrolamellar Hepatocellular Carcinoma",
+         "Oncocytic Hepatocellular Tumor",
+         "Fibrolamellar Carcinoma of Liver Cells",
+         "Hepatocellular carcinoma, fibrolamellar",
+         "Polygonal Cell Type Hepatocellular Carcinoma with Fibrous Stroma",
+         "Hepatocellular Fibrolamellar Carcinoma",
+         "FLC",
+         "Liver Cell Fibrolamellar Carcinoma",
+         "Fibrolamellar Cancer",
+         "Fibrolamellar Carcinoma of the Liver Cells"
+      ],
+      "ncit_definitions": ["A distinctive type of liver cell carcinoma that arises in non-cirrhotic livers and is seen predominantly in young patients.  The tumor cells are polygonal and deeply eosinophilic, and are embedded in a fibrous stroma.  The prognosis is similar to classical hepatocellular carcinoma that arises in non-cirrhotic livers, and better than hepatocellular carcinoma that arises in cirrhotic livers."],
+      "ncit_code": "C4131"
+   }],
+   "oncotree_code": "FLC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Undifferentiated Embryonal Sarcoma of the Liver",
+   "oncotree_main_type": "Undifferentiated Embryonal Sarcoma of the Liver",
+   "oncotree_tissue": "Liver",
+   "oncotree_parent_code": "LIVER",
+   "oncotree_branch_codes": [
+      "LIVER",
+      "UESL"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "UESL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Malignant Nonepithelial Tumor of the Liver",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Liver",
+   "oncotree_parent_code": "LIVER",
+   "oncotree_branch_codes": [
+      "LIVER",
+      "LIMNET"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LIMNET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Hepatocellular Adenoma",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Liver",
+   "oncotree_parent_code": "LIVER",
+   "oncotree_branch_codes": [
+      "LIVER",
+      "LIAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hepatocellular Adenoma",
+      "ncit_synonyms": [
+         "Liver Cell Adenoma",
+         "Adenoma of Liver Cells",
+         "ADENOMA, HEPATOCELLULAR, BENIGN",
+         "HCA",
+         "Adenoma of the Liver Cells",
+         "Liver cell adenoma"
+      ],
+      "ncit_definitions": [
+         "A benign epithelial neoplasm arising from hepatocytes.",
+         "A benign epithelial neoplasm arising from the hepatocytes. Grossly, it appears as a soft, round mass which often contains areas of hemorrhage and necrosis. Morphologically, the neoplastic cells resemble normal hepatocytes and form plates separated by sinusoids. Most patients have a history of contraceptive or anabolic steroids use."
+      ],
+      "ncit_code": "C3758"
+   }],
+   "oncotree_code": "LIAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Liver Angiosarcoma",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Liver",
+   "oncotree_parent_code": "LIVER",
+   "oncotree_branch_codes": [
+      "LIVER",
+      "LIAS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Liver Angiosarcoma",
+      "ncit_synonyms": [
+         "Kupffer cell sarcoma",
+         "Angiosarcoma of liver",
+         "Primary Angiosarcoma of the Liver",
+         "Hemangiosarcoma of the Liver",
+         "Hepatic Hemangiosarcoma",
+         "Liver Hemangiosarcoma",
+         "Hepatic Angiosarcoma",
+         "Primary Angiosarcoma of Liver",
+         "Angiosarcoma of the Liver",
+         "Angiosarcoma of Liver",
+         "Hemangiosarcoma of Liver"
+      ],
+      "ncit_definitions": ["A malignant vascular neoplasm arising from the liver."],
+      "ncit_code": "C4438"
+   }],
+   "oncotree_code": "LIAS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Hepatocellular Carcinoma plus Intrahepatic Cholangiocarcinoma",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Liver",
+   "oncotree_parent_code": "LIVER",
+   "oncotree_branch_codes": [
+      "LIVER",
+      "HCCIHCH"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Combined Hepatocellular Carcinoma and Cholangiocarcinoma",
+      "ncit_synonyms": [
+         "Hepatocholangiocarcinoma",
+         "Carcinoma of the Liver and Intrahepatic Biliary Tract",
+         "Liver and Intrahepatic Biliary Tract Carcinoma",
+         "Combined Hepatocellular Cancer and Intrahepatic Bile Duct Cancer (Cholangiocarcinoma)",
+         "Carcinoma of Liver and Intrahepatic Biliary Tract",
+         "cHCC-CCA",
+         "Cholangiohepatoma",
+         "Mixed Hepatocellular Cholangiocarcinoma"
+      ],
+      "ncit_definitions": ["A rare tumor containing unequivocal elements of both hepatocellular and cholangiocarcinoma that are intimately admixed.  This tumor should be distinguished from separate hepatocellular carcinoma and cholangiocarcinoma arising in the same liver.  The prognosis of this tumor is poor."],
+      "ncit_code": "C3828"
+   }],
+   "oncotree_code": "HCCIHCH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Hepatocellular Carcinoma",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Liver",
+   "oncotree_parent_code": "LIVER",
+   "oncotree_branch_codes": [
+      "LIVER",
+      "HCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hepatocellular Carcinoma",
+      "ncit_synonyms": [
+         "Liver Cell Cancer (Hepatocellular Carcinoma)",
+         "hepatoma",
+         "HCC",
+         "Hepatoma",
+         "Primary Carcinoma of the Liver Cells",
+         "CARCINOMA, HEPATOCELLULAR, MALIGNANT",
+         "Liver cell carcinoma",
+         "Hepatocellular Cancer",
+         "LIHC",
+         "Liver Cell Carcinoma",
+         "Carcinoma of the Liver Cells",
+         "Primary Carcinoma of Liver Cells",
+         "Carcinoma of Liver Cells"
+      ],
+      "ncit_definitions": [
+         "A malignant tumor that arises from hepatocytes. Hepatocellular carcinoma is relatively rare in the United States but very common in all African countries south of the Sahara and in Southeast Asia. Most cases are seen in patients over the age of 50 years, but this tumor can also occur in younger individuals and even in children. Hepatocellular carcinoma is more common in males than females and is associated with hepatitis B, hepatitis C, chronic alcohol abuse and cirrhosis. Serum elevation of alpha-fetoprotein occurs in a large percentage of patients with hepatocellular carcinoma. Grossly, hepatocellular carcinoma may present as a single mass, as multiple nodules, or as diffuse liver involvement. Microscopically, there is a wide range of differentiation from tumor to tumor (well differentiated to poorly differentiated tumors). Hepatocellular carcinomas quickly metastasize to regional lymph nodes and lung. The overall median survival of untreated liver cell carcinoma is about 4 months. The most effective treatment of hepatocellular carcinoma is complete resection of the tumor. Lately, an increasing number of tumors have been treated with liver transplantation.",
+         "A malignant neoplasm arising from hepatocytes.",
+         "A type of adenocarcinoma and the most common type of liver tumor."
+      ],
+      "ncit_code": "C3099"
+   }],
+   "oncotree_code": "HCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Malignant Rhabdoid Tumor of the Liver",
+   "oncotree_main_type": "Malignant Rhabdoid Tumor of the Liver",
+   "oncotree_tissue": "Liver",
+   "oncotree_parent_code": "LIVER",
+   "oncotree_branch_codes": [
+      "LIVER",
+      "MRTL"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MRTL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Hepatoblastoma",
+   "oncotree_main_type": "Hepatobiliary Cancer",
+   "oncotree_tissue": "Liver",
+   "oncotree_parent_code": "LIVER",
+   "oncotree_branch_codes": [
+      "LIVER",
+      "LIHB"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hepatoblastoma",
+      "ncit_synonyms": [
+         "HBL",
+         "Pediatric Embryonal Hepatoma",
+         "Pediatric Hepatoblastoma",
+         "HEPATOBLASTOMA, MALIGNANT"
+      ],
+      "ncit_definitions": [
+         "A malignant liver neoplasm composed of immature hepatocytic elements.",
+         "A type of liver tumor that occurs in infants and children.",
+         "A malignant liver tumor that arises from precursors of hepatocytes. It occurs almost exclusively in infants. The lungs are the most common site of metastasis.",
+         "A malignant embryonal neoplasm that arises from the liver. It occurs almost exclusively in infants, although isolated cases in older children and adults have been reported. Microscopically,  it consists of either epithelial or epithelial and mesenchymal components."
+      ],
+      "ncit_code": "C3728"
+   }],
+   "oncotree_code": "LIHB"
+}

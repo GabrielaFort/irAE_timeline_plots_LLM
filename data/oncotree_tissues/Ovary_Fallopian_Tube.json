@@ -1,0 +1,966 @@
+{
+   "oncotree_children_codes": [
+      "SCST",
+      "OVT",
+      "OGCT",
+      "OOVC"
+   ],
+   "oncotree_name": "Ovary/Fallopian Tube",
+   "oncotree_main_type": "Ovarian/Fallopian Tube Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["OVARY"],
+   "ncit_entries": [{
+      "ncit_name": "Ovary",
+      "ncit_synonyms": [
+         "Ovarian structure (body structure)",
+         "female organism reproductive system gonada",
+         "animal ovary",
+         "gonada of female organism reproductive system",
+         "gonad of female reproductive system",
+         "gonada of genitalia of female organism",
+         "genitalia of female organism gonad",
+         "gonad of female organism reproductive system",
+         "gonada of reproductive system of female organism",
+         "gonada of female reproductive system",
+         "ovum-producing ovary",
+         "female gonad",
+         "gonad of reproductive system of female organism",
+         "female organism reproductive system gonad",
+         "gonad of female organism genitalia",
+         "Ovary, NOS",
+         "gonada of female organism genitalia",
+         "gonad of genitalia of female organism",
+         "reproductive system of female organism gonada",
+         "female organism genitalia gonada",
+         "reproductive system of female organism gonad",
+         "Ovaries",
+         "Genital System, Female, Ovary",
+         "female organism genitalia gonad",
+         "female reproductive system gonad",
+         "female reproductive system gonada",
+         "genitalia of female organism gonada"
+      ],
+      "ncit_definitions": [
+         "One of the paired female reproductive glands containing the ova or germ cells; the ovary's stroma is a vascular connective tissue containing numbers of ovarian follicles enclosing the ova.",
+         "The female gonad.",
+         "The pair of female reproductive glands in which the ova, or eggs, are formed. The ovaries are located in the pelvis, one on each side of the uterus.",
+         "The gonad of a female organism which contains germ cells."
+      ],
+      "ncit_code": "C12404"
+   }],
+   "oncotree_code": "OVARY"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Steroid Cell Tumor, NOS",
+   "oncotree_main_type": "Sex Cord Stromal Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "SCST",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "SCST",
+      "SCT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "High-Grade Serous Ovarian Cancer",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "SOC",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "SOC",
+      "HGSOC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HGSOC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Ovarian Choriocarcinoma, NOS",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OOVC",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OOVC",
+      "OCNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "OCNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mixed Germ Cell Tumor",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OGCT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OGCT",
+      "OMGCT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Mixed Germ Cell Tumor",
+      "ncit_synonyms": [
+         "Mixed Germ Cell Neoplasm of the Ovary",
+         "Ovarian Mixed Germ Cell Neoplasm",
+         "Mixed Germ Cell Neoplasm of Ovary",
+         "Mixed Germ Cell Tumor of Ovary",
+         "Mixed Germ Cell Tumor of the Ovary"
+      ],
+      "ncit_definitions": ["An ovarian malignant germ cell tumor characterized by the presence of at least two different germ cell tumor components. The most common combination of germ cell tumors is dysgerminoma and yolk sac tumor."],
+      "ncit_code": "C8114"
+   }],
+   "oncotree_code": "OMGCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Ovarian Seromucinous Adenoma",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "OSMAD"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "OSMAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Ovarian Seromucinous Borderline Tumor",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "OSMBT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Borderline Ovarian Mucinous Tumor, Endocervical-Like",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A neoplasm of low malignant potential arising from the ovary.  It is characterized by the proliferation of neoplastic epithelial cells that resemble endocervical epithelial cells.  There is no evidence of stromal invasion."],
+      "ncit_code": "C40038"
+   }],
+   "oncotree_code": "OSMBT"
+}
+{
+   "oncotree_children_codes": [
+      "SCT",
+      "SLCT",
+      "FT",
+      "GRCT",
+      "OGBL"
+   ],
+   "oncotree_name": "Sex Cord Stromal Tumor",
+   "oncotree_main_type": "Sex Cord Stromal Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVARY",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "SCST"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Sex Cord-Stromal Tumor",
+      "ncit_synonyms": [
+         "Sex Cord-Stromal Tumor of the Ovary",
+         "Ovarian Sex Cord-Stromal Neoplasm",
+         "Sex Cord-Stromal Neoplasm of Ovary",
+         "Sex Cord-Stromal Neoplasm of the Ovary",
+         "Sex Cord-Stromal Tumor of Ovary",
+         "Ovarian stromal tumor"
+      ],
+      "ncit_definitions": [
+         "A sex cord-stromal tumor that occurs in the ovary.",
+         "A benign or malignant neoplasm that arises from the ovary and is composed of granulosa cells, Sertoli cells, Leydig cells, theca cells, and fibroblasts.  Representative examples include thecoma, fibroma, Sertoli cell tumor, and granulosa cell tumor."
+      ],
+      "ncit_code": "C4862"
+   }],
+   "oncotree_code": "SCST"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sertoli-Leydig Cell Tumor",
+   "oncotree_main_type": "Sex Cord Stromal Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "SCST",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "SCST",
+      "SLCT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Sertoli-Leydig Cell Tumor",
+      "ncit_synonyms": [
+         "Sertoli-Leydig cell tumor of the ovary",
+         "Sertoli-Leydig Neoplasm of Ovary",
+         "Arrhenoblastoma",
+         "Sertoli-Leydig Cell Tumor of the Ovary",
+         "Sertoli-Leydig Cell Tumor",
+         "Ovarian Sertoli-Leydig Cell Neoplasm",
+         "Sertoli-Leydig Neoplasm of the Ovary",
+         "androblastoma",
+         "Androblastoma",
+         "Sertoli-Leydig Cell Tumor of Ovary",
+         "arrhenoblastoma"
+      ],
+      "ncit_definitions": [
+         "A benign or malignant sex cord-stromal tumor arising from the ovary. It is characterized by the presence of neoplastic Leydig cells. Signs and symptoms include hirsutism, menorrhagia and metrorrhagia. It may be associated with trisomy 8.",
+         "A benign or malignant sex cord-stromal tumor arising from the ovary. It is characterized by the presence of neoplastic Leydig cells. It may be associated with trisomy 8.",
+         "A rare type of ovarian tumor in which the tumor cells secrete a male sex hormone. This may cause virilization (the appearance of male physical characteristics in females)."
+      ],
+      "ncit_code": "C2880"
+   }],
+   "oncotree_code": "SLCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Fibrothecoma",
+   "oncotree_main_type": "Sex Cord Stromal Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "SCST",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "SCST",
+      "FT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "FT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Ovarian Carcinosarcoma/Malignant Mixed Mesodermal Tumor",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "OCS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Carcinosarcoma",
+      "ncit_synonyms": [
+         "Malignant Mixed Mesodermal Mullerian Neoplasm of the Ovary",
+         "Malignant Mixed Mesodermal Müllerian Tumor of the Ovary",
+         "Ovarian Malignant Mixed Mesodermal Mullerian Tumor",
+         "Malignant Mixed Mesodermal Mullerian Tumor of the Ovary",
+         "Ovarian Malignant Mixed Mesodermal (Müllerian) Tumor",
+         "Ovarian Malignant Mixed Mesodermal Müllerian Neoplasm",
+         "Ovarian Malignant Mixed Müllerian Tumor",
+         "Ovarian Malignant Mixed Mullerian Neoplasm",
+         "Ovarian Malignant Mixed Mullerian Tumor",
+         "Malignant Mixed Mesodermal Müllerian Neoplasm of Ovary",
+         "Ovarian Malignant Mixed Müllerian Neoplasm",
+         "Malignant Mixed Mesodermal Müllerian Tumor of Ovary",
+         "Ovarian Malignant Mixed Mesodermal Müllerian Tumor",
+         "Malignant Mixed Mesodermal Müllerian Neoplasm of the Ovary",
+         "Carcinosarcoma of Ovary",
+         "Ovarian Malignant Mesodermal (Müllerian) Mixed Tumor",
+         "Ovarian MMMT",
+         "Ovarian Malignant Mixed Mesodermal (Mullerian) Tumor",
+         "Malignant Mixed Mesodermal Mullerian Neoplasm of Ovary",
+         "Ovarian Malignant Mixed Mesodermal Mullerian Neoplasm",
+         "Malignant Mixed Mesodermal Mullerian Tumor of Ovary",
+         "Ovarian Malignant Mesodermal (Mullerian) Mixed Tumor",
+         "Carcinosarcoma of the Ovary"
+      ],
+      "ncit_definitions": ["A highly aggressive malignant neoplasm arising from the ovary.  Morphologically, it is a high grade tumor, composed of carcinomatous and sarcomatous elements."],
+      "ncit_code": "C9192"
+   }],
+   "oncotree_code": "OCS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Embryonal Carcinoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OGCT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OGCT",
+      "OEC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Embryonal Carcinoma",
+      "ncit_synonyms": [
+         "Embryonal Carcinoma of the Ovary",
+         "Embryonal Carcinoma of Ovary"
+      ],
+      "ncit_definitions": ["An embryonal carcinoma arising from the ovary.  Signs and symptoms include the presence of an abdominal mass and abdominal pain."],
+      "ncit_code": "C8108"
+   }],
+   "oncotree_code": "OEC"
+}
+{
+   "oncotree_children_codes": [
+      "HGSOC",
+      "LGSOC"
+   ],
+   "oncotree_name": "Serous Ovarian Cancer",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "SOC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Serous Adenocarcinoma",
+      "ncit_synonyms": [
+         "Serous Adenocarcinoma of Ovary",
+         "Serous carcinoma",
+         "Ovarian Serous Carcinoma",
+         "Serous Carcinoma of Ovary",
+         "Serous Carcinoma of the Ovary",
+         "Serous Adenocarcinoma of the Ovary"
+      ],
+      "ncit_definitions": ["An adenocarcinoma that arises from the ovary and is characterized by the presence of malignant epithelial cells that, in well differentiated tumors, resemble the epithelium of the fallopian tube or, in poorly differentiated tumors, show anaplastic features and marked nuclear atypia."],
+      "ncit_code": "C7550"
+   }],
+   "oncotree_code": "SOC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Ovarian Seromucinous Carcinoma",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "OSMCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Seromucinous Carcinoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A malignant mixed epithelial neoplasm that arises from the ovary and is composed predominantly of serous and endocervical-type mucinous cells."],
+      "ncit_code": "C40090"
+   }],
+   "oncotree_code": "OSMCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Brenner Tumor, Benign",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "BTOV",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "BTOV",
+      "BTBEOV"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "BTBEOV"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Yolk Sac Tumor",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OGCT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OGCT",
+      "OYST"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Yolk Sac Tumor",
+      "ncit_synonyms": [
+         "Germ Cell Endodermal Sinus Tumor of Ovary",
+         "Ovarian Yolk Sac Neoplasm",
+         "Endodermal Sinus Tumor of the Ovary",
+         "Ovarian Germ Cell Endodermal Sinus Tumor",
+         "Endodermal Sinus Neoplasm of the Ovary",
+         "Endodermal Sinus Tumor of Ovary",
+         "Yolk Sac Tumor of Ovary",
+         "Ovarian Endodermal Sinus Neoplasm",
+         "Germ Cell Endodermal Sinus Tumor of the Ovary",
+         "Ovarian Germ Cell Endodermal Sinus Neoplasm",
+         "Ovarian Endodermal Sinus Tumor",
+         "Endodermal Sinus Neoplasm of Ovary",
+         "Germ Cell Endodermal Sinus Neoplasm of the Ovary",
+         "Yolk Sac Neoplasm of Ovary",
+         "Germ Cell Endodermal Sinus Neoplasm of Ovary",
+         "Yolk Sac Neoplasm of the Ovary",
+         "Yolk Sac Tumor of the Ovary"
+      ],
+      "ncit_definitions": ["A usually rapidly growing malignant germ cell tumor arising from the ovary.  It usually occurs in children and adolescents.  Signs and symptoms include abdominal pain and a large abdominal or pelvic mass.  The serum alpha-fetoprotein is almost always elevated preoperatively.  Morphologically, there is marked heterogeneity due to numerous patterns of differentiation coexisting in the same tumor.  The most common pattern is reticular."],
+      "ncit_code": "C8107"
+   }],
+   "oncotree_code": "OYST"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mucinous Borderline Ovarian Tumor",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "MBOV"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Borderline Ovarian Mucinous Tumor",
+      "ncit_synonyms": ["Borderline Ovarian Mucinous Neoplasm"],
+      "ncit_definitions": ["A low grade mucinous epithelial neoplasm arising from the ovary.  It is characterized by an atypical proliferation of mucinous-type epithelial cells without evidence of stromal invasion.  The mucinous epithelial cells may be of intestinal or endocervical type."],
+      "ncit_code": "C40036"
+   }],
+   "oncotree_code": "MBOV"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mature Teratoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OGCT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OGCT",
+      "OMT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mature Ovarian Teratoma",
+      "ncit_synonyms": [
+         "Mature Teratoma of Ovary",
+         "Mature Teratoma of the Ovary"
+      ],
+      "ncit_definitions": ["An ovarian teratoma which may be cystic, composed entirely of well differentiated, adult-type tissues, without evidence of fetal-type tissues."],
+      "ncit_code": "C8112"
+   }],
+   "oncotree_code": "OMT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Clear Cell Ovarian Cancer",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "CCOV"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Clear Cell Tumor",
+      "ncit_synonyms": ["Ovarian Clear Cell Neoplasm"],
+      "ncit_definitions": ["A benign, borderline, or malignant epithelial tumor of the ovary that is characterized by a predominance of clear and hobnail cells."],
+      "ncit_code": "C40076"
+   }],
+   "oncotree_code": "CCOV"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Polyembryoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OGCT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OGCT",
+      "OPE"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Polyembryoma",
+      "ncit_synonyms": ["Polyembryoma of the Ovary"],
+      "ncit_definitions": ["A rare, malignant germ cell tumor arising from the ovary.  It is characterized by the presence of embryoid bodies which resemble early embryos."],
+      "ncit_code": "C39990"
+   }],
+   "oncotree_code": "OPE"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Brenner Tumor, Malignant",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "BTOV",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "BTOV",
+      "BTMOV"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "BTMOV"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Granulosa Cell Tumor",
+   "oncotree_main_type": "Sex Cord Stromal Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "SCST",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "SCST",
+      "GRCT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Granulosa Cell Tumor",
+      "ncit_synonyms": ["Granulosa Cell Neoplasm"],
+      "ncit_definitions": [
+         "A type of slow-growing, malignant tumor that usually affects the ovary.",
+         "A slow-growing, malignant tumor that is characterized by the presence of granulosa-like cells, and which is almost always found in the ovary. In rare cases, it has also been found in the testicle.",
+         "A slow-growing sex cord-stromal tumor characterized by the presence of granulosa-like cells and Call-Exner bodies. It is almost always found in the ovary and rarely in the testis. There are two types of granulosa cell tumors: the adult and the juvenile."
+      ],
+      "ncit_code": "C3070"
+   }],
+   "oncotree_code": "GRCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mucinous Ovarian Cancer",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "MOV"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Mucinous Tumor",
+      "ncit_synonyms": [
+         "Ovarian Mucinous Neoplasm",
+         "Mucinous Tumor of the Ovary",
+         "Mucinous Tumor of Ovary",
+         "Mucinous Neoplasm of the Ovary",
+         "Mucinous Neoplasm of Ovary"
+      ],
+      "ncit_definitions": ["A benign, borderline, or malignant epithelial tumor of the ovary characterized by the presence of neoplastic epithelial cells that contain intracytoplasmic mucin and may resemble the epithelial cells of the endocervix or gastrointestinal tract."],
+      "ncit_code": "C5242"
+   }],
+   "oncotree_code": "MOV"
+}
+{
+   "oncotree_children_codes": [
+      "OSMAD",
+      "OSMBT",
+      "OCS",
+      "SOC",
+      "OSMCA",
+      "MBOV",
+      "CCOV",
+      "MOV",
+      "SBOV",
+      "EOV",
+      "MXOV",
+      "BTOV",
+      "CCBOV",
+      "SCCO",
+      "SBMOV",
+      "EBOV"
+   ],
+   "oncotree_name": "Ovarian Epithelial Tumor",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVARY",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Epithelial Tumor",
+      "ncit_synonyms": [
+         "Epithelial Tumor of Ovary",
+         "Ovarian Surface-Epithelial Stromal Neoplasm",
+         "Epithelial Neoplasm of the Ovary",
+         "Epithelial Tumor of the Ovary",
+         "Ovarian Surface Epithelial-Stromal Tumor",
+         "Epithelial Neoplasm of Ovary"
+      ],
+      "ncit_definitions": ["A benign, borderline, or malignant tumor that originates from the surface epithelium of the ovary.  It is composed of epithelial cells and stroma.  Representative examples of benign tumors include serous cystadenoma, mucinous cystadenoma, and benign Brenner tumor.  Representative examples of borderline tumors include serous surface papillary tumor, mucinous adenofibroma, and borderline Brenner tumor.  Representative examples of malignant tumors include serous adenocarcinoma, mucinous adenocarcinoma, endometrioid adenocarcinoma, and malignant Brenner tumor."],
+      "ncit_code": "C4381"
+   }],
+   "oncotree_code": "OVT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Dysgerminoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OGCT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OGCT",
+      "ODYS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Dysgerminoma",
+      "ncit_synonyms": [
+         "DYSGERMINOMA, MALIGNANT",
+         "Dysgerminoma of the Ovary",
+         "Dysgerminoma of Ovary",
+         "Ovarian Dysgerminoma",
+         "Ovarian dysgerminoma"
+      ],
+      "ncit_definitions": [
+         "A seminomatous germ cell tumor originating in the ovary.",
+         "A type of tumor that begins in the type of cells that give rise to egg cells and is most often found in the ovaries. Dysgerminomas may also occur in other places in the body, including the central nervous system. They are the most common type of ovarian germ cell tumor and can spread to other parts of the body. They are most common in females who are younger than 20 years old.",
+         "A malignant germ cell tumor arising from the ovary.  Morphologically, it is identical to seminoma and consists of a monotonous population of germ cells with abundant pale cytoplasm and uniform nuclei.  The stroma invariably contains chronic inflammatory cells, mostly T-lymphocytes. It responds to chemotherapy or radiotherapy and the prognosis relates to the tumor stage.",
+         "A malignant germ cell neoplasm characterized by the presence of a monotonous primitive germ cell population, primarily in the ovary."
+      ],
+      "ncit_code": "C8106"
+   }],
+   "oncotree_code": "ODYS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Brenner Tumor, Borderline",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "BTOV",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "BTOV",
+      "BTBOV"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "BTBOV"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Gonadoblastoma",
+   "oncotree_main_type": "Sex Cord Stromal Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "SCST",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "SCST",
+      "OGBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Gonadoblastoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": [
+         "A gonadoblastoma that occurs in the ovary.",
+         "A neoplasm that arises from the ovary and is composed of tissues that resemble dysgerminoma or seminoma and are admixed with sex cord tissues.  It is found in children or young adults and usually is associated with secondary sex organs abnormalities.  The majority of patients present as phenotypic females with virilization.  The minority of patients present as phenotypic males with feminization.  It typically affects both gonads.  If a malignant germ cell component is present, it may metastasize to other anatomic sites."
+      ],
+      "ncit_code": "C39985"
+   }],
+   "oncotree_code": "OGBL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Serous Borderline Ovarian Tumor",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "SBOV"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SBOV"
+}
+{
+   "oncotree_children_codes": [
+      "OMGCT",
+      "OEC",
+      "OYST",
+      "OMT",
+      "OPE",
+      "ODYS",
+      "OIMT"
+   ],
+   "oncotree_name": "Ovarian Germ Cell Tumor",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVARY",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OGCT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Germ Cell Tumor",
+      "ncit_synonyms": [
+         "Germ Cell Neoplasm of the Ovary",
+         "Germ Cell Neoplasm of Ovary",
+         "Ovarian Germ Cell Neoplasm",
+         "Germ Cell Tumor of the Ovary",
+         "Germ Cell Tumor of Ovary"
+      ],
+      "ncit_definitions": [
+         "A neoplasm that arises from the ovary and originates from germ cells. Representative examples include teratoma, embryonal carcinoma, yolk sac tumor, and dysgerminoma.",
+         "A neoplasm arising from gonadal tissue within the ovary.",
+         "An abnormal mass of tissue that forms in germ (egg) cells in the ovary (female reproductive gland in which the eggs are formed). These tumors usually occur in teenage girls or young women, usually affect just one ovary, and can be benign (not cancer) or malignant (cancer). The most common ovarian germ cell tumor is called dysgerminoma."
+      ],
+      "ncit_code": "C3873"
+   }],
+   "oncotree_code": "OGCT"
+}
+{
+   "oncotree_children_codes": [
+      "OCNOS",
+      "HGONEC",
+      "HGSFT"
+   ],
+   "oncotree_name": "Ovarian Cancer, Other",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVARY",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OOVC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "OOVC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Endometrioid Ovarian Cancer",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "EOV"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Endometrioid Adenocarcinoma",
+      "ncit_synonyms": [
+         "Endometrioid Adenocarcinoma of the Ovary",
+         "Ovarian Endometrioid Cancer",
+         "Ovarian Endometrioid Carcinoma",
+         "Endometrioid Carcinoma of the Ovary",
+         "Endometrioid Adenocarcinoma of Ovary",
+         "Endometrioid Carcinoma of Ovary",
+         "Endometrioid Cancer of the Ovary",
+         "Endometrioid Cancer of Ovary"
+      ],
+      "ncit_definitions": ["An endometrioid adenocarcinoma arising from the ovary.  It comprises 10% to 25% of all primary ovarian carcinomas.  Grossly, endometrioid carcinoma may present as a cystic or solid mass.  Microscopically, the tumor greatly resembles the appearance of the ordinary type of endometrial adenocarcinoma.  As a group, endometrioid carcinoma has a prognosis twice as good as that of serous or mucinous carcinoma."],
+      "ncit_code": "C7979"
+   }],
+   "oncotree_code": "EOV"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mixed Ovarian Carcinoma",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "MXOV"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Seromucinous Carcinoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A malignant mixed epithelial neoplasm that arises from the ovary and is composed predominantly of serous and endocervical-type mucinous cells."],
+      "ncit_code": "C40090"
+   }],
+   "oncotree_code": "MXOV"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Immature Teratoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OGCT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OGCT",
+      "OIMT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Immature Ovarian Teratoma",
+      "ncit_synonyms": [
+         "Immature Germ Cell Teratoma of Ovary",
+         "Ovarian Immature Germ Cell Teratoma",
+         "Ovarian Immature Teratoma",
+         "Immature Germ Cell Teratoma of the Ovary",
+         "Immature Teratoma of the Ovary",
+         "Immature Teratoma of Ovary",
+         "Ovarian Germ Cell Immature Teratoma",
+         "Grade 2 Ovarian Teratoma"
+      ],
+      "ncit_definitions": ["An immature teratoma arising from the ovary.  It usually affects females in their first two decades of life."],
+      "ncit_code": "C8111"
+   }],
+   "oncotree_code": "OIMT"
+}
+{
+   "oncotree_children_codes": [
+      "BTBEOV",
+      "BTMOV",
+      "BTBOV"
+   ],
+   "oncotree_name": "Brenner Tumor",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "BTOV"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Brenner Tumor",
+      "ncit_synonyms": ["Brenner tumor, NOS"],
+      "ncit_definitions": ["A tumor composed of solid and cystic nests of neoplastic urothelial-type cells in an abundant stromal component that is dense and fibroblastic in nature. It arises from the ovary and very rarely the paratesticular structures. It includes benign Brenner tumor, borderline Brenner tumor, and malignant Brenner tumor."],
+      "ncit_code": "C39954"
+   }],
+   "oncotree_code": "BTOV"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Low-Grade Serous Ovarian Cancer",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "SOC",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "SOC",
+      "LGSOC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LGSOC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Clear Cell Borderline Ovarian Tumor",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "CCBOV"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Borderline Ovarian Clear Cell Tumor",
+      "ncit_synonyms": [
+         "Clear cell cystic tumor of borderline malignancy",
+         "Borderline Ovarian Clear Cell Neoplasm"
+      ],
+      "ncit_definitions": ["An epithelial neoplasm with low malignant potential affecting the ovary.  It is characterized by the presence of clear or hobnail cells.  In some cases, the cells may display nuclear atypia and prominent nucleoli.  When such cells are present, they remain confined to the glands.  There is no evidence of stromal invasion."],
+      "ncit_code": "C40080"
+   }],
+   "oncotree_code": "CCBOV"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Small Cell Carcinoma of the Ovary",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "SCCO"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ovarian Small Cell Carcinoma",
+      "ncit_synonyms": ["Ovarian Small Cell Cancer"],
+      "ncit_definitions": ["A carcinoma that arises from the ovary and is characterized by the presence of small malignant cells.  It includes small cell carcinoma, hypercalcemic type and small cell carcinoma, pulmonary type."],
+      "ncit_code": "C27390"
+   }],
+   "oncotree_code": "SCCO"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "High-Grade Neuroendocrine Carcinoma of the Ovary",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OOVC",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OOVC",
+      "HGONEC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HGONEC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Serous Borderline Ovarian Tumor, Micropapillary",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "SBMOV"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SBMOV"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "High-Grade Serous Fallopian Tube Cancer",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OOVC",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OOVC",
+      "HGSFT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HGSFT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Endometrioid Borderlin Ovarian Tumor",
+   "oncotree_main_type": "Ovarian Cancer",
+   "oncotree_tissue": "Ovary/Fallopian Tube",
+   "oncotree_parent_code": "OVT",
+   "oncotree_branch_codes": [
+      "OVARY",
+      "OVT",
+      "EBOV"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Borderline Ovarian Endometrioid Tumor/Atypical Proliferative Ovarian Endometrioid Tumor",
+      "ncit_synonyms": [
+         "Borderline Ovarian Endometrioid Tumor",
+         "Low Malignant Potential Endometrioid Neoplasm of the Ovary",
+         "Ovarian Endometrioid Neoplasm of Low Malignant Potential",
+         "Ovarian Endometrioid Tumor with Proliferating Activity",
+         "Ovarian Endometrioid Borderline Neoplasm",
+         "Low Malignant Potential Ovarian Endometrioid Tumor",
+         "EBT/APET",
+         "Proliferating Ovarian Endometrioid Tumor",
+         "Proliferating Endometrioid Neoplasm of Ovary",
+         "Low Malignant Potential Endometrioid Tumor of Ovary",
+         "Endometrioid Neoplasm of Low Malignant Potential",
+         "Low Malignant Potential Ovarian Endometrioid Neoplasm",
+         "Ovarian Endometrioid Tumor of Low Malignant Potential",
+         "Endometrioid Neoplasm with Proliferating Activity, Ovarian",
+         "Endometrioid tumor of low malignant potential",
+         "Proliferating Endometrioid Tumor of Ovary",
+         "Borderline Endometrioid Neoplasm of Ovary",
+         "Endometrioid Tumor with Proliferating Activity, Ovarian",
+         "Borderline Ovarian Endometrioid Neoplasm",
+         "Low Malignant Potential Endometrioid Tumor of the Ovary",
+         "Proliferating Endometrioid Tumor of the Ovary",
+         "Proliferating Endometrioid Neoplasm of the Ovary",
+         "Ovarian Endometrioid Neoplasm with Proliferating Activity",
+         "Borderline Endometrioid Tumor of the Ovary",
+         "Borderline Endometrioid Tumor of Ovary",
+         "Proliferating Ovarian Endometrioid Neoplasm",
+         "Ovarian Endometrioid Borderline Tumor",
+         "Endometrioid Tumor of Low Malignant Potential",
+         "Borderline Endometrioid Neoplasm of the Ovary",
+         "Low Malignant Potential Endometrioid Neoplasm of Ovary"
+      ],
+      "ncit_definitions": ["An epithelial neoplasm that arises from the ovary characterized by the presence of glandular or cystic spaces which contain atypical glandular epithelial cells resembling endometrial cells. The surrounding ovarian stroma is often fibrotic. There is no evidence of stromal invasion."],
+      "ncit_code": "C7983"
+   }],
+   "oncotree_code": "EBOV"
+}

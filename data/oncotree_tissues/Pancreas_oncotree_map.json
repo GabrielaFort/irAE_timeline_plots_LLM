@@ -1,0 +1,18 @@
+{
+  "Pancreas": "PANCREAS",
+  "Mucinous Cystic Neoplasm": "MCN",
+  "Intraductal Oncocytic Papillary Neoplasm": "IOPN",
+  "Solid Pseudopapillary Neoplasm of the Pancreas": "SPN",
+  "Pancreatic Adenocarcinoma": "PAAD",
+  "Pancreatoblastoma": "PB",
+  "Acinar Cell Carcinoma of the Pancreas": "PAAC",
+  "Cystic Tumor of the Pancreas": "PACT",
+  "Osteoclastic Giant Cell Tumor": "OSGCT",
+  "Intraductal Tubulopapillary Neoplasm": "ITPN",
+  "Intraductal Papillary Mucinous Neoplasm": "IPMN",
+  "Pancreatic Neuroendocrine Carcinoma": "PANEC",
+  "Pancreatic Neuroendocrine Tumor": "PANET",
+  "Adenosquamous Carcinoma of the Pancreas": "PAASC",
+  "Serous Cystadenoma of the Pancreas": "PSC",
+  "Undifferentiated Carcinoma of the Pancreas": "UCP"
+}

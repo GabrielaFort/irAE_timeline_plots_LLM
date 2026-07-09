@@ -1,0 +1,8 @@
+{
+  "Prostate": "PROSTATE",
+  "Prostate Adenocarcinoma": "PRAD",
+  "Prostate Small Cell Carcinoma": "PRSCC",
+  "Prostate Neuroendocrine Carcinoma": "PRNE",
+  "Prostate Squamous Cell Carcinoma": "PRSC",
+  "Basal Cell Carcinoma of Prostate": "BCCP"
+}

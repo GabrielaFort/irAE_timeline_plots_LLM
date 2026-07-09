@@ -1,0 +1,121 @@
+Lymphoid
+Duodenal-Type Follicular Lymphoma
+Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue (MALT lymphoma)
+Monomorphic PTLD (B- and T-/NK-cell types)
+Hairy Cell Leukemia-Variant
+Burkitt Lymphoma
+Lymphomatoid Granulomatosis
+Lymphomatoid Papulosis
+Indolent T-Cell Lymphoproliferative Disorder of the GI Tract
+Extraosseous Plasmacytoma
+Angioimmunoblastic T-Cell Lymphoma
+Follicular Lymphoma
+Primary DLBCL of the central nervous system
+B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities
+Primary Cutaneous Follicle Center Lymphoma
+Primary Cutaneous CD30 Positive T-Cell Lymphoproliferative Disorders
+Adult T-Cell Leukemia/Lymphoma
+Hodgkin Lymphoma
+Lymphocyte-Rich Classical Hodgkin Lymphoma
+Nodal Marginal Zone Lymphoma
+Early T-Cell Precursor Lymphoblastic Leukemia
+B-Lymphoblastic Leukemia/Lymphoma
+Peripheral T-Cell lymphoma, NOS
+B-Lymphoblastic Leukemia/Lymphoma with t(1;19)(q23;p13.3);TCF3-PBX1
+Infectious Mononucleosis PTLD
+Mature B-Cell Neoplasms
+Burkitt-Like Lymphoma with 11q Aberration
+Splenic Diffuse Red Pulp Small B-Cell Lymphoma
+Mantle Cell Lymphoma
+Solitary Plasmacytoma of Bone
+Anaplastic Large-Cell Lymphoma ALK Negative
+Anaplastic Large-Cell Lymphoma ALK Positive
+Florid Follicular Hyperplasia PTLD
+Anaplastic Large Cell Lymphoma
+Primary Cutaneous Gamma Delta T-Cell Lymphoma
+Pediatric-Type Follicular Lymphoma
+EBV Positive Mucocutaneous Ulcer
+Natural Killer (NK) Cell Lymphoblastic Leukemia/Lymphoma
+B-Lymphoblastic Leukemia/Lymphoma with Hypodiploidy
+Aggressive NK-Cell Leukemia
+Breast Implant-Associated Anaplastic Large-Cell Lymphoma
+Posttransplant Lymphoproliferative Disorders
+Sezary Syndrome
+Monoclonal B-Cell Lymphocytosis
+Lymphoid Atypical
+Primary Cutaneous CD4 Positive Small/Medium T-Cell Lymphoproliferative Disorder
+T-Cell/Histiocyte-Rich Large B-Cell Lymphoma
+B-Lymphoblastic Leukemia/Lymphoma, NOS
+Waldenstrom Macroglobulinemia
+Alpha Heavy-Chain Disease
+B-Lymphoblastic Leukemia/Lymphoma with iAMP21
+Germinal Center B-Cell Type
+Monoclonal Immunoglobulin Deposition Diseases
+Plasmablastic Lymphoma
+EBV Positive DLBCL, NOS
+Extranodal NK-/T-Cell Lymphoma, Nasal Type
+Primary Cutaneous Acral CD8 Positive T-Cell Lymphoma
+In Situ Mantle Cell Neoplasia
+Chronic Lymphoproliferative Disorder of NK Cells
+Enteropathy-Associated T-Cell Lymphoma
+Splenic B-Cell Lymphoma/Leukemia, Unclassifiable
+Marginal Zone Lymphoma
+Lymphocyte-Depleted Classical Hodgkin Lymphoma
+Activated B-cell Type
+B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like
+B-Lymphoblastic Leukemia/Lymphoma with Hyperdiploidy
+Classical Hodgkin Lymphoma
+B-Lymphoblastic Leukemia/Lymphoma with t(5;14)(q31.1;q32.3) IL3-IGH
+Plasma Cell Myeloma
+Systemic EBV Positive T-Cell Lymphoma of Childhood
+DLBCL Associated with Chronic Inflammation
+Nodular Sclerosis Classical Hodgkin Lymphoma
+T-Lymphoblastic Leukemia/Lymphoma
+T-Cell Prolymphocytic Leukemia
+Plasmacytic Hyperplasia PTLD
+Monoclonal Immunoglobulin Deposition Diseases, Other
+Classical Hodgkin Lymphoma PTLD
+Primary Effusion Lymphoma
+Subcutaneous Panniculitis-Like T-Cell Lymphoma
+Amyloidosis
+Lymphoid Benign
+IgM
+IgG
+IgA
+B-Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2);BCR-ABL1
+Gamma Heavy-Chain Disease
+Nodal Peripheral T-Cell Lymphoma with TFH Phenotype
+T-Cell Large Granular Lymphocytic Leukemia
+Mature T and NK Neoplasms
+B-Cell Lymphoma, Unclassifiable, with Features Intermediate between DLBCL and Classical Hodgkin lymphoma
+Follicular T-Cell Lymphoma
+Monoclonal Gammopathy of Undetermined Significance
+Diffuse Large B-Cell Lymphoma, NOS
+ALK Positive Large B-Cell Lymphoma
+Primary Cutaneous DLBCL, Leg Type
+Non-Hodgkin Lymphoma
+Primary Cutaneous Anaplastic Large Cell Lymphoma
+Polymorphic PTLD
+B-Cell Prolymphocytic Leukemia
+B-Lymphoblastic Leukemia/Lymphoma with t(v;11q23.3);KMT2A Rearranged
+B-Lymphoblastic Leukemia/Lymphoma with t(12;21)(p13.2;q22.1); ETV6-RUNX1
+Hairy Cell Leukemia
+Nodular Lymphocyte-Predominant Hodgkin Lymphoma
+Hepatosplenic T-cell Lymphoma
+High-Grade B-Cell Lymphoma, NOS
+Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma
+Lymphoid Neoplasm
+Mu Heavy-Chain Disease
+HHV8 Positive DLBCL, NOS
+Primary Mediastinal (Thymic) Large B-Cell Lymphoma
+Splenic Marginal Zone Lymphoma
+Mycosis Fungoides
+Hydroa Vacciniforme Like Lymphoproliferative Disorder
+Lymphoplasmacytic Lymphoma
+In Situ Follicular Neoplasia
+Large B-Cell Lymphoma with IRF4 Rearrangement
+Mixed Cellularity Classical Hodgkin Lymphoma
+Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements
+Monomorphic Epitheliotropic Intestinal T-Cell Lymphoma
+Intravascular Large B-Cell Lymphoma

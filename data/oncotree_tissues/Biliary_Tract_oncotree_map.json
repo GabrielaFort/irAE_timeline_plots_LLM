@@ -1,0 +1,13 @@
+{
+  "Biliary Tract": "BILIARY_TRACT",
+  "Gallbladder Cancer": "GBC",
+  "Small Cell Gallbladder Carcinoma": "SCGBC",
+  "Intraductal Papillary Neoplasm of the Bile Duct": "IPN",
+  "Extrahepatic Cholangiocarcinoma": "EHCH",
+  "Perihilar Cholangiocarcinoma": "PHCH",
+  "Intracholecystic Papillary Neoplasm": "ICPN",
+  "Cholangiocarcinoma": "CHOL",
+  "Intrahepatic Cholangiocarcinoma": "IHCH",
+  "Gallbladder Adenocarcinoma, NOS": "GBAD",
+  "Adenosquamous Carcinoma of the Gallbladder": "GBASC"
+}

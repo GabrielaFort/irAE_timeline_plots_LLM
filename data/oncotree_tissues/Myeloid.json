@@ -1,0 +1,2969 @@
+{
+   "oncotree_children_codes": [
+      "MBGN",
+      "MNM",
+      "MATPL"
+   ],
+   "oncotree_name": "Myeloid",
+   "oncotree_main_type": "Blood Cancer",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["MYELOID"],
+   "ncit_entries": [{
+      "ncit_name": "Blood",
+      "ncit_synonyms": [
+         "portion of blood",
+         "Peripheral Blood",
+         "Reticuloendothelial System, Blood",
+         "peripheral blood",
+         "vertebrate blood",
+         "Whole Blood"
+      ],
+      "ncit_definitions": [
+         "A tissue with red blood cells, white blood cells, platelets, and other substances suspended in fluid called plasma. Blood takes oxygen and nutrients to the tissues, and carries away wastes.",
+         "A liquid tissue; its major function is to transport oxygen throughout the body. It also supplies the tissues with nutrients, removes waste products, and contains various components of the immune system defending the body against infection. Several hormones also travel in the blood.",
+         "A liquid tissue with the primary function of transporting oxygen and carbon dioxide. It supplies the tissues with nutrients, removes waste products, and contains various components of the immune system defending the body against infection.",
+         "A fluid that is composed of blood plasma and erythrocytes."
+      ],
+      "ncit_code": "C12434"
+   }],
+   "oncotree_code": "MYELOID"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with Maturation",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLNOS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLNOS",
+      "AM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia with Maturation",
+      "ncit_synonyms": [
+         "Acute Myelocytic Leukemia with Maturation",
+         "M2 Acute Myelogenous Leukemia",
+         "M2 Acute Granulocytic Leukemia",
+         "M2",
+         "M2 Acute Myeloid Leukemia with Maturation",
+         "M2 Acute Myeloblastic Leukemia with Maturation",
+         "Acute M2 Myeloid Leukemia",
+         "AML with Maturation",
+         "Acute Myelogenous Leukemia with Maturation",
+         "M2 Acute Myelogenous Leukemia with Maturation",
+         "FAB M2",
+         "M2 Acute Myeloblastic Leukemia",
+         "Acute Myeloid Leukemia (AML-M2)",
+         "M2 Acute Myelocytic Leukemia with Maturation",
+         "Acute Myeloblastic Leukemia with Maturation",
+         "M2 Acute Myeloid Leukemia"
+      ],
+      "ncit_definitions": [
+         "An acute myeloid leukemia (AML) characterized by blasts with evidence of maturation to more mature neutrophils. (WHO, 2001)",
+         "An acute myeloid leukemia (AML) characterized by blasts with evidence of significant maturation in the neutrophilic lineage."
+      ],
+      "ncit_code": "C3250"
+   }],
+   "oncotree_code": "AM"
+}
+{
+   "oncotree_children_codes": [
+      "AMLRBM15MKL1",
+      "AMLDEKNUP214",
+      "AMLCBFBMYH11",
+      "AMLCEBPA",
+      "AMLBCRABL1",
+      "AMLGATA2MECOM",
+      "AMLRARA",
+      "APLPMLRARA",
+      "AMLNPM1",
+      "AMLRUNX1RUNX1T1",
+      "AMLRUNX1",
+      "AMLMLLT3KMT2A"
+   ],
+   "oncotree_name": "AML with Recurrent Genetic Abnormalities",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AML",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia with Recurrent Genetic Abnormalities",
+      "ncit_synonyms": [
+         "AML-RGA",
+         "Acute Myeloid Leukemia with Balanced Translocations/Inversions",
+         "Acute Myeloid Leukemia with Defining Genetic Abnormalities",
+         "AML with Recurrent Genetic Abnormalities"
+      ],
+      "ncit_definitions": [
+         "A group of acute myeloid leukemias characterized by recurrent genetic abnormalities, mainly balanced translocations. (WHO, 2001)",
+         "A group of acute myeloid leukemias characterized by recurrent genetic abnormalities, mainly balanced translocations.  (WHO, 2001)"
+      ],
+      "ncit_code": "C7175"
+   }],
+   "oncotree_code": "AMLRGA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "MDS with Multilineage Dysplasia",
+   "oncotree_main_type": "Myelodysplastic Syndromes",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS",
+      "MDSMD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic Syndrome, Not Otherwise Specified with Multilineage Dysplasia",
+      "ncit_synonyms": [
+         "MDS-MLD",
+         "Refractory Cytopenia with Multilineage Dysplasia",
+         "Refractory cytopenia with multilineage dysplasia",
+         "MDS-LB-MLD",
+         "Myelodysplastic Neoplasm with Low Blasts and Multilineage Dysplasia",
+         "Myelodysplastic Syndrome with Low Blasts and Multilineage Dysplasia",
+         "RCMD",
+         "Myelodysplastic Syndrome with Multilineage Dysplasia",
+         "MDS, NOS with Multilineage Dysplasia"
+      ],
+      "ncit_definitions": ["A myelodysplastic syndrome characterized by bi-cytopenia or pancytopenia and dysplastic changes in 10% or more of the cells in two or more of the myeloid cell lines. (WHO, 2001)"],
+      "ncit_code": "C8574"
+   }],
+   "oncotree_code": "MDSMD"
+}
+{
+   "oncotree_children_codes": [
+      "MDSRSMD",
+      "MDSRSSLD"
+   ],
+   "oncotree_name": "MDS with Ring Sideroblasts",
+   "oncotree_main_type": "Myelodysplastic Syndromes",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS",
+      "MDSRS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MDSRS"
+}
+{
+   "oncotree_children_codes": ["ETMF"],
+   "oncotree_name": "Essential Thrombocythemia",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MPN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN",
+      "ET"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Essential Thrombocythemia",
+      "ncit_synonyms": [
+         "Idiopathic thrombocythemia",
+         "Essential Thrombocytosis",
+         "Primary Thrombocythemia",
+         "Idiopathic Thrombocythemia",
+         "Essential (hemorrhagic) thrombocythemia",
+         "Primary Thrombocytosis",
+         "essential thrombocytosis",
+         "Essential Thrombocytemia",
+         "ET"
+      ],
+      "ncit_definitions": [
+         "A chronic condition that involves primarily the megakaryocytic lineage. It is characterized by sustained thrombocytosis in the blood, increased numbers of large, mature megakaryocytes in the bone marrow, and elevated risk for thrombosis and/or hemorrhage.",
+         "A chronic myeloproliferative neoplasm that involves primarily the megakaryocytic lineage. It is characterized by sustained thrombocytosis in the blood, increased numbers of large, mature megakaryocytes in the bone marrow, and episodes of thrombosis and/or hemorrhage. (WHO, 2008)",
+         "An increased number of thrombocytes (platelets) in the blood, without a known cause."
+      ],
+      "ncit_code": "C3407"
+   }],
+   "oncotree_code": "ET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Disseminated Juvenile Xanthogranuloma",
+   "oncotree_main_type": "Histiocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "XGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "HDCN",
+      "XGA",
+      "JXG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "JXG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Systemic Mastocytosis with an Associated Hematological Neoplasm",
+   "oncotree_main_type": "Mastocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "SM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MCD",
+      "SM",
+      "SMAHN"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SMAHN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Therapy-Related Myelodysplastic Syndrome",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "TMN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "TMN",
+      "TMDS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic Syndrome Post Cytotoxic Therapy",
+      "ncit_synonyms": [
+         "MDS Post Cytotoxic Therapy",
+         "MDS-pCT",
+         "Therapy-Related MDS",
+         "Therapy-Related Myelodysplastic Syndrome",
+         "t-MDS",
+         "Therapy Related Myelodysplastic Syndrome"
+      ],
+      "ncit_definitions": ["A myelodysplastic syndrome resulting from chemotherapy or radiation therapy for cancer."],
+      "ncit_code": "C27722"
+   }],
+   "oncotree_code": "TMDS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML (megakaryoblastic) with t(1;22)(p13.3;q13.3);RBM15-MKL1",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLRGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA",
+      "AMLRBM15MKL1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia (Megakaryoblastic) with t(1;22)(p13.3;q13.1); RBM15-MKL1",
+      "ncit_synonyms": [
+         "AML (megakaryoblastic) with t(1;22)(p13.3;q13.3); RBM15-MKL1",
+         "Acute Myeloid Leukemia (Megakaryoblastic) with t(1;22)(p13.3;q13.1); RBM15- MRTFA",
+         "Acute Myeloid Leukemia (Megakaryoblastic) with t(1;22)(p13.3;q13.1); RBM15::MRTFA",
+         "AML (megakaryoblastic) with t(1;22) (p13;q13); RBM15-MKL1",
+         "Acute Myeloid Leukemia (Megakaryoblastic) with t(1;22)(p13;q13); RBM15-MKL1",
+         "AML (Megakaryoblastic) with t(1;22)(p13;q13); RBM15-MKL1",
+         "Acute myeloid leukemia (megakaryoblastic) with t(1;22)(p13;q13); RBM15-MKL1",
+         "Acute Myeloid Leukemia (Megakaryoblastic) with t(1;22)(p13.3;q13.1); RBM15-MKL1 Fusion",
+         "Acute Myeloid Leukemia (Megakaryoblastic) with t(1;22)(p13.3;q13.1); RBM15::MLK1 Fusion"
+      ],
+      "ncit_definitions": [
+         "An acute myeloid leukemia typically showing megakaryocytic maturation and associated with t(1;22)(p13;q13), resulting in the expression of RBM15-MKL1 fusion protein.",
+         "An acute myeloid leukemia associated with t(1;22)(p13.3;q13.1) resulting in the expression of RBM15-MKL1 fusion protein. It affects infants and children and usually shows megakaryocytic maturation."
+      ],
+      "ncit_code": "C82427"
+   }],
+   "oncotree_code": "AMLRBM15MKL1"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Histiocytic Sarcoma",
+   "oncotree_main_type": "Histiocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "HDCN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "HDCN",
+      "HS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myeloid Benign",
+   "oncotree_main_type": "Blood Cancer, NOS",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MYELOID",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MBGN"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MBGN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "MDS/MPN with Ring Sideroblasts and Thrombocytosis",
+   "oncotree_main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDS/MPN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS/MPN",
+      "MDSMPNRST"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic/Myeloproliferative Neoplasm with Ring Sideroblasts and Thrombocytosis, Not Otherwise Specified",
+      "ncit_synonyms": [
+         "RARS-T",
+         "Myelodysplastic/Myeloproliferative Neoplasm with Ring Sideroblasts and Thrombocytosis",
+         "Refractory anemia with ring sideroblasts associated with marked thrombocytosis",
+         "MDS/MPN-RS-T",
+         "Refractory Anemia with Ring Sideroblasts Associated with Marked Thrombocytosis",
+         "MDS/MPN with Ring Sideroblasts and Thrombocytosis",
+         "Myelodysplastic/Myeloproliferative Neoplasm with Ring Sideroblasts and Thrombocytosis, NOS",
+         "Essential Thrombocythemia with Ring Sideroblasts",
+         "MDS/MPN-RS-T, NOS"
+      ],
+      "ncit_definitions": ["A myelodysplastic/myeloproliferative neoplasm characterized by marked thrombocytosis, anemia, erythroid lineage dysplasia, presence or absence of multilineage dysplasia, 15% or more ring sideroblasts, blasts less than 5% in bone marrow and less than 1% in peripheral blood, absence of BCR/ABL fusion, absence of SF3B1 mutation, absence of genetic abnormalities associated with myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions, and no history of other myelodysplastic/myeloproliferative neoplasms or myeloproliferative neoplasms and myelodysplastic syndromes."],
+      "ncit_code": "C82616"
+   }],
+   "oncotree_code": "MDSMPNRST"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myelodysplastic Workup",
+   "oncotree_main_type": "Myelodysplastic Workup",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDSWP"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MDSWP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "MDS with Ring Sideroblasts and Multilineage Dysplasia",
+   "oncotree_main_type": "Myelodysplastic Syndromes",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDSRS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS",
+      "MDSRS",
+      "MDSRSMD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic Syndrome with Ring Sideroblasts and Multilineage Dysplasia",
+      "ncit_synonyms": [
+         "RCMD-RS",
+         "MDS-RS-MLD",
+         "Refractory Cytopenia with Multilineage Dysplasia and Ringed Sideroblasts",
+         "Refractory cytopenia with multilineage dysplasia and ring sideroblasts",
+         "Refractory Cytopenia with Multilineage Dysplasia and Ring Sideroblasts"
+      ],
+      "ncit_definitions": ["A myelodysplastic syndrome characterized by bi-cytopenia or pancytopenia, dysplastic changes in 10% or more of the cells in two or more of the myeloid cell lines, and 15% or more ring sideroblasts in the bone marrow.  (WHO, 2001)"],
+      "ncit_code": "C27726"
+   }],
+   "oncotree_code": "MDSRSMD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "MDS with Isolated Del(5q)",
+   "oncotree_main_type": "Myelodysplastic Syndromes",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS",
+      "MDSID5Q"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic Syndrome with del(5q)",
+      "ncit_synonyms": [
+         "Myelodysplastic syndrome with 5q deletion (5q-) syndrome",
+         "5q- Syndrome",
+         "Myelodysplastic Syndrome with Isolated Del (5Q)",
+         "MDS-del(5q)",
+         "5Q minus syndrome",
+         "Myelodysplastic Neoplasm with Low Blasts and 5q Deletion",
+         "Myelodysplastic syndrome with isolated del (5q) chromosomal abnormality",
+         "Myelodysplastic Syndrome Associated with Isolated del (5q) Chromosome Abnormality",
+         "Myelodysplastic syndrome with isolated del (5q)",
+         "Myelodysplastic Syndrome with 5q Deletion",
+         "Myelodysplastic Syndrome with Isolated del(5q)",
+         "5Q- syndrome"
+      ],
+      "ncit_definitions": [
+         "A rare disorder caused by loss of part of the long arm (Q arm) of human chromosome 5. This syndrome affects myeloid (bone marrow) cells, causing treatment-resistant anemia, and myelodysplastic syndromes that may lead to acute myelogenous leukemia.",
+         "A myelodysplastic syndrome characterized by a deletion between bands q31 and 33 on chromosome 5.  The number of blasts in the bone marrow and blood is <5%.  The bone marrow is usually hypercellular or normocellular with increased number of often hypolobated megakaryocytes.  The peripheral blood shows macrocytic anemia.  This syndrome occurs predominantly but not exclusively in middle age to older women.  The prognosis is good and transformation to acute leukemia is rare.  (WHO, 2001)"
+      ],
+      "ncit_code": "C6867"
+   }],
+   "oncotree_code": "MDSID5Q"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Atypical Chronic Myeloid Leukemia, BCR-ABL1-",
+   "oncotree_main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDS/MPN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS/MPN",
+      "ACML"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Atypical Chronic Myeloid Leukemia",
+      "ncit_synonyms": [
+         "Subacute myelogenous leukemia",
+         "Subacute Myelogenous Leukemia",
+         "Subacute Granulocytic Leukemia",
+         "Atypical Chronic Myeloid Leukemia, BCR-ABL1 Negative",
+         "Subacute granulocytic leukemia",
+         "Subacute myeloid leukemia",
+         "Atypical Chronic Myeloid Leukemia, BCR::ABL1 Negative",
+         "MDS/MPN-N",
+         "aCML",
+         "Atypical CML",
+         "Myelodysplastic/Myeloproliferative Neoplasm with Neutrophilia",
+         "Subacute Myeloid Leukemia"
+      ],
+      "ncit_definitions": ["A myelodysplastic/myeloproliferative neoplasm characterized by the presence of leukocytosis with increased numbers of neutrophils, promyelocytes, myelocytes, and metamyelocytes; blasts less than 20% in bone marrow and peripheral blood; dysgranulopoiesis; minimal or absent monocytosis; absence of eosinophilia; and presence of bone marrow hypercellularity with granulocytic proliferation and granulocytic dysplasia. Dysplasia in the erythroid and megakaryocytic lineages may be present or absent. No evidence of BCR/ABL fusion is present."],
+      "ncit_code": "C3519"
+   }],
+   "oncotree_code": "ACML"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with t(6;9)(p23;q34.1);DEK-NUP214",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLRGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA",
+      "AMLDEKNUP214"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia with t(6;9)(p22.3;q34.1); DEK-NUP214",
+      "ncit_synonyms": [
+         "Acute Myeloid Leukemia with t(6;9) (p22.3;q34.1); DEK-NUP214 Fusion",
+         "Acute Myeloid Leukemia with t(6;9)(p22.3;q34.1); DEK::NUP214",
+         "Myeloid Leukemia with t(6;9) (p23;q34.1); DEK-NUP214",
+         "AML with t(6;9)(p23;q34); DEK-NUP214",
+         "Acute Myeloid Leukemia with t(6;9)(p23;q34); DEK-NUP214",
+         "Acute Myeloid Leukemia with t(6;9)(p22.3;q34); DEK-NUP214",
+         "Acute Myeloid Leukemia with t(6;9)",
+         "AML with t(6;9)(p23;q34);DEK-NUP214",
+         "Acute Myeloid Leukemia with t(6;9) (p22.3;q34.1); DEK::NUP214 Fusion",
+         "Acute myeloid leukemia with t(6;9)(p23;q34); DEK-NUP214",
+         "AML with t(6;9)(p23;q34.1);DEK-NUP214"
+      ],
+      "ncit_definitions": [
+         "An acute myeloid leukemia associated with t(6;9)(p22.3;q34.1) resulting in DEK-NUP214(CAN) fusion protein expression. It is often associated with multilineage dysplasia and basophilia. It affects both children and adults and it usually has an unfavorable clinical outcome.",
+         "An acute myeloid leukemia associated with t(6;9)(p22.3;q34), resulting in DEK-NUP214(CAN) fusion protein expression. It is often associated with multilineage dysplasia and basophilia. It is rare in children."
+      ],
+      "ncit_code": "C82423"
+   }],
+   "oncotree_code": "AMLDEKNUP214"
+}
+{
+   "oncotree_children_codes": [
+      "SM",
+      "MCSL",
+      "CMCD"
+   ],
+   "oncotree_name": "Mastocytosis",
+   "oncotree_main_type": "Mastocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MCD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mastocytosis",
+      "ncit_synonyms": ["Mast Cell Disease"],
+      "ncit_definitions": ["A clonal myeloproliferative neoplasm characterized by the proliferation and accumulation of neoplastic mast cells in one or multiple organs or organ systems. It is a heterogeneous group of neoplasms, ranging from cutaneous proliferations which may regress spontaneously, to aggressive neoplasms associated with organ failure and short survival."],
+      "ncit_code": "C84269"
+   }],
+   "oncotree_code": "MCD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22);CBFB-MYH11",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLRGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA",
+      "AMLCBFBMYH11"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB-MYH11",
+      "ncit_synonyms": [
+         "Acute Myeloid Leukemia, CBFB-MYH11",
+         "Acute Myeloid Leukemia with Abnormal Marrow Eosinophils",
+         "Acute Myeloid Leukemia, CBF-beta/MYH11",
+         "Acute Myeloid Leukemia with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB-MYH11 Fusion",
+         "Acute Myeloid Leukemia with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB::MYH11",
+         "Acute myeloid leukemia, CBF-beta/MYH11",
+         "AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB-MYH11",
+         "AML with inv(16)(p13q22) or t(16;16) (p13.1;q22), (CBFB/MYH11)",
+         "Acute Myeloid Leukemia with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB::MYH11 Fusion"
+      ],
+      "ncit_definitions": [
+         "Acute myeloid leukemia characterized by the presence of abnormal bone marrow eosinophils and the characteristic cytogenetic abnormality inv(16)(p13.1q22) or  t(16;16)(p13.1;q22), which results in the expression of the fusion protein CBFB-MYH11. This is seen in 7-9% of children with AML.",
+         "An acute myeloid leukemia with monocytic and granulocytic differentiation and the presence of a characteristically abnormal eosinophil component in the bone marrow.  This type of acute myeloid leukemia has a favorable prognosis.  (WHO, 2001)"
+      ],
+      "ncit_code": "C9287"
+   }],
+   "oncotree_code": "AMLCBFBMYH11"
+}
+{
+   "oncotree_children_codes": [
+      "MPALTNOS",
+      "MPALBCRABL1",
+      "MPALKMT2A",
+      "MPALBNOS",
+      "AUL"
+   ],
+   "oncotree_name": "Acute Leukemias of Ambiguous Lineage",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "ALAL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Leukemia of Ambiguous Lineage",
+      "ncit_synonyms": [
+         "Acute Leukemia of Indeterminate Lineage",
+         "Acute Leukemia, ambiguous lineage (mixed or biphenotypic)",
+         "ALAL",
+         "Acute Leukemia of Ambiguous Lineage (ALAL)"
+      ],
+      "ncit_definitions": [
+         "An acute leukemia in which the blasts lack sufficient evidence to classify as myeloid or lymphoid or they have morphologic and/or immunophenotypic characteristics of both myeloid and lymphoid cells. (WHO, 2001)",
+         "A rare subtype of acute leukemia in which the blasts lack sufficient evidence to classify as myeloid or lymphoid, or they have morphologic and/or immunophenotypic characteristics of both myeloid and lymphoid cells. These subtypes account for less than 4% of cases of acute leukemia."
+      ],
+      "ncit_code": "C7464"
+   }],
+   "oncotree_code": "ALAL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Follicular Dendritic Cell Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "HDCN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "HDCN",
+      "FDCS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Follicular Dendritic Cell Sarcoma",
+      "ncit_synonyms": [
+         "Follicular Dendritic Cell Sarcoma/Tumor",
+         "Follicular dendritic cell tumor",
+         "FDCS"
+      ],
+      "ncit_definitions": ["A neoplasm composed of spindle to ovoid cells which have morphologic and immunophenotypic characteristics of follicular dendritic cells. It affects lymph nodes and other sites including the tonsils, gastrointestinal tract, spleen, liver, soft tissues, skin, and oral cavity. It usually behaves as a low grade sarcoma. Treatment options include complete surgical removal of the tumor with or without adjuvant chemotherapy or radiotherapy. Recurrences have been reported in up to half of the cases."],
+      "ncit_code": "C9281"
+   }],
+   "oncotree_code": "FDCS"
+}
+{
+   "oncotree_children_codes": [
+      "MDSMD",
+      "MDSRS",
+      "MDSID5Q",
+      "MDSU",
+      "RCYC",
+      "MDSSLD",
+      "MDSEB"
+   ],
+   "oncotree_name": "Myelodysplastic Syndromes",
+   "oncotree_main_type": "Myelodysplastic Syndromes",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic Syndrome",
+      "ncit_synonyms": [
+         "Myelodysplastic Syndromes",
+         "preleukemia",
+         "Myelodysplastic Syndrome/Neoplasm",
+         "Preleukemia",
+         "Dysmyelopoietic Syndrome",
+         "Myelodysplasia",
+         "myelodysplasia",
+         "smoldering leukemia",
+         "MDN",
+         "myelodysplastic syndromes",
+         "Smoldering Leukemia",
+         "Myelodysplastic Neoplasm",
+         "MDS",
+         "Oligoblastic Leukemia"
+      ],
+      "ncit_definitions": [
+         "A pre-malignant disorder characterized by blood cytopenias and abnormalities in bone marrow morphology.",
+         "A group of diseases in which the bone marrow does not make enough healthy blood cells.",
+         "A disorder characterized by insufficiently healthy hematapoietic cell production by the bone marrow.",
+         "A clonal hematopoietic disorder characterized by dysplasia and ineffective hematopoiesis in one or more of the hematopoietic cell lines. The dysplasia may be accompanied by an increase in myeloblasts, but the number is less than 20%, which, according to the WHO guidelines, is the requisite threshold for the diagnosis of acute myeloid leukemia. It may occur de novo or as a result of exposure to alkylating agents and/or radiotherapy. (WHO, 2001)"
+      ],
+      "ncit_code": "C3247"
+   }],
+   "oncotree_code": "MDS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myeloid Sarcoma",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AML",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "MS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myeloid Sarcoma",
+      "ncit_synonyms": [
+         "chloroma",
+         "MYELOID_SARCOMA",
+         "SARCOMA, MYELOID, MALIGNANT",
+         "Extramedullary Myeloid Sarcoma",
+         "Extramedullary Myeloid Tumor",
+         "Chloroma"
+      ],
+      "ncit_definitions": [
+         "A tumor mass composed of myeloblasts or immature myeloid cells.  It occurs in extramedullary sites or the bone.  (WHO, 2001)",
+         "A tumor mass composed of myeloblasts or immature myeloid cells. It occurs in extramedullary sites or the bone. (WHO, 2001)",
+         "A malignant neoplasm composed of myeloblasts or immature myeloid cells. It occurs in extramedullary sites or the bone.",
+         "A malignant, green-colored tumor of myeloid cells (a type of immature white blood cell). This tumor is usually associated with myelogenous leukemia."
+      ],
+      "ncit_code": "C3520"
+   }],
+   "oncotree_code": "MS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Smoldering Systemic Mastocytosis",
+   "oncotree_main_type": "Mastocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "SM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MCD",
+      "SM",
+      "SSM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Smoldering Systemic Mastocytosis",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["Slowly progressive systemic mastocytosis with uncertain prognosis. It is characterized by organomegaly and absence of aggressive disease."],
+      "ncit_code": "C115460"
+   }],
+   "oncotree_code": "SSM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Neoplastic Vs Reactive",
+   "oncotree_main_type": "Neoplastic Vs Reactive",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "NVRINT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "NVRINT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mixed Phenotype Acute Leukemia, T/Myeloid, NOS",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "ALAL",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "ALAL",
+      "MPALTNOS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mixed Phenotype Acute Leukemia, T/Myeloid",
+      "ncit_synonyms": [
+         "Mixed Phenotype Acute Leukemia, T/Myeloid, NOS",
+         "Mixed phenotype acute leukemia, T/myeloid, NOS",
+         "Mixed Phenotype Acute Leukemia, T/Myeloid, Not Otherwise Specified",
+         "MPAL, T/Myeloid, NOS"
+      ],
+      "ncit_definitions": ["A rare mixed phenotype acute leukemia in which the blasts express T-lymphoid and myeloid lineage markers but are negative for KMT2A rearrangement and t(9;22)(q34;q11.2) translocation. The prognosis is usually unfavorable."],
+      "ncit_code": "C82213"
+   }],
+   "oncotree_code": "MPALTNOS"
+}
+{
+   "oncotree_children_codes": ["PVMF"],
+   "oncotree_name": "Polycythemia Vera",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MPN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN",
+      "PV"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Polycythemia Vera",
+      "ncit_synonyms": [
+         "Chronic Erythremia",
+         "Polycythemmia vera",
+         "Polycythemia Rubra Vera",
+         "Polycythemia rubra vera"
+      ],
+      "ncit_definitions": [
+         "A chronic myeloproliferative neoplasm characterized by an increased red blood cell production. The bone marrow is hypercellular due to a panmyelotic proliferation typically characterized by pleomorphic megakaryocytes. The major symptoms are related to hypertension, splenomegaly or to episodes of thrombosis and/or hemorrhage.",
+         "A disease in which there are too many red blood cells in the bone marrow and blood, causing the blood to thicken. The number of white blood cells and platelets may also increase. The extra blood cells may collect in the spleen and cause it to become enlarged. They may also cause bleeding problems and make clots form in blood vessels."
+      ],
+      "ncit_code": "C3336"
+   }],
+   "oncotree_code": "PV"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Chronic Myelomonocytic Leukemia-0",
+   "oncotree_main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "CMML",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS/MPN",
+      "CMML",
+      "CMML0"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Chronic Myelomonocytic Leukemia-0",
+      "ncit_synonyms": ["CMML-0"],
+      "ncit_definitions": ["A chronic myelomonocytic leukemia characterized by the presence of less than 5 percent blasts in the bone marrow and less than 2 percent blasts in the peripheral blood."],
+      "ncit_code": "C130035"
+   }],
+   "oncotree_code": "CMML0"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Acute Panmyelosis with Myelofibrosis",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLNOS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLNOS",
+      "APMF"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Panmyelosis with Myelofibrosis",
+      "ncit_synonyms": [
+         "Acute myelofibrosis",
+         "Acute (Malignant) Myelofibrosis",
+         "Acute Myelofibrosis",
+         "Acute (Malignant) Myelosclerosis",
+         "APMF",
+         "Acute Myelosclerosis",
+         "Acute Panmyelosis"
+      ],
+      "ncit_definitions": ["An acute myeloid leukemia characterized by bone marrow fibrosis without preexisting primary myelofibrosis."],
+      "ncit_code": "C4344"
+   }],
+   "oncotree_code": "APMF"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Chronic Myelomonocytic Leukemia-1",
+   "oncotree_main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "CMML",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS/MPN",
+      "CMML",
+      "CMML1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Chronic Myelomonocytic Leukemia-1",
+      "ncit_synonyms": ["CMML-1"],
+      "ncit_definitions": ["A chronic myelomonocytic leukemia characterized by the presence of less than 10 percent blasts in the bone marrow and less than 5 percent blasts in the peripheral blood."],
+      "ncit_code": "C36061"
+   }],
+   "oncotree_code": "CMML1"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Chronic Myelomonocytic Leukemia-2",
+   "oncotree_main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "CMML",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS/MPN",
+      "CMML",
+      "CMML2"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Chronic Myelomonocytic Leukemia-2",
+      "ncit_synonyms": ["CMML-2"],
+      "ncit_definitions": ["A chronic myelomonocytic leukemia characterized by the presence of 10-19 percent blasts in the bone marrow and 5-19 percent blasts in the peripheral blood or by the presence of Auer rods regardless of the blasts count."],
+      "ncit_code": "C36062"
+   }],
+   "oncotree_code": "CMML2"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "MDS, Unclassifiable",
+   "oncotree_main_type": "Myelodysplastic Syndromes",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS",
+      "MDSU"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic Syndrome, Unclassifiable",
+      "ncit_synonyms": [
+         "Unclassifiable Myelodysplastic Syndrome",
+         "MDS-U",
+         "Unclassifiable MDS",
+         "MDS, U"
+      ],
+      "ncit_definitions": ["A subtype of myelodysplastic syndrome which initially lacks findings appropriate for classification into any other myelodysplastic category.  There are no specific morphologic findings.  The diagnosis can be made in the following instances: 1. in cases of refractory cytopenia with unilineage dysplasia or refractory cytopenia with multilineage dysplasia but with 1% blasts in the peripheral blood; 2: in cases of myelodysplastic syndrome with unilineage dysplasia which are associated with pancytopenia; 3: in cases with persistent cytopenia (s) with 1% or fewer blasts in the blood and fewer than 5% in the bone marrow, unequivocal dysplasia in less than 10% of the cells in one or more myeloid lineages, and cytogenetic abnormalities considered as presumptive evidence of myelodysplastic syndrome. (WHO, 2008)"],
+      "ncit_code": "C8648"
+   }],
+   "oncotree_code": "MDSU"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Myelofibrosis,Overt Fibrotic Stage",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "PMF",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN",
+      "PMF",
+      "PMFOFS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Overt Primary Myelofibrosis",
+      "ncit_synonyms": [
+         "Primary Myelofibrosis, Overt Fibrotic Stage",
+         "Chronic Idiopathic Myelofibrosis, Fibrotic Stage",
+         "Primary Myelofibrosis, Fibrotic Stage"
+      ],
+      "ncit_definitions": ["Primary myelofibrosis characterized by reticulin or collagen fibrosis in the bone marrow. The bone marrow is usually normocellular or hypocellular. Myeloblasts account for less than 10% of the bone marrow cells. Atypical megakaryocytes are present."],
+      "ncit_code": "C41238"
+   }],
+   "oncotree_code": "PMFOFS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Polycythaemia Vera Myelofibrosis",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "PV",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN",
+      "PV",
+      "PVMF"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PVMF"
+}
+{
+   "oncotree_children_codes": [
+      "HS",
+      "FDCS",
+      "XGA",
+      "ECD",
+      "RDD",
+      "LCH",
+      "LCS",
+      "FRCT",
+      "IDCS",
+      "IDCT"
+   ],
+   "oncotree_name": "Histiocytic and Dendritic Cell Neoplasms",
+   "oncotree_main_type": "Histiocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "HDCN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Histiocytosis",
+      "ncit_synonyms": [
+         "Histiocytic Syndrome",
+         "Histiocytic Infiltrate"
+      ],
+      "ncit_definitions": ["A morphologic finding indicating tissue infiltration by non-neoplastic or neoplastic histiocytes."],
+      "ncit_code": "C3106"
+   }],
+   "oncotree_code": "HDCN"
+}
+{
+   "oncotree_children_codes": [
+      "SMAHN",
+      "SSM",
+      "ISM",
+      "SMMCL",
+      "ASM"
+   ],
+   "oncotree_name": "Systemic Mastocytosis",
+   "oncotree_main_type": "Mastocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MCD",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MCD",
+      "SM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Systemic Mastocytosis",
+      "ncit_synonyms": [
+         "Systemic mastocytosis, NOS",
+         "Systemic tissue mast cell disease",
+         "Systemic Tissue Mast Cell Disease"
+      ],
+      "ncit_definitions": [
+         "A rare disease in which too many mast cells (a type of immune system cell) are found in the skin, bones, joints, lymph nodes, liver, spleen, and gastrointestinal tract. Mast cells give off chemicals such as histamine that can cause flushing (a hot, red face), itching, abdominal cramps, muscle pain, nausea, vomiting, diarrhea, low blood pressure, and shock.",
+         "Systemic infiltration of extracutaneous sites by clonal mast cells, with or without evidence of skin involvement."
+      ],
+      "ncit_code": "C9235"
+   }],
+   "oncotree_code": "SM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mixed Phenotype Acute Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "ALAL",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "ALAL",
+      "MPALBCRABL1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mixed Phenotype Acute Leukemia with BCR-ABL1 Fusion",
+      "ncit_synonyms": [
+         "Mixed phenotype acute leukemia with t(9;22)(q34;q11.2); BCR-ABL1",
+         "Mixed-Phenotype Acute Leukemia with BCR::ABL1 Fusion",
+         "Mixed-Phenotype Acute Leukemia with BCR-ABL1 Fusion",
+         "MPAL with t(9;22)(q34.1;q11.2); BCR-ABL1",
+         "Mixed Phenotype Acute Leukemia with BCR::ABL1 Fusion",
+         "Mixed Phenotype Acute Leukemia with t(9;22)(q34;q11.2); BCR-ABL1",
+         "Mixed Phenotype Acute Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+         "Mixed Phenotype Acute Leukemia with t(9;22)(q34.1;q11.2); BCR::ABL1",
+         "MPAL with t(9;22)(q34.1;q11.2); BCR::ABL1"
+      ],
+      "ncit_definitions": ["A rare mixed phenotype acute leukemia in which the blasts carry the chromosomal translocation t(9;22)(q34.1;q11.2) that results in BCR-ABL1 gene fusion. The prognosis is usually unfavorable."],
+      "ncit_code": "C82192"
+   }],
+   "oncotree_code": "MPALBCRABL1"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with Biallelic Mutations of CEBPA",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLRGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA",
+      "AMLCEBPA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia with Biallelic CEBPA Mutation",
+      "ncit_synonyms": [
+         "AML with biallelic mutations of CEBPA",
+         "Acute Myeloid Leukemia with Biallelic Mutations of CEBPA"
+      ],
+      "ncit_definitions": ["An acute myeloid leukemia with double mutations of the CEBPA gene."],
+      "ncit_code": "C129782"
+   }],
+   "oncotree_code": "AMLCEBPA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Essential Thrombocythemia Myelofibrosis",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "ET",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN",
+      "ET",
+      "ETMF"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ETMF"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pure Erythroid Leukemia",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLNOS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLNOS",
+      "PERL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pure Erythroid Leukemia",
+      "ncit_synonyms": [
+         "Di Guglielmo disease",
+         "Acute Myeloid Leukemia M6b",
+         "Erythremic Myelosis",
+         "Acute Erythremic Myelosis",
+         "PEL",
+         "Acute erythremic myelosis",
+         "Di Guglielmo's Disease",
+         "M6B",
+         "M6b",
+         "Di Guglielmo Disease"
+      ],
+      "ncit_definitions": ["Acute erythroid leukemia characterized by the presence of immature erythroid cells in the bone marrow (at least 80% of the cellular component), without evidence of a significant myeloblastic cell population present."],
+      "ncit_code": "C7467"
+   }],
+   "oncotree_code": "PERL"
+}
+{
+   "oncotree_children_codes": [
+      "MDSWP",
+      "MCD",
+      "ALAL",
+      "MDS",
+      "NVRINT",
+      "HDCN",
+      "MPN",
+      "MPNWP",
+      "AML",
+      "MDS/MPN",
+      "MNGLP",
+      "MLNER",
+      "BPDCN"
+   ],
+   "oncotree_name": "Myeloid Neoplasm",
+   "oncotree_main_type": "Blood Cancer, NOS",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MYELOID",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MNM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with Myelodysplasia-Related Changes",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AML",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLMRC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia, Myelodysplasia-Related",
+      "ncit_synonyms": [
+         "AML with Myelodysplasia-related Changes",
+         "Acute Myeloid Leukemia with Myelodysplasia-Related Changes",
+         "AML with Myelodysplasia-Related Changes",
+         "AML with myelodysplasia-related changes",
+         "Acute myeloid leukemia with myelodysplasia-related changes",
+         "AML-MRC"
+      ],
+      "ncit_definitions": [
+         "An acute myeloid leukemia with at least 20% blasts in the bone marrow or blood and one of the following: a previous history of myelodysplastic syndrome; multilineage dysplasia; or myelodysplastic syndrome-related cytogenetic abnormalities.",
+         "An acute myeloid leukemia with at least 20% blasts in the bone marrow or blood, and either a previous history of myelodysplastic syndrome, multilineage dysplasia or myelodysplastic syndrome-related cytogenetic abnormalities.  There is no history of prior cytotoxic therapy for an unrelated disorder, and there is absence of the molecular abnormalities that are present in acute myeloid leukemia with recurrent genetic abnormalities."
+      ],
+      "ncit_code": "C7600"
+   }],
+   "oncotree_code": "AMLMRC"
+}
+{
+   "oncotree_children_codes": [
+      "ET",
+      "PV",
+      "CELNOS",
+      "CML",
+      "CNL",
+      "PMF",
+      "MPNU"
+   ],
+   "oncotree_name": "Myeloproliferative Neoplasms",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myeloproliferative Neoplasm",
+      "ncit_synonyms": [
+         "MPD",
+         "Chronic Myeloproliferative Disorder",
+         "CMPD",
+         "Myeloproliferative Tumor",
+         "Chronic myeloproliferative disorder",
+         "Myeloproliferative Disorder",
+         "MPN",
+         "Chronic Myeloproliferative Disease",
+         "myeloproliferative disorder",
+         "Myeloproliferative Disease",
+         "Chronic myeloproliferative disease",
+         "Chronic Myeloproliferative Neoplasm",
+         "Chronic Myeloproliferative Disorders"
+      ],
+      "ncit_definitions": [
+         "A group of slow growing blood cancers, including chronic myelogenous leukemia, in which large numbers of abnormal red blood cells, white blood cells, or platelets grow and spread in the bone marrow and the peripheral blood.",
+         "A group of myeloid neoplasms that includes the following: chronic myeloid leukemia, BCR-ABL1 positive; polycythemia vera; essential thrombocythemia;  primary myelofibrosis; chronic neutrophilic leukemia; chronic eosinophilic leukemia, not otherwise specified; and myeloproliferative neoplasm, unclassifiable."
+      ],
+      "ncit_code": "C4345"
+   }],
+   "oncotree_code": "MPN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with BCR-ABL1",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLRGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA",
+      "AMLBCRABL1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia with BCR-ABL1",
+      "ncit_synonyms": [
+         "Provisional Entity: AML with BCR-ABL1",
+         "Acute Myeloid Leukemia with BCR-ABL1 Fusion",
+         "Acute Myeloid Leukemia with BCR::ABL1",
+         "Acute Myeloid Leukemia with BCR::ABL1 Fusion"
+      ],
+      "ncit_definitions": ["A rare, de novo acute myeloid leukemia in which the blasts harbor BCR-ABL1 translocation in the absence of a history and clinical and laboratory features of chronic myelogenous leukemia."],
+      "ncit_code": "C129785"
+   }],
+   "oncotree_code": "AMLBCRABL1"
+}
+{
+   "oncotree_children_codes": ["JXG"],
+   "oncotree_name": "Xanthogranuloma",
+   "oncotree_main_type": "Histiocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "HDCN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "HDCN",
+      "XGA"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "XGA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myeloproliferative Workup",
+   "oncotree_main_type": "Myeloproliferative Workup",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPNWP"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MPNWP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "MDS with excess blasts-1",
+   "oncotree_main_type": "Myelodysplastic Syndromes",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDSEB",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS",
+      "MDSEB",
+      "MDSEB1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic Syndrome with Excess Blasts-1",
+      "ncit_synonyms": [
+         "RAEB-1",
+         "RAEB I",
+         "RAEB-I",
+         "Refractory anemia with excess of blasts 1",
+         "MDS-EB-1"
+      ],
+      "ncit_definitions": [],
+      "ncit_code": "C7167"
+   }],
+   "oncotree_code": "MDSEB1"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "MDS with excess blasts-2",
+   "oncotree_main_type": "Myelodysplastic Syndromes",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDSEB",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS",
+      "MDSEB",
+      "MDSEB2"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic Syndrome/Acute Myeloid Leukemia",
+      "ncit_synonyms": [
+         "RAEB-2",
+         "RAEB II",
+         "Myelodysplastic Syndrome with Excess Blasts-2",
+         "MDS-EB2",
+         "RAEB-II",
+         "MDS-IB2",
+         "Refractory anemia with excess of blasts 2",
+         "MDS/AML",
+         "MDS with Increased Blasts-2",
+         "MDS-EB-2",
+         "MDS-IB-2"
+      ],
+      "ncit_definitions": ["A myelodysplastic syndrome characterized by the presence of dysplasia in one or more hematopoietic cell lineages and 10-19% blasts in bone marrow or peripheral blood."],
+      "ncit_code": "C7168"
+   }],
+   "oncotree_code": "MDSEB2"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Erdheim-Chester Disease",
+   "oncotree_main_type": "Histiocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "HDCN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "HDCN",
+      "ECD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Erdheim-Chester Disease",
+      "ncit_synonyms": [
+         "Polyostotic Sclerosing Histiocytosis",
+         "Lipogranulomatosis",
+         "ECD"
+      ],
+      "ncit_definitions": ["A very rare, multisystem non-Langerhans cell histiocytosis that predominantly affects adults.  It is characterized by the proliferation in the tissues of lipid-laden macrophages and the presence of multinucleated giant cells.  It results in sclerosis of the long bones and failure of the affected organs.  Patients may present with bone pain, exophthalmos, ataxia, liver failure, kidney failure, and hypopituitarism."],
+      "ncit_code": "C53972"
+   }],
+   "oncotree_code": "ECD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myeloid/Lymphoid Neoplasms with PDGFRA Rearrangement",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MLNER",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MLNER",
+      "MLNPDGFRA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myeloid/Lymphoid Neoplasms with PDGFRA Rearrangement",
+      "ncit_synonyms": [
+         "Myeloid and lymphoid neoplasms with PDGFRA rearrangement",
+         "Myeloid/Lymphoid Neoplasm with PDGFRA Rearrangement",
+         "Myeloid and Lymphoid Neoplasms with PDGFRA Rearrangement",
+         "M/LN-eo with PDGFRA Rearrangement"
+      ],
+      "ncit_definitions": ["Hematologic neoplasms characterized by the rearrangement of the PDGFRA gene, most often resulting in the formation of FIP1L1-PDGFRA fusion transcripts. Patients usually present with chronic eosinophilic leukemia, and less often with acute myeloid leukemia or T-lymphoblastic leukemia."],
+      "ncit_code": "C84275"
+   }],
+   "oncotree_code": "MLNPDGFRA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myeloid/Lymphoid Neoplasms with PDGFRB Rearrangement",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MLNER",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MLNER",
+      "MLNPDGFRB"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myeloid/Lymphoid Neoplasms with PDGFRB Rearrangement",
+      "ncit_synonyms": [
+         "M/LN-eo with PDGFRB Rearrangement",
+         "Myeloid and Lymphoid Neoplasms with PDGFRB Rearrangement",
+         "Myeloid/Lymphoid Neoplasm with PDGFRB Rearrangement",
+         "Myeloid neoplasms with PDGFRB rearrangement",
+         "Myeloid Neoplasms with PDGFRB Rearrangement"
+      ],
+      "ncit_definitions": ["Myeloid and rarely lymphoid neoplasms characterized by the rearrangement of the PDGFRB gene, most often resulting in the formation of ETV6-PDGFRB fusion transcripts. Patients usually present with chronic myelomonocytic leukemia and less often with atypical chronic myeloid leukemia, or chronic eosinophilic leukemia."],
+      "ncit_code": "C84276"
+   }],
+   "oncotree_code": "MLNPDGFRB"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Transient Abnormal Myelopoiesis",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MPRDS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "MPRDS",
+      "TAM"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "TAM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLRGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA",
+      "AMLGATA2MECOM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia with inv(3)(q21.3;q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM",
+      "ncit_synonyms": [
+         "Acute Myeloid Leukemia with inv(3)(q21.3;q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM(EVI1)",
+         "AML with MECOM Rearrangements",
+         "Acute myeloid leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1",
+         "AML with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1",
+         "Acute Myeloid Leukemia with MECOM Rearrangements",
+         "Acute Myeloid Leukemia with inv(3)(q21.3;q26.2) or t(3;3)(q21.3;q26.2); GATA2::MECOM",
+         "AML with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM",
+         "Acute Myeloid Leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1",
+         "Acute Myeloid Leukemia with inv(3) (q21.3;q26.2) or t(3;3) (q21.3;q26.2); GATA2, MECOM",
+         "Acute Myeloid Leukemia with inv(3)(q21.3;q26.2) or t(3;3)(q21.3;q26.2); GATA2, EVI1"
+      ],
+      "ncit_definitions": [
+         "An acute myeloid leukemia associated with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2) resulting in the reposition of a distal GATA2 enhancer to activate MECOM expression. It may present de novo or follow a myelodysplastic syndrome. The clinical course is aggressive.",
+         "An acute myeloid leukemia associated with inv(3)(q21q26.2) or t(3;3)(q21;q26.2), resulting in the expression of RPN1-EVI1 fusion protein. There have been rare cases in children that have been reported in the literature."
+      ],
+      "ncit_code": "C82426"
+   }],
+   "oncotree_code": "AMLGATA2MECOM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "MDS/MPN, Unclassifiable",
+   "oncotree_main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDS/MPN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS/MPN",
+      "MDSMPNU"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic/Myeloproliferative Neoplasm, Not Otherwise Specified",
+      "ncit_synonyms": [
+         "MDS/MPN-U",
+         "Myelodysplastic/Myeloproliferative Neoplasm, Unclassifiable",
+         "MDS/MPN, U",
+         "MDS/MPN, NOS",
+         "Myelodysplastic/Myeloproliferative Neoplasm, NOS",
+         "Myelodysplastic/myeloproliferative neoplasm, unclassifiable"
+      ],
+      "ncit_definitions": ["A myelodysplastic/myeloproliferative neoplasm that does not meet the criteria of other myelodysplastic/myeloproliferative neoplasms, myelodysplastic syndromes, and myeloproliferative neoplasms. It is associated with cytopenia, blasts less than 20% in bone marrow and peripheral blood, thrombocytosis, and absence of genetic abnormalities associated with myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions."],
+      "ncit_code": "C27780"
+   }],
+   "oncotree_code": "MDSMPNU"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myeloid/Lymphoid Neoplasms with PCM1-JAK2",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MLNER",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MLNER",
+      "MLNPCM1JAK2"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myeloid/Lymphoid Neoplasms with JAK2 Rearrangement",
+      "ncit_synonyms": [
+         "Myeloid/Lymphoid Neoplasms with PCM1::JAK2",
+         "M/LN-eo with t(8;9)(p22;p24.1)/PCM1::JAK2",
+         "M/LN-eo with t(8;9)(p22;p24.1)/PCM1/JAK2",
+         "Myeloid/Lymphoid Neoplasm with PCM1- JAK2 Fusion",
+         "Myeloid and Lymphoid Neoplasms with t(8;9)(p22;p24.1);PCM1-JAK2",
+         "Myeloid/Lymphoid Neoplasm with JAK2 Rearrangement",
+         "Myeloid/Lymphoid Neoplasms with PCM1-JAK2",
+         "Myeloid and Lymphoid Neoplasms with t(8;9)(p22;p24.1);PCM1::JAK2",
+         "Myeloid/Lymphoid Neoplasm with JAK2-PCM1 Fusion"
+      ],
+      "ncit_definitions": ["Hematologic neoplasms characterized by the presence of t(8;9)(p22;p24.1) that results in PCM1-JAK2 fusion gene expression. It is associated with eosinophilia, bone marrow findings of left-shifted erythroid predominance, lymphoid aggregates, and often myelofibrosis. Rare cases present as T- or B-acute lymphoblastic leukemia."],
+      "ncit_code": "C129853"
+   }],
+   "oncotree_code": "MLNPCM1JAK2"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mixed Phenotype Acute Leukemia with t(v;11q23.3); KMT2A Rearranged",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "ALAL",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "ALAL",
+      "MPALKMT2A"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mixed Phenotype Acute Leukemia with KMT2A Rearrangement",
+      "ncit_synonyms": [
+         "Mixed phenotype acute leukemia with t(v;11q23); MLL rearranged",
+         "Mixed-Phenotype Acute Leukemia with KMT2A Rearrangement",
+         "MPAL, with t(v;11q23.3); KMT2A Rearranged",
+         "MPAL with t(v;11q23.3); KMT2A Rearranged",
+         "Mixed Phenotype Acute Leukemia with t(v;11q23); MLL Rearranged",
+         "Mixed Phenotype Acute Leukemia with t(v;11q23.3); MLL Rearranged",
+         "Mixed Phenotype Acute Leukemia with t(v;11q23.3); KMT2A Rearranged"
+      ],
+      "ncit_definitions": ["A rare mixed phenotype acute leukemia in which the blasts carry a translocation between the KMT2A gene at 11q23.3 and another gene partner. The prognosis is usually unfavorable."],
+      "ncit_code": "C82203"
+   }],
+   "oncotree_code": "MPALKMT2A"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Chronic Eosinophilic Leukemia, NOS",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MPN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN",
+      "CELNOS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Chronic Eosinophilic Leukemia, Not Otherwise Specified",
+      "ncit_synonyms": [
+         "Eosinophilic leukemia",
+         "chronic eosinophilic leukemia",
+         "Chronic Eosinophilic Leukemia",
+         "Chronic Eosinophilic Leukemia, NOS",
+         "Chronic eosinophilic leukemia/hypereosinophilic syndrome",
+         "CEL",
+         "CEL, NOS",
+         "Eosinophilic Leukemia",
+         "Chronic eosinophilic leukemia, NOS",
+         "CEL/Hypereosinophilic syndrome"
+      ],
+      "ncit_definitions": [
+         "A rare myeloproliferative neoplasm characterized by a clonal proliferation of eosinophilic precursors resulting in persistently increased numbers of eosinophils in the blood, marrow and peripheral tissues.  Since acute eosinophilic leukemia is at best exceedingly rare, the term eosinophilic leukemia is normally used as a synonym for chronic eosinophilic leukemia.  In cases in which it is impossible to prove clonality and there is no increase in blast cells, the diagnosis of \"idiopathic hypereosinophilic syndrome\" is preferred.  (WHO, 2001)",
+         "A disease in which too many eosinophils (a type of white blood cell) are found in the bone marrow, blood, and other tissues. Chronic eosinophilic leukemia may stay the same for many years, or it may progress quickly to acute leukemia."
+      ],
+      "ncit_code": "C4563"
+   }],
+   "oncotree_code": "CELNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with Variant RARA translocation",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLRGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA",
+      "AMLRARA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Promyelocytic Leukemia with a Variant RARA Rearrangement",
+      "ncit_synonyms": [
+         "AML with Variant RARA Translocation",
+         "Acute Promyelocytic Leukemia with Other RARA Rearrangements",
+         "Acute Myeloid Leukemia with a Variant RARA Rearrangement",
+         "Acute Myeloid Leukemia with a Variant RARA Translocation"
+      ],
+      "ncit_definitions": [
+         "A term referring to acute myeloid leukemias which show variant translocations involving the RARA gene. The variant fusion partners include NUMA1, ZBTB16 (PLZF), STAT5B, and NPM1. These leukemias often have the morphologic features of acute promyelocytic leukemia.",
+         "A term that refers to acute promyelocytic leukemias that show variant translocations involving the RARA gene. The variant fusion partners include NUMA1, ZBTB16, STAT5B, and NPM1."
+      ],
+      "ncit_code": "C36055"
+   }],
+   "oncotree_code": "AMLRARA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Acute Basophilic Leukemia",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLNOS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLNOS",
+      "ABL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Basophilic Leukemia",
+      "ncit_synonyms": [
+         "Leukemia Basophilic",
+         "Acute basophilic leukaemia",
+         "Basophilic Leukemia"
+      ],
+      "ncit_definitions": ["A rare acute myeloid leukemia in which the immature cells differentiate towards basophils."],
+      "ncit_code": "C3164"
+   }],
+   "oncotree_code": "ABL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Rosai-Dorfman Disease",
+   "oncotree_main_type": "Histiocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "HDCN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "HDCN",
+      "RDD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Rosai-Dorfman-Destombes Disease",
+      "ncit_synonyms": [
+         "Destombes-Rosai-Dorfman Disease",
+         "Rosai-Dorfman Disease",
+         "SHML",
+         "RDD",
+         "Sinus Histiocytosis with Massive Lymphadenopathy"
+      ],
+      "ncit_definitions": ["A rare histiocytic disorder of unknown etiology, characterized by distention of the lymph node sinuses and sinusoidal histiocytic infiltration. The histiocytes characteristically contain ingested lymphocytes and are S100 and CD68 positive, and CD1a negative. Patients present with cervical lymphadenopathy, fever, leukocytosis, and hypergammaglobulinemia. It can affect extranodal sites, including skin, bones, and the respiratory tract. It occurs in isolation or may be associated with autoimmune disorders or malignancies. Mutations in NRAS, KRAS, MAP2K1, and ARAF genes have been identified in affected tissues, suggesting a clonal origin in some cases. It is a self-limited disorder, although some patients may have a poor prognosis."],
+      "ncit_code": "C36075"
+   }],
+   "oncotree_code": "RDD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Indolent Systemic Mastocytosis",
+   "oncotree_main_type": "Mastocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "SM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MCD",
+      "SM",
+      "ISM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Indolent Systemic Mastocytosis",
+      "ncit_synonyms": ["ISM"],
+      "ncit_definitions": ["An indolent mast cell neoplasm characterized by systemic infiltration of skin and internal organs by aggregates of neoplastic mast cells. There is no evidence of mast cell leukemia or clonal hematologic malignancy. Clinically, there is no evidence of palpable hepatomegaly and splenomegaly, malabsorption syndrome, or pathologic fractures."],
+      "ncit_code": "C9286"
+   }],
+   "oncotree_code": "ISM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mast Cell Leukemia",
+   "oncotree_main_type": "Mastocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "SM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MCD",
+      "SM",
+      "SMMCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mast Cell Leukemia",
+      "ncit_synonyms": [
+         "LEUKEMIA, MAST CELL, MALIGNANT",
+         "Mast cell leukaemia"
+      ],
+      "ncit_definitions": [
+         "A progressive, proliferative disease of blood cells, originating from mast cells.",
+         "A variant of systemic mastocytosis with involvement of the bone marrow (20% or more mast cells) and the peripheral blood (mast cells account for 10% or more of peripheral blood white cells). (WHO, 2001)"
+      ],
+      "ncit_code": "C3169"
+   }],
+   "oncotree_code": "SMMCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with Minimal Differentiation",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLNOS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLNOS",
+      "AMLMD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia with Minimal Differentiation",
+      "ncit_synonyms": [
+         "Acute Myeloblastic Leukemia with Minimal Differentiation",
+         "M0",
+         "Acute Myeloblastic Leukemia, Minimally Differentiated",
+         "M0 Acute Myelogenous Leukemia",
+         "AML with Minimal Differentiation",
+         "Acute Myeloid Leukemia with Minimal Differentiation (MO)",
+         "Acute Myelogenous Leukemia with Minimal Differentiation",
+         "M0 Acute Myelogenous Leukemia with Minimal Differentiation",
+         "Acute Myeloid Leukemia, Minimally Differentiated",
+         "M0 Myeloid Leukemia with Minimal Differentiation",
+         "FAB M0",
+         "M0 Myeloid Leukemia",
+         "Acute myeloid leukemia, minimal differentiation",
+         "M0 Acute Myeloblastic Leukemia"
+      ],
+      "ncit_definitions": ["An acute myeloid leukemia (AML) in which the blasts do not show evidence of myeloid differentiation by morphology and conventional cytochemistry. (WHO, 2001)"],
+      "ncit_code": "C8460"
+   }],
+   "oncotree_code": "AMLMD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mixed Phenotype Acute Leukemia, B/Myeloid, NOS",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "ALAL",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "ALAL",
+      "MPALBNOS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mixed Phenotype Acute Leukemia, B/Myeloid",
+      "ncit_synonyms": [
+         "Mixed Phenotype Acute Leukemia, B/Myeloid, NOS",
+         "MPAL, B/Myeloid, NOS",
+         "Mixed Phenotype Acute Leukemia, B/Myeloid, Not Otherwise Specified",
+         "Mixed phenotype acute leukemia, B/myeloid, NOS"
+      ],
+      "ncit_definitions": ["A rare mixed phenotype acute leukemia in which the blasts express B-lymphoid and myeloid lineage markers but are negative for KMT2A rearrangement and t(9;22)(q34;q11.2) translocation. The prognosis is usually unfavorable."],
+      "ncit_code": "C82212"
+   }],
+   "oncotree_code": "MPALBNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Refractory Cytopenia of Childhood",
+   "oncotree_main_type": "Myelodysplastic Syndromes",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS",
+      "RCYC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Refractory Cytopenia of Childhood",
+      "ncit_synonyms": ["RCC"],
+      "ncit_definitions": [
+         "The most common subtype of the myelodysplastic syndromes affecting children. It is characterized by persistent cytopenia with less than 5% blasts in the bone marrow and less than 2% blasts in the peripheral blood. Most cases are associated with a normal karyotype, however, when abnormal, monosomy 7 is the most frequently seen cytogenetic abnormality.",
+         "A myeloid disorder that occurs in childhood and is characterized by persistent cytopenia, dysplastic changes in at least two hematopoietic lineages or in 10% or more of cells in one hematopoietic lineage, less than 5% blasts in bone marrow, and less than 2% blasts in peripheral blood, absence of bone marrow fibrosis, and absence of history of prior cytotoxic chemotherapy or radiation therapy. In a subset of cases, somatic mutations or cytogenetic abnormalities can be identified. Other cases are the result of pre-existing disorders with germline mutations, including Fanconi anemia, Shwachman-Diamond syndrome, and dyskeratosis congenita."
+      ],
+      "ncit_code": "C82596"
+   }],
+   "oncotree_code": "RCYC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Therapy-Related Acute Myeloid Leukemia",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "TMN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "TMN",
+      "TAML"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia Post Cytotoxic Therapy",
+      "ncit_synonyms": [
+         "Treatment-Related AML",
+         "Therapy-Related Acute Myeloid Leukemia",
+         "Treatment related AML",
+         "High-Grade Treatment-Related Myeloid Neoplasm",
+         "Treatment Related Acute Myeloid Leukemia",
+         "Treatment related acute myeloid leukemia",
+         "Treatment Related Acute Myelogenous Leukemia",
+         "Treatment-Related Acute Myelogenous Leukemia",
+         "Treatment Related AML",
+         "t-AML",
+         "Treatment-related Acute Myeloid Leukemia"
+      ],
+      "ncit_definitions": ["An acute myeloid leukemia arising as a result of the mutagenic effect of chemotherapy agents and/or ionizing radiation.  (WHO, 2001)"],
+      "ncit_code": "C8252"
+   }],
+   "oncotree_code": "TAML"
+}
+{
+   "oncotree_children_codes": [
+      "TMDS",
+      "TAML"
+   ],
+   "oncotree_name": "Therapy-Related Myeloid Neoplasms",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AML",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "TMN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myeloid Neoplasm Post Cytotoxic Therapy",
+      "ncit_synonyms": [
+         "Acute Myeloid Leukaemias and Myelodysplastic Syndromes, Therapy-Related",
+         "Therapy related myeloid neoplasm",
+         "Therapy-Related AML and MDS",
+         "Therapy-Related Acute Myeloid Leukemia and Myelodysplastic Syndrome",
+         "Therapy-related Myeloid Neoplasms",
+         "Therapy-Related Myeloid Neoplasm"
+      ],
+      "ncit_definitions": ["Acute myeloid leukemias, myelodysplastic syndromes, and myelodysplastic/myeloproliferative neoplasms arising as a result of the mutagenic effect of chemotherapy agents and/or radiation that are used for the treatment of neoplastic or non-neoplastic disorders."],
+      "ncit_code": "C27912"
+   }],
+   "oncotree_code": "TMN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "APL with PML-RARA",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLRGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA",
+      "APLPMLRARA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML-RARA",
+      "ncit_synonyms": [
+         "Childhood APL with t(15;17)(q24.1;q21.2); PML-RARA",
+         "Childhood Acute Promyelocytic Leukemia with t(15;17)(q22;q12); PML-RARA",
+         "Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML::RARA",
+         "Childhood APML with t(15;17)(q24.1;q21.2); PML-RARA",
+         "Acute Promyelocytic Leukemia with PML-RARA",
+         "APL with PML-RARA",
+         "Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML::RARA Fusion",
+         "Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML-RARA Fusion",
+         "Childhood Acute Promyelocytic Leukemia with PML-RARA"
+      ],
+      "ncit_definitions": ["An acute promyelocytic leukemia with t(15;17)(q24.1;q21.2); PML-RARA that occurs in children."],
+      "ncit_code": "C7968"
+   }],
+   "oncotree_code": "APLPMLRARA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "MDS with Ring Sideroblasts and Single Lineage Dysplasia",
+   "oncotree_main_type": "Myelodysplastic Syndromes",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDSRS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS",
+      "MDSRS",
+      "MDSRSSLD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic Syndrome with Ring Sideroblasts and Single Lineage Dysplasia",
+      "ncit_synonyms": ["MDS-RS-SLD"],
+      "ncit_definitions": ["A myelodysplastic syndrome with ring sideroblasts and dysplastic changes involving only one myeloid cell lineage in the bone marrow."],
+      "ncit_code": "C130037"
+   }],
+   "oncotree_code": "MDSRSSLD"
+}
+{
+   "oncotree_children_codes": ["CMLBCRABL1"],
+   "oncotree_name": "Chronic Myelogenous Leukemia",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MPN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN",
+      "CML"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myeloid Leukemia",
+      "ncit_synonyms": [
+         "Leukemia Granulocytic",
+         "Myelocytic Leukemia",
+         "Leukemia Myeloid",
+         "Non-Lymphoblastic Leukemia",
+         "Myelogenous Leukemia",
+         "Myeloid leukemia, NOS",
+         "Non-Lymphocytic Leukemia",
+         "LEUKEMIA, GRANULOCYTIC, MALIGNANT",
+         "Non-lymphoblastic Leukemia",
+         "Non-lymphocytic Leukemia"
+      ],
+      "ncit_definitions": [
+         "A progressive, proliferative disease of blood cells, originating from immature granulocytes.",
+         "A clonal proliferation of myeloid cells and their precursors in the bone marrow, peripheral blood, and spleen. When the proliferating cells are immature myeloid cells and myeloblasts, it is called acute myeloid leukemia. When the proliferating myeloid cells are neutrophils, it is called chronic myelogenous leukemia."
+      ],
+      "ncit_code": "C3172"
+   }],
+   "oncotree_code": "CML"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Chronic Neutrophilic Leukemia",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MPN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN",
+      "CNL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Chronic Neutrophilic Leukemia",
+      "ncit_synonyms": ["Neutrophilic Leukemia"],
+      "ncit_definitions": [
+         "A disease in which too many neutrophils (a type of white blood cell) are found in the blood. The extra neutrophils may cause the spleen and liver to become enlarged. Chronic neutrophilic leukemia may stay the same for many years or it may progress quickly to acute leukemia.",
+         "A rare chronic myeloproliferative neoplasm characterized by neutrophilic leukocytosis.  There is no detectable Philadelphia chromosome or BCR/ABL fusion gene."
+      ],
+      "ncit_code": "C3179"
+   }],
+   "oncotree_code": "CNL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Chronic Myeloid Leukemia, BCR-ABL1+",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "CML",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN",
+      "CML",
+      "CMLBCRABL1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Chronic Myeloid Leukemia, BCR-ABL1 Positive",
+      "ncit_synonyms": [
+         "CML",
+         "Chronic Myelocytic Leukemia",
+         "chronic granulocytic leukemia",
+         "Chronic Granulocytic Leukemia",
+         "Chronic Myelogenous Leukemia",
+         "chronic myelogenous leukemia",
+         "Chronic Myeloid Leukemia",
+         "Chronic Myelogenous Leukemia, BCR-ABL1 Positive",
+         "CML - Chronic Myelogenous Leukemia",
+         "Chronic Myelogenous Leukemia, BCR::ABL1 Positive",
+         "Chronic Myelogenous Leukemia (CML)",
+         "Chronic Myelogenous Leukemias",
+         "Chronic myelogenous leukemia, BCR-ABL positive",
+         "BCR-ABL Positive Chronic Myelogenous Leukemia",
+         "chronic myeloid leukemia",
+         "Chronic Myeloid Leukemia, BCR::ABL1 Positive",
+         "Hematopoeitic - Chronic Myelocytic Leukemia (CML)"
+      ],
+      "ncit_definitions": [
+         "A chronic myeloproliferative neoplasm characterized by the expression of the BCR-ABL1 fusion gene. It presents with neutrophilic leukocytosis. It can appear at any age, but it mostly affects middle aged and older individuals. Patients usually present with fatigue, weight loss, anemia, night sweats, and splenomegaly. If untreated, it follows a biphasic or triphasic natural course; an initial indolent chronic phase which is followed by an accelerated phase, a blast phase, or both. Allogeneic stem cell transplantation and tyrosine kinase inhibitors delay disease progression and prolong overall survival.",
+         "A slowly progressing disease in which too many white blood cells are made in the bone marrow."
+      ],
+      "ncit_code": "C3174"
+   }],
+   "oncotree_code": "CMLBCRABL1"
+}
+{
+   "oncotree_children_codes": [
+      "AMLRGA",
+      "MS",
+      "AMLMRC",
+      "TMN",
+      "AMLNOS",
+      "MPRDS"
+   ],
+   "oncotree_name": "Acute Myeloid Leukemia",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia",
+      "ncit_synonyms": [
+         "AML",
+         "Acute Myelocytic Leukemia",
+         "Acute myelogenous leukemia",
+         "Acute Granulocytic Leukemia",
+         "AML - Acute Myeloid Leukemia",
+         "acute myeloblastic leukemia",
+         "Acute granulocytic leukemia",
+         "acute myelogenous leukemia",
+         "Acute Nonlymphocytic Leukemia",
+         "Acute myeloblastic leukemia",
+         "Acute myeloid leukemia (AML)",
+         "Acute Myeloblastic Leukemia",
+         "Acute Myelogenous Leukemias",
+         "acute nonlymphocytic leukemia",
+         "ANLL",
+         "Acute Myelogenous Leukemia",
+         "Hematopoeitic - Acute Myleogenous Leukemia (AML)",
+         "Acute Myeloid Leukemia (AML)",
+         "Acute myelocytic leukemia"
+      ],
+      "ncit_definitions": [
+         "A rapidly progressive cancer of the blood and bone marrow consisting of the proliferation of abnormal myeloblasts, which are immature, dysfunctional white blood cells.",
+         "A clonal expansion of myeloid blasts in the bone marrow, blood or other tissues. The classification of acute myeloid leukemias (AMLs) encompasses four major categories: 1) AML with recurrent genetic abnormalities; 2) AML with multilineage dysplasia; 3) Therapy-related AML; 4) AML not otherwise specified. The required bone marrow or peripheral blood blast percentage for the diagnosis of AML is 20% (WHO classification).",
+         "An aggressive (fast-growing) disease in which too many myeloblasts (immature white blood cells that are not lymphoblasts) are found in the bone marrow and blood."
+      ],
+      "ncit_code": "C3171"
+   }],
+   "oncotree_code": "AML"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Langerhans Cell Histiocytosis",
+   "oncotree_main_type": "Histiocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "HDCN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "HDCN",
+      "LCH"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Langerhans Cell Histiocytosis",
+      "ncit_synonyms": [
+         "LCH",
+         "Histiocytosis X",
+         "Langerhans cell granulomatosis",
+         "Langerhans Cell Granulomatosis",
+         "Langerhans cell histiocytosis, NOS"
+      ],
+      "ncit_definitions": [
+         "A neoplastic proliferation of Langerhans cells which contain Birbeck granules by ultrastructural examination. Three major overlapping syndromes are recognized: eosinophilic granuloma, Letterer-Siwe disease, and Hand-Schuller-Christian disease. The clinical course is generally related to the number of organs affected at presentation. (WHO, 2001)",
+         "A group of rare disorders in which too many Langerhans cells (a type of white blood cell) grow in certain tissues and organs including the bones, skin, and lungs, and damage them. Langerhans cell histiocytosis may also affect the pituitary gland (which makes hormones that control other glands and many body functions, especially growth). Langerhans cell histiocytosis is most common in children and young adults.",
+         "Tissue infiltration by Langerhans cells (histiocytes). When infiltration involves the pituitary stalk or gland, presentation includes diabetes insipidus, which is sometimes accompanied by other pituitary dysfunction."
+      ],
+      "ncit_code": "C3107"
+   }],
+   "oncotree_code": "LCH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Langerhans Cell Sarcoma",
+   "oncotree_main_type": "Histiocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "HDCN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "HDCN",
+      "LCS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LCS"
+}
+{
+   "oncotree_children_codes": [
+      "PMFOFS",
+      "PMFPES"
+   ],
+   "oncotree_name": "Primary Myelofibrosis",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MPN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN",
+      "PMF"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Primary Myelofibrosis",
+      "ncit_synonyms": [
+         "myelosclerosis with myeloid metaplasia",
+         "Agnogenic Myeloid Metaplasia",
+         "AMM",
+         "Idiopathic Myelofibrosis",
+         "idiopathic myelofibrosis",
+         "Myelosclerosis with Myeloid Metaplasia",
+         "PMF",
+         "agnogenic myeloid metaplasia",
+         "Agnogenic myeloid metaplasia",
+         "Myelosclerosis with myeloid metaplasia",
+         "Idiopathic Bone Marrow Fibrosis"
+      ],
+      "ncit_definitions": [
+         "A chronic myeloproliferative neoplasm characterized by bone marrow fibrosis, proliferation of atypical megakaryocytes and granulocytes in the bone marrow, anemia, splenomegaly, and extramedullary hematopoiesis. (WHO, 2001)",
+         "A progressive, chronic disease in which the bone marrow is replaced by fibrous tissue and blood is made in organs such as the liver and the spleen, instead of in the bone marrow. This disease is marked by an enlarged spleen and progressive anemia."
+      ],
+      "ncit_code": "C2862"
+   }],
+   "oncotree_code": "PMF"
+}
+{
+   "oncotree_children_codes": [
+      "MDSMPNRST",
+      "ACML",
+      "MDSMPNU",
+      "JMML",
+      "CMML"
+   ],
+   "oncotree_name": "Myelodysplastic/Myeloproliferative Neoplasms",
+   "oncotree_main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS/MPN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic/Myeloproliferative Neoplasm",
+      "ncit_synonyms": [
+         "MDS-MPD",
+         "Myeloproliferative/Myelodysplastic Syndromes",
+         "MPD/MDS",
+         "MPD-MDS",
+         "Myelodysplastic/Myeloproliferative Disease",
+         "MDS/MPN",
+         "Myelodysplastic/Myeloproliferative Diseases",
+         "Myelodysplastic/Myeloproliferative Disorders",
+         "Myeloproliferative/Myelodysplastic Disorders",
+         "Myelodysplastic/Myeloproliferative Disorder",
+         "MDS/MPD"
+      ],
+      "ncit_definitions": ["A category of clonal hematopoietic disorders that have both myelodysplastic and myeloproliferative features at the time of initial presentation."],
+      "ncit_code": "C27262"
+   }],
+   "oncotree_code": "MDS/MPN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Juvenile Myelomonocytic Leukemia",
+   "oncotree_main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDS/MPN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS/MPN",
+      "JMML"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Juvenile Myelomonocytic Leukemia",
+      "ncit_synonyms": [
+         "JMML",
+         "JCML",
+         "Juvenile Chronic Myelomonocytic Leukemia",
+         "Juvenile Chronic Myelogenous Leukemia",
+         "Juvenile Chronic Myeloid Leukemia"
+      ],
+      "ncit_definitions": [
+         "A rare form of childhood leukemia in which cancer cells often spread into tissues such as the skin, lung, and intestines.",
+         "A clonal myeloid disorder of childhood previously classified as myelodysplastic/myeloproliferative neoplasm. It is characterized by the presence of monocytic proliferation in peripheral blood, less than 20% blasts in bone marrow and peripheral blood, splenomegaly, and the absence of BCR-ABL1 fusion. Almost all patients carry mutations of the RAS pathway.",
+         "A myelodysplastic/myeloproliferative neoplasm of childhood that is principally characterized by proliferation of the granulocytic and monocytic lineages."
+      ],
+      "ncit_code": "C9233"
+   }],
+   "oncotree_code": "JMML"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Fibroblastic Reticular Cell Tumor",
+   "oncotree_main_type": "Histiocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "HDCN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "HDCN",
+      "FRCT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "FRCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mast Cell Sarcoma",
+   "oncotree_main_type": "Mastocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MCD",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MCD",
+      "MCSL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mast Cell Sarcoma",
+      "ncit_synonyms": ["MCS"],
+      "ncit_definitions": ["A rare malignant neoplasm characterized by localized but destructive growth of a tumor consisting of highly atypical, immature mast cells. (WHO, 2001)"],
+      "ncit_code": "C9348"
+   }],
+   "oncotree_code": "MCSL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with Mutated NPM1",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLRGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA",
+      "AMLNPM1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia with NPM1 Mutation",
+      "ncit_synonyms": [
+         "Acute myeloid leukemia with mutated NPM1",
+         "Acute Myeloid Leukemia with Cytoplasmic Nucleophosmin",
+         "NPMc+ AML",
+         "AML with Mutated NPM1",
+         "AML with mutated NPM1",
+         "Acute Myeloid Leukemia with Mutated NPM1"
+      ],
+      "ncit_definitions": [
+         "An acute myeloid leukemia with mutation of the nucleophosmin gene. It is usually associated with normal karyotype and frequently has myelomonocytic or monocytic features. It usually responds to induction therapy.",
+         "An acute myeloid leukemia (AML) with mutation of the nucleophosmin gene. It is usually associated with normal karyotype. It is seen in 8% of children with AML."
+      ],
+      "ncit_code": "C82431"
+   }],
+   "oncotree_code": "AMLNPM1"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Cutaneous Mastocytosis",
+   "oncotree_main_type": "Mastocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MCD",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MCD",
+      "CMCD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Cutaneous Mastocytosis",
+      "ncit_synonyms": [
+         "Cutaneous (Skin) Mastocytosis",
+         "CM"
+      ],
+      "ncit_definitions": ["Mastocytosis that affects the skin. It may manifest as pure cutaneous mastocytosis without extracutaneous involvement or as the result of cutaneous involvement in systemic mastocytosis."],
+      "ncit_code": "C7137"
+   }],
+   "oncotree_code": "CMCD"
+}
+{
+   "oncotree_children_codes": [
+      "AM",
+      "APMF",
+      "PERL",
+      "ABL",
+      "AMLMD",
+      "AMKL",
+      "AMML",
+      "AWM",
+      "AMOL"
+   ],
+   "oncotree_name": "AML, NOS",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AML",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLNOS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia, Not Otherwise Specified",
+      "ncit_synonyms": [
+         "AML, NOS",
+         "Acute myeloid leukemia, NOS",
+         "Acute Myeloid Leukemia NOS",
+         "Acute Myeloid Leukemia, NOS",
+         "AML, Not Otherwise Specified",
+         "Acute Myeloid Leukemia Not Otherwise Specified",
+         "Acute Myeloid Leukemia Not Otherwise Categorized",
+         "AML not otherwise specified"
+      ],
+      "ncit_definitions": ["Acute myeloid leukemias that do not fulfill the criteria for inclusion in the group of acute myeloid leukemias which have recurrent genetic abnormalities or myelodysplastic changes, or are therapy-related.  This category includes entities classified according to the French-American-British classification scheme."],
+      "ncit_code": "C27753"
+   }],
+   "oncotree_code": "AMLNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Aggressive Systemic Mastocytosis",
+   "oncotree_main_type": "Mastocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "SM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MCD",
+      "SM",
+      "ASM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Aggressive Systemic Mastocytosis",
+      "ncit_synonyms": [
+         "Advanced Systemic Mastocytosis",
+         "ASM"
+      ],
+      "ncit_definitions": ["An aggressive and progressive mast cell neoplasm characterized by systemic infiltration of internal organs by aggregates of neoplastic mast cells. There is no evidence of mast cell leukemia or clonal hematologic malignancy. Clinical symptoms include hepatomegaly, splenomegaly, portal hypertension, malabsorption syndrome, and pathologic fractures."],
+      "ncit_code": "C9285"
+   }],
+   "oncotree_code": "ASM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myeloproliferative Neoplasms, Unclassifiable",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MPN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN",
+      "MPNU"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myeloproliferative Neoplasm, Not Otherwise Specified",
+      "ncit_synonyms": [
+         "Chronic Myeloproliferative Disorder, Unclassifiable",
+         "MPN, U",
+         "Myeloproliferative disease, NOS",
+         "Unclassifiable Chronic Myeloproliferative Disorder",
+         "CMPD, U",
+         "Myeloproliferative neoplasm, NOS",
+         "CMPD-U",
+         "MPN-U",
+         "Chronic myeloproliferative disease, NOS",
+         "Chronic Myeloproliferative Disease, Unclassifiable",
+         "Myeloproliferative Neoplasm, NOS",
+         "MPN-NOS",
+         "Unclassifiable Chronic Myeloproliferative Disease",
+         "Myeloproliferative Neoplasm, Unclassifiable"
+      ],
+      "ncit_definitions": ["This subgroup of myeloproliferative neoplasms includes cases which do not meet the morphologic criteria of any of the defined myeloproliferative neoplasms, or which have characteristics that overlap at least two of the myeloproliferative neoplasms."],
+      "ncit_code": "C27350"
+   }],
+   "oncotree_code": "MPNU"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Acute Megakaryoblastic Leukemia",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLNOS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLNOS",
+      "AMKL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Megakaryoblastic Leukemia",
+      "ncit_synonyms": [
+         "Acute megakaryoblastic leukaemia",
+         "Acute Megakaryoblastic Leukemia (FAB Type M7)",
+         "LEUKEMIA, MEGAKARYOCYTIC, MALIGNANT",
+         "AMKL",
+         "Fab M7",
+         "Acute Megakaryoblastic Leukemia (Fab Type M7)",
+         "FAB M7",
+         "M7",
+         "M7 OR Acute Megakaryoblastic Leukemia",
+         "Acute M7 Myeloid Leukemia",
+         "Acute Megakaryocytic Leukemia"
+      ],
+      "ncit_definitions": [
+         "An acute myeloid leukemia in which at least 50% of the blasts are of megakaryocytic lineage. (WHO, 2001)",
+         "A progressive, proliferative disease of blood cells, originating from immature megakaryocytes."
+      ],
+      "ncit_code": "C3170"
+   }],
+   "oncotree_code": "AMKL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Myelofibrosis, Prefibrotic/Early Stage",
+   "oncotree_main_type": "Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "PMF",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MPN",
+      "PMF",
+      "PMFPES"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Prefibrotic Primary Myelofibrosis",
+      "ncit_synonyms": [
+         "Pre-PMF",
+         "Early/Prefibrotic Stage Primary Myelofibrosis",
+         "Early/Prefibrotic Stage PMF",
+         "Prefibrotic/Early Primary Myelofibrosis",
+         "Early/Prefibrotic Primary Myelofibrosis",
+         "Primary Myelofibrosis, Prefibrotic/Early Stage",
+         "Primary Myelofibrosis, Prefibrotic Stage"
+      ],
+      "ncit_definitions": ["Primary myelofibrosis characterized by bone marrow hypercellularity and the presence of atypical megakaryocytes. There is no increase in the percentage of myeloblasts and no significant increase in reticulin or collagen fibrosis in the bone marrow."],
+      "ncit_code": "C41237"
+   }],
+   "oncotree_code": "PMFPES"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Acute Undifferentiated Leukemia",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "ALAL",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "ALAL",
+      "AUL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Undifferentiated Leukemia",
+      "ncit_synonyms": [
+         "Stem Cell Leukemia",
+         "Acute leukemia, NOS",
+         "Leukemia Stem Cell",
+         "Stem cell leukemia",
+         "Undifferentiated Acute Leukemia",
+         "Stem Cell Acute Leukemia"
+      ],
+      "ncit_definitions": [
+         "A rare acute leukemia in which the blasts do not express markers specific to myeloid or lymphoid lineage.",
+         "A rare acute leukemia of ambiguous lineage in which the blasts do not express markers specific to myeloid or lymphoid lineage."
+      ],
+      "ncit_code": "C9298"
+   }],
+   "oncotree_code": "AUL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "MDS with Single Lineage Dysplasia",
+   "oncotree_main_type": "Myelodysplastic Syndromes",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS",
+      "MDSSLD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic Syndrome, Not Otherwise Specified with Single Lineage Dysplasia",
+      "ncit_synonyms": [
+         "MDS-LB-SLD",
+         "Myelodysplastic Syndrome with Low Blasts and Single Lineage Dysplasia",
+         "RCUD",
+         "Refractory Cytopenia with Unilineage Dysplasia",
+         "MDS-SLD",
+         "MDS with Low Blasts and Single Lineage Dysplasia",
+         "Myelodysplastic Syndrome with Single Lineage Dysplasia"
+      ],
+      "ncit_definitions": ["A myelodysplastic syndrome characterized by dysplastic changes involving only one myeloid cell lineage in the bone marrow."],
+      "ncit_code": "C82591"
+   }],
+   "oncotree_code": "MDSSLD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myeloid Neoplasms with Germ Line Predisposition",
+   "oncotree_main_type": "Myeloid Neoplasms with Germ Line Predisposition",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MNGLP"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MNGLP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Acute Myelomonocytic Leukemia",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLNOS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLNOS",
+      "AMML"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myelomonocytic Leukemia",
+      "ncit_synonyms": [
+         "Acute Myelomonocytic Leukemia (FAB Type M4)",
+         "AMML",
+         "M4",
+         "M4 OR Acute Myelomonocytic Leukemia",
+         "Acute M4 Myeloid Leukemia"
+      ],
+      "ncit_definitions": [
+         "An acute leukemia characterized by the proliferation of both neutrophil and monocyte precursors.  (WHO, 2001)",
+         "An acute leukemia characterized by the proliferation of both neutrophil and monocyte precursors. (WHO, 2001)"
+      ],
+      "ncit_code": "C7463"
+   }],
+   "oncotree_code": "AMML"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML without Maturation",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLNOS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLNOS",
+      "AWM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia without Maturation",
+      "ncit_synonyms": [
+         "Acute Myelogenous Leukemia without Maturation",
+         "M1",
+         "Acute Myeloid Leukemia without Maturation (FAB M1)",
+         "M1 Acute Myeloid Leukemia without Maturation",
+         "M1 Acute Myelogenous Leukemia without Maturation",
+         "Acute M1 Myeloid Leukemia",
+         "M1 Acute Myeloblastic Leukemia",
+         "M1 Acute Myelogenous Leukemia",
+         "AML without Maturation",
+         "M1 Acute Myeloblastic Leukemia without Maturation",
+         "FAB M1",
+         "Acute Myeloblastic Leukemia without Maturation",
+         "M1 Acute Myeloid Leukemia"
+      ],
+      "ncit_definitions": [
+         "An acute myeloid leukemia (AML) characterized by blasts without evidence of significant maturation in the neutrophilic lineage.",
+         "An acute myeloid leukemia (AML) characterized by blasts without evidence of maturation to more mature neutrophils. (WHO, 2001)"
+      ],
+      "ncit_code": "C3249"
+   }],
+   "oncotree_code": "AWM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Interdigitating Dendritic Cell Sarcoma",
+   "oncotree_main_type": "Soft Tissue Sarcoma",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "HDCN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "HDCN",
+      "IDCS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Interdigitating Dendritic Cell Sarcoma",
+      "ncit_synonyms": [
+         "Interdigitating Dendritic Cell Sarcoma/Tumor",
+         "Interdigitating Cell Sarcoma/Tumor"
+      ],
+      "ncit_definitions": ["A neoplastic proliferation of spindle to ovoid cells which show phenotypic features similar to those of interdigitating dendritic cells.  The clinical course is generally aggressive. (WHO, 2008)"],
+      "ncit_code": "C9282"
+   }],
+   "oncotree_code": "IDCS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Indeterminate Dendritic Cell Tumor",
+   "oncotree_main_type": "Histiocytosis",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "HDCN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "HDCN",
+      "IDCT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "IDCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myeloid Leukemia Associated with Down Syndrome",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MPRDS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "MPRDS",
+      "MLADS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myeloid Leukemia Associated with Down Syndrome",
+      "ncit_synonyms": [
+         "AML Occurring in Children with Down Syndrome",
+         "Acute Myeloid Leukemia with GATA1 Mutations",
+         "MLDS",
+         "Acute Myeloid Leukemia Occurring in Children with Down syndrome"
+      ],
+      "ncit_definitions": [
+         "Acute myeloid leukemia occurring in children with Down syndrome. During the first 3 years of life, it is usually the megakaryoblastic subtype, and is associated with GATA1 gene mutation. After age 4 this is no longer the case.",
+         "Acute myeloid leukemia or myelodysplastic syndrome occurring in children with Down syndrome.  The acute myeloid leukemia is usually an acute megakaryoblastic leukemia, and is associated with GATA1 gene mutation."
+      ],
+      "ncit_code": "C43223"
+   }],
+   "oncotree_code": "MLADS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Acute Monoblastic/Monocytic Leukemia",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLNOS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLNOS",
+      "AMOL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Monocytic Leukemia",
+      "ncit_synonyms": [
+         "Acute Monocytic Leukemia (Fab M5B)",
+         "LEUKEMIA, MONOCYTIC, MALIGNANT",
+         "Acute Monocytic Leukemia (FAB M5b)",
+         "M5b",
+         "Monocytic Leukemia"
+      ],
+      "ncit_definitions": [
+         "A progressive, proliferative disease of blood cells, originating from immature monocytes.",
+         "An acute myeloid leukemia in which the majority of monocytic cells are promonocytes.  (WHO, 2001)"
+      ],
+      "ncit_code": "C4861"
+   }],
+   "oncotree_code": "AMOL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with t(8;21)(q22;q22.1);RUNX1-RUNX1T1",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLRGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA",
+      "AMLRUNX1RUNX1T1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia with t(8;21)(q22; q22.1); RUNX1-RUNX1T1",
+      "ncit_synonyms": [
+         "AML with t(8;21)(q22;q22), RUNX1 RUNX1T1",
+         "Acute Myeloid Leukemia with t(8;21)(q22; q22.1); RUNX1-RUNX1T1 Fusion",
+         "Acute Myeloid Leukemia with t(8;21)(q22;q22)",
+         "Acute Myeloid Leukemia, t(8;21)(q22;q22)",
+         "Acute Myeloid Leukemia with t(8;21)(q22; q22.1); RUNX1::RUNX1T1 Fusion",
+         "AML with t(8;21)(q22;q22.1); RUNX1-RUNX1T1",
+         "Acute Myeloid Leukemia with t(8;21)(q22;q22)(AML1(CBFa)/ETO)",
+         "Acute myeloid leukemia with t(8;21)(q22;q22); RUNX1-RUNX1T1",
+         "Acute Myeloid Leukemia with t(8;21)(q22;q22); RUNX1-RUNX1T1",
+         "AML with t(8;21)(q22;q22); RUNX1-RUNX1T1",
+         "Acute Myeloid Leukemia with t(8;21)(q22; q22.1); RUNX1::RUNX1T1"
+      ],
+      "ncit_definitions": [
+         "An acute myeloid leukemia with t(8;21)(q22; q22.1) giving rise to RUNX1/RUNX1T1 fusion transcript and showing maturation in the neutrophil lineage. The bone marrow and the peripheral blood show large myeloblasts with abundant basophilic cytoplasm, often containing azurophilic granules. This type of AML is associated with good response to chemotherapy and high complete remission rate.",
+         "An acute myeloid leukemia (AML) associated with t(8;21)(q22;q22) resulting in RUNX1-RUNX1T1 fusion protein expression. This is seen in 12% of children with AML."
+      ],
+      "ncit_code": "C9288"
+   }],
+   "oncotree_code": "AMLRUNX1RUNX1T1"
+}
+{
+   "oncotree_children_codes": [
+      "MLNPDGFRA",
+      "MLNPDGFRB",
+      "MLNPCM1JAK2",
+      "MLNFGFR1"
+   ],
+   "oncotree_name": "Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of  PDGFRA/PDGFRB or FGFR1 or with PCM1-JAK2",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MLNER"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myeloid/Lymphoid Neoplasms with Eosinophilia and Tyrosine Kinase Gene Fusions",
+      "ncit_synonyms": [
+         "Myeloid and Lymphoid Neoplasms with Eosinophilia and Rearrangement of PDGFRA, PDGFRB, or FGFR1, or with PCM1-JAK2",
+         "Myeloid/Lymphoid Neoplasms with Eosinophilia and Defining Gene Rearrangements",
+         "M/LN-eo with Tyrosine Kinase Gene Fusions",
+         "Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of PDGFRA, PDGFRB, or FGFR1, or with PCM1-JAK2",
+         "Myeloid and Lymphoid Neoplasms with Eosinophilia and Abnormalities of PDGFRA, PDGFRB, or FGFR1"
+      ],
+      "ncit_definitions": ["A group of rare myeloid and lymphoid neoplasms characterized by rearrangement of the PDGFRA, PDGFRB, FGFR1, or JAK2 genes, resulting in the formation of tyrosine kinase fusion transcripts. Eosinophilia is a characteristic finding but it is not always present."],
+      "ncit_code": "C84270"
+   }],
+   "oncotree_code": "MLNER"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with Mutated RUNX1",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLRGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA",
+      "AMLRUNX1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia with RUNX1 Mutation",
+      "ncit_synonyms": [
+         "Acute Myeloid Leukemia with Mutated RUNX1",
+         "Acute Myeloid Leukemia with Non-Germline Mutated RUNX1",
+         "Acute Myeloid Leukemia with RUNX1 Gene Mutation",
+         "Provisional entity: AML with mutated RUNX1"
+      ],
+      "ncit_definitions": ["Acute myeloid leukemia characterized by the presence of RUNX1 gene mutation."],
+      "ncit_code": "C129786"
+   }],
+   "oncotree_code": "AMLRUNX1"
+}
+{
+   "oncotree_children_codes": [
+      "MDSEB1",
+      "MDSEB2"
+   ],
+   "oncotree_name": "MDS with Excess Blasts",
+   "oncotree_main_type": "Myelodysplastic Syndromes",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDS",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS",
+      "MDSEB"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myelodysplastic Syndrome with Excess Blasts",
+      "ncit_synonyms": [
+         "MDS-IB",
+         "Refractory Anemia with an Excess of Blasts",
+         "Refractory Anemia with Excess Blasts",
+         "Refractory anemia with excess of blasts, unspecified",
+         "MDS-EB",
+         "RAEB-I",
+         "RAEB",
+         "Refractory anemia with excess of blasts 1",
+         "MDS-EB-1",
+         "Myelodysplastic Syndrome with Increased Blasts",
+         "MDS-IB-1",
+         "Refractory anemia with excess blasts",
+         "RAEB-1",
+         "RAEB I",
+         "MDS-IB1",
+         "Myelodysplastic Syndrome with Excess Blasts-1",
+         "Myelodysplastic Neoplasm with Increased Blasts"
+      ],
+      "ncit_definitions": ["Myelodysplastic syndrome characterized by the presence of 5-9% blasts in bone marrow and 2-9% blasts in peripheral blood."],
+      "ncit_code": "C7506"
+   }],
+   "oncotree_code": "MDSEB"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Blastic Plasmacytoid Dendritic Cell Neoplasm",
+   "oncotree_main_type": "Blastic Plasmacytoid Dendritic Cell Neoplasm",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MNM",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "BPDCN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Blastic Plasmacytoid Dendritic Cell Neoplasm",
+      "ncit_synonyms": [
+         "Blastic NK-Cell Lymphoma",
+         "Blastic NK Cell Lymphoma",
+         "BPDCN",
+         "Agranular CD4+ Natural Killer Cell Leukemia",
+         "Blastic Natural Killer Leukemia/Lymphoma",
+         "Agranular CD4+ CD56+ Hematodermic Neoplasm/Tumor",
+         "Blastic NK-cell lymphoma",
+         "Monomorphic NK-Cell Lymphoma",
+         "CD4+/CD56+ Hematodermic Neoplasm"
+      ],
+      "ncit_definitions": ["A clinically aggressive neoplasm derived from the precursors of plasmacytoid dendritic cells (also called professional type I interferon-producing cells or plasmacytoid monocytes), with a high frequency of cutaneous and bone marrow involvement and leukemic dissemination. (WHO 2017)"],
+      "ncit_code": "C7203"
+   }],
+   "oncotree_code": "BPDCN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myeloid Atypical",
+   "oncotree_main_type": "Blood Cancer, NOS",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MYELOID",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MATPL"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MATPL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myeloid/Lymphoid Neoplasms with FGFR1 Rearrangement",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MLNER",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MLNER",
+      "MLNFGFR1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myeloid/Lymphoid Neoplasms with FGFR1 Rearrangement",
+      "ncit_synonyms": [
+         "8p11 Myeloproliferative Syndrome",
+         "Myeloid/Lymphoid Neoplasm with FGFR1 Rearrangement",
+         "8p11 Stem Cell Leukemia/Lymphoma Syndrome",
+         "8p11 Stem Cell Syndrome",
+         "M/LN-eo with FGFR1 Rearrangement",
+         "Myeloid and lymphoid neoplasms with FGFR1 abnormalities",
+         "8p11 Stem Cell Lymphoma/Leukemia Syndrome",
+         "Myeloid and Lymphoid Neoplasms with FGFR1 Rearrangement"
+      ],
+      "ncit_definitions": ["Hematologic neoplasms characterized by the rearrangement of the FGFR1 gene, resulting in translocations with an 8p11 breakpoint. Patients present with a myeloproliferative neoplasm, acute myeloid leukemia, lymphoblastic lymphoma/leukemia of T or B-cell lineage, or acute leukemia of mixed phenotype."],
+      "ncit_code": "C84277"
+   }],
+   "oncotree_code": "MLNFGFR1"
+}
+{
+   "oncotree_children_codes": [
+      "CMML0",
+      "CMML1",
+      "CMML2"
+   ],
+   "oncotree_name": "Chronic Myelomonocytic Leukemia",
+   "oncotree_main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "MDS/MPN",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "MDS/MPN",
+      "CMML"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Chronic Myelomonocytic Leukemia",
+      "ncit_synonyms": [
+         "Chronic Myelomonocytic Leukemia (CMML)",
+         "CMML",
+         "Chronic monocytic leukemia"
+      ],
+      "ncit_definitions": [
+         "A slowly progressing type of myelodysplastic/myeloproliferative disease in which too many myelomonocytes (a type of white blood cell) are in the bone marrow, crowding out other normal blood cells, such as other white blood cells, red blood cells, and platelets.",
+         "A myelodysplastic/myeloproliferative neoplasm which is characterized by persistent monocytosis, absence of a Philadelphia chromosome and BCR/ABL fusion gene, fewer than 20 percent blasts in the bone marrow and blood, myelodysplasia, and absence of PDGFRA or PDGFRB rearrangement."
+      ],
+      "ncit_code": "C3178"
+   }],
+   "oncotree_code": "CMML"
+}
+{
+   "oncotree_children_codes": [
+      "TAM",
+      "MLADS"
+   ],
+   "oncotree_name": "Myeloid Proliferations Related to Down Syndrome",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AML",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "MPRDS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hematologic Neoplasm Associated with Down Syndrome",
+      "ncit_synonyms": [
+         "Myeloid Proliferations Related to Down Syndrome",
+         "Myeloid Proliferations Associated with Down Syndrome",
+         "Myeloid Proliferation Associated with Down Syndrome"
+      ],
+      "ncit_definitions": ["Hematologic neoplasms occurring in individuals with Down syndrome.  There is an increased risk of acute leukemias in both children and adults with Down syndrome.  In particular, the incidence of acute myeloid leukemia in Down syndrome children of less than five years of age is particularly high, it is usually an acute megakaryoblastic leukemia, and is associated with GATA1 gene mutation.  This group of disorders also includes the entity transient abnormal myelopoiesis which occurs in neonates and is associated with GATA1 gene mutation."],
+      "ncit_code": "C82338"
+   }],
+   "oncotree_code": "MPRDS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "AML with t(9;11)(p21.3;q23.3);MLLT3-KMT2A",
+   "oncotree_main_type": "Leukemia",
+   "oncotree_tissue": "Myeloid",
+   "oncotree_parent_code": "AMLRGA",
+   "oncotree_branch_codes": [
+      "MYELOID",
+      "MNM",
+      "AML",
+      "AMLRGA",
+      "AMLMLLT3KMT2A"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Acute Myeloid Leukemia with t(9;11)(p21.3;q23.3); MLLT3-KMT2A",
+      "ncit_synonyms": [
+         "Acute Myeloid Leukemia with t(9;11)(p21.3;q23.3); MLLT3::MLL",
+         "Acute Myeloid Leukemia with t(9;11)(p21.3;q23.3); MLLT3::KMT2A Fusion",
+         "Acute Myeloid Leukemia with t(9;11)(p21.3;q23.3); MLLT3 (AF9)-KMT2A",
+         "Acute Myeloid Leukemia with t(9;11)(p21.3;q23.3); MLLT3-KMT2A Fusion",
+         "AML with t(9;11)(p21.3;q23.3); KMT2A-MLLT3",
+         "Acute Myeloid Leukemia with t(9;11)(p21.3;q23.3); MLLT3-MLL",
+         "Acute Myeloid Leukemia with t(9;11)(p21.3;q23.3); MLLT3::KMT2A",
+         "AML with t(9;11)(p22;q33);MLLT3-MLL",
+         "Acute myeloid leukemia with t(9;11)(p22;q23); MLLT3-MLL"
+      ],
+      "ncit_definitions": ["An acute myeloid leukemia associated with t(9;11)(p21.3;q23.3) and MLLT3-KMT2A fusion protein expression. Morphologically it usually has monocytic features. It may present at any age but it is more commonly seen in children. Patients may present with disseminated intravascular coagulation."],
+      "ncit_code": "C82403"
+   }],
+   "oncotree_code": "AMLMLLT3KMT2A"
+}

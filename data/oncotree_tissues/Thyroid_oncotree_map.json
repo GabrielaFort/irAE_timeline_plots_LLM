@@ -1,0 +1,12 @@
+{
+  "Thyroid": "THYROID",
+  "Oncocytic Adenoma of the Thyroid": "OAT",
+  "Anaplastic Thyroid Cancer": "THAP",
+  "Well-Differentiated Thyroid Cancer": "WDTC",
+  "Follicular Thyroid Cancer": "THFO",
+  "Hyalinizing Trabecular Adenoma of the Thyroid": "HTAT",
+  "Hurthle Cell Thyroid Cancer": "THHC",
+  "Medullary Thyroid Cancer": "THME",
+  "Papillary Thyroid Cancer": "THPA",
+  "Poorly Differentiated Thyroid Cancer": "THPD"
+}

@@ -1,0 +1,23 @@
+Kidney
+Renal Non-Clear Cell Carcinoma
+NUTM1 Renal Cell Carcinoma
+Papillary Renal Cell Carcinoma
+Clear Cell Papillary Renal Cell Carcinoma
+Renal Clear Cell Carcinoma with Sarcomatoid Features
+Clear Cell Sarcoma of Kidney
+Wilms' Tumor
+Renal Medullary Carcinoma
+Rhabdoid Cancer
+Translocation-Associated Renal Cell Carcinoma
+Renal Neuroendocrine Tumor
+Renal Clear Cell Carcinoma
+Renal Angiomyolipoma
+Renal Cell Carcinoma
+Renal Mucinous Tubular Spindle Cell Carcinoma
+Renal Small Cell Carcinoma
+Chromophobe Renal Cell Carcinoma
+Sarcomatoid Renal Cell Carcinoma
+Renal Oncocytoma
+Unclassified Renal Cell Carcinoma
+FH-Deficient Renal Cell Carcinoma
+Collecting Duct Renal Cell Carcinoma

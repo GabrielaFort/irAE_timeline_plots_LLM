@@ -1,0 +1,41 @@
+Ovary/Fallopian Tube
+Steroid Cell Tumor, NOS
+High-Grade Serous Ovarian Cancer
+Ovarian Choriocarcinoma, NOS
+Mixed Germ Cell Tumor
+Ovarian Seromucinous Adenoma
+Ovarian Seromucinous Borderline Tumor
+Sex Cord Stromal Tumor
+Sertoli-Leydig Cell Tumor
+Fibrothecoma
+Ovarian Carcinosarcoma/Malignant Mixed Mesodermal Tumor
+Embryonal Carcinoma
+Serous Ovarian Cancer
+Ovarian Seromucinous Carcinoma
+Brenner Tumor, Benign
+Yolk Sac Tumor
+Mucinous Borderline Ovarian Tumor
+Mature Teratoma
+Clear Cell Ovarian Cancer
+Polyembryoma
+Brenner Tumor, Malignant
+Granulosa Cell Tumor
+Mucinous Ovarian Cancer
+Ovarian Epithelial Tumor
+Dysgerminoma
+Brenner Tumor, Borderline
+Gonadoblastoma
+Serous Borderline Ovarian Tumor
+Ovarian Germ Cell Tumor
+Ovarian Cancer, Other
+Endometrioid Ovarian Cancer
+Mixed Ovarian Carcinoma
+Immature Teratoma
+Brenner Tumor
+Low-Grade Serous Ovarian Cancer
+Clear Cell Borderline Ovarian Tumor
+Small Cell Carcinoma of the Ovary
+High-Grade Neuroendocrine Carcinoma of the Ovary
+Serous Borderline Ovarian Tumor, Micropapillary
+High-Grade Serous Fallopian Tube Cancer
+Endometrioid Borderlin Ovarian Tumor

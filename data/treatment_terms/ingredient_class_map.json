@@ -1,0 +1,462 @@
+{
+  "abatacept": {
+    "name": "Abatacept",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "amivantamab": {
+    "name": "Amivantamab",
+    "therapy_type": "targeted therapy"
+  },
+  "anakinra": {
+    "name": "Anakinra",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "apremilast": {
+    "name": "Apremilast",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "atezolizumab": {
+    "name": "Atezolizumab",
+    "therapy_type": "ICI",
+    "ici_class": "PD-L1_inhibitor"
+  },
+  "avelumab": {
+    "name": "Avelumab",
+    "therapy_type": "ICI",
+    "ici_class": "PD-L1_inhibitor"
+  },
+  "axitinib": {
+    "name": "Axitinib",
+    "therapy_type": "targeted therapy"
+  },
+  "azathioprine": {
+    "name": "Azathioprine",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "beclomethasone": {
+    "name": "Beclomethasone",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "balsalazide": {
+    "name": "Balsalazide",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "betamethasone": {
+    "name": "Betamethasone",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "bevacizumab": {
+    "name": "Bevacizumab",
+    "therapy_type": "targeted therapy"
+  },
+  "binimetinib": {
+    "name": "Binimetinib",
+    "therapy_type": "targeted therapy"
+  },
+  "budesonide": {
+    "name": "Budesonide",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "cabozantinib": {
+    "name": "Cabozantinib",
+    "therapy_type": "targeted therapy"
+  },
+  "capecitabine": {
+    "name": "Capecitabine",
+    "therapy_type": "chemotherapy"
+  },
+  "carboplatin": {
+    "name": "Carboplatin",
+    "therapy_type": "chemotherapy"
+  },
+  "cemiplimab": {
+    "name": "Cemiplimab",
+    "therapy_type": "ICI",
+    "ici_class": "PD-1_inhibitor"
+  },
+  "cisplatin": {
+    "name": "Cisplatin",
+    "therapy_type": "chemotherapy"
+  },
+  "clobetasol": {
+    "name": "Clobetasol",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "cobimetinib": {
+    "name": "Cobimetinib",
+    "therapy_type": "targeted therapy"
+  },
+  "cyclophosphamide": {
+    "name": "Cyclophosphamide",
+    "therapy_type": "chemotherapy"
+  },
+  "cyclosporine": {
+    "name": "Cyclosporine",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "dabrafenib": {
+    "name": "Dabrafenib",
+    "therapy_type": "targeted therapy"
+  },
+  "datopotamab deruxtecan": {
+    "name": "Datopotamab deruxtecan",
+    "therapy_type": "ADC"
+  },
+  "desonide": {
+    "name": "Desonide",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "dexamethasone": {
+    "name": "Dexamethasone",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "difluprednate": {
+    "name": "Difluprednate",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "docetaxel": {
+    "name": "Docetaxel",
+    "therapy_type": "chemotherapy"
+  },
+  "dostarlimab": {
+    "name": "Dostarlimab",
+    "therapy_type": "ICI",
+    "ici_class": "PD-1_inhibitor"
+  },
+  "doxorubicin": {
+    "name": "Doxorubicin",
+    "therapy_type": "chemotherapy"
+  },
+  "dupilumab": {
+    "name": "Dupilumab",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "durvalumab": {
+    "name": "Durvalumab",
+    "therapy_type": "ICI",
+    "ici_class": "PD-L1_inhibitor"
+  },
+  "empagliflozin": {
+    "name": "Empagliflozin",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "encorafenib": {
+    "name": "Encorafenib",
+    "therapy_type": "targeted therapy"
+  },
+  "erlotinib": {
+    "name": "Erlotinib",
+    "therapy_type": "targeted therapy"
+  },
+  "estradiol": {
+    "name": "Estradiol",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "etoposide": {
+    "name": "Etoposide",
+    "therapy_type": "chemotherapy"
+  },
+  "fluorouracil": {
+    "name": "Fluorouracil",
+    "therapy_type": "chemotherapy"
+  },
+  "fludrocortisone": {
+    "name": "Fludrocortisone",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "fluocinonide": {
+    "name": "Fluocinonide",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "fluorometholone": {
+    "name": "Fluorometholone",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "gemcitabine": {
+    "name": "Gemcitabine",
+    "therapy_type": "chemotherapy"
+  },
+  "hydrocortisone": {
+    "name": "Hydrocortisone",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "hydroxychloroquine": {
+    "name": "Hydroxychloroquine",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "ibrutinib": {
+    "name": "Ibrutinib",
+    "therapy_type": "targeted therapy"
+  },
+  "immunoglobulin g": {
+    "name": "Immunoglobulin G",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "infliximab": {
+    "name": "Infliximab",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "insulin, regular, human": {
+    "name": "Insulin",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "insulin lispro": {
+    "name": "Insulin",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "insulin isophane": {
+    "name": "Insulin",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "insulin degludec": {
+    "name": "Insulin",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "insulin glargine": {
+    "name": "Insulin",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "insulin aspart, human": {
+    "name": "Insulin",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "ipilimumab": {
+    "name": "Ipilimumab",
+    "therapy_type": "ICI",
+    "ici_class": "CTLA-4_inhibitor"
+  },
+  "lazertinib": {
+    "name": "Lazertinib",
+    "therapy_type": "targeted therapy"
+  },
+  "leflunomide": {
+    "name": "Leflunomide",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "lenvatinib": {
+    "name": "Lenvatinib",
+    "therapy_type": "targeted therapy"
+  },
+  "levothyroxine": {
+    "name": "Levothyroxine",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "liothyronine": {
+    "name": "Liothyronine",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "linagliptin": {
+    "name": "Linagliptin",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "loncastuximab tesirine": {
+    "name": "Loncastuximab tesirine",
+    "therapy_type": "ADC"
+  },
+  "loteprednol": {
+    "name": "Loteprednol",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "loteprednol etabonate": {
+    "name": "Loteprednol",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "lurbinectedin": {
+    "name": "Lurbinectedin",
+    "therapy_type": "chemotherapy"
+  },
+  "mavorixafor": {
+    "name": "Mavorixafor",
+    "therapy_type": "targeted therapy"
+  },
+  "mesalamine": {
+    "name": "Mesalamine",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "methimazole": {
+    "name": "Methimazole",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "methotrexate": {
+    "name": "Methotrexate",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "metformin": {
+    "name": "Metformin",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "methylprednisolone": {
+    "name": "Methylprednisolone",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "metreleptin": {
+    "name": "Metreleptin",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "mometasone": {
+    "name": "Mometasone",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "mycophenolate": {
+    "name": "Mycophenolate Mofetil",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "mycophenolate mofetil": {
+    "name": "Mycophenolate Mofetil",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "nivolumab": {
+    "name": "Nivolumab",
+    "therapy_type": "ICI",
+    "ici_class": "PD-1_inhibitor"
+  },
+  "olaparib": {
+    "name": "Olaparib",
+    "therapy_type": "targeted therapy"
+  },
+  "osimertinib": {
+    "name": "Osimertinib",
+    "therapy_type": "targeted therapy"
+  },
+  "oxaliplatin": {
+    "name": "Oxaliplatin",
+    "therapy_type": "chemotherapy"
+  },
+  "paclitaxel": {
+    "name": "Paclitaxel",
+    "therapy_type": "chemotherapy"
+  },
+  "palbociclib": {
+    "name": "Palbociclib",
+    "therapy_type": "targeted therapy"
+  },
+  "panitumumab": {
+    "name": "Panitumumab",
+    "therapy_type": "targeted therapy"
+  },
+  "pembrolizumab": {
+    "name": "Pembrolizumab",
+    "therapy_type": "ICI",
+    "ici_class": "PD-1_inhibitor"
+  },
+  "pemetrexed": {
+    "name": "Pemetrexed",
+    "therapy_type": "chemotherapy"
+  },
+  "pioglitazone": {
+    "name": "Pioglitazone",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "prasterone": {
+    "name": "Prasterone",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "prednisolone": {
+    "name": "Prednisolone",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "prednisone": {
+    "name": "Prednisone",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "progesterone": {
+    "name": "Progesterone",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "ramucirumab": {
+    "name": "Ramucirumab",
+    "therapy_type": "targeted therapy"
+  },
+  "relatlimab": {
+    "name": "Relatlimab",
+    "therapy_type": "ICI",
+    "ici_class": "LAG-3_inhibitor"
+  },
+  "rituximab": {
+    "name": "Rituximab",
+    "therapy_type": "targeted therapy",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "ruxolitinib": {
+    "name": "Ruxolitinib",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "sacituzumab": {
+    "name": "Sacituzumab",
+    "therapy_type": "ADC"
+  },
+  "serplulimab": {
+    "name": "Serplulimab",
+    "therapy_type": "ICI",
+    "ici_class": "PD-1_inhibitor"
+  },
+  "sitagliptin": {
+    "name": "Sitagliptin",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "sotorasib": {
+    "name": "Sotorasib",
+    "therapy_type": "targeted therapy"
+  },
+  "sulfasalazine": {
+    "name": "Sulfasalazine",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "tacrolimus": {
+    "name": "Tacrolimus",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "temozolomide": {
+    "name": "Temozolomide",
+    "therapy_type": "chemotherapy"
+  },
+  "testosterone": {
+    "name": "Testosterone",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "tocilizumab": {
+    "name": "Tocilizumab",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "thyroid (usp)": {
+    "name": "Thyroid (USP)",
+    "irae_treatment_type": "Endocrine/metabolic replacement or regulation"
+  },
+  "trametinib": {
+    "name": "Trametinib",
+    "therapy_type": "targeted therapy"
+  },
+  "trastuzumab": {
+    "name": "Trastuzumab",
+    "therapy_type": "targeted therapy"
+  },
+  "tremelimumab": {
+    "name": "Tremelimumab",
+    "therapy_type": "ICI",
+    "ici_class": "CTLA-4_inhibitor"
+  },
+  "triamcinolone": {
+    "name": "Triamcinolone",
+    "irae_treatment_type": "Corticosteroids"
+  },
+  "ustekinumab": {
+    "name": "Ustekinumab",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "upadacitinib": {
+    "name": "Upadacitinib",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "vedolizumab": {
+    "name": "Vedolizumab",
+    "irae_treatment_type": "Non-steroid immunosuppressants/immunomodulators"
+  },
+  "vemurafenib": {
+    "name": "Vemurafenib",
+    "therapy_type": "targeted therapy"
+  },
+  "vorinostat": {
+    "name": "Vorinostat",
+    "therapy_type": "chemotherapy"
+  }
+}

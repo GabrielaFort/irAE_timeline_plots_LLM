@@ -1,0 +1,145 @@
+{
+   "oncotree_children_codes": ["PSCC"],
+   "oncotree_name": "Penis",
+   "oncotree_main_type": "Penile Cancer",
+   "oncotree_tissue": "Penis",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["PENIS"],
+   "ncit_entries": [{
+      "ncit_name": "Penis",
+      "ncit_synonyms": [
+         "Penis, NOS",
+         "Penile structure (body structure)",
+         "Genital System, Male, Penis"
+      ],
+      "ncit_definitions": [
+         "The male organ of urination and copulation.",
+         "An intromittent organ in certain biologically male organisms. In placental mammals, this also serves as the organ of urination.",
+         "The male organ of urination and copulation. (NCI)",
+         "An external male reproductive organ. It contains a tube called the urethra, which carries semen and urine to the outside of the body."
+      ],
+      "ncit_code": "C12409"
+   }],
+   "oncotree_code": "PENIS"
+}
+{
+   "oncotree_children_codes": [
+      "VPSCC",
+      "WPSCC",
+      "BPSCC"
+   ],
+   "oncotree_name": "Penile Squamous Cell Carcinoma",
+   "oncotree_main_type": "Penile Cancer",
+   "oncotree_tissue": "Penis",
+   "oncotree_parent_code": "PENIS",
+   "oncotree_branch_codes": [
+      "PENIS",
+      "PSCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Penile Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "Squamous Cell Carcinoma of Penis",
+         "Penile Epidermoid Cell Carcinoma",
+         "Squamous Cell Carcinoma of the Penis",
+         "Epidermoid Cell Carcinoma of the Penis",
+         "Epidermoid Carcinoma of Penis",
+         "Penile squamous car.(epidermoid)",
+         "Penile Epidermoid Carcinoma",
+         "Epidermoid Carcinoma of the Penis",
+         "Penile Squamous Cell Cancer",
+         "Penile squamous carcinoma (epidermoid)",
+         "Epidermoid Cell Carcinoma of Penis"
+      ],
+      "ncit_definitions": ["A squamous cell carcinoma arising from the penis.  It occurs chiefly in the squamous epithelium of the glans, coronal sulcus, and foreskin.  Etiologic factors include phimosis, lichen sclerosus, smoking, ultraviolet irradiation, history of warts or condylomas, and lack of circumcision.  Human papilloma virus is present in a subset of penile squamous cell carcinomas.  Patients may present with an exophytic or flat ulcerative mass in the glans or a large primary tumor with inguinal nodal and skin metastases. (WHO, 2004)"],
+      "ncit_code": "C7729"
+   }],
+   "oncotree_code": "PSCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Verrucous Penile Squamous Cell Carcinoma",
+   "oncotree_main_type": "Penile Cancer",
+   "oncotree_tissue": "Penis",
+   "oncotree_parent_code": "PSCC",
+   "oncotree_branch_codes": [
+      "PENIS",
+      "PSCC",
+      "VPSCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Penile Verrucous Carcinoma",
+      "ncit_synonyms": [
+         "Verrucous Carcinoma of Penis",
+         "Verrucous Squamous Carcinoma of Penis",
+         "Verrucous Carcinoma of the Penis",
+         "Verrucous Penile Squamous Carcinoma",
+         "Squamous Carcinoma of Penis, Verrucous Type",
+         "Verrucous Penile Carcinoma",
+         "Verrucous Squamous Carcinoma of the Penis"
+      ],
+      "ncit_definitions": ["A slow growing, locally recurring, very well differentiated papillary squamous cell carcinoma that arises from the penis. It is characterized by the presence of acanthosis and hyperkeratosis. The neoplastic infiltrate extends into the underlying stroma with a pushing border. Koilocytotic atypia is not present."],
+      "ncit_code": "C6982"
+   }],
+   "oncotree_code": "VPSCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Warty Penile Squamous Cell Carcinoma",
+   "oncotree_main_type": "Penile Cancer",
+   "oncotree_tissue": "Penis",
+   "oncotree_parent_code": "PSCC",
+   "oncotree_branch_codes": [
+      "PENIS",
+      "PSCC",
+      "WPSCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Penile Warty Carcinoma",
+      "ncit_synonyms": [
+         "Warty Squamous Cell Carcinoma of Penis",
+         "Warty Squamous Cell Carcinoma of the Penis",
+         "Condylomatous Penile Squamous Cell Carcinoma",
+         "Squamous Cell Carcinoma of Penis, Warty Type",
+         "Warty Penile Squamous Cell Carcinoma",
+         "Condylomatous Carcinoma of Penis",
+         "Squamous Cell Carcinoma of Penis, Condylomatous Type",
+         "Warty Carcinoma of the Penis",
+         "Condylomatous Squamous Cell Carcinoma of Penis",
+         "Warty Carcinoma of Penis",
+         "Condylomatous Carcinoma of the Penis",
+         "Condylomatous Squamous Cell Carcinoma of the Penis",
+         "Squamous Cell Carcinoma of the Penis, Warty Type",
+         "Squamous Cell Carcinoma of the Penis, Condylomatous Type"
+      ],
+      "ncit_definitions": ["A squamous cell carcinoma that arises from the penis.  It is characterized by a papillary growth pattern, hyperkeratosis and parakeratosis.  Koilocytotic atypia is present.  Human papillomavirus types 16 and 6 have been identified in some cases."],
+      "ncit_code": "C6981"
+   }],
+   "oncotree_code": "WPSCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Basaloid Penile Squamous Cell Carcinoma",
+   "oncotree_main_type": "Penile Cancer",
+   "oncotree_tissue": "Penis",
+   "oncotree_parent_code": "PSCC",
+   "oncotree_branch_codes": [
+      "PENIS",
+      "PSCC",
+      "BPSCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Penile Basaloid Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "Squamous Cell Carcinoma of Penis, Basaloid Type",
+         "Basaloid Penile Squamous Cell Carcinoma",
+         "Basaloid Squamous Cell Carcinoma of Penis",
+         "Basaloid Carcinoma of Penis",
+         "Squamous Cell Carcinoma of the Penis, Basaloid Type",
+         "Basaloid Carcinoma of the Penis"
+      ],
+      "ncit_definitions": ["An aggressive, human papillomavirus-related squamous cell carcinoma that arises from the penis.  It is characterized by the presence of nests of small malignant cells.  The malignant cells tend to invade deeply into the adjacent tissues.  Comedo-type necrosis is often present."],
+      "ncit_code": "C6980"
+   }],
+   "oncotree_code": "BPSCC"
+}

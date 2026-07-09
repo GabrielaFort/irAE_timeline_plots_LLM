@@ -1,0 +1,569 @@
+{
+   "oncotree_children_codes": [
+      "EPDCA",
+      "SMN",
+      "GINETES",
+      "EGC",
+      "ESCC",
+      "ESMM"
+   ],
+   "oncotree_name": "Esophagus/Stomach",
+   "oncotree_main_type": "Esophageal/Stomach Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["STOMACH"],
+   "ncit_entries": [{
+      "ncit_name": "Stomach",
+      "ncit_synonyms": [
+         "Stomach, NOS",
+         "Stomach structure (body structure)",
+         "Gastric",
+         "Gastrointestinal Tract, Stomach"
+      ],
+      "ncit_definitions": [
+         "The primary organ of food digestion. It is located under the diaphragm, between the liver and the spleen as well as between the esophagus and the small intestine.",
+         "An organ that is part of the digestive system. It helps in the digestion of food by mixing it with digestive juices and churning it into a thin liquid.",
+         "An expanded region of the vertebrate alimentary tract that serves as a food storage compartment and digestive organ. A stomach is lined, in whole or in part by a glandular epithelium.",
+         "The portion of the gastrointestinal tract located between the esophagus and the proximal duodenum."
+      ],
+      "ncit_code": "C12391"
+   }],
+   "oncotree_code": "STOMACH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Small Cell Carcinoma of the Stomach",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "EGC",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "STSC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastric Small Cell Neuroendocrine Carcinoma",
+      "ncit_synonyms": [
+         "Oat Cell Carcinoma of the Stomach",
+         "Small Cell Carcinoma of Stomach",
+         "Gastric Oat Cell Carcinoma",
+         "Oat Cell Carcinoma of Stomach",
+         "Gastric Small Cell Carcinoma",
+         "Small Cell Carcinoma of the Stomach"
+      ],
+      "ncit_definitions": ["An aggressive high-grade carcinoma with neuroendocrine differentiation that arises from the stomach and is composed of malignant small cells. The mitotic count is more than 20 per 2 mm2 and/or the Ki-67 index is more than 20%."],
+      "ncit_code": "C6764"
+   }],
+   "oncotree_code": "STSC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Tubular Stomach Adenocarcinoma",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "STAD",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "STAD",
+      "TSTAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastric Tubular Adenocarcinoma",
+      "ncit_synonyms": [
+         "Tubular Adenocarcinoma of Stomach",
+         "Tubular Adenocarcinoma of the Stomach",
+         "Tubular adenocarcinoma"
+      ],
+      "ncit_definitions": ["A variant of gastric adenocarcinoma characterized by prominent dilated or slit-like tubules."],
+      "ncit_code": "C5473"
+   }],
+   "oncotree_code": "TSTAD"
+}
+{
+   "oncotree_children_codes": [
+      "SSRCC",
+      "SPDAC"
+   ],
+   "oncotree_name": "Undifferentiated Stomach Adenocarcinoma",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "EGC",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "USTAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastric Undifferentiated Carcinoma",
+      "ncit_synonyms": [
+         "Undifferentiated Gastric (Stomach) Cancer",
+         "Anaplastic Carcinoma of the Stomach",
+         "Anaplastic Carcinoma of Stomach",
+         "Anaplastic Gastric Carcinoma",
+         "Undifferentiated Carcinoma of Stomach",
+         "Undifferentiated Gastric Carcinoma",
+         "Undifferentiated Carcinoma of the Stomach"
+      ],
+      "ncit_definitions": ["A carcinoma that arises from the stomach and is characterized by the absence of microscopic features of glandular or squamous differentiation."],
+      "ncit_code": "C5476"
+   }],
+   "oncotree_code": "USTAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Esophageal Poorly Differentiated Carcinoma",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "STOMACH",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EPDCA"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "EPDCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Smooth Muscle Neoplasm, NOS",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "STOMACH",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "SMN"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SMN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Signet Ring Cell Carcinoma of the Stomach",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "USTAD",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "USTAD",
+      "SSRCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastric Signet Ring Cell Adenocarcinoma",
+      "ncit_synonyms": [
+         "Signet Ring Cell Adenocarcinoma of the Stomach",
+         "Signet Ring Cell Adenocarcinoma of Stomach",
+         "Gastric Signet-Ring Cell Adenocarcinoma",
+         "Signet Ring Cell Stomach Adenocarcinoma",
+         "Poorly cohesive carcinoma, including signet ring cell carcinoma",
+         "Signet Ring Cell Gastric Adenocarcinoma"
+      ],
+      "ncit_definitions": ["A poorly cohesive gastric adenocarcinoma characterized by malignant cells containing intracytoplasmic mucin."],
+      "ncit_code": "C5250"
+   }],
+   "oncotree_code": "SSRCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Papillary Stomach Adenocarcinoma",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "STAD",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "STAD",
+      "PSTAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastric Papillary Adenocarcinoma",
+      "ncit_synonyms": [
+         "Papillary Adenocarcinoma of the Stomach",
+         "Papillary adenocarcinoma",
+         "Papillary Adenocarcinoma of Stomach"
+      ],
+      "ncit_definitions": ["A variant of gastric adenocarcinoma with exophytic growth and elongated finger-like processes lined by cylindrical or cuboidal cells supported by fibrovascular connective tissue cores."],
+      "ncit_code": "C5472"
+   }],
+   "oncotree_code": "PSTAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adenocarcinoma of the Gastroesophageal Junction",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "EGC",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "GEJ"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastroesophageal Junction Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma of the Esophagogastric Junction",
+         "Adenocarcinoma of Gastroesophageal Junction",
+         "Adenocarcinoma of the Gastroesophageal Junction",
+         "Adenocarcinoma of the gastroesophageal junction",
+         "Adenocarcinoma of Cardioesophageal Junction",
+         "Adenocarcinoma of the GE Junction",
+         "Adenocarcinoma - GEJ",
+         "Adenocarcinoma of the Cardioesophageal Junction",
+         "Adenocarcinoma of the EG Junction"
+      ],
+      "ncit_definitions": ["An adenocarcinoma that arises from and straddles the junction of the stomach and esophagus. The category of adenocarcinomas of the gastroesophageal junction also includes the majority of adenocarcinomas previously called gastric cardia adenocarcinomas. Squamous cell carcinomas that affect or cross the junction of the stomach and esophagus are classified as carcinomas of the distal esophagus. Adenocarcinoma of the gastroesophageal junction occurs more often in Caucasian middle aged and elderly males. Clinical signs and symptoms include dysphagia, abdominal pain, and weight loss. The prognosis depends on the completeness of the surgical resection, the number of lymph nodes involved by cancer, and the presence or absence of postoperative complications. The presence of TP53 mutations indicates worse prognosis."],
+      "ncit_code": "C9296"
+   }],
+   "oncotree_code": "GEJ"
+}
+{
+   "oncotree_children_codes": [
+      "HGNES",
+      "HGNEE",
+      "SWDNET"
+   ],
+   "oncotree_name": "Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "STOMACH",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "GINETES"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "GINETES"
+}
+{
+   "oncotree_children_codes": [
+      "STSC",
+      "USTAD",
+      "GEJ",
+      "GRC",
+      "ESCA",
+      "STAD",
+      "STAS"
+   ],
+   "oncotree_name": "Esophagogastric Adenocarcinoma",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "STOMACH",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastroesophageal Junction Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma of the Esophagogastric Junction",
+         "Adenocarcinoma of Gastroesophageal Junction",
+         "Adenocarcinoma of the Gastroesophageal Junction",
+         "Adenocarcinoma of the gastroesophageal junction",
+         "Adenocarcinoma of Cardioesophageal Junction",
+         "Adenocarcinoma of the GE Junction",
+         "Adenocarcinoma - GEJ",
+         "Adenocarcinoma of the Cardioesophageal Junction",
+         "Adenocarcinoma of the EG Junction"
+      ],
+      "ncit_definitions": ["An adenocarcinoma that arises from and straddles the junction of the stomach and esophagus. The category of adenocarcinomas of the gastroesophageal junction also includes the majority of adenocarcinomas previously called gastric cardia adenocarcinomas. Squamous cell carcinomas that affect or cross the junction of the stomach and esophagus are classified as carcinomas of the distal esophagus. Adenocarcinoma of the gastroesophageal junction occurs more often in Caucasian middle aged and elderly males. Clinical signs and symptoms include dysphagia, abdominal pain, and weight loss. The prognosis depends on the completeness of the surgical resection, the number of lymph nodes involved by cancer, and the presence or absence of postoperative complications. The presence of TP53 mutations indicates worse prognosis."],
+      "ncit_code": "C9296"
+   }],
+   "oncotree_code": "EGC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "High-Grade Neuroendocrine Carcinoma of the Stomach",
+   "oncotree_main_type": "Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "GINETES",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "GINETES",
+      "HGNES"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HGNES"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "High-Grade Neuroendocrine Carcinoma of the Esophagus",
+   "oncotree_main_type": "Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "GINETES",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "GINETES",
+      "HGNEE"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HGNEE"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mucinous Stomach Adenocarcinoma",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "STAD",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "STAD",
+      "MSTAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastric Mucinous Adenocarcinoma",
+      "ncit_synonyms": [
+         "Mucinous (Colloid) adenocarcinoma",
+         "Mucinous Stomach Adenocarcinoma",
+         "Mucinous Adenocarcinoma of the Stomach",
+         "Mucinous Gastric Adenocarcinoma",
+         "Mucinous Adenocarcinoma of Stomach"
+      ],
+      "ncit_definitions": ["A variant of gastric adenocarcinoma with more than half of the tumor containing extracellular mucinous pools."],
+      "ncit_code": "C5248"
+   }],
+   "oncotree_code": "MSTAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Gastric Remnant Adenocarcinoma",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "EGC",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "GRC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "GRC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Well-Differentiated Neuroendocrine Tumors of the Stomach",
+   "oncotree_main_type": "Gastrointestinal Neuroendocrine Tumor",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "GINETES",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "GINETES",
+      "SWDNET"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastric Neuroendocrine Tumor",
+      "ncit_synonyms": [
+         "Gastric NET",
+         "Gastric Well-Differentiated Neuroendocrine Neoplasm",
+         "Gastric Well Differentiated Neuroendocrine Neoplasm"
+      ],
+      "ncit_definitions": ["A well-differentiated, low-, intermediate-, or high-grade neoplasm with neuroendocrine differentiation that arises from the stomach."],
+      "ncit_code": "C95871"
+   }],
+   "oncotree_code": "SWDNET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Esophageal Adenocarcinoma",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "EGC",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "ESCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Esophageal Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma",
+         "Adenocarcinoma of the Esophagus",
+         "Esophagus Adenocarcinoma",
+         "Adenocarcinoma - esophagus",
+         "Adenocarcinoma of the esophagus",
+         "Adenocarcinoma of Esophagus"
+      ],
+      "ncit_definitions": ["A malignant tumor with glandular differentiation arising predominantly from Barrett mucosa in the lower third of the esophagus.  Rare examples of esophageal adenocarcinoma deriving from ectopic gastric mucosa in the upper esophagus have also been reported.  Grossly, esophageal adenocarcinomas are similar to esophageal squamous cell carcinomas.  Microscopically, adenocarcinomas arising in the setting of Barrett esophagus are typically papillary and/or tubular.  The prognosis is poor."],
+      "ncit_code": "C4025"
+   }],
+   "oncotree_code": "ESCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Esophageal Squamous Cell Carcinoma",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "STOMACH",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "ESCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Esophageal Squamous Cell Carcinoma",
+      "ncit_synonyms": [
+         "Squamous Cell Carcinoma of the Esophagus",
+         "Squamous cell carcinoma of the esophagus",
+         "Squamous cell car. - esophagus",
+         "Esophagus SCC",
+         "Esophageal SCC",
+         "SCC of the Esophagus",
+         "Esophageal Epidermoid Carcinoma",
+         "SCC of Esophagus",
+         "Esophagus Squamous Cell Carcinoma",
+         "Esophageal Squamous Cell Cancer",
+         "ESCC",
+         "Squamous Cell Carcinoma of Esophagus"
+      ],
+      "ncit_definitions": ["A squamous cell carcinoma arising from the esophagus.  It is associated with a long history of tobacco and alcohol abuse and is exceedingly rare before the age of 30.  The median age is around 65 in both males and females.  It is located mostly in the middle and lower third of the esophagus.  Grossly, polypoid, ulcerated, plaque-like and occult lesions have been described.  The microscopic features are the same as in other squamous cell carcinomas.  Any degree of differentiation may occur, and variation within a single tumor is common.  The prognosis is poor."],
+      "ncit_code": "C4024"
+   }],
+   "oncotree_code": "ESCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Intestinal Type Stomach Adenocarcinoma",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "STAD",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "STAD",
+      "ISTAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastric Intestinal-Type Adenocarcinoma",
+      "ncit_synonyms": [
+         "Gastric Intestinal Type Adenocarcinoma",
+         "Intestinal Adenocarcinoma of the Stomach",
+         "Intestinal Adenocarcinoma of Stomach",
+         "Intestinal Stomach Adenocarcinoma",
+         "Intestinal Gastric Adenocarcinoma",
+         "Intestinal"
+      ],
+      "ncit_definitions": ["An adenocarcinoma of the stomach arising on a background of intestinal metaplasia.  Microscopically, it is characterized by a glandular pattern and it closely resembles a colonic adenocarcinoma."],
+      "ncit_code": "C9157"
+   }],
+   "oncotree_code": "ISTAD"
+}
+{
+   "oncotree_children_codes": [
+      "TSTAD",
+      "PSTAD",
+      "MSTAD",
+      "ISTAD",
+      "DSTAD"
+   ],
+   "oncotree_name": "Stomach Adenocarcinoma",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "EGC",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "STAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastric Adenocarcinoma",
+      "ncit_synonyms": [
+         "Adenocarcinoma",
+         "Adenocarcinoma of the stomach",
+         "Stomach Adenocarcinoma",
+         "STAD",
+         "Adenocarcinoma - stomach",
+         "Adenocarcinoma of Stomach",
+         "Gastric Adenocarcinoma, NOS",
+         "Gastric (Stomach) Adenocarcinoma",
+         "Adenocarcinoma of the Stomach"
+      ],
+      "ncit_definitions": ["An adenocarcinoma arising from the stomach glandular epithelium. Gastric adenocarcinoma is primarily a disease of older individuals.  It most commonly develops after a long period of atrophic gastritis and is strongly associated with Helicobacter pylori infection. The lack of early symptoms often delays the diagnosis of gastric cancer. The majority of patients present with advanced tumors which have poor rates of curability. Microscopically, two important histologic types of gastric adenocarcinoma are recognized: the intestinal and diffuse type. The overall prognosis of gastric adenocarcinomas is poor, even in patients who receive a \"curative\" resection (adapted from Sternberg's Surgical Pathology, 3rd ed., 1999)."],
+      "ncit_code": "C4004"
+   }],
+   "oncotree_code": "STAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adenosquamous Carcinoma of the Stomach",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "EGC",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "STAS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastric Adenosquamous Carcinoma",
+      "ncit_synonyms": [
+         "Adenosquamous Carcinoma of the Stomach",
+         "Adenosquamous Carcinoma of Stomach",
+         "Gastric (Stomach) Adenosquamous Cancer"
+      ],
+      "ncit_definitions": ["A carcinoma that arises from the stomach and is characterized by the presence of malignant cells with glandular and squamous differentiation."],
+      "ncit_code": "C5474"
+   }],
+   "oncotree_code": "STAS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mucosal Melanoma of the Esophagus",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "STOMACH",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "ESMM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Esophageal Melanoma",
+      "ncit_synonyms": [
+         "Melanoma of the Esophagus",
+         "Esophagus Melanoma",
+         "Melanoma of Esophagus"
+      ],
+      "ncit_definitions": ["A melanoma affecting the esophageal wall.  Melanoma in the esophagus is more commonly metastatic than primary.  Primary melanomas of the esophagus are polypoid and clinically aggressive.  (WHO, 2000)"],
+      "ncit_code": "C5707"
+   }],
+   "oncotree_code": "ESMM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Poorly Differentiated Carcinoma of the Stomach",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "USTAD",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "USTAD",
+      "SPDAC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SPDAC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Diffuse Type Stomach Adenocarcinoma",
+   "oncotree_main_type": "Esophagogastric Cancer",
+   "oncotree_tissue": "Esophagus/Stomach",
+   "oncotree_parent_code": "STAD",
+   "oncotree_branch_codes": [
+      "STOMACH",
+      "EGC",
+      "STAD",
+      "DSTAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gastric Diffuse Adenocarcinoma",
+      "ncit_synonyms": [
+         "Diffuse",
+         "Diffuse Adenocarcinoma of the Stomach",
+         "Diffuse Stomach Adenocarcinoma",
+         "Adenocarcinoma of Linitis Plastica Type",
+         "Adenocarcinoma of the Linitis Plastica Type",
+         "Diffuse Adenocarcinoma of Stomach",
+         "Diffuse Gastric Adenocarcinoma"
+      ],
+      "ncit_definitions": ["An adenocarcinoma arising from the stomach.  Microscopically, it is characterized by the presence of a diffuse infiltrate, composed of individual adenocarcinoma cells or groups of adenocarcinoma cells in a fibrous or mucoid stroma.  Many cells contain mucin droplets, producing a signet-ring configuration."],
+      "ncit_code": "C9159"
+   }],
+   "oncotree_code": "DSTAD"
+}

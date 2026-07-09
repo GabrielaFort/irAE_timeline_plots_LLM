@@ -1,0 +1,144 @@
+{
+   "oncotree_children_codes": [
+      "ACA",
+      "ACC",
+      "PHC"
+   ],
+   "oncotree_name": "Adrenal Gland",
+   "oncotree_main_type": "Adrenal Gland Cancer",
+   "oncotree_tissue": "Adrenal Gland",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["ADRENAL_GLAND"],
+   "ncit_entries": [{
+      "ncit_name": "Adrenal Gland",
+      "ncit_synonyms": [
+         "glandula suprarenalis",
+         "Adrenal Glands",
+         "GLAND, ADRENAL",
+         "Adrenals",
+         "glandula adrenalis",
+         "Adrenal structure (body structure)",
+         "Adrenal gland, NOS",
+         "Adrenal",
+         "suprarenal gland"
+      ],
+      "ncit_definitions": [
+         "A small gland that makes steroid hormones, adrenaline, and noradrenaline. These hormones help control heart rate, blood pressure, and other important body functions. There are two adrenal glands, one on top of each kidney.",
+         "A flattened, roughly triangular body resting upon the upper end of each kidney; it is one of the ductless glands furnishing internal secretions (epinephrine and norepinephrine from the medulla and steroid hormones from the cortex).",
+         "The endocrine glands adjacent to the kidneys that consist of the outer adrenal cortex and the inner adrenal medulla in mammals.",
+         "Either of a pair of complex endocrine organs near the anterior medial border of the kidney consisting of a mesodermal cortex that produces glucocorticoid, mineralocorticoid, and androgenic hormones and an ectodermal medulla that produces epinephrine and norepinephrine."
+      ],
+      "ncit_code": "C12666"
+   }],
+   "oncotree_code": "ADRENAL_GLAND"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adrenocortical Adenoma",
+   "oncotree_main_type": "Adrenocortical Adenoma",
+   "oncotree_tissue": "Adrenal Gland",
+   "oncotree_parent_code": "ADRENAL_GLAND",
+   "oncotree_branch_codes": [
+      "ADRENAL_GLAND",
+      "ACA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Adrenal Cortical Adenoma",
+      "ncit_synonyms": [
+         "Adenoma of Adrenal Cortex",
+         "Adrenocortical Adenoma",
+         "Adrenal Gland Adenoma",
+         "Adenoma of the Adrenal Gland",
+         "Benign Adenoma of the Adrenal Gland",
+         "Cortical Cell Adenoma",
+         "Benign Adrenal Gland Adenoma",
+         "Adenoma of the Adrenal Cortex",
+         "Benign Adrenal Adenoma",
+         "Benign Adenoma of Adrenal Gland",
+         "ADENOMA, ADRENOCORTICAL, BENIGN",
+         "Adrenal Adenoma",
+         "Adrenal Cortex Adenoma",
+         "Adenoma of Adrenal Gland"
+      ],
+      "ncit_definitions": [
+         "A benign neoplasm arising from any of the adrenal cortical layers.",
+         "A benign neoplasm that can arise from any of the adrenal cortical layers.  It can be associated with the overproduction of glucocorticoids (Cushing's syndrome), androgenic or estrogenic steroids (adrenogenital syndrome), or mineralocorticoids (Conn's syndrome). (Sternberg Diagnostic Surgical Pathology, 3rd ed.)"
+      ],
+      "ncit_code": "C9003"
+   }],
+   "oncotree_code": "ACA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adrenocortical Carcinoma",
+   "oncotree_main_type": "Adrenocortical Carcinoma",
+   "oncotree_tissue": "Adrenal Gland",
+   "oncotree_parent_code": "ADRENAL_GLAND",
+   "oncotree_branch_codes": [
+      "ADRENAL_GLAND",
+      "ACC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Adrenal Cortical Carcinoma",
+      "ncit_synonyms": [
+         "Adrenal cortical adenocarcinoma",
+         "adrenocortical cancer",
+         "Adrenal Cortex Adenocarcinoma",
+         "Adenocarcinoma, Adrenocortical, Malignant",
+         "Adrenocortical carcinoma",
+         "Carcinoma of Adrenal Cortex",
+         "Adrenocortical Carcinoma",
+         "Adrenal Cortex Cancer",
+         "adrenocortical carcinoma",
+         "CARCINOMA, ADRENOCORTICAL, MALIGNANT",
+         "Adrenal Cortex Carcinoma",
+         "Cortical Cell Carcinoma",
+         "Adrenal Cortical Adenocarcinoma",
+         "Carcinoma of the Adrenal Cortex",
+         "Adrenocortical carcinoma, NOS",
+         "cancer of the adrenal cortex"
+      ],
+      "ncit_definitions": [
+         "A rare, usually large (greater than 5cm) carcinoma that arises from the adrenal cortex. Symptoms are usually related to the excessive production of hormones and include Cushing's syndrome and virilism in women. Common sites of metastasis include liver, lung, bone, and retroperitoneal lymph nodes. Advanced radiologic procedures have enabled the detection of small tumors, resulting in the improvement of the 5-year survival.",
+         "A malignant epithelial neoplasm arising from adrenal cortical cells.",
+         "A rare cancer that forms in the outer layer of tissue of the adrenal gland (a small organ on top of each kidney that makes steroid hormones, adrenaline, and noradrenaline to control heart rate, blood pressure, and other body functions)."
+      ],
+      "ncit_code": "C9325"
+   }],
+   "oncotree_code": "ACC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pheochromocytoma",
+   "oncotree_main_type": "Pheochromocytoma",
+   "oncotree_tissue": "Adrenal Gland",
+   "oncotree_parent_code": "ADRENAL_GLAND",
+   "oncotree_branch_codes": [
+      "ADRENAL_GLAND",
+      "PHC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Adrenal Gland Pheochromocytoma",
+      "ncit_synonyms": [
+         "Adrenal Gland Chromaffinoma",
+         "Pheochromocytoma",
+         "Pheochromocytoma (adrenal)",
+         "Chromaffin Paraganglioma of the Adrenal Gland",
+         "Adrenal Gland Chromaffin Paraganglioma",
+         "pheochromocytoma",
+         "Adrenal Medullary Pheochromocytoma",
+         "Intraadrenal Paraganglioma",
+         "Adrenal medullary paraganglioma",
+         "Adrenal Gland Paraganglioma",
+         "PCC",
+         "Adrenal Medullary Paraganglioma",
+         "Adrenal Pheochromocytoma"
+      ],
+      "ncit_definitions": [
+         "A neuroendocrine neoplasm of the sympathetic nervous system that arises from the chromaffin cells of the adrenal medulla and secretes catecholamines. Clinical presentation includes headaches, palpitations, chest and abdominal pain, hypertension, fever, and tremor.  Microscopically, a characteristic nesting (zellballen) growth pattern is usually seen.  Other growth patterns including trabecular pattern may also be present.",
+         "Tumor that forms in the center of the adrenal gland (gland located above the kidney) that causes it to make too much adrenaline. Pheochromocytomas are usually benign (not cancer) but can cause high blood pressure, pounding headaches, heart palpitations, flushing of the face, nausea, and vomiting."
+      ],
+      "ncit_code": "C3326"
+   }],
+   "oncotree_code": "PHC"
+}

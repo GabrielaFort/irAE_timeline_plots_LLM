@@ -1,0 +1,36 @@
+Head and Neck
+Acinic Cell Carcinoma
+Mucoepidermoid Carcinoma
+Salivary Gland Oncocytoma
+Epithelial-Myoepithelial Carcinoma
+Larynx Squamous Cell Carcinoma
+Head and Neck Neuroendocrine Carcinoma
+Sinonasal Adenocarcinoma
+Head and Neck Mucosal Melanoma
+Odontogenic Carcinoma
+Head and Neck Squamous Cell Carcinoma of Unknown Primary
+Sinonasal Squamous Cell Carcinoma
+Parathyroid Carcinoma
+Head and Neck Squamous Cell Carcinoma
+NUT Midline Carcinoma of the Head and Neck
+Pleomorphic Adenoma
+Sinonasal Undifferentiated Carcinoma
+Clear Cell Odontogenic Carcinoma
+Salivary Duct Carcinoma
+Adenoid Cystic Carcinoma
+Oropharynx Squamous Cell Carcinoma
+Salivary Carcinoma, Other
+Mammary Analogue Secretory Carcinoma of Salivary Gland Origin
+Basal Cell Adenocarcinoma
+Adenosquamous Carcinoma of the Tongue
+Polymorphous Adenocarcinoma
+Head and Neck Carcinoma, Other
+Carcinoma ex Pleomorphic Adenoma
+Hypopharynx Squamous Cell Carcinoma
+Nasopharyngeal Carcinoma
+Parathyroid Cancer
+Salivary Adenocarcinoma
+Oral Cavity Squamous Cell Carcinoma
+Salivary Carcinoma
+Myoepithelial Carcinoma
+Sialoblastoma

@@ -1,0 +1,20 @@
+{
+  "Bladder/Urinary Tract": "BLADDER",
+  "Bladder Squamous Cell Carcinoma": "BLSC",
+  "Mucosal Melanoma of the Urethra": "URMM",
+  "Urothelial Papilloma": "UPA",
+  "Upper Tract Urothelial Carcinoma": "UTUC",
+  "Urachal Adenocarcinoma": "UA",
+  "Inflammatory Myofibroblastic Bladder Tumor": "IMTB",
+  "Urethral Squamous Cell Carcinoma": "USCC",
+  "Inverted Urothelial Papilloma": "IUP",
+  "Plasmacytoid/Signet Ring Cell Bladder Carcinoma": "SRCBC",
+  "Bladder Adenocarcinoma": "BLAD",
+  "Bladder Urothelial Carcinoma": "BLCA",
+  "Small Cell Bladder Cancer": "SCBC",
+  "Urethral Adenocarcinoma": "UAD",
+  "Urethral Cancer": "UCA",
+  "Urethral Urothelial Carcinoma": "UCU",
+  "Urachal Carcinoma": "URCA",
+  "Sarcomatoid Carcinoma of the Urinary Bladder": "SCB"
+}

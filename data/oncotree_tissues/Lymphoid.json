@@ -1,0 +1,3186 @@
+{
+   "oncotree_children_codes": [
+      "LATL",
+      "LBGN",
+      "LNM"
+   ],
+   "oncotree_name": "Lymphoid",
+   "oncotree_main_type": "Lymphatic Cancer",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["LYMPH"],
+   "ncit_entries": [{
+      "ncit_name": "Lymph",
+      "ncit_synonyms": [
+         "Reticuloendothelial System, Lymph",
+         "lymphatic fluid"
+      ],
+      "ncit_definitions": [
+         "A clear, transparent, sometimes faintly yellow and slightly opalescent fluid that is collected from the tissues throughout the body, flows in the lymphatic vessels (through the lymph nodes), and is eventually added to the venous blood circulation. Lymph consists of a clear liquid portion, varying numbers of white blood cells (chiefly lymphocytes), and a few red blood cells. (NCI)",
+         "The clear fluid that travels through the lymphatic system and carries cells that help fight infections and other diseases.",
+         "A clear, transparent, sometimes faintly yellow and slightly opalescent fluid that is collected from the tissues throughout the body, flows in the lymphatic vessels (through the lymph nodes), and is eventually added to the venous blood circulation. Lymph consists of a clear liquid portion, varying numbers of white blood cells (chiefly lymphocytes), and a few red blood cells."
+      ],
+      "ncit_code": "C13252"
+   }],
+   "oncotree_code": "LYMPH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Duodenal-Type Follicular Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "FL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "FL",
+      "DFL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Duodenal-Type Follicular Lymphoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A localized low-grade follicular lymphoma within the gastrointestinal tract, which is distinct from other gastrointestinal tract follicular lymphomas.  It has features that overlap with in situ follicular neoplasia as well as some features resembling an extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue. The prognosis is excellent."],
+      "ncit_code": "C138185"
+   }],
+   "oncotree_code": "DFL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue (MALT lymphoma)",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MZL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MZL",
+      "EMALT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue",
+      "ncit_synonyms": [
+         "MALT lymphoma",
+         "MALToma",
+         "Extranodal Marginal Zone B-Cell Lymphoma of Mucosa-Associated Lymphoid Tissue",
+         "MALT Lymphoma",
+         "MALT-lymphoma",
+         "Immunocytoma",
+         "Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma]",
+         "mucosa-associated lymphoid tissue lymphoma",
+         "Mucosal-associated lymphoid tissue lymphoma",
+         "Extranodal Marginal Zone Lymphoma",
+         "Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue (MALT-lymphoma)",
+         "Mucosa-Associated Lymphoid Tissue Lymphoma"
+      ],
+      "ncit_definitions": [
+         "An indolent, extranodal type of non-Hodgkin lymphoma composed of small B-lymphocytes (centrocyte-like cells).  The gastrointestinal tract is the most common site of involvement.  Other common sites of involvement include lung, head and neck, ocular adnexae, skin, thyroid, and breast.  Gastric involvement is associated with the presence of H. pylori infection. (WHO, 2001)",
+         "A type of cancer that arises in cells in mucosal tissue that are involved in antibody production."
+      ],
+      "ncit_code": "C3898"
+   }],
+   "oncotree_code": "EMALT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Monomorphic PTLD (B- and T-/NK-cell types)",
+   "oncotree_main_type": "Posttransplant Lymphoproliferative Disorders",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "PTLD",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "PTLD",
+      "MPTLD"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MPTLD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Hairy Cell Leukemia-Variant",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "SBLU",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "SBLU",
+      "HCL-V"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hairy Cell Leukemia Variant",
+      "ncit_synonyms": [
+         "Splenic B-Cell Lymphoma/Leukemia with Prominent Nucleoli",
+         "Prolymphocytic Variant of Hairy Cell Leukemia",
+         "Hairy Cell Leukemia-Variant",
+         "HCL-V"
+      ],
+      "ncit_definitions": ["An indolent chronic B-cell leukemia resembling classic hairy cell leukemia but shows variant cytologic, hematologic, and immunophenotypic features and is resistant to the conventional therapy applied to hairy cell leukemia.  Biologically, it is not related to hairy cell leukemia."],
+      "ncit_code": "C7401"
+   }],
+   "oncotree_code": "HCL-V"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Burkitt Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "BL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Burkitt Lymphoma",
+      "ncit_synonyms": [
+         "Small Non-Cleaved Cell Lymphoma, Burkitt's Type",
+         "Burkitt's Lymphoma",
+         "NHL, Burkitt lymphoma (BL)",
+         "Burkitt lymphoma, unspecified site",
+         "Burkitt's lymphoma"
+      ],
+      "ncit_definitions": [
+         "A highly aggressive lymphoma composed of monomorphic medium-sized B-cells with basophilic cytoplasm and numerous mitotic figures.  It is often associated with the presence of Epstein-Barr virus (EBV) and is commonly seen in AIDS patients.  Three morphologic variants are recognized: classical Burkitt lymphoma, Burkitt lymphoma with plasmacytoid differentiation, and atypical Burkitt/Burkitt-like lymphoma.  All cases express the MYC translocation [t(8;14)]. (WHO, 2001)",
+         "An aggressive (fast-growing) type of B-cell non-Hodgkin lymphoma that occurs most often in children and young adults. The disease may affect the jaw, central nervous system, bowel, kidneys, ovaries, or other organs. There are three main types of Burkitt lymphoma (sporadic, endemic, and immunodeficiency related). Sporadic Burkitt lymphoma occurs throughout the world, and endemic Burkitt lymphoma occurs in Africa. Immunodeficiency-related Burkitt lymphoma is most often seen in AIDS patients."
+      ],
+      "ncit_code": "C2912"
+   }],
+   "oncotree_code": "BL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Lymphomatoid Granulomatosis",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "LYG"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Lymphomatoid Granulomatosis",
+      "ncit_synonyms": ["LYG"],
+      "ncit_definitions": [
+         "An angiocentric and angiodestructive lymphoproliferative disease involving extranodal sites, comprised of Epstein-Barr virus (EBV)-positive B-cells admixed with reactive T-cells.  Incidence is higher among adult males; patients with a history of immunodeficiency are at increased risk.  The most common site of involvement is the lung; other common sites include brain, kidney, liver, and skin.  Morphologically, three grades are recognized: grade I, II, and III.  Grade III lymphomatoid granulomatosis should be approached clinically as a subtype of diffuse large B-cell lymphoma.",
+         "Destructive growth of lymph cells, usually involving the lungs, skin, kidneys, and central nervous system. Grades I and II are not considered cancerous, but grade III is considered a lymphoma."
+      ],
+      "ncit_code": "C7930"
+   }],
+   "oncotree_code": "LYG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Lymphomatoid Papulosis",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "PCLPD",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "PCLPD",
+      "LYP"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Lymphomatoid Papulosis",
+      "ncit_synonyms": ["LyP"],
+      "ncit_definitions": ["A chronic, recurrent cutaneous disorder characterized by the presence of spontaneously regressing papules.  The papules are composed of an atypical lymphocytic infiltrate that contains anaplastic CD30-positive T-cells, which are found in type A and diffuse large cell type (type C) lymphomatoid papulosis.  In a small number of cases, of type B, the lymphocytic infiltrate is composed of small, cerebriform-like lymphocytes that are often negative for CD30.  The majority of cases follow a benign clinical course, but some cases are clonal and may progress to lymphoma.  Treatment options include low dose methotrexate and psoralen/UVA (PUVA)."],
+      "ncit_code": "C3721"
+   }],
+   "oncotree_code": "LYP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Indolent T-Cell Lymphoproliferative Disorder of the GI Tract",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "ITLPDGI"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Indolent Clonal T-Cell Lymphoproliferative Disorder of the Gastrointestinal Tract",
+      "ncit_synonyms": [
+         "ITLPD-GI",
+         "Indolent T-Cell Lymphoma of the Gastrointestinal Tract",
+         "Indolent T-cell lymphoproliferative disorder of gastrointestinal tract",
+         "Indolent T-Cell Lymphoproliferative Disorder of the Gastrointestinal Tract"
+      ],
+      "ncit_definitions": ["A clonal T-cell lymphoproliferative disorder that can involve the mucosa in all sites of the gastrointestinal tract, but is most common in the small intestine and colon. The lymphoid cells infiltrate the lamina propria but usually do not show invasion of the epithelium. The clinical course is indolent, but most patients do not respond to conventional chemotherapy. A subset of cases progress to a higher-grade T-cell lymphoma with spread beyond the gastrointestinal tract. (WHO 2017)"],
+      "ncit_code": "C139021"
+   }],
+   "oncotree_code": "ITLPDGI"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Extraosseous Plasmacytoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "EP"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Extraosseous Plasmacytoma",
+      "ncit_synonyms": [
+         "Extramedullary Plasmacytoma",
+         "Plasmacytoma, extramedullary"
+      ],
+      "ncit_definitions": ["A localized malignant neoplasm arising in an extraosseous site. It is composed of clonal (malignant) plasma cells forming a tumor mass. It most frequently involves the oropharynx, nasopharynx, sinuses, and larynx."],
+      "ncit_code": "C4002"
+   }],
+   "oncotree_code": "EP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Angioimmunoblastic T-Cell Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "AITL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Follicular Helper T-Cell Lymphoma, Angioimmunoblastic-Type",
+      "ncit_synonyms": [
+         "Angioimmunoblastic Lymphadenopathy",
+         "Angioimmunoblastic T-cell lymphoma",
+         "Angioimmunoblastic lymphadenopathy",
+         "angioimmunoblastic T-cell lymphoma",
+         "Angioimmunoblastic Lymphadenopathy with Dysproteinemia",
+         "nTFHL-AI",
+         "Follicular Helper T-Cell Lymphoma, Angioimmunoblastic Type (Angioimmunoblastic T-Cell Lymphoma)",
+         "Angioimmunoblastic T-Cell Lymphoma",
+         "Angioimmunoblastic Lymphadenopathy Type T-Cell Lymphoma",
+         "AILD",
+         "AITL",
+         "Nodal T-Follicular Helper Lymphoma, Angioimmunoblastic-Type"
+      ],
+      "ncit_definitions": [
+         "An aggressive follicular helper T-cell lymphoma affecting lymph nodes and other sites. It is characterized by a polymorphous infiltrate and prominent proliferation of high endothelial venules and follicular dendritic cells. It is associated with EBV infection and affects mainly older adults.",
+         "An aggressive (fast-growing) type of T-cell non-Hodgkin lymphoma marked by enlarged lymph nodes and hypergammaglobulinemia (increased antibodies in the blood). Other symptoms may include a skin rash, fever, weight loss, or night sweats."
+      ],
+      "ncit_code": "C7528"
+   }],
+   "oncotree_code": "AITL"
+}
+{
+   "oncotree_children_codes": [
+      "DFL",
+      "ISFN"
+   ],
+   "oncotree_name": "Follicular Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "FL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Follicular Lymphoma",
+      "ncit_synonyms": [
+         "Follicular lymphoma, unspecified, unspecified site",
+         "Follicular Non-Hodgkin's Lymphoma",
+         "Follicular Centre Cell Lymphoma",
+         "Lymphoma, Follicular Centre Cell",
+         "LYMPHOMA, FOLLICULAR, MALIGNANT",
+         "Follicle Center Lymphoma",
+         "Follicular Non-Hodgkin Lymphoma"
+      ],
+      "ncit_definitions": [
+         "A neoplasm of lymphoid cells which has at least a partial follicular pattern.",
+         "A neoplasm of follicle centre B cells which has at least a partial follicular pattern.  Follicular lymphomas comprise about 35% of adult non-Hodgkin lymphomas in the U.S. and 22% worldwide.  Most patients have widespread disease at diagnosis.  Morphologically, follicular lymphomas are classified as Grade 1, Grade 2, and Grade 3, depending on the percentage of the large lymphocytes present.  The vast majority of cases (70-95%) express the BCL-2 rearrangement [t(14;18)].  Histological grade correlates with prognosis.  Grades 1 and 2 follicular lymphomas are indolent and grade 3 is more aggressive (adapted from WHO, 2001).",
+         "A type of B-cell non-Hodgkin lymphoma (cancer of the immune system) that is usually indolent (slow-growing). The tumor cells grow as groups to form nodules. There are several subtypes of follicular lymphoma."
+      ],
+      "ncit_code": "C3209"
+   }],
+   "oncotree_code": "FL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary DLBCL of the central nervous system",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "PCNSL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Primary Central Nervous System Lymphoma",
+      "ncit_synonyms": [
+         "Primary CNS lymphoma",
+         "PCNSL",
+         "Central Nervous System Lymphoma",
+         "primary CNS lymphoma",
+         "Primary CNS Lymphoma"
+      ],
+      "ncit_definitions": [
+         "Cancer that forms in the lymph tissue of the brain, spinal cord, meninges (outer covering of the brain), or eye (called ocular lymphoma).",
+         "A non-Hodgkin or Hodgkin lymphoma that arises from the brain or spinal cord as a primary lesion. There is no evidence of lymphoma outside the central nervous system at the time of diagnosis."
+      ],
+      "ncit_code": "C9301"
+   }],
+   "oncotree_code": "PCNSL"
+}
+{
+   "oncotree_children_codes": [
+      "BLLTCF3PBX1",
+      "BLLHYPO",
+      "BLLIAMP21",
+      "BLLBCRABL1L",
+      "BLLHYPER",
+      "BLLIL3IGH",
+      "BLLBCRABL1",
+      "BLLKMT2A",
+      "BLLETV6RUNX1"
+   ],
+   "oncotree_name": "B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities",
+   "oncotree_main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "BLL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "BLL",
+      "BLLRGA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "B Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities",
+      "ncit_synonyms": ["B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities"],
+      "ncit_definitions": ["B lymphoblastic leukemias/lymphomas characterized by the presence of recurring cytogenetic and/or molecular abnormalities."],
+      "ncit_code": "C80328"
+   }],
+   "oncotree_code": "BLLRGA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Cutaneous Follicle Center Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "PCFCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Primary Cutaneous Follicle Center Lymphoma",
+      "ncit_synonyms": [
+         "Cutaneous follicle center lymphoma, unspecified site",
+         "Crosti's Disease",
+         "Reticulohistiocytoma of the Dorsum",
+         "PCFCL",
+         "Cutaneous Follicle Center Lymphoma",
+         "Cutaneous Follicle Centre Lymphoma"
+      ],
+      "ncit_definitions": ["A primary lymphoma of the skin composed of various numbers of small and large irregular neoplastic follicle center cells.  Its morphologic pattern can be nodular, diffuse, or nodular and diffuse.  It presents with solitary or grouped plaques and tumors, and it usually involves the scalp, forehead, or trunk.  It rarely involves the legs.  This type of cutaneous lymphoma tends to remain localized to the skin."],
+      "ncit_code": "C7217"
+   }],
+   "oncotree_code": "PCFCL"
+}
+{
+   "oncotree_children_codes": [
+      "LYP",
+      "PCALCL"
+   ],
+   "oncotree_name": "Primary Cutaneous CD30 Positive T-Cell Lymphoproliferative Disorders",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "PCLPD"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PCLPD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Adult T-Cell Leukemia/Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "ATLL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Adult T-Cell Leukemia/Lymphoma",
+      "ncit_synonyms": [
+         "Adult T-Cell Lymphoma/Leukemia",
+         "HTLV-1 Associated Adult T-Cell Lymphoma/Leukemia",
+         "HTLV-I Associated Adult T-Cell Leukemia/Lymphoma",
+         "Adult T Cell Lymphoma/Leukemia",
+         "Adult T-cell lymphoma/leukemia",
+         "ATLL"
+      ],
+      "ncit_definitions": [
+         "An aggressive (fast-growing) type of T-cell non-Hodgkin lymphoma caused by the human T-cell leukemia virus type 1 (HTLV-1). It is marked by bone and skin lesions, high calcium levels, and enlarged lymph nodes, spleen, and liver.",
+         "A peripheral (mature) T-cell neoplasm linked to the human T-cell leukemia virus type 1 (HTLV-1).  Adult T-cell leukemia/lymphoma is endemic in several regions of the world, in particular Japan, the Caribbean, and parts of Central Africa."
+      ],
+      "ncit_code": "C3184"
+   }],
+   "oncotree_code": "ATLL"
+}
+{
+   "oncotree_children_codes": [
+      "CHL",
+      "NLPHL"
+   ],
+   "oncotree_name": "Hodgkin Lymphoma",
+   "oncotree_main_type": "Hodgkin Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "LNM",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "HL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hodgkin Lymphoma",
+      "ncit_synonyms": [
+         "Hodgkin lymphoma, NOS",
+         "HL",
+         "Hodgkin Lymphoma, NOS",
+         "Malignant lymphoma, Hodgkin",
+         "Hodgkin's Disease",
+         "Hodgkin disease",
+         "Hodgkin's Lymphoma",
+         "Hodgkin lymphoma, unspecified, unspecified site",
+         "Hodgkin disease, NOS"
+      ],
+      "ncit_definitions": [
+         "A cancer of the immune system that is marked by the presence of a type of cell called the Reed-Sternberg cell. The two major types of Hodgkin lymphoma are classical Hodgkin lymphoma and nodular lymphocyte-predominant Hodgkin lymphoma. Symptoms include the painless enlargement of lymph nodes, spleen, or other immune tissue. Other symptoms include fever, weight loss, fatigue, or night sweats.",
+         "A lymphoma characterized by the presence of relatively few malignant cells called Reed-Sternberg cells and mononuclear Hodgkin cells that are admixed with nonneoplastic inflammatory cells. The malignant cells have a distinctive immunophenotype; they are positive for CD30 and CD15 and negative for CD3, CD20, and CD45.",
+         "A malignant neoplasm of the lymphatic system that is comprised of abnormal lymphocytes and is characterized by the presence of Reed-Sternberg cells."
+      ],
+      "ncit_code": "C9357"
+   }],
+   "oncotree_code": "HL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Lymphocyte-Rich Classical Hodgkin Lymphoma",
+   "oncotree_main_type": "Hodgkin Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "CHL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "HL",
+      "CHL",
+      "LRCHL"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LRCHL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Nodal Marginal Zone Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MZL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MZL",
+      "NMZL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Nodal Marginal Zone Lymphoma",
+      "ncit_synonyms": [
+         "Nodal marginal zone B-cell lymph.",
+         "Nodal Marginal Zone B-Cell Lymphoma",
+         "Nodal marginal zone B-cell lymphoma",
+         "Monocytoid B-Cell Lymphoma",
+         "Monocytoid B-cell lymphoma"
+      ],
+      "ncit_definitions": ["A primary nodal B-cell non-Hodgkin lymphoma which morphologically resembles lymph nodes involved by marginal zone lymphomas of extranodal or splenic types, but without evidence of extranodal or splenic disease.  (WHO, 2001)"],
+      "ncit_code": "C8863"
+   }],
+   "oncotree_code": "NMZL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Early T-Cell Precursor Lymphoblastic Leukemia",
+   "oncotree_main_type": "T-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "TLL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "TLL",
+      "ETPLL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Early T Precursor Acute Lymphoblastic Leukemia",
+      "ncit_synonyms": [
+         "Early T-Cell Precursor Lymphoblastic Leukemia",
+         "Early T-Acute Lymphoblastic Leukemia",
+         "Early T-Precursor Acute Lymphoblastic Leukemia",
+         "ETP-ALL",
+         "ETP ALL",
+         "Early T-Cell Precursor Acute Lymphoblastic Leukemia",
+         "Early T Acute Lymphoblastic Leukemia"
+      ],
+      "ncit_definitions": ["T acute lymphoblastic leukemia in which the blasts have unique immunophenotypic and genetic characteristics suggesting only limited early T-cell differentiation."],
+      "ncit_code": "C130043"
+   }],
+   "oncotree_code": "ETPLL"
+}
+{
+   "oncotree_children_codes": [
+      "BLLRGA",
+      "BLLNOS"
+   ],
+   "oncotree_name": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "LNM",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "BLL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "B Lymphoblastic Leukemia/Lymphoma",
+      "ncit_synonyms": [
+         "B-Lymphoblastic Leukemia/Lymphoma",
+         "Precursor B-Lymphoblastic Lymphoma/Leukemia",
+         "Precursor B Lymphoblastic Leukemia/Lymphoma",
+         "B-Cell Lymphoblastic Leukemia/Lymphoma"
+      ],
+      "ncit_definitions": ["A neoplasm of lymphoblasts committed to the B-cell lineage, typically composed of small to medium-sized blast cells.  When the neoplasm involves predominantly the bone marrow and the peripheral blood, it is called B acute lymphoblastic leukemia.  When it involves nodal or extranodal sites, it is called B lymphoblastic lymphoma. (WHO, 2001)"],
+      "ncit_code": "C8936"
+   }],
+   "oncotree_code": "BLL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Peripheral T-Cell lymphoma, NOS",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "PTCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Peripheral T-Cell Lymphoma, Not Otherwise Specified",
+      "ncit_synonyms": [
+         "Mature T-Cell Lymphoma, NOS",
+         "PTCL-NOS",
+         "Peripheral T-cell lymphoma, not classified, unspecified site",
+         "PTCL, NOS",
+         "Peripheral T-cell lymphoma, NOS",
+         "Peripheral T-Cell Lymphoma, NOS",
+         "Peripheral T-Cell Lymphoma, Unclassifiable"
+      ],
+      "ncit_definitions": ["A group of peripheral T-cell lymphomas that do not meet the criteria for any other category of specifically defined entities of peripheral T-cell lymphoma."],
+      "ncit_code": "C4340"
+   }],
+   "oncotree_code": "PTCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "B-Lymphoblastic Leukemia/Lymphoma with t(1;19)(q23;p13.3);TCF3-PBX1",
+   "oncotree_main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "BLLRGA",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "BLL",
+      "BLLRGA",
+      "BLLTCF3PBX1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "B Lymphoblastic Leukemia/Lymphoma with t(1;19)(q23;p13.3); TCF3-PBX1",
+      "ncit_synonyms": [
+         "B Lymphoblastic Leukemia/Lymphoma with TCF3::PBX1 Fusion",
+         "B-Lymphoblastic Leukemia/Lymphoma with t(1;19)(q23;p13.3); E2A-PBX1 (TCF3-PBX1)",
+         "B Lymphoblastic Leukemia/Lymphoma with t(1;19)(q23;p13.3); E2A-PBX1 (TCF3-PBX1)",
+         "B lymphoblastic leukemia/lymphoma with t(1;19)(q23;p13.3); E2A-PBX1 (TCF3-PBX1)",
+         "B-Lymphoblastic Leukemia/Lymphoma with TCF3-PBX1 Fusion",
+         "B Lymphoblastic Leukemia/Lymphoma with t(1;19)(q23;p13.3); TCF3::PBX1",
+         "B-Lymphoblastic Leukemia/Lymphoma with TCF3::PBX1 Fusion",
+         "B Lymphoblastic Leukemia/Lymphoma with TCF3-PBX1 Fusion"
+      ],
+      "ncit_definitions": ["A precursor lymphoid neoplasm which is composed of B lymphoblasts and carries a translocation between the E2A gene on chromosome 19 and the PBX1 gene on chromosome 1."],
+      "ncit_code": "C80341"
+   }],
+   "oncotree_code": "BLLTCF3PBX1"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Infectious Mononucleosis PTLD",
+   "oncotree_main_type": "Posttransplant Lymphoproliferative Disorders",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "PTLD",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "PTLD",
+      "IMPTLD"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "IMPTLD"
+}
+{
+   "oncotree_children_codes": [
+      "BL",
+      "LYG",
+      "EP",
+      "FL",
+      "PCNSL",
+      "PCFCL",
+      "BLL11Q",
+      "MCL",
+      "SPB",
+      "PTFL",
+      "EBVMCU",
+      "MCBCL",
+      "THRLBCL",
+      "AHCD",
+      "MIDD",
+      "PLBL",
+      "EBVDLBCLNOS",
+      "SBLU",
+      "MZL",
+      "PCM",
+      "DLBCLCI",
+      "PEL",
+      "GHCD",
+      "BCLU",
+      "MGUS",
+      "DLBCLNOS",
+      "ALKLBCL",
+      "PCLBCLLT",
+      "BPLL",
+      "HCL",
+      "HGBCL",
+      "MHCD",
+      "HHV8DLBCL",
+      "PMBL",
+      "LPL",
+      "LBLIRF4",
+      "CLLSLL",
+      "HGBCLMYCBCL2",
+      "IVBCL"
+   ],
+   "oncotree_name": "Mature B-Cell Neoplasms",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "NHL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "B-Cell Non-Hodgkin Lymphoma",
+      "ncit_synonyms": [
+         "Non-Hodgkin's B-Cell Lymphoma",
+         "Unspecified B-cell lymphoma, unspecified site",
+         "Non-Hodgkin's Lymphoma B-Cell",
+         "B-Cell Non-Hodgkin's Lymphoma",
+         "Lymphomas Non-Hodgkin's B-Cell",
+         "B-cell lymphoma",
+         "B-Cell Non Hodgkin's Lymphoma"
+      ],
+      "ncit_definitions": [
+         "A type of cancer that forms in B cells (a type of immune system cell). B-cell lymphomas usually occur in adults and may be either indolent (slow-growing) or aggressive (fast-growing). There are many different types of B-cell lymphomas, and prognosis and treatment depend on the type and stage of cancer.",
+         "The most common type of non-Hodgkin lymphoma.  It includes the most frequently seen morphologic variants which are: diffuse large B-cell lymphoma, follicular lymphoma, small lymphocytic lymphoma and marginal zone B-cell lymphoma."
+      ],
+      "ncit_code": "C3457"
+   }],
+   "oncotree_code": "MBN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Burkitt-Like Lymphoma with 11q Aberration",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "BLL11Q"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Large B-Cell Lymphoma with 11q Aberration",
+      "ncit_synonyms": [
+         "High-Grade B-Cell Lymphoma with 11q Aberrations",
+         "MYC-Negative B-Cell Lymphoma with 11q Aberration Resembling Burkitt Lymphoma",
+         "MYC-Negative High-Grade B-Cell Lymphoma with 11q Aberration Resembling Burkitt Lymphoma",
+         "B-Cell Lymphoma with 11q Aberration Resembling Burkitt Lymphoma",
+         "Burkitt-Like Lymphoma with 11q Aberration",
+         "High Grade B-Cell Lymphoma with 11q Aberrations"
+      ],
+      "ncit_definitions": ["A molecularly distinct large B-cell lymphoma reminiscent of Burkitt lymphoma. It is characterized by the absence of MYC translocation and the presence of chromosome 11q aberrations."],
+      "ncit_code": "C131911"
+   }],
+   "oncotree_code": "BLL11Q"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Splenic Diffuse Red Pulp Small B-Cell Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "SBLU",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "SBLU",
+      "SDRPL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Splenic Diffuse Red Pulp Small B-Cell Lymphoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["An uncommon, indolent B-cell non-Hodgkin lymphoma composed of small B-lymphocytes involving the red pulp of the spleen, bone marrow, and peripheral blood.  Patients often have massive splenomegaly.  The peripheral blood examination reveals villous lymphocytes."],
+      "ncit_code": "C80309"
+   }],
+   "oncotree_code": "SDRPL"
+}
+{
+   "oncotree_children_codes": ["ISMCL"],
+   "oncotree_name": "Mantle Cell Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mantle Cell Lymphoma",
+      "ncit_synonyms": [
+         "Mantle Zone Lymphoma",
+         "Mantle cell lymphoma, unspecified site",
+         "MCL",
+         "Classical Mantle Cell Lymphoma",
+         "Mantle zone lymphoma"
+      ],
+      "ncit_definitions": [
+         "An aggressive (fast-growing) type of B-cell non-Hodgkin lymphoma that usually occurs in middle-aged or older adults. It is marked by small- to medium-size cancer cells that may be in the lymph nodes, spleen, bone marrow, blood, and gastrointestinal system.",
+         "A non-Hodgkin lymphoma composed of small to medium sized B-lymphocytes (centrocytes). Most patients present with advanced stage disease with lymphadenopathy, hepatosplenomegaly, and bone marrow involvement. The gastrointestinal tract is the most commonly affected extranodal site by this type of non-Hodgkin lymphoma. The vast majority of cases express the t(11;14)(q13;q32) resulting in the rearrangement of the BCL-1 gene and the overexpression of cyclin D1 mRNA."
+      ],
+      "ncit_code": "C4337"
+   }],
+   "oncotree_code": "MCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Solitary Plasmacytoma of Bone",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "SPB"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Solitary Plasmacytoma of Bone",
+      "ncit_synonyms": [
+         "Solitary Osseous Plasmacytoma",
+         "Bone Solitary Plasmacytoma",
+         "SPB"
+      ],
+      "ncit_definitions": ["A localized malignant neoplasm that arises in the bone. It is composed of clonal (malignant) plasma cells forming a tumor mass. The most commonly affected bones are the vertebrae, ribs, skull, pelvis, and femur."],
+      "ncit_code": "C7812"
+   }],
+   "oncotree_code": "SPB"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anaplastic Large-Cell Lymphoma ALK Negative",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "ALCL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "ALCL",
+      "ALCLALKN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Anaplastic Large Cell Lymphoma, ALK-Negative",
+      "ncit_synonyms": [
+         "ALCL, ALK-",
+         "ALK-Negative Anaplastic Large Cell Lymphoma",
+         "Anaplastic large cell lymphoma, ALK negative"
+      ],
+      "ncit_definitions": ["A T-cell peripheral lymphoma morphologically indistinguishable from anaplastic large cell lymphoma, ALK-positive.  It is characterized by the absence of the translocation involving the ALK gene and lacks expression of ALK fusion protein."],
+      "ncit_code": "C37194"
+   }],
+   "oncotree_code": "ALCLALKN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anaplastic Large-Cell Lymphoma ALK Positive",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "ALCL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "ALCL",
+      "ALCLALKP"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Anaplastic Large Cell Lymphoma, ALK-Positive",
+      "ncit_synonyms": [
+         "Anaplastic large cell lymphoma, ALK positive",
+         "ALK-Positive Anaplastic Large Cell Lymphoma",
+         "ALCL, ALK+",
+         "Anaplastic large cell lymphoma, ALK-positive, unspecified site",
+         "ALKoma"
+      ],
+      "ncit_definitions": ["A T-cell peripheral lymphoma composed of usually large, pleomorphic, CD30 positive T-lymphocytes with abundant cytoplasm. It is characterized by the presence of a translocation involving the ALK gene and expression of ALK fusion protein. Most patients present with peripheral and/or abdominal lymphadenopathy, and often have advanced disease and extranodal involvement."],
+      "ncit_code": "C37193"
+   }],
+   "oncotree_code": "ALCLALKP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Florid Follicular Hyperplasia PTLD",
+   "oncotree_main_type": "Posttransplant Lymphoproliferative Disorders",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "PTLD",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "PTLD",
+      "FHPTLD"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "FHPTLD"
+}
+{
+   "oncotree_children_codes": [
+      "ALCLALKN",
+      "ALCLALKP",
+      "BIALCL"
+   ],
+   "oncotree_name": "Anaplastic Large Cell Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "ALCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Anaplastic Large Cell Lymphoma",
+      "ncit_synonyms": [
+         "NHL, anaplastic large cell lymphoma",
+         "Anaplastic Large Cell Lymphoma, T Cell and Null Cell Type",
+         "CD30 Positive Anaplastic Large Cell Lymphoma",
+         "Ki-1+ Anaplastic Large Cell Lymphoma",
+         "Ki-1+ ALCL",
+         "Anaplastic large cell lymphoma, NOS",
+         "ALCL",
+         "Anaplastic large cell lymphoma, CD30+",
+         "Ki-1 Lymphoma"
+      ],
+      "ncit_definitions": [
+         "A peripheral (mature) T-cell lymphoma, consisting of usually large anaplastic, CD30 positive cells. The majority of cases are positive for the anaplastic large cell lymphoma (ALK) protein. The most frequently seen genetic alteration is a t(2;5) translocation. Majority of patients present with advanced disease. The most important prognostic indicator is ALK positivity, which has been associated with a favorable prognosis. (WHO, 2001)",
+         "An aggressive (fast-growing) type of non-Hodgkin lymphoma that is usually of the T-cell type. The cancer cells express a marker called CD30 or Ki-1 on the surface, and may appear in the lymph nodes, skin, bones, soft tissues, lungs, or liver."
+      ],
+      "ncit_code": "C3720"
+   }],
+   "oncotree_code": "ALCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Cutaneous Gamma Delta T-Cell Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "PCGDTCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Primary Cutaneous Gamma-Delta T-Cell Lymphoma",
+      "ncit_synonyms": [
+         "Peripheral Gamma-Delta T-Cell Lymphoma",
+         "PCGD-TCL",
+         "Cutaneous Gamma/Delta T-Cell Lymphoma"
+      ],
+      "ncit_definitions": ["An aggressive cutaneous lymphoma of mature, activated gamma/delta T-lymphocytes.  It usually presents with disseminated plaques and nodules.  Involvement of mucosal sites is frequent.  However, involvement of lymph nodes, spleen, or bone marrow is uncommon.  Morphologically, there are three patterns of cutaneous involvement: epidermotropic, dermal, and subcutaneous.  Often, more than one pattern may co-exist in a single biopsy specimen, or may be present in different biopsy specimens from the same patient.  The lymphocytic infiltrate is composed of medium- to large-sized lymphocytes expressing CD56.  Most cases lack both CD4 and CD8, although CD8 may be present in some cases.  This group of lymphomas includes cases previously known as subcutaneous panniculitis-like T-cell lymphoma with a gamma/delta phenotype."],
+      "ncit_code": "C45340"
+   }],
+   "oncotree_code": "PCGDTCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pediatric-Type Follicular Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "PTFL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pediatric-Type Follicular Lymphoma",
+      "ncit_synonyms": [
+         "Childhood Follicular Lymphoma",
+         "Pediatric Follicular Lymphoma",
+         "PTFL"
+      ],
+      "ncit_definitions": [
+         "A nodal follicular lymphoma with favorable prognosis. It lacks BCL-2 rearrangement and 14;18 translocation. Nearly all cases are localized. It is usually seen in the pediatric population but similar lymphomas may occur in adults.",
+         "A variant of follicular lymphoma seen in children and adolescents that lacks the translocation of t(14;18)(q32;q21) involving BCL2, which is generally found in adults."
+      ],
+      "ncit_code": "C80297"
+   }],
+   "oncotree_code": "PTFL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "EBV Positive Mucocutaneous Ulcer",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "EBVMCU"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "EBV-Positive Mucocutaneous Ulcer",
+      "ncit_synonyms": [
+         "Epstein-Barr Virus-Positive Mucocutaneous Ulcer",
+         "EBVMCU"
+      ],
+      "ncit_definitions": ["A rare Epstein-Barr virus-positive B-cell lymphoproliferative disorder that affects mucosal sites (including oral mucosa, palate, tonsils, and gastrointestinal tract) and skin. It presents with well-circumscribed, often painful ulcers. It is associated with immune suppression, including age-related and drug-induced immunosuppression. In the majority of cases the lesions regress either spontaneously or following withdrawal of the immunosuppression therapy."],
+      "ncit_code": "C131906"
+   }],
+   "oncotree_code": "EBVMCU"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Natural Killer (NK) Cell Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_main_type": "T-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "TLL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "TLL",
+      "NKCLL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Natural Killer Cell Lymphoblastic Leukemia/Lymphoma",
+      "ncit_synonyms": [
+         "NK Cell Lymphoblastic Leukemia/Lymphoma",
+         "NK-ALL/LBL",
+         "Precursor NK Cell Lymphoblastic Leukemia/Lymphoma",
+         "NK Lymphoblastic Leukemia/Lymphoma",
+         "Precursor Natural Killer Cell Lymphoblastic Leukemia/Lymphoma",
+         "NK-Lymphoblastic Leukemia/Lymphoma"
+      ],
+      "ncit_definitions": ["A precursor lymphoid neoplasm that expresses CD56 and immature T-cell markers, lacks B-lymphoid and myeloid markers, and has immunoglobulin and T-cell receptor genes in the germline configuration."],
+      "ncit_code": "C82217"
+   }],
+   "oncotree_code": "NKCLL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "B-Lymphoblastic Leukemia/Lymphoma with Hypodiploidy",
+   "oncotree_main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "BLLRGA",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "BLL",
+      "BLLRGA",
+      "BLLHYPO"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hypodiploid B Lymphoblastic Leukemia/Lymphoma",
+      "ncit_synonyms": [
+         "B-Lymphoblastic Leukemia/Lymphoma with Hypodiploidy",
+         "B Lymphoblastic Leukemia/Lymphoma with Hypodiploidy"
+      ],
+      "ncit_definitions": ["A precursor lymphoid neoplasm composed of B lymphoblasts which contain less than 46 chromosomes. It has an unfavorable clinical outcome."],
+      "ncit_code": "C80338"
+   }],
+   "oncotree_code": "BLLHYPO"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Aggressive NK-Cell Leukemia",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "ANKL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Aggressive NK-Cell Leukemia",
+      "ncit_synonyms": [
+         "NK-Cell Leukemia",
+         "Aggressive NK-cell leukaemia",
+         "Natural Killer Cell Leukemia",
+         "NK Cell Leukemia",
+         "Aggressive NK-Cell Leukemia/Lymphoma"
+      ],
+      "ncit_definitions": ["A rare, highly aggressive, Epstein-Barr virus-associated leukemia, also known as aggressive NK-cell leukemia/lymphoma; it may represent the leukemic counterpart of nasal type extranodal NK/T-cell lymphomas. It affects primarily teenagers and young adults. It is characterized by the systemic proliferation of NK cells in the peripheral blood, bone marrow, liver, and spleen."],
+      "ncit_code": "C8647"
+   }],
+   "oncotree_code": "ANKL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Breast Implant-Associated Anaplastic Large-Cell Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "ALCL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "ALCL",
+      "BIALCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Breast Implant-Associated Anaplastic Large Cell Lymphoma",
+      "ncit_synonyms": [
+         "Breast Implant Associated Anaplastic Large Cell Lymphoma (BIA ALCL)",
+         "BIA-ALCL"
+      ],
+      "ncit_definitions": [
+         "A non-Hodgkin lymphoma which is associated with breast implants, and consists of large anaplastic cells. The WHO diagnostic criteria for BIA-ALCL includes positive expression of CD30 (CD30+) and negativity for anaplastic lymphoma kinase (ALK-).",
+         "A rare anaplastic large cell lymphoma that develops in individuals with breast implants. It usually presents as an accumulation of seroma fluid between the implant and the surrounding fibrous capsule. The median interval from the time of the implant to the development of lymphoma is approximately 10 years."
+      ],
+      "ncit_code": "C139012"
+   }],
+   "oncotree_code": "BIALCL"
+}
+{
+   "oncotree_children_codes": [
+      "MPTLD",
+      "IMPTLD",
+      "FHPTLD",
+      "PHPTLD",
+      "CHLPTLD",
+      "PPTLD"
+   ],
+   "oncotree_name": "Posttransplant Lymphoproliferative Disorders",
+   "oncotree_main_type": "Posttransplant Lymphoproliferative Disorders",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "LNM",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "PTLD"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PTLD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sezary Syndrome",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "SS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Sezary Syndrome",
+      "ncit_synonyms": [
+         "Sezary disease",
+         "Cutaneous T-cell lymphoma/Sezary syndrome",
+         "Sézary Syndrome",
+         "CTCL / Sezary syndrome",
+         "Sezary disease, unspecified site",
+         "Sezary's Disease"
+      ],
+      "ncit_definitions": [
+         "A generalized peripheral (mature) T-cell neoplasm characterized by the presence of erythroderma, lymphadenopathy, and neoplastic, cerebriform T-lymphocytes in the blood.  Sezary syndrome is an aggressive disease. (WHO, 2001)",
+         "A form of cutaneous T-cell lymphoma, a cancerous disease that affects the skin."
+      ],
+      "ncit_code": "C3366"
+   }],
+   "oncotree_code": "SS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Monoclonal B-Cell Lymphocytosis",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MCBCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Monoclonal B-Cell Lymphocytosis",
+      "ncit_synonyms": ["MBL"],
+      "ncit_definitions": [
+         "A monoclonal expansion of B-lymphocytes with or without the characteristic immunophenotype of chronic lymphocytic leukemia. It precedes virtually all cases of chronic lymphocytic leukemia/small lymphocytic lymphoma.",
+         "A condition in which a higher-than-normal number of identical B cells are found in the blood. People with MBL may develop other B-cell diseases, such as chronic lymphocytic leukemia (CLL)."
+      ],
+      "ncit_code": "C80310"
+   }],
+   "oncotree_code": "MCBCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Lymphoid Atypical",
+   "oncotree_main_type": "Lymphatic Cancer, NOS",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "LYMPH",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LATL"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LATL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Cutaneous CD4 Positive Small/Medium T-Cell Lymphoproliferative Disorder",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "PCSMTPLD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Primary Cutaneous CD4-Positive Small/Medium T-Cell Lymphoproliferative Disorder",
+      "ncit_synonyms": [
+         "PCSM-LPD",
+         "Primary cutaneous CD4-positive small/medium T-cell lymphoma",
+         "Primary Cutaneous CD4-Positive Small or Medium T-Cell Lymphoproliferative Disorder",
+         "Primary Cutaneous CD4-Positive Small/Medium-Sized T-Cell Lymphoproliferative Disorder",
+         "Primary Cutaneous CD4-Positive Small/Medium T-Cell Lymphoma",
+         "Primary Cutaneous CD4-Positive Small/Medium-Sized Pleomorphic T-Cell Lymphoproliferative Disorder"
+      ],
+      "ncit_definitions": ["A primary cutaneous T-cell lymphoproliferative disorder composed of small to medium-sized CD4-positive, CD8-negative, and CD30-negative pleomorphic T-lymphocytes in the dermis. A small number of large pleomorphic T-lymphocytes, focal epidermotropism, and subcutaneous involvement may be seen. It usually presents with a solitary plaque or tumor on the face, neck, or upper trunk. The clinical behavior is almost always indolent, and most patients present with localized disease."],
+      "ncit_code": "C45366"
+   }],
+   "oncotree_code": "PCSMTPLD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "T-Cell/Histiocyte-Rich Large B-Cell Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "THRLBCL"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "THRLBCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "B-Lymphoblastic Leukemia/Lymphoma, NOS",
+   "oncotree_main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "BLL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "BLL",
+      "BLLNOS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "B Lymphoblastic Leukemia/Lymphoma, Not Otherwise Specified",
+      "ncit_synonyms": [
+         "B lymphoblastic leukemia/lymphoma, NOS",
+         "B Lymphoblastic Leukemia/Lymphoma, NOS",
+         "B-Lymphoblastic Leukemia/Lymphoma, Not Otherwise Specified",
+         "B-Lymphoblastic Leukemia/Lymphoma, NOS"
+      ],
+      "ncit_definitions": ["B lymphoblastic leukemias/lymphomas characterized by the absence of recurrent genetic abnormalities."],
+      "ncit_code": "C80326"
+   }],
+   "oncotree_code": "BLLNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Waldenstrom Macroglobulinemia",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "LPL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "LPL",
+      "WM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Waldenstrom Macroglobulinemia",
+      "ncit_synonyms": [
+         "Waldenstrom's macroglobulinemia",
+         "Waldenstrom's Macroglobulinemia",
+         "Waldenström Macroglobulinemia"
+      ],
+      "ncit_definitions": [
+         "Lymphoplasmacytic lymphoma associated with bone marrow involvement and IgM monoclonal gammopathy.",
+         "An indolent (slow-growing) type of non-Hodgkin lymphoma marked by abnormal levels of IgM antibodies in the blood and an enlarged liver, spleen, or lymph nodes."
+      ],
+      "ncit_code": "C80307"
+   }],
+   "oncotree_code": "WM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Alpha Heavy-Chain Disease",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "AHCD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Alpha Heavy Chain Disease",
+      "ncit_synonyms": [
+         "Immunoproliferative Small Intestinal Disease",
+         "Mediterranean lymphoma",
+         "Mediterranean Lymphoma",
+         "Immunoproliferative small intestinal disease",
+         "Immunoproliferative small intestinal diseases",
+         "Immunoproliferative disease, NOS",
+         "IPSID",
+         "Mediterranean Abdominal Lymphoma"
+      ],
+      "ncit_definitions": ["A clonal disorder, also known as immunoproliferative small intestinal disease or Mediterranean lymphoma, characterized by the secretion of a defective alpha heavy chain. It predominantly affects young people in the Mediterranean region. It involves the small intestine, and patients usually present with malabsorption syndrome, abdominal pain, weight loss, and fever. There is extensive villous atrophy of the small intestinal mucosa, which is heavily infiltrated by small lymphocytes and plasma cells. The small intestinal morphologic changes are consistent with a mucosa-associated lymphoid tissue lymphoma (MALT lymphoma)."],
+      "ncit_code": "C3132"
+   }],
+   "oncotree_code": "AHCD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "B-Lymphoblastic Leukemia/Lymphoma with iAMP21",
+   "oncotree_main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "BLLRGA",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "BLL",
+      "BLLRGA",
+      "BLLIAMP21"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "B Lymphoblastic Leukemia/Lymphoma with Intrachromosomal Amplification of Chromosome 21",
+      "ncit_synonyms": [
+         "B-Lymphoblastic Leukemia/Lymphoma with Intrachromosomal Amplification of Chromosome 21",
+         "B-Lymphoblastic Leukemia/Lymphoma with iAMP21",
+         "B Lymphoblastic Leukemia/Lymphoma with iAMP21"
+      ],
+      "ncit_definitions": ["B lymphoblastic leukemia/lymphoma characterized by amplification of a portion of chromosome 21. It usually occurs in children and is associated with an adverse prognosis."],
+      "ncit_code": "C130039"
+   }],
+   "oncotree_code": "BLLIAMP21"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Germinal Center B-Cell Type",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "DLBCLNOS",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "DLBCLNOS",
+      "GCB"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Diffuse Large B-Cell Lymphoma Germinal Center B-Cell Type",
+      "ncit_synonyms": [
+         "DLBCL Germinal Center B-Cell Type",
+         "Germinal Center B-Cell-Like Diffuse Large B-Cell Lymphoma",
+         "Diffuse Large B-Cell Lymphoma with a Germinal Center B-Cell Expression Profile",
+         "GCB-DLBCL"
+      ],
+      "ncit_definitions": ["A biologic subset of diffuse large B-cell lymphomas with a unique molecular signature or expression profile.  It represents approximately 50% of diffuse large B-cell lymphomas, and is characterized by the expression of CD10, BCL-6, A-myb, and LMO2 genes, BCL-2 translocation, and c-REL amplification.  Morphologically, the vast majority of these lymphomas are centroblastic and a small minority are immunoblastic (ratio20:1).  Patients with this type of diffuse large B-cell lymphoma have a more favorable outcome, with a 5-year survival rate of 60% and a median survival of 10 years."],
+      "ncit_code": "C36080"
+   }],
+   "oncotree_code": "GCB"
+}
+{
+   "oncotree_children_codes": [
+      "MIDDO",
+      "MIDDA"
+   ],
+   "oncotree_name": "Monoclonal Immunoglobulin Deposition Diseases",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MIDD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Monoclonal Immunoglobulin Deposition Disease",
+      "ncit_synonyms": [
+         "Immunoglobulin deposition disease",
+         "Immunoglobulin Deposition Disease"
+      ],
+      "ncit_definitions": ["A mature B-cell neoplasm characterized by the deposition of immunoglobulin in tissues, resulting in impaired organ function. It includes the following entities: primary amyloidosis, heavy chain deposition disease, and light chain deposition disease."],
+      "ncit_code": "C7151"
+   }],
+   "oncotree_code": "MIDD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Plasmablastic Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "PLBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Plasmablastic Lymphoma",
+      "ncit_synonyms": ["PBL"],
+      "ncit_definitions": ["An aggressive diffuse large B-cell lymphoma frequently arising in the setting of HIV infection and characterized by the presence of large neoplastic cells resembling B-immunoblasts which have the immunophenotypic profile of plasma cells.  Sites of involvement include the oral cavity, sinonasal cavity, skin, soft tissues, gastrointestinal tract, and bone."],
+      "ncit_code": "C7224"
+   }],
+   "oncotree_code": "PLBL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "EBV Positive DLBCL, NOS",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "EBVDLBCLNOS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "EBV-Positive Diffuse Large B-Cell Lymphoma, Not Otherwise Specified",
+      "ncit_synonyms": [
+         "EBV-Positive Diffuse Large B-Cell Lymphoma, NOS",
+         "Age-Related EBV Positive B-Cell Lymphoproliferative Disorder",
+         "EBV-Positive Diffuse Large B-Cell Lymphoma",
+         "EBV positive diffuse large B-cell lymphoma of the elderly",
+         "Epstein-Barr Virus-Positive Diffuse Large B-Cell Lymphoma, Not Otherwise Specified",
+         "EBV Positive Diffuse Large B-Cell Lymphoma of the Elderly",
+         "Epstein-Barr Virus Positive DLBCL, NOS",
+         "EBV-Positive DLBCL, NOS",
+         "Epstein-Barr Virus Positive Diffuse Large B-Cell Lymphoma of the Elderly",
+         "Senile EBV-Associated B-Cell Lymphoproliferative Disorder"
+      ],
+      "ncit_definitions": ["A diffuse large B-cell lymphoma originally described in patients older than 50 years, but it has been increasingly recognized in younger patients. Epstein-Barr virus is present in all cases. There is no known history of immunodeficiency or prior lymphoma."],
+      "ncit_code": "C80281"
+   }],
+   "oncotree_code": "EBVDLBCLNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Extranodal NK-/T-Cell Lymphoma, Nasal Type",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "ENKL"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ENKL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Cutaneous Acral CD8 Positive T-Cell Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "PCATCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Primary Cutaneous Acral CD8-Positive T-Cell Lymphoproliferative Disorder",
+      "ncit_synonyms": [
+         "Primary Cutaneous Acral CD8-Positive T-Cell LPD",
+         "Primary Cutaneous Acral CD8-Positive T-Cell Lymphoma"
+      ],
+      "ncit_definitions": ["A primary cutaneous T-cell lymphoproliferative disorder that presents as an acral (peripheral) lesion. It is composed of CD8-positive neoplastic T-lymphocytes. It is usually localized to a single site and has an indolent clinical course. Local or more extensive recurrences have been described in a minority of patients."],
+      "ncit_code": "C139023"
+   }],
+   "oncotree_code": "PCATCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "In Situ Mantle Cell Neoplasia",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MCL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MCL",
+      "ISMCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "In Situ Mantle Cell Neoplasia",
+      "ncit_synonyms": [
+         "In Situ Mantle Cell Neoplasm",
+         "ISMCN",
+         "In Situ Mantle Cell Lymphoma"
+      ],
+      "ncit_definitions": ["A neoplastic lymphoid process characterized by the presence of cyclin D1 positive lymphoid cells, typically in the inner mantle zones of lymphoid tissue follicles, in cases that do not suggest the diagnosis of a mantle cell lymphoma. It is often found incidentally and has a low rate of progression."],
+      "ncit_code": "C138191"
+   }],
+   "oncotree_code": "ISMCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Chronic Lymphoproliferative Disorder of NK Cells",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "CLPDNK"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Chronic Lymphoproliferative Disorder of NK-Cells",
+      "ncit_synonyms": [
+         "Indolent Large Granular NK-Cell Lymphoproliferative Disorder",
+         "Indolent NK-Cell Lymphoproliferative Disorder",
+         "NK-Cell Large Granular Lymphocyte Lymphocytosis",
+         "NK-Type Lymphoproliferative Disorder of Granular Lymphocytes",
+         "Chronic NK-LGL Lymphoproliferative Disorder",
+         "Chronic lymphoproliferative disorder of NK cells",
+         "NK-Large Granular Lymphocytic Leukemia",
+         "NK Large Granular Lymphocytic Leukemia",
+         "NK-LGLL",
+         "Chronic NK-Cell Lymphocytosis",
+         "CLPD-NK",
+         "natural killer-cell large granular lymphocyte leukemia",
+         "Chronic NK-Large Granular Lymphocyte Lymphoproliferative Disorder",
+         "NK-LGL leukemia"
+      ],
+      "ncit_definitions": [
+         "A type of leukemia in which large natural killer (NK) cells (a type of white blood cell) that contain granules (small particles) are found in the blood. It is a chronic disease that may last for a long time and get worse.",
+         "An Epstein-Barr virus negative disorder with a chronic clinical course affecting predominantly adults and characterized by the proliferation of large granular lymphocytes with natural killer cell immunophenotype.  The T-cell receptor genes are not rearranged."
+      ],
+      "ncit_code": "C39591"
+   }],
+   "oncotree_code": "CLPDNK"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Enteropathy-Associated T-Cell Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "EATL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Enteropathy-Associated T-Cell Lymphoma",
+      "ncit_synonyms": [
+         "Enteropathy associated T-cell lymphoma",
+         "Enteropathy-Type T-Cell Lymphoma",
+         "EATL",
+         "Enteropathy-type (intestinal) T-cell lymphoma",
+         "Enteropathy type intestinal T-cell lymphoma",
+         "Enteropathy Associated T-Cell Lymphoma"
+      ],
+      "ncit_definitions": ["A mature T-cell and NK-cell non-Hodgkin lymphoma of intraepithelial T-lymphocytes. It usually arises from the small intestine, most commonly the jejunum or ileum.  Other less frequent primary anatomic sites include the duodenum, stomach, colon, or outside the gastrointestinal tract. It is characterized by the presence of pleomorphic medium-sized to large T-lymphocytes with vesicular nuclei, prominent nucleoli, and moderate to abundant pale cytoplasm. It is associated with celiac disease."],
+      "ncit_code": "C4737"
+   }],
+   "oncotree_code": "EATL"
+}
+{
+   "oncotree_children_codes": [
+      "HCL-V",
+      "SDRPL"
+   ],
+   "oncotree_name": "Splenic B-Cell Lymphoma/Leukemia, Unclassifiable",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "SBLU"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Splenic B-Cell Lymphoma/Leukemia, Unclassifiable",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A small B-cell clonal lymphoproliferative disorder of the spleen that does not fall into any of the other categories of mature B-cell neoplasms."],
+      "ncit_code": "C80308"
+   }],
+   "oncotree_code": "SBLU"
+}
+{
+   "oncotree_children_codes": [
+      "EMALT",
+      "NMZL",
+      "SMZL"
+   ],
+   "oncotree_name": "Marginal Zone Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MZL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Marginal Zone Lymphoma",
+      "ncit_synonyms": [
+         "marginal zone B-cell lymphoma",
+         "Marginal Zone B-Cell Lymphoma",
+         "MZBCL",
+         "Marginal zone lymphoma, NOS",
+         "MZL"
+      ],
+      "ncit_definitions": [
+         "An indolent (slow-growing) type of B-cell non-Hodgkin lymphoma that begins forming in certain areas (the marginal zones) of lymph tissue. There are three types based on whether it forms in the spleen, lymph nodes, or other lymphoid tissue that contains a lot of B cells (a type of white blood cell).",
+         "A usually indolent mature B-cell lymphoma, arising from the marginal zone of lymphoid tissues.  It is characterized by the presence of small to medium sized atypical lymphocytes.  It comprises three entities, according to the anatomic sites involved: extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue, which affects extranodal sites (most often stomach, lung, skin, and ocular adnexa); nodal marginal zone B-cell lymphoma, which affects lymph nodes without evidence of extranodal disease; and splenic marginal zone B-cell lymphoma, which affects the spleen and splenic hilar lymph nodes, bone marrow, and often the peripheral blood."
+      ],
+      "ncit_code": "C4341"
+   }],
+   "oncotree_code": "MZL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Lymphocyte-Depleted Classical Hodgkin Lymphoma",
+   "oncotree_main_type": "Hodgkin Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "CHL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "HL",
+      "CHL",
+      "LDCHL"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LDCHL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Activated B-cell Type",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "DLBCLNOS",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "DLBCLNOS",
+      "ABC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ABC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like",
+   "oncotree_main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "BLLRGA",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "BLL",
+      "BLLRGA",
+      "BLLBCRABL1L"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "B Lymphoblastic Leukemia/Lymphoma, BCR-ABL1-Like",
+      "ncit_synonyms": [
+         "B Lymphoblastic Leukemia/Lymphoma with Translocations Involving Tyrosine Kinases or Cytokine Receptors",
+         "B-Lymphoblastic Leukemia/Lymphoma with BCR-ABL1-Like Features",
+         "B Lymphoblastic Leukemia/Lymphoma, BCR::ABL1-Like",
+         "B-Lymphoblastic Leukemia/Lymphoma with BCR::ABL1-Like Features",
+         "B-Lymphoblastic Leukemia/Lymphoma, Philadelphia-like",
+         "B Lymphoblastic Leukemia/Lymphoma with BCR::ABL1-Like Features",
+         "B Lymphoblastic Leukemia/Lymphoma, Philadelphia-like",
+         "B Lymphoblastic Leukemia/Lymphoma with BCR-ABL1-Like Features"
+      ],
+      "ncit_definitions": ["B lymphoblastic leukemia/lymphoma characterized by a gene-expression profile similar to that of BCR-ABL1-positive B lymphoblastic leukemia/lymphoma, absence of the pathognomonic BCR-ABL1 rearrangement, alterations of lymphoid transcription factor genes, and a poor outcome."],
+      "ncit_code": "C129787"
+   }],
+   "oncotree_code": "BLLBCRABL1L"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "B-Lymphoblastic Leukemia/Lymphoma with Hyperdiploidy",
+   "oncotree_main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "BLLRGA",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "BLL",
+      "BLLRGA",
+      "BLLHYPER"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hyperdiploid B Lymphoblastic Leukemia/Lymphoma",
+      "ncit_synonyms": [
+         "B Lymphoblastic Leukemia/Lymphoma with Hyperdiploidy",
+         "High Hyperdiploidy",
+         "B Lymphoblastic Leukemia/Lymphoma with High Hyperdiploidy",
+         "B-Lymphoblastic Leukemia/Lymphoma with High Hyperdiploidy",
+         "B lymphoblastic leukemia/lymphoma with hyperdiploidy",
+         "B-Lymphoblastic Leukemia/Lymphoma with Hyperdiploidy"
+      ],
+      "ncit_definitions": ["A precursor lymphoid neoplasm composed of B lymphoblasts which contain more than 50 and usually less than 66 chromosomes. It has a favorable clinical outcome."],
+      "ncit_code": "C80335"
+   }],
+   "oncotree_code": "BLLHYPER"
+}
+{
+   "oncotree_children_codes": [
+      "LRCHL",
+      "LDCHL",
+      "NSCHL",
+      "MCCHL"
+   ],
+   "oncotree_name": "Classical Hodgkin Lymphoma",
+   "oncotree_main_type": "Hodgkin Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "HL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "HL",
+      "CHL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Classic Hodgkin Lymphoma",
+      "ncit_synonyms": [
+         "cHL",
+         "CHL",
+         "Classical Hodgkin Lymphoma",
+         "classical Hodgkin lymphoma"
+      ],
+      "ncit_definitions": [
+         "A category of Hodgkin lymphomas that includes the following four histologic subtypes: lymphocyte-rich, nodular sclerosis, mixed cellularity, and lymphocyte-depleted classic Hodgkin lymphoma. The vast majority of Hodgkin lymphomas belong to this category.",
+         "The most common type of Hodgkin lymphoma, which is a cancer of the immune system. Classical Hodgkin lymphoma is marked by the presence of a type of cell called the Reed-Sternberg cell."
+      ],
+      "ncit_code": "C7164"
+   }],
+   "oncotree_code": "CHL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "B-Lymphoblastic Leukemia/Lymphoma with t(5;14)(q31.1;q32.3) IL3-IGH",
+   "oncotree_main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "BLLRGA",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "BLL",
+      "BLLRGA",
+      "BLLIL3IGH"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "BLLIL3IGH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Plasma Cell Myeloma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "PCM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Multiple Myeloma",
+      "ncit_synonyms": [
+         "plasma cell myeloma",
+         "Multiple Myeloma/Plasma Cell Myeloma",
+         "myeloma",
+         "Myelomatosis",
+         "Myeloma, NOS",
+         "Plasma cell myeloma",
+         "myelomatosis",
+         "Plasma Cell Myeloma/Multiple Myeloma",
+         "Plasma Cell Myeloma",
+         "MYELOMA, PLASMA CELL, MALIGNANT",
+         "Myeloma",
+         "Kahler disease"
+      ],
+      "ncit_definitions": [
+         "A malignant neoplasm of the bone marrow composed of plasma cells.",
+         "A type of cancer that begins in plasma cells (white blood cells that produce antibodies).",
+         "A bone marrow-based plasma cell neoplasm characterized by a serum monoclonal protein and skeletal destruction with osteolytic lesions, pathological fractures, bone pain, hypercalcemia, and anemia.  Clinical variants include non-secretory myeloma, smoldering myeloma, indolent myeloma, and plasma cell leukemia. (WHO, 2001)"
+      ],
+      "ncit_code": "C3242"
+   }],
+   "oncotree_code": "PCM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Systemic EBV Positive T-Cell Lymphoma of Childhood",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "SEBVTLC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SEBVTLC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "DLBCL Associated with Chronic Inflammation",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "DLBCLCI"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Diffuse Large B-Cell Lymphoma Associated with Chronic Inflammation",
+      "ncit_synonyms": ["DLBCL-CI"],
+      "ncit_definitions": ["A diffuse large B-cell lymphoma arising in body cavities or narrow spaces of long standing chronic inflammation.  The classic example is the pyothorax-associated lymphoma that arises in the pleural cavity of patients with a history of long standing pyothorax."],
+      "ncit_code": "C80289"
+   }],
+   "oncotree_code": "DLBCLCI"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Nodular Sclerosis Classical Hodgkin Lymphoma",
+   "oncotree_main_type": "Hodgkin Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "CHL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "HL",
+      "CHL",
+      "NSCHL"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "NSCHL"
+}
+{
+   "oncotree_children_codes": [
+      "ETPLL",
+      "NKCLL"
+   ],
+   "oncotree_name": "T-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_main_type": "T-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "LNM",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "TLL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "T Lymphoblastic Leukemia/Lymphoma",
+      "ncit_synonyms": [
+         "Precursor T Lymphoblastic Leukemia/Lymphoma",
+         "T-Lymphoblastic Leukemia/Lymphoma",
+         "Precursor T Lymphoblastic Lymphoma/Leukemia",
+         "Precursor T-Lymphoblastic Lymphoma/Leukemia",
+         "T-Cell Lymphoblastic Leukemia/Lymphoma"
+      ],
+      "ncit_definitions": ["A neoplasm of lymphoblasts committed to the T-cell lineage, typically composed of small to medium-sized blast cells.  When the neoplasm involves predominantly the bone marrow and the peripheral blood, it is called T acute lymphoblastic leukemia.  When it involves nodal or extranodal sites it is called T lymphoblastic lymphoma. (WHO, 2001)"],
+      "ncit_code": "C8694"
+   }],
+   "oncotree_code": "TLL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "T-Cell Prolymphocytic Leukemia",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "TPLL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "T-Cell Prolymphocytic Leukemia",
+      "ncit_synonyms": [
+         "T Prolymphocytic Leukemia",
+         "T Cell Prolymphocytic Leukemia",
+         "T-Prolymphocytic Leukemia",
+         "Prolymphocytic leukemia, T-cell type"
+      ],
+      "ncit_definitions": ["An aggressive T-cell leukemia, characterized by the proliferation of small to medium sized prolymphocytes with a mature T-cell phenotype, involving the blood, bone marrow, lymph nodes, liver, spleen, and skin.  (WHO, 2001)"],
+      "ncit_code": "C4752"
+   }],
+   "oncotree_code": "TPLL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Plasmacytic Hyperplasia PTLD",
+   "oncotree_main_type": "Posttransplant Lymphoproliferative Disorders",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "PTLD",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "PTLD",
+      "PHPTLD"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PHPTLD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Monoclonal Immunoglobulin Deposition Diseases, Other",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MIDD",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MIDD",
+      "MIDDO"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MIDDO"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Classical Hodgkin Lymphoma PTLD",
+   "oncotree_main_type": "Posttransplant Lymphoproliferative Disorders",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "PTLD",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "PTLD",
+      "CHLPTLD"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "CHLPTLD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Effusion Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "PEL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Primary Effusion Lymphoma",
+      "ncit_synonyms": ["PEL"],
+      "ncit_definitions": [
+         "A large B-cell lymphoma usually presenting as a serous effusion without detectable tumor masses. It is universally associated with human herpes virus 8 (HHV8), also called Kaposi sarcoma-associated herpesvirus.  It mostly occurs in the setting of immunodeficiency. The most common sites of involvement are the pleural, pericardial, and peritoneal cavities. Rare HHV8-positive lymphomas indistinguishable from primary effusion lymphomas (PEL) present as solid tumor masses, and have been termed extracavitary PEL. The prognosis is extremely unfavorable. (WHO 2017)",
+         "A rare, aggressive (fast-growing) type of B-cell non-Hodgkin lymphoma marked by an abnormal build-up of fluids in a body cavity. It usually occurs together with a human herpesvirus in people who have weakened immune systems, such as in AIDS."
+      ],
+      "ncit_code": "C6915"
+   }],
+   "oncotree_code": "PEL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Subcutaneous Panniculitis-Like T-Cell Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "SPTCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Subcutaneous Panniculitis-Like T-Cell Lymphoma",
+      "ncit_synonyms": [
+         "Subcutaneous Panniculitis-Like T-Cell Lymphoma, Alpha/Beta Type",
+         "SPTCL",
+         "Subcutaneous Panniculitis-Like T-Cell Lymphoma (Alpha/Beta Type)"
+      ],
+      "ncit_definitions": ["A cytotoxic primary cutaneous T-cell lymphoma. Recent studies suggest there are at least two groups of subcutaneous panniculitis-like T-cell lymphomas, each with distinct histologic features, immunophenotypic profile, and prognosis. One group has an alpha/beta, CD8 positive phenotype, involves only subcutaneous tissues, and usually has an indolent clinical course. The second group has a gamma/delta phenotype, is CD8 negative, often co-expresses CD56, is not confined to the subcutaneous tissues, and usually has a poor prognosis. In the recent WHO-EORTC classification, the term subcutaneous panniculitis-like T-cell lymphoma is reserved for cases with an alpha/beta, CD8 positive phenotype. Cases with a gamma/delta phenotype are included in the group of cutaneous gamma/delta T-cell lymphomas."],
+      "ncit_code": "C6918"
+   }],
+   "oncotree_code": "SPTCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Amyloidosis",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MIDD",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MIDD",
+      "MIDDA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Amyloidosis",
+      "ncit_synonyms": ["AMYLOID"],
+      "ncit_definitions": [
+         "A disorder characterized by the localized or diffuse accumulation of amyloid protein in various anatomic sites. It may be primary, due to clonal plasma cell proliferations; secondary, due to long standing infections, chronic inflammatory disorders, or malignancies; or familial. It may affect the nerves, skin, tongue, joints, heart, liver, spleen, kidneys and adrenal glands.",
+         "A group of diseases in which protein builds up in certain organs (localized amyloidosis) or throughout the body (systemic amyloidosis). Amyloidosis may be either primary (with no known cause), secondary (caused by another disease, including some types of cancer, such as multiple myeloma), or hereditary (passed down from parents to children). Many organs are affected by amyloidosis. The organs affected may depend on whether the amyloidosis is the primary, secondary, or hereditary form.",
+         "An accumulation of amyloid protein."
+      ],
+      "ncit_code": "C2868"
+   }],
+   "oncotree_code": "MIDDA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Lymphoid Benign",
+   "oncotree_main_type": "Lymphatic Cancer, NOS",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "LYMPH",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LBGN"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LBGN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "IgM",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MGUS",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MGUS",
+      "MGUSIGM"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MGUSIGM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "IgG",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MGUS",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MGUS",
+      "MGUSIGG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MGUSIGG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "IgA",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MGUS",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MGUS",
+      "MGUSIGA"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MGUSIGA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "B-Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2);BCR-ABL1",
+   "oncotree_main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "BLLRGA",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "BLL",
+      "BLLRGA",
+      "BLLBCRABL1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2); BCR-ABL1",
+      "ncit_synonyms": [
+         "B-Lymphoblastic Leukemia/Lymphoma with BCR-ABL1 Fusion",
+         "B Lymphoblastic Leukemia/Lymphoma with BCR-ABL1 Fusion",
+         "B Lymphoblastic Leukemia/Lymphoma with BCR::ABL1 Fusion",
+         "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2); BCR::ABL1",
+         "B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1",
+         "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34;q11.2); BCR-ABL1",
+         "B-Lymphoblastic Leukemia/Lymphoma with BCR::ABL1 Fusion",
+         "B-Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34;q11.2); BCR-ABL1"
+      ],
+      "ncit_definitions": ["A precursor lymphoid neoplasm which is composed of B lymphoblasts and carries a translocation between the BCR gene on chromosome 22 and the ABL1 gene on chromosome 9. It results in the production of the p190 kd or p210 kd fusion protein. It has an unfavorable clinical outcome."],
+      "ncit_code": "C80331"
+   }],
+   "oncotree_code": "BLLBCRABL1"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Gamma Heavy-Chain Disease",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "GHCD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gamma Heavy Chain Disease",
+      "ncit_synonyms": [
+         "Franklin Disease",
+         "Franklin's Disease",
+         "Franklin disease"
+      ],
+      "ncit_definitions": ["A clonal disorder characterized by the secretion of a truncated gamma chain.  In most cases, it is associated with morphologic changes also seen in lymphoplasmacytic lymphomas, but the clinical course is typically more aggressive than in lymphoplasmacytic lymphoma."],
+      "ncit_code": "C3083"
+   }],
+   "oncotree_code": "GHCD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Nodal Peripheral T-Cell Lymphoma with TFH Phenotype",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "NPTLTFH"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Recurrent Follicular Helper T-Cell Lymphoma",
+      "ncit_synonyms": ["Recurrent Nodal Peripheral T-Cell Lymphoma with TFH Phenotype"],
+      "ncit_definitions": ["The reemergence of follicular helper T-cell lymphoma after a period of remission."],
+      "ncit_code": "C168778"
+   }],
+   "oncotree_code": "NPTLTFH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "T-Cell Large Granular Lymphocytic Leukemia",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "TLGL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "T-Cell Large Granular Lymphocyte Leukemia",
+      "ncit_synonyms": [
+         "Large Granular Lymphocytosis",
+         "T-cell large gran. lymph. leuk.",
+         "T Large Granular Lymphocyte Leukemia",
+         "T-Large Granular Lymphocyte Leukemia",
+         "Large Cell Granular Lymphogenous Leukemia",
+         "T-cell large granular lymphocytic leukemia",
+         "Large Cell Granular Lymphoid Leukemia",
+         "T-LGL leukemia",
+         "Tgamma Large Granular Lymphocyte Leukemia",
+         "T-Gamma Lymphoproliferative Disorder",
+         "T-cell large granular lymphocytosis",
+         "LGLL",
+         "T-gamma lymphoproliferative disease",
+         "T Gamma Lymphoproliferative Disorder",
+         "Large Granular Lymphocytic Leukemia",
+         "T-Cell Large Granular Lymphocytic Leukemia",
+         "LEUKEMIA, LARGE GRANULAR LYMPHOCYTIC, MALIGNANT"
+      ],
+      "ncit_definitions": [
+         "A type of leukemia in which large T lymphocytes (a type of white blood cell) that contain granules (small particles) are found in the blood. It is a chronic disease that may last for a long time and get worse.",
+         "A T-cell peripheral neoplasm characterized by a persistent (>6 months) increase in the number of peripheral blood large granular lymphocytes, without a clearly identified cause. (WHO, 2001)",
+         "A progressive, proliferative disease of blood cells which are large and granular, originating from lymphoid cells."
+      ],
+      "ncit_code": "C4664"
+   }],
+   "oncotree_code": "TLGL"
+}
+{
+   "oncotree_children_codes": [
+      "ITLPDGI",
+      "AITL",
+      "PCLPD",
+      "ATLL",
+      "PTCL",
+      "ALCL",
+      "PCGDTCL",
+      "ANKL",
+      "SS",
+      "PCSMTPLD",
+      "ENKL",
+      "PCATCL",
+      "CLPDNK",
+      "EATL",
+      "SEBVTLC",
+      "TPLL",
+      "SPTCL",
+      "NPTLTFH",
+      "TLGL",
+      "FTCL",
+      "HSTCL",
+      "PCAECTCL",
+      "MYCF",
+      "HVLL",
+      "MEITL"
+   ],
+   "oncotree_name": "Mature T and NK Neoplasms",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "NHL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "T-Cell Non-Hodgkin Lymphoma",
+      "ncit_synonyms": [
+         "Non-Hodgkin's T-Cell Lymphoma",
+         "T-Cell Lymphoma",
+         "T Cell Lymphoma",
+         "T-Cell and NK-Cell Non-Hodgkin's Lymphoma",
+         "T-Cell Non-Hodgkin's Lymphoma",
+         "T-Cell and NK-Cell Non-Hodgkin Lymphoma",
+         "T-cell lymphoma"
+      ],
+      "ncit_definitions": [
+         "A non-Hodgkin lymphoma of T-cell lineage. It includes the T lymphoblastic lymphoma and the mature T- and NK-cell lymphomas.",
+         "A disease in which certain cells of the lymph system (called T lymphocytes) become cancer."
+      ],
+      "ncit_code": "C3466"
+   }],
+   "oncotree_code": "MTNN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "B-Cell Lymphoma, Unclassifiable, with Features Intermediate between DLBCL and Classical Hodgkin lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "BCLU"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Transformed B-Cell Lymphoma, Unclassifiable, with Features Intermediate between Diffuse Large B-Cell Lymphoma and Classic Hodgkin Lymphoma to Diffuse Large B-Cell Lymphoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["Histologic transformation of a B-cell lymphoma, unclassifiable, with features intermediate between diffuse large B-cell lymphoma and classic Hodgkin lymphoma to an aggressive diffuse large B-cell lymphoma."],
+      "ncit_code": "C179721"
+   }],
+   "oncotree_code": "BCLU"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Follicular T-Cell Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "FTCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Follicular Helper T-Cell Lymphoma",
+      "ncit_synonyms": [
+         "Nodal Follicular Helper T-Cell Lymphoma",
+         "Nodal Peripheral T-Cell Lymphoma of TFH Cell Origin",
+         "Nodal Peripheral T-Cell Lymphoma of T Follicular Helper Cell Origin",
+         "TFH Lymphoma"
+      ],
+      "ncit_definitions": ["A group of node-based peripheral T-cell lymphomas with phenotypic features of T follicular helper (TFH) cells. This category includes the following: follicular helper T-cell lymphoma, angioimmunoblastic-type; follicular helper T-cell lymphoma, follicular-type; and follicular helper T-cell lymphoma, not otherwise specified."],
+      "ncit_code": "C139005"
+   }],
+   "oncotree_code": "FTCL"
+}
+{
+   "oncotree_children_codes": [
+      "MGUSIGM",
+      "MGUSIGG",
+      "MGUSIGA"
+   ],
+   "oncotree_name": "Monoclonal Gammopathy of Undetermined Significance",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MGUS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Monoclonal Gammopathy of Undetermined Significance",
+      "ncit_synonyms": [
+         "Monoclonal Gammopathy of Undetermined Significance (MGUS)",
+         "MGUS",
+         "Monoclonal gammopathy of undetermined significance (MGUS)"
+      ],
+      "ncit_definitions": [
+         "A benign condition in which there is a higher-than-normal level of a protein called M protein in the blood. Patients with MGUS are at an increased risk of developing cancer.",
+         "A condition in which an abnormal amount of a single immunoglobulin is present in the serum. This category includes IgM monoclonal gammopathy of undetermined significance and non-IgM monoclonal gammopathy of undetermined significance. Up to 25% of cases of monoclonal gammopathy of undetermined significance  progress to a B-cell malignancy or myeloma."
+      ],
+      "ncit_code": "C3996"
+   }],
+   "oncotree_code": "MGUS"
+}
+{
+   "oncotree_children_codes": [
+      "GCB",
+      "ABC"
+   ],
+   "oncotree_name": "Diffuse Large B-Cell Lymphoma, NOS",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "DLBCLNOS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Diffuse Large B-Cell Lymphoma Unclassifiable",
+      "ncit_synonyms": [
+         "Diffuse Large B-Cell Lymphoma Indeterminate",
+         "Type 3 DLBCL",
+         "Type 3 Diffuse Large B-Cell Lymphoma",
+         "DLBCL Unclassifiable"
+      ],
+      "ncit_definitions": ["A biologic subset of diffuse large B-cell lymphomas (DLBCL) that do not overexpress the genes whose overexpression characterizes the germinal center B-cell-like and activated B-cell-like DLBCL.  Morphologically, these lymphomas are either immunoblastic or centroblastic.  Patients with this type of diffuse large B-cell lymphoma are reported to have a less favorable outcome, similar to those with an activated B-cell-like gene expression profile."],
+      "ncit_code": "C45231"
+   }],
+   "oncotree_code": "DLBCLNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "ALK Positive Large B-Cell Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "ALKLBCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "ALK-Positive Large B-Cell Lymphoma",
+      "ncit_synonyms": [
+         "Diffuse Large B-Cell Lymphoma with Expression of Full-Length Anaplastic Lymphoma Kinase",
+         "ALK positive large B-cell lymphoma",
+         "Diffuse Large B-Cell Lymphoma with Expression of Full-Length ALK",
+         "ALK-DLBCL"
+      ],
+      "ncit_definitions": ["A usually aggressive large B-cell lymphoma characterized by the presence of monomorphic immunoblast-like neoplastic B-lymphocytes in a sinusoidal growth pattern.  The neoplastic B-lymphocytes express the ALK kinase but they lack the 2;5 translocation."],
+      "ncit_code": "C7225"
+   }],
+   "oncotree_code": "ALKLBCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Cutaneous DLBCL, Leg Type",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "PCLBCLLT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg Type",
+      "ncit_synonyms": [
+         "Primary cutaneous DLBCL, leg type",
+         "Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg-Type"
+      ],
+      "ncit_definitions": ["An aggressive primary cutaneous B-cell lymphoma, usually involving the lower leg.  It is composed of a generally monotonous proliferation of immunoblasts, or less frequently centroblasts, with few admixed reactive cells.  This type of lymphoma occurs most often in elderly women who present with rapidly growing tumors, usually on one or both legs.  Dissemination to extracutaneous sites is frequent.  Treatment with combination chemotherapy is usually required."],
+      "ncit_code": "C45194"
+   }],
+   "oncotree_code": "PCLBCLLT"
+}
+{
+   "oncotree_children_codes": [
+      "MBN",
+      "MTNN"
+   ],
+   "oncotree_name": "Non-Hodgkin Lymphoma",
+   "oncotree_main_type": "Non-Hodgkin Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "LNM",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Non-Hodgkin Lymphoma",
+      "ncit_synonyms": [
+         "NHL",
+         "NHL, NOS",
+         "Non-Hodgkin lymphoma, unspecified site",
+         "Non-Hodgkin's Lymphoma",
+         "Non-Hodgkin's Lymphoma (NHL)",
+         "Non-Hodgkin lymphoma, NOS"
+      ],
+      "ncit_definitions": [
+         "Any of a large group of cancers of lymphocytes (white blood cells). NHLs can occur at any age and are often marked by lymph nodes that are larger than normal, fever, and weight loss. There are many different types of NHL. These types can be divided into aggressive (fast-growing) and indolent (slow-growing) types, and they can be formed from either B-cells or T-cells. B-cell NHLs include Burkitt lymphoma, chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL), diffuse large B-cell lymphoma, follicular lymphoma, immunoblastic large cell lymphoma, precursor B-lymphoblastic lymphoma, and mantle cell lymphoma. T-cell NHLs include mycosis fungoides, anaplastic large cell lymphoma, and precursor T-lymphoblastic lymphoma. Lymphomas that occur after bone marrow or stem cell transplantation are usually B-cell NHLs. Prognosis and treatment depend on the stage and type of disease.",
+         "A malignant neoplasm of the lymphatic system that is comprised of abnormal lymphocytes in the absence of Reed-Sternberg cells.",
+         "Distinct from Hodgkin lymphoma both morphologically and biologically, non-Hodgkin lymphoma (NHL) is characterized by the absence of Reed-Sternberg cells, can occur at any age, and usually presents as a localized or generalized lymphadenopathy associated with fever and weight loss. The clinical course varies according to the morphologic type. NHL is clinically classified as indolent, aggressive, or having a variable clinical course. NHL can be of B-or T-/NK-cell lineage."
+      ],
+      "ncit_code": "C3211"
+   }],
+   "oncotree_code": "NHL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Cutaneous Anaplastic Large Cell Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "PCLPD",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "PCLPD",
+      "PCALCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Primary Cutaneous Anaplastic Large Cell Lymphoma",
+      "ncit_synonyms": [
+         "Anaplastic large-cell lymphoma, primary cutaneous type",
+         "Primary Cutaneous CD30+ ALCL",
+         "C-ALCL",
+         "ALCL, cutaneous",
+         "Primary Cutaneous CD30+ Anaplastic Large Cell Lymphoma",
+         "Primary Cutaneous CD30 Positive Anaplastic Large Cell Lymphoma",
+         "Primary Anaplastic Large Cell Lymphoma of the Skin",
+         "Primary Anaplastic Large Cell Lymphoma of Skin"
+      ],
+      "ncit_definitions": ["An anaplastic large cell lymphoma limited to the skin at the time of diagnosis.  Most patients present with solitary or localized skin lesions, which may be tumors, nodules or papules.  The t(2;5) translocation that is present in many cases of systemic anaplastic large cell lymphoma, is not found in this disease. (WHO, 2001)"],
+      "ncit_code": "C6860"
+   }],
+   "oncotree_code": "PCALCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Polymorphic PTLD",
+   "oncotree_main_type": "Posttransplant Lymphoproliferative Disorders",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "PTLD",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "PTLD",
+      "PPTLD"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PPTLD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "B-Cell Prolymphocytic Leukemia",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "BPLL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "B-Cell Prolymphocytic Leukemia",
+      "ncit_synonyms": [
+         "Prolymphocytic leukemia, B-cell type",
+         "B Prolymphocytic Leukemia"
+      ],
+      "ncit_definitions": ["A malignant B-cell lymphoproliferative process affecting the blood, bone marrow, and spleen.  The B-prolymphocytes are medium-sized, round lymphoid cells with prominent nucleoli.  The B-prolymphocytes must exceed 55% of lymphoid cells in the blood.  Cases of transformed chronic lymphocytic leukemia (CLL) and CLL with increased prolymphocytes are excluded.  The prognosis is poor.  (WHO, 2001)"],
+      "ncit_code": "C4753"
+   }],
+   "oncotree_code": "BPLL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "B-Lymphoblastic Leukemia/Lymphoma with t(v;11q23.3);KMT2A Rearranged",
+   "oncotree_main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "BLLRGA",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "BLL",
+      "BLLRGA",
+      "BLLKMT2A"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "B Lymphoblastic Leukemia/Lymphoma with t(v;11q23.3); KMT2A Rearranged",
+      "ncit_synonyms": [
+         "B Lymphoblastic Leukemia/Lymphoma with KMT2A Rearrangement",
+         "B Lymphoblastic Leukemia/Lymphoma with t(v;11q23.3); MLL Rearranged",
+         "B Lymphoblastic Leukemia/Lymphoma with T(V;11Q23); MLL Rearranged",
+         "B-Lymphoblastic Leukemia/Lymphoma with t(v;11q23.3); MLL Rearranged",
+         "B-Lymphoblastic Leukemia/Lymphoma with KMT2A Rearrangement",
+         "B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged"
+      ],
+      "ncit_definitions": ["A precursor lymphoid neoplasm which is composed of B lymphoblasts and carries a translocation between the KMT2A gene at 11q23.3 and another gene partner resulting in the production of an KMT2A related fusion protein."],
+      "ncit_code": "C80332"
+   }],
+   "oncotree_code": "BLLKMT2A"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "B-Lymphoblastic Leukemia/Lymphoma with t(12;21)(p13.2;q22.1); ETV6-RUNX1",
+   "oncotree_main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "BLLRGA",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "BLL",
+      "BLLRGA",
+      "BLLETV6RUNX1"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "B Lymphoblastic Leukemia/Lymphoma with t(12;21)(p13.2;q22.1); ETV6-RUNX1",
+      "ncit_synonyms": [
+         "B Lymphoblastic Leukemia/Lymphoma with t(12;21)(p13.2;q22.1); ETV6::RUNX1",
+         "B Lymphoblastic Leukemia/Lymphoma with ETV6-RUNX1 Fusion",
+         "B Lymphoblastic Leukemia/Lymphoma with ETV6::RUNX1 Fusion",
+         "B-Lymphoblastic Leukemia/Lymphoma with ETV6::RUNX1 Fusion",
+         "B-Lymphoblastic Leukemia/Lymphoma with ETV6-RUNX1 Fusion",
+         "B lymphoblastic leukemia/lymphoma with t(12;21)(p13;q22); TEL-AML1 (ETV6-RUNX1)",
+         "B Lymphoblastic Leukemia/Lymphoma with t(12;21)(p13;q22); TEL-AML1 (ETV6-RUNX1)",
+         "B-Lymphoblastic Leukemia/Lymphoma with t(12;21)(p13;q22); TEL-AML1 (ETV6-RUNX1)"
+      ],
+      "ncit_definitions": ["A precursor lymphoid neoplasm which is composed of B lymphoblasts and carries a translocation between the TEL gene on chromosome 12 and the AML1 gene on chromosome 21, (p13.2;q22.1). It results in the production of the TEL-AML1 (ETV6-RUNX1) fusion protein. It has a favorable clinical outcome."],
+      "ncit_code": "C80334"
+   }],
+   "oncotree_code": "BLLETV6RUNX1"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Hairy Cell Leukemia",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "HCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hairy Cell Leukemia",
+      "ncit_synonyms": [
+         "HCL",
+         "Leukemic reticuloendotheliosis",
+         "Leukemic Reticuloendotheliosis"
+      ],
+      "ncit_definitions": [
+         "A neoplasm of small B-lymphocytes with \"hairy\" projections in bone marrow, spleen, and peripheral blood.  Most patients present with splenomegaly and pancytopenia. (WHO, 2001)",
+         "A rare type of leukemia in which abnormal B-lymphocytes (a type of white blood cell) are present in the bone marrow, spleen, and peripheral blood. When viewed under a microscope, these cells appear to be covered with tiny hair-like projections."
+      ],
+      "ncit_code": "C7402"
+   }],
+   "oncotree_code": "HCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma",
+   "oncotree_main_type": "Hodgkin Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "HL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "HL",
+      "NLPHL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Nodular Lymphocyte Predominant B-Cell Lymphoma",
+      "ncit_synonyms": [
+         "Hodgkin Lymphoma, Nodular Lymphocyte Predominance",
+         "NLP-BCL",
+         "Hodgkin lymphoma, lymphocyte predominance, nodular",
+         "Nodular lymphocyte predominant Hodgkin lymphoma, unspecified site",
+         "Hodgkin lymphoma, nodular lymphocyte predominance",
+         "nodular lymphocyte-predominant Hodgkin lymphoma",
+         "Hodgkin lymphoma nodular lymphocyte predominant type, NOS",
+         "Hodgkin lymphoma nodular LP, NOS",
+         "Nodular Lymphocyte Predominant Hodgkin Lymphoma",
+         "NLPBL",
+         "NLPHL",
+         "Nodular Lymphocyte Predominant Hodgkin's Lymphoma",
+         "Nodular Lymphocyte Predominant B-Cell Lymphoma/Nodular Lymphocyte Predominant Hodgkin Lymphoma"
+      ],
+      "ncit_definitions": [
+         "A rare type of Hodgkin lymphoma, which is a cancer of the immune system. It is marked by the presence of a type of cell called a popcorn cell, which is different from the typical Reed-Sternberg cell found in classical Hodgkin lymphoma. This type of Hodgkin lymphoma may change into diffuse large B-cell lymphoma.",
+         "A B-cell lymphoma characterized by the presence of scattered clonal cells known as lymphocyte predominant cells (LP cells) in a background of reactive lymphocytes and histiocytes, and formation of a nodular or nodular and diffuse growth pattern."
+      ],
+      "ncit_code": "C7258"
+   }],
+   "oncotree_code": "NLPHL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Hepatosplenic T-cell Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "HSTCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hepatosplenic T-Cell Lymphoma",
+      "ncit_synonyms": [
+         "Hepatosplenic Gamma/Delta T-Cell Lymphoma",
+         "Hepatosplenic gamma-delta cell lymphoma"
+      ],
+      "ncit_definitions": ["An extranodal, mature T-cell non-Hodgkin lymphoma that originates from cytotoxic T-cells, usually of gamma/delta T-cell type.  It is characterized by the presence of medium-size neoplastic lymphocytes infiltrating the hepatic sinusoids.  A similar infiltrating pattern is also present in the spleen and bone marrow that are usually involved at the time of the diagnosis."],
+      "ncit_code": "C8459"
+   }],
+   "oncotree_code": "HSTCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "High-Grade B-Cell Lymphoma, NOS",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "HGBCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "High Grade B-Cell Lymphoma, Not Otherwise Specified",
+      "ncit_synonyms": [
+         "High Grade B-Cell Lymphoma, NOS",
+         "High-Grade B-Cell Lymphoma, NOS",
+         "BCLU",
+         "B-Cell Lymphoma, Unclassifiable, with Features Intermediate between Diffuse Large B-Cell Lymphoma and Burkitt Lymphoma",
+         "High-Grade B-Cell Lymphoma, Not Otherwise Specified",
+         "B-cell lymphoma, unclassifiable, with features intermediate between diffuse large B-cell lymphoma and Burkitt lymphoma",
+         "HGBL, NOS"
+      ],
+      "ncit_definitions": ["High-grade B-cell lymphoma with blastoid features or features between diffuse large B-cell lymphoma and Burkitt lymphoma that lacks MYC, BCL2, and BCL6 gene rearrangements."],
+      "ncit_code": "C80291"
+   }],
+   "oncotree_code": "HGBCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "PCAECTCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Primary Cutaneous CD8-Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma",
+      "ncit_synonyms": [
+         "Primary Cutaneous Aggressive Epidermotropic CD8-Positive T-Cell Lymphoma",
+         "PCAETL",
+         "Primary Cutaneous CD8-Positive Aggressive Epidermotropic T-Cell Lymphoma"
+      ],
+      "ncit_definitions": ["An aggressive, epidermotropic primary cutaneous T-cell lymphoma composed of small to medium-sized, or medium-sized to large, CD8-positive T-lymphocytes with pleomorphic or blastic nuclei. Epidermotropism is often pronounced, and angiocentricity and angioinvasion may be present. It manifests with localized or disseminated eruptive papules and nodules or tumors."],
+      "ncit_code": "C45339"
+   }],
+   "oncotree_code": "PCAECTCL"
+}
+{
+   "oncotree_children_codes": [
+      "HL",
+      "BLL",
+      "PTLD",
+      "TLL",
+      "NHL"
+   ],
+   "oncotree_name": "Lymphoid Neoplasm",
+   "oncotree_main_type": "Lymphatic Cancer, NOS",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "LYMPH",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LNM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mu Heavy-Chain Disease",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MHCD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mu Heavy Chain Disease",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A clonal disorder characterized by the secretion of a mu heavy chain that lacks a variable region. Most patients present with slowly progressive chronic lymphocytic leukemia (CLL). In contrast to most cases of CLL, Mu heavy chain disease is associated with hepatosplenomegaly and absence of lymphadenopathy."],
+      "ncit_code": "C3892"
+   }],
+   "oncotree_code": "MHCD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "HHV8 Positive DLBCL, NOS",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "HHV8DLBCL"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HHV8DLBCL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Mediastinal (Thymic) Large B-Cell Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "PMBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Primary Mediastinal Large B-Cell Lymphoma",
+      "ncit_synonyms": [
+         "Mediastinal Diffuse Large Cell Lymphoma with Sclerosis",
+         "Mediastinal (thymic) large B-cell lymphoma, unspecified site",
+         "Mediastinal (thymic) large B-cell lymphoma",
+         "PMBL",
+         "B-Cell Diffuse Large Cell Lymphoma of Mediastinum",
+         "Primary Mediastinal Clear Cell Lymphoma of B-Cell Type",
+         "B-Cell Diffuse Large Cell Lymphoma of the Mediastinum",
+         "Mediastinal B-Cell Diffuse Large Cell Lymphoma",
+         "Mediastinal large B-cell lymphoma",
+         "PMLCL",
+         "Primary Mediastinal (Thymic) Large B-Cell Lymphoma",
+         "Mediastinal (Thymic) Large B-Cell Lymphoma",
+         "Thymic large B-cell lymphoma"
+      ],
+      "ncit_definitions": ["A large B-cell non-Hodgkin lymphoma arising in the mediastinum.  Morphologically it is characterized by a massive diffuse lymphocytic proliferation associated with compartmentalizing fibrosis.  Response to intensive chemotherapy, with or without radiotherapy, is usually good. (WHO, 2001)"],
+      "ncit_code": "C9280"
+   }],
+   "oncotree_code": "PMBL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Splenic Marginal Zone Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MZL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "MZL",
+      "SMZL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Splenic Marginal Zone Lymphoma",
+      "ncit_synonyms": [
+         "Splenic marginal zone lymphoma, NOS",
+         "Splenic Lymphoma with Circulating Villous Lymphocytes",
+         "Splenic Marginal Zone B-Cell Lymphoma with Villous Lymphocytes",
+         "Marginal Zone Lymphoma of the Spleen",
+         "Splenic marginal zone B-cell lymphoma",
+         "Marginal Zone Lymphoma of Spleen",
+         "SLVL",
+         "SMZL",
+         "Splenic Marginal Zone Lymphoma with Villous Lymphocytes",
+         "Splenic Marginal Zone B-Cell Lymphoma"
+      ],
+      "ncit_definitions": ["A B-cell non-Hodgkin lymphoma composed of small lymphocytes which surround and replace the splenic white pulp germinal centers.  It involves the spleen and splenic hilar lymph nodes, bone marrow, and often the peripheral blood.  When lymphoma cells are present in the peripheral blood, they are usually, but not always, characterized by the presence of short polar villi. (WHO)"],
+      "ncit_code": "C4663"
+   }],
+   "oncotree_code": "SMZL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mycosis Fungoides",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "MYCF"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mycosis Fungoides",
+      "ncit_synonyms": [
+         "MF",
+         "CTCL/ Mycosis fungoides",
+         "Mycosis fungoides, unspecified site",
+         "Cutaneous T-cell lymphoma/Mycosis fungoides"
+      ],
+      "ncit_definitions": [
+         "A type of non-Hodgkin's lymphoma that first appears on the skin and can spread to the lymph nodes or other organs such as the spleen, liver, or lungs.",
+         "A peripheral (mature) T-cell lymphoma presenting in the skin with patches/plaques. It is characterized by epidermal and dermal infiltration of small to medium-sized T-cells with cerebriform nuclei.  Patients with limited disease generally have an excellent prognosis.  In the more advanced stages, the prognosis is poor. (WHO, 2001)"
+      ],
+      "ncit_code": "C3246"
+   }],
+   "oncotree_code": "MYCF"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Hydroa Vacciniforme Like Lymphoproliferative Disorder",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "HVLL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hydroa Vacciniforme Lymphoproliferative Disorder",
+      "ncit_synonyms": [
+         "Hydroa Vacciniforme-Like Lymphoma",
+         "Hydroa vacciniforme-like lymphoma",
+         "Hydroa Vacciniforme-Like Lymphoproliferative Disorder",
+         "HV-Like LPD",
+         "HV-Like Lymphoma",
+         "HV LPD",
+         "HV-LPD",
+         "Hydroa Vacciniforme-Like Cutaneous T-Cell Lymphoma"
+      ],
+      "ncit_definitions": [
+         "In contrast to hydroa vacciniforme (HV), HV-like lymphoma is not induced by sun exposure and the lesions can occur in both sun-exposed and covered body areas. It affects children, almost exclusively in Latin America and Asia.",
+         "A rare, EBV-positive cutaneous T-cell lymphoproliferative disorder, composed of CD8 positive cytotoxic T-lymphocytes.  It affects children, almost exclusively in Latin America and Asia. Patients present with papulovesicular skin lesions, clinically resembling hydroa vacciniforme, in areas of sun-exposed skin."
+      ],
+      "ncit_code": "C45327"
+   }],
+   "oncotree_code": "HVLL"
+}
+{
+   "oncotree_children_codes": ["WM"],
+   "oncotree_name": "Lymphoplasmacytic Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "LPL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Lymphoplasmacytic Lymphoma",
+      "ncit_synonyms": [
+         "Lymphoplasmacytoid Lymphoma",
+         "LYMPHOMA, LYMPHOPLASMACYTIC, MALIGNANT",
+         "Lymphoplasmacytic lymphoma (Waldenstrom macroglobulinemia)",
+         "Immunocytoma, Lymphoplasmacytic Type",
+         "Lymphoma, Plasmacytic"
+      ],
+      "ncit_definitions": [
+         "A malignant neoplasm composed of lymphocytes (B-cells), lymphoplasmacytoid cells, and plasma cells.",
+         "A clonal neoplasm of small B-lymphocytes, lymphoplasmacytoid cells, and plasma cells involving the bone marrow, lymph nodes, and the spleen. The majority of patients have a serum IgM paraprotein."
+      ],
+      "ncit_code": "C3212"
+   }],
+   "oncotree_code": "LPL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "In Situ Follicular Neoplasia",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "FL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "FL",
+      "ISFN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "In Situ Follicular Neoplasia",
+      "ncit_synonyms": [
+         "FLIS",
+         "ISFN",
+         "In Situ Follicular B-Cell Neoplasm",
+         "In Situ Follicular Lymphoma",
+         "Follicular Lymphoma In Situ"
+      ],
+      "ncit_definitions": ["A follicular neoplasia confined to the germinal centers of the lymph nodes, without evidence of disseminated disease. It is characterized by the replacement of a germinal center by neoplastic centrocytes with uniformly intense positivity for BCL2. The surrounding mantle cuff and lymphoid architecture are intact. It has a low rate of progression to follicular lymphoma, but is often associated with prior or synchronous overt lymphoma."],
+      "ncit_code": "C138181"
+   }],
+   "oncotree_code": "ISFN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Large B-Cell Lymphoma with IRF4 Rearrangement",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "LBLIRF4"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Large B-Cell Lymphoma with IRF4 Rearrangement",
+      "ncit_synonyms": ["LBCL with IRF4 Rearrangement"],
+      "ncit_definitions": ["A large B-cell lymphoma that usually affects the Waldeyer ring and/or cervical lymph nodes and less often the gastrointestinal tract. It occurs most commonly in children and young adults and is low stage. It is characterized by a follicular, follicular and diffuse, or pure diffuse growth pattern resembling follicular lymphoma grade 3B or a diffuse large B-cell lymphoma. Most cases have IG/IRF4 rearrangements. BCL2 rearrangements are not present. Some cases that belong in this category lack an IRF4 rearrangement but have strong IRF4/MUM1 expression. This lymphoma is more aggressive than pediatric-type follicular lymphomas."],
+      "ncit_code": "C133494"
+   }],
+   "oncotree_code": "LBLIRF4"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mixed Cellularity Classical Hodgkin Lymphoma",
+   "oncotree_main_type": "Hodgkin Lymphoma",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "CHL",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "HL",
+      "CHL",
+      "MCCHL"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MCCHL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "CLLSLL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Small Lymphocytic Lymphoma",
+      "ncit_synonyms": [
+         "Small cell B-cell lymphoma, unspecified site",
+         "SLL",
+         "Diffuse Well Differentiated Lymphocytic Lymphoma",
+         "Lymphoma, Lymphocytic, Malignant",
+         "Small B-Cell Lymphocytic Lymphoma",
+         "B-Cell Small Lymphocytic Lymphoma",
+         "Small lymphocytic lymphoma, NOS",
+         "well-differentiated lymphocytic lymphoma",
+         "LYMPHOMA, SMALL LYMPHOCYTIC, MALIGNANT"
+      ],
+      "ncit_definitions": [
+         "An indolent (slow-growing) type of lymphoma in which too many immature lymphocytes (white blood cells) are found mostly in the lymph nodes. This causes the lymph nodes to become larger than normal. Sometimes cancer cells are found in the blood and bone marrow, and the disease is called chronic lymphocytic leukemia. The disease is most often seen in people older than 50 years. SLL is a type of non-Hodgkin Lymphoma.",
+         "A non-Hodgkin lymphoma composed of monomorphic small, round B-lymphocytes in the lymph nodes.  When the lymphoid process predominantly involves the bone marrow and the peripheral blood it is called chronic lymphocytic leukemia. (WHO, 2001)",
+         "A malignant neoplasm composed of small lymphocytes."
+      ],
+      "ncit_code": "C7540"
+   }],
+   "oncotree_code": "CLLSLL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "HGBCLMYCBCL2"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "High Grade B-Cell Lymphoma with MYC, BCL2, and BCL6 Rearrangements",
+      "ncit_synonyms": [
+         "Triple-Hit Lymphoma",
+         "HGBCL-TH",
+         "Triple Hit Lymphoma",
+         "High-Grade B-Cell Lymphoma with MYC, BCL2, and BCL6 Rearrangements",
+         "High-Grade B-Cell Lymphoma with MYC and BCL2 and/or BCL6 Rearrangements"
+      ],
+      "ncit_definitions": ["High-grade B-cell lymphoma characterized by the abnormal rearrangement of MYC gene, BCL2 gene, and BCL6 gene. Patients with this type of lymphoma usually respond poorly to standard treatments and have a poor prognosis."],
+      "ncit_code": "C131913"
+   }],
+   "oncotree_code": "HGBCLMYCBCL2"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Monomorphic Epitheliotropic Intestinal T-Cell Lymphoma",
+   "oncotree_main_type": "Mature T and NK Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MTNN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MTNN",
+      "MEITL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Monomorphic Epitheliotropic Intestinal T-Cell Lymphoma",
+      "ncit_synonyms": [
+         "Monomorphic CD56+ Intestinal T-Cell Lymphoma",
+         "MEITL",
+         "Type II EATL"
+      ],
+      "ncit_definitions": ["A mature T-cell and NK-cell non-Hodgkin lymphoma of intraepithelial T-lymphocytes. It usually arises from the small intestine. A minority of cases arise from the large intestine or the stomach. It is characterized by the presence of a monomorphic cellular infiltrate of small to medium-sized T-lymphocytes that are cytotoxic and express CD56. It is not associated with celiac disease."],
+      "ncit_code": "C96058"
+   }],
+   "oncotree_code": "MEITL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Intravascular Large B-Cell Lymphoma",
+   "oncotree_main_type": "Mature B-Cell Neoplasms",
+   "oncotree_tissue": "Lymphoid",
+   "oncotree_parent_code": "MBN",
+   "oncotree_branch_codes": [
+      "LYMPH",
+      "LNM",
+      "NHL",
+      "MBN",
+      "IVBCL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Intravascular Large B-Cell Lymphoma",
+      "ncit_synonyms": [
+         "Intravascular B-Cell Lymphoma",
+         "Angiotropic lymphoma",
+         "Malignant Angioendotheliomatosis",
+         "Intravascular B-cell lymphoma",
+         "Angiotropic Lymphoma",
+         "IVLBCL",
+         "Angiotropic Large Cell Lymphoma"
+      ],
+      "ncit_definitions": ["A rare extranodal B-cell non-Hodgkin lymphoma, characterized by the presence of lymphoma cells exclusively in the lumina of small vessels, particularly capillaries.  This is an extremely aggressive lymphoma which responds poorly to chemotherapy.  (WHO, 2001)"],
+      "ncit_code": "C4342"
+   }],
+   "oncotree_code": "IVBCL"
+}

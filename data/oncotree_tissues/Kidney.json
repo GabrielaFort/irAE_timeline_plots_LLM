@@ -1,0 +1,540 @@
+{
+   "oncotree_children_codes": [
+      "CCSK",
+      "WT",
+      "MRT",
+      "RNET",
+      "RCC"
+   ],
+   "oncotree_name": "Kidney",
+   "oncotree_main_type": "Kidney Cancer",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["KIDNEY"],
+   "ncit_entries": [{
+      "ncit_name": "Kidney",
+      "ncit_synonyms": [
+         "Kidneys",
+         "Kidney, NOS",
+         "Kidney structure (body structure)",
+         "Urinary System, Kidney"
+      ],
+      "ncit_definitions": [
+         "A paired organ of the urinary tract which has the production of urine as its primary function.",
+         "One of a pair of organs in the abdomen. Kidneys remove waste from the blood (as urine), produce erythropoietin (a substance that stimulates red blood cell production), and play a role in blood pressure regulation.",
+         "The organs of the urinary tract located in the retroperitoneal cavity adjacent to the spine and composed of the renal cortex and the renal medulla.",
+         "One of the two bean-shaped organs located on each side of the spine in the retroperitoneum. The right kidney is located below the liver and the left kidney below the diaphragm. The kidneys filter and secrete metabolic products and minerals from the blood, thus maintaining homeostasis. On the superior pole of each kidney there is an adrenal gland. Each kidney and adrenal gland is surrounded by fat."
+      ],
+      "ncit_code": "C12415"
+   }],
+   "oncotree_code": "KIDNEY"
+}
+{
+   "oncotree_children_codes": [
+      "PRCC",
+      "CCPRC",
+      "MRC",
+      "TRCC",
+      "RAML",
+      "MTSCC",
+      "RSCC",
+      "CHRCC",
+      "SRCC",
+      "ROCY",
+      "URCC",
+      "FHRCC",
+      "CDRCC"
+   ],
+   "oncotree_name": "Renal Non-Clear Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "RCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "NCCRCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "NUTM1 Renal Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "RCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NRCC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "NRCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Papillary Renal Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "PRCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Papillary Renal Cell Carcinoma",
+      "ncit_synonyms": [
+         "Papillary Renal Cell Cancer",
+         "PRCC",
+         "Chromophil Carcinoma of Kidney",
+         "Papillary (Chromophil) Renal Cell Carcinoma",
+         "Papillary RCC",
+         "Chromophil Carcinoma of the Kidney",
+         "Chromophil Renal Cell Carcinoma"
+      ],
+      "ncit_definitions": ["Also known as chromophil carcinoma, it represents a minority of renal cell carcinomas.  It can be hereditary or sporadic.  The sporadic papillary renal cell carcinoma is characterized by trisomy of chromosomes 7, 16, and 17, and loss of chromosome Y.  The peak incidence is in the sixth and seven decades.  It is classified as type 1 or 2, based on the cytoplasmic volume and the thickness of the lining neoplastic cells. The prognosis is more favorable than for conventional (clear cell) renal cell carcinoma."],
+      "ncit_code": "C6975"
+   }],
+   "oncotree_code": "PRCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Clear Cell Papillary Renal Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "CCPRC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "CCPRC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Renal Clear Cell Carcinoma with Sarcomatoid Features",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "CCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "CCRCC",
+      "SCCRCC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SCCRCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Clear Cell Sarcoma of Kidney",
+   "oncotree_main_type": "Clear Cell Sarcoma of Kidney",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "KIDNEY",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "CCSK"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "CCSK"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Wilms' Tumor",
+   "oncotree_main_type": "Wilms Tumor",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "KIDNEY",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "WT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "WT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Renal Medullary Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "MRC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MRC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Rhabdoid Cancer",
+   "oncotree_main_type": "Rhabdoid Cancer",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "KIDNEY",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "MRT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Rhabdoid Tumor",
+      "ncit_synonyms": [
+         "Rhabdoid sarcoma",
+         "Rhabdoid tumor, NOS",
+         "Rhabdoid Sarcoma"
+      ],
+      "ncit_definitions": [
+         "An aggressive cancer of the central nervous system, kidney, or liver that occurs in very young children.\"",
+         "An aggressive malignant embryonal neoplasm usually occurring during childhood.  It is characterized by the presence of large cells with abundant cytoplasm, large eccentric nucleus, and a prominent nucleolus and it is associated with abnormalities of chromosome 22.  It can arise from the central nervous system, kidney, and the soft tissues.  The prognosis is poor.",
+         "A malignant tumor of either the central nervous system (CNS) or the kidney. Malignant rhabdoid tumors of the CNS often have an abnormality of chromosome 22. These tumors usually occur in children younger than 2 years.",
+         "Extremely aggressive malignancies that generally occur in infants and young children. The most common locations are the kidney and central nervous system (CNS), although they can also arise in most soft tissue sites. Approximately two-thirds of patients will present with advanced-stage disease. Rhabdoid tumors of the kidney tend to metastasize to the CNS and lungs. Rhabdoid tumors are associated with mutations of SMARCB1 (INI-1), a tumor suppressor gene."
+      ],
+      "ncit_code": "C3808"
+   }],
+   "oncotree_code": "MRT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Translocation-Associated Renal Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "TRCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "TFE3-Rearranged Renal Cell Carcinoma",
+      "ncit_synonyms": [
+         "Renal Cell Carcinoma Associated with Xp11.2 Translocations/TFE3 Gene Fusions",
+         "Xp11 Translocation Renal Cell Carcinoma",
+         "Renal Cell Cancer Associated with Xp11.2 Translocations/TFE3 Gene Fusions",
+         "tRCC",
+         "Xp11.2 Translocation-Related Renal Cell Carcinoma"
+      ],
+      "ncit_definitions": ["A group of renal cell carcinomas characterized by the presence of different translocations involving the chromosome Xp11.2. These translocations result in the creation of gene fusions involving the TFE3 gene. Patients are usually children and young adults. Morphologically, the malignant epithelial cells form papillary patterns."],
+      "ncit_code": "C27891"
+   }],
+   "oncotree_code": "TRCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Renal Neuroendocrine Tumor",
+   "oncotree_main_type": "Renal Neuroendocrine Tumor",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "KIDNEY",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RNET"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "RNET"
+}
+{
+   "oncotree_children_codes": ["SCCRCC"],
+   "oncotree_name": "Renal Clear Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "RCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "CCRCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Clear Cell Renal Cell Carcinoma",
+      "ncit_synonyms": [
+         "Renal cell carcinoma, clear cell adenocarcinoma",
+         "Clear Cell Carcinoma of Kidney",
+         "Clear Cell RCC",
+         "Renal Clear Cell Carcinoma",
+         "Kidney Clear Cell Carcinoma",
+         "Clear Cell Adenocarcinoma, Kidney",
+         "Clear Cell Adenocarcinoma of the Kidney",
+         "Conventional (Clear Cell) Renal Cell Adenocarcinoma",
+         "Hypernephroid tumor",
+         "Conventional Renal Cell Carcinoma",
+         "Clear Cell Adenocarcinoma of Kidney",
+         "Renal Clear Cell Adenocarcinoma",
+         "Clear Cell Renal Cell Cancer",
+         "Conventional (Clear Cell) Renal Cell Carcinoma",
+         "RCC, clear cell adenocarcinoma",
+         "Clear Cell Carcinoma of the Kidney",
+         "Kidney Clear Cell Adenocarcinoma",
+         "Grawitz tumor",
+         "Hypernephroma",
+         "hypernephroma",
+         "Grawitz Tumor",
+         "CCRCC"
+      ],
+      "ncit_definitions": [
+         "A malignant epithelial neoplasm of the kidney characterized by the presence of lipid-containing clear cells within a vascular network.  The tumor may metastasize to unusual sites and late metastasis is common.",
+         "The most common type of kidney cancer. It begins in the lining of the renal tubules in the kidney. The renal tubules filter the blood and produce urine."
+      ],
+      "ncit_code": "C4033"
+   }],
+   "oncotree_code": "CCRCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Renal Angiomyolipoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "RAML"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Kidney Angiomyolipoma",
+      "ncit_synonyms": [
+         "Angiomyolipoma of Kidney",
+         "Renal Angiomyolipoma",
+         "Angiomyolipoma of the Kidney"
+      ],
+      "ncit_definitions": ["An angiomyolipoma arising from the kidney."],
+      "ncit_code": "C3888"
+   }],
+   "oncotree_code": "RAML"
+}
+{
+   "oncotree_children_codes": [
+      "NCCRCC",
+      "NRCC",
+      "CCRCC"
+   ],
+   "oncotree_name": "Renal Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "KIDNEY",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Renal Cell Carcinoma",
+      "ncit_synonyms": [
+         "RCC",
+         "renal cell cancer",
+         "renal cell adenocarcinoma",
+         "Adenocarcinoma of Kidney",
+         "Renal Cell Adenocarcinoma",
+         "Renal Cell Carcinoma, Stage Unspecified",
+         "Adenocarcinoma of the Kidney",
+         "CARCINOMA, RENAL CELL, MALIGNANT",
+         "Renal cell adenocarcinoma",
+         "Kidney Adenocarcinoma",
+         "Renal Cell Cancer"
+      ],
+      "ncit_definitions": [
+         "A malignant neoplasm arising from renal parenchyma.",
+         "A malignant neoplasm arising from the renal parenchyma.",
+         "The most common type of kidney cancer. It begins in the lining of the renal tubules in the kidney. The renal tubules filter the blood and produce urine.",
+         "A carcinoma arising from the renal parenchyma.  There is a strong correlation between cigarette smoking and the development of renal cell carcinoma.  The clinical presentation includes : hematuria, flank pain and a palpable lumbar mass.  A high percentage of renal cell carcinomas are diagnosed when an ultrasound is performed for other purposes.  Radical nephrectomy is the standard intervention procedure.  Renal cell carcinoma is generally considered to be resistant to radiation treatment and chemotherapy."
+      ],
+      "ncit_code": "C9385"
+   }],
+   "oncotree_code": "RCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Renal Mucinous Tubular Spindle Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "MTSCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mucinous Tubular and Spindle Cell Carcinoma of the Kidney",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A low grade carcinoma of the kidney characterized by the presence of tubules which are separated by mucinous stroma. Often the tubular structures have a spindle cell appearance.  Patients are usually asymptomatic and occasionally they may present with hematuria or flank pain."],
+      "ncit_code": "C39807"
+   }],
+   "oncotree_code": "MTSCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Renal Small Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "RSCC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "RSCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Chromophobe Renal Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "CHRCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Chromophobe Renal Cell Carcinoma",
+      "ncit_synonyms": [
+         "Chromophobe carcinoma",
+         "Chromophobe Cell Carcinoma of the Kidney",
+         "Chromophobe Carcinoma of Kidney",
+         "Renal cell carcinoma, chromophobe type",
+         "Chromophobe adenocarcinoma",
+         "Chromophobe cell renal carcinoma",
+         "Renal Cell Carcinoma, Chromophobe Type",
+         "Chromophobe Carcinoma of the Kidney",
+         "Chromophobe Renal Cell Cancer",
+         "Chromophobe Cell Carcinoma of Kidney",
+         "Chromophobe Carcinoma",
+         "Chromophobe RCC",
+         "Chromophobe Adenocarcinoma"
+      ],
+      "ncit_definitions": ["A type of carcinoma that comprises a minority of renal cell carcinomas.  It is characterized by loss of chromosomes 1 and Y.  Based on the cytoplasmic characteristics of the neoplastic cells, this type of carcinoma is classified as classic (typical), eosinophilic, or oncocytic.  It has a much better prognosis than other renal cell carcinomas."],
+      "ncit_code": "C4146"
+   }],
+   "oncotree_code": "CHRCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Sarcomatoid Renal Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "SRCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Sarcomatoid Renal Cell Carcinoma",
+      "ncit_synonyms": [
+         "Renal Cell Sarcomatoid Carcinoma",
+         "Renal cell carcinoma with sarcomatoid features",
+         "RCC w/ sarcomatoid features",
+         "Renal cell carcinoma, sarcomatoid",
+         "Renal Cell Carcinoma, Sarcomatoid"
+      ],
+      "ncit_definitions": ["A high-grade carcinoma that arises from the kidney. It is not a distinct clinicopathological entity and includes a diverse group of renal cell carcinomas that have been transformed from a lower to a higher grade."],
+      "ncit_code": "C27893"
+   }],
+   "oncotree_code": "SRCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Renal Oncocytoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "ROCY"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Kidney Oncocytoma",
+      "ncit_synonyms": [
+         "Renal Epithelial Oncocytic Neoplasm",
+         "Renal Oncocytoma",
+         "Oncocytoma of Kidney",
+         "Renal Epithelial Oncocytic Tumor",
+         "Oncocytoma of the Kidney"
+      ],
+      "ncit_definitions": ["A benign tumor of the kidney, characterized by the presence of large cells with abundant eosinophilic granular cytoplasm.  The majority of these tumors are discovered incidentally, during work-up of other conditions."],
+      "ncit_code": "C4526"
+   }],
+   "oncotree_code": "ROCY"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Unclassified Renal Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "URCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Unclassified Renal Cell Carcinoma",
+      "ncit_synonyms": ["Unclassified Renal Cell Cancer"],
+      "ncit_definitions": [],
+      "ncit_code": "C27892"
+   }],
+   "oncotree_code": "URCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "FH-Deficient Renal Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "FHRCC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "FHRCC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Collecting Duct Renal Cell Carcinoma",
+   "oncotree_main_type": "Renal Cell Carcinoma",
+   "oncotree_tissue": "Kidney",
+   "oncotree_parent_code": "NCCRCC",
+   "oncotree_branch_codes": [
+      "KIDNEY",
+      "RCC",
+      "NCCRCC",
+      "CDRCC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Collecting Duct Carcinoma",
+      "ncit_synonyms": [
+         "Bellini duct carcinoma",
+         "BDC",
+         "Renal carcinoma, collecting duct type",
+         "Collecting Duct Renal Cell Carcinoma",
+         "Collecting duct renal cancer",
+         "Carcinoma of the Renal Collecting Duct",
+         "Carcinoma of the Collecting Ducts of Bellini",
+         "Renal Collecting Duct Carcinoma",
+         "Kidney Collecting Duct Carcinoma",
+         "Bellini Duct Carcinoma",
+         "Carcinoma of Collecting Ducts of Bellini",
+         "Carcinoma of Kidney Collecting Duct",
+         "Carcinoma of Renal Collecting Duct",
+         "Carcinoma of the Kidney Collecting Duct"
+      ],
+      "ncit_definitions": [
+         "Also known as collecting duct carcinoma, this is a rare type of renal carcinoma. It arises from the collecting ducts of the renal medulla, and most authors suggest that this is an aggressive tumor.",
+         "A rare type of kidney cancer that grows and spreads quickly. It begins in the duct of Bellini in the kidney."
+      ],
+      "ncit_code": "C6194"
+   }],
+   "oncotree_code": "CDRCC"
+}

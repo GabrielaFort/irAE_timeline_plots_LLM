@@ -1,0 +1,2881 @@
+{
+   "oncotree_children_codes": [
+      "PINT",
+      "MBT",
+      "PCNSMT",
+      "ENCG",
+      "BGCT",
+      "EPMT",
+      "DIFG",
+      "CPT",
+      "MNET",
+      "MNGT",
+      "EMBT",
+      "SELT"
+   ],
+   "oncotree_name": "CNS/Brain",
+   "oncotree_main_type": "CNS/Brain Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "TISSUE",
+   "oncotree_branch_codes": ["BRAIN"],
+   "ncit_entries": [{
+      "ncit_name": "Central Nervous System",
+      "ncit_synonyms": [
+         "CNS",
+         "systema nervosum centrale",
+         "Nervous System, CNS"
+      ],
+      "ncit_definitions": [
+         "The part of the nervous system that consists of the brain, spinal cord, and meninges.",
+         "The part of the nervous system that consists of the brain, spinal cord, and meninges. (NCI)",
+         "The brain and spinal cord.",
+         "The central nervous system is the core nervous system that serves an integrating and coordinating function. In vertebrates it consists of the neural tube derivatives: the brain and spinal cord. In invertebrates it includes central ganglia plus nerve cord."
+      ],
+      "ncit_code": "C12438"
+   }],
+   "oncotree_code": "BRAIN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anaplastic Ganglioglioma",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ENCG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "ENCG",
+      "AGNG"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Anaplastic Ganglioglioma",
+      "ncit_synonyms": ["Ganglioglioma, anaplastic"],
+      "ncit_definitions": ["A WHO grade III neuroepithelial neoplasm composed of neoplastic, mature ganglion cells and anaplastic glial cells. The anaplastic changes in the glial component and high MIB-1 and TP53 labeling indices may indicate aggressive behavior. However, the correlation of histological anaplasia with clinical outcome is inconsistent. (Adapted from WHO)"],
+      "ncit_code": "C4717"
+   }],
+   "oncotree_code": "AGNG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Diffuse Hemispheric Glioma, H3 G34-Mutant",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PDIFHG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "PDIFHG",
+      "DHG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "DHG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Hemangiopericytoma of the Central Nervous System",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNGT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNGT",
+      "HPCCNS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Meningeal Solitary Fibrous Tumor",
+      "ncit_synonyms": [
+         "Hemangiopericytoma of Meninges",
+         "Meninges Hemangiopericytoma",
+         "Hemangiopericytoma of the Meninges",
+         "Meningeal Solitary Fibrous Tumor/Hemangiopericytoma",
+         "Meningeal Hemangiopericytoma"
+      ],
+      "ncit_definitions": ["A solitary fibrous tumor that arises from the meninges."],
+      "ncit_code": "C4660"
+   }],
+   "oncotree_code": "HPCCNS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Desmoplastic Infantile Astrocytoma",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNET",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNET",
+      "DIA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Desmoplastic Infantile Astrocytoma",
+      "ncit_synonyms": [
+         "DIA",
+         "Desmoplastic Astrocytoma of Infancy"
+      ],
+      "ncit_definitions": [
+         "A WHO grade I large cystic tumor that occurs almost exclusively in infants, with a prominent desmoplastic stroma having a neuroepithelial population consisting mainly of neoplastic astrocytes. It involves the superficial cerebral cortex and leptomeninges, and often attaches to the dura. Although clinically it presents as large tumor, it generally has a good prognosis following surgical resection. (Adapted from WHO)",
+         "A WHO grade I large cystic tumor that occurs almost exclusively in infants, and which involves the superficial cerebral cortex and leptomeninges."
+      ],
+      "ncit_code": "C9476"
+   }],
+   "oncotree_code": "DIA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Embryonal Carcinoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BGCT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "BGCT",
+      "BEC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Central Nervous System Embryonal Carcinoma",
+      "ncit_synonyms": [
+         "Embryonal Carcinoma of CNS",
+         "Embryonal Carcinoma of the Central Nervous System"
+      ],
+      "ncit_definitions": ["A malignant germ cell tumor of the central nervous system composed of large cells that proliferate in cohesive nests and sheets.  In rare occasions, tumor cells may replicate the structure of the early embryo, forming \"embryoid bodies\" replete with germ discs and miniature amniotic cavities. Additional morphologic characteristics include enlarged nucleoli, abundant clear to somewhat violet-hued cytoplasm, a high mitotic rate and zones of coagulative necrosis.  (Adapted from WHO)"],
+      "ncit_code": "C7010"
+   }],
+   "oncotree_code": "BEC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Desmoplastic Infantile Ganglioglioma",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNET",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNET",
+      "DIG"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Desmoplastic Infantile Ganglioglioma",
+      "ncit_synonyms": ["DIG"],
+      "ncit_definitions": [
+         "A WHO grade I large cystic tumor that occurs almost exclusively in infants. It involves the superficial cerebral cortex and leptomeninges, and often attaches to the dura.",
+         "A WHO grade I large cystic tumor that occurs almost exclusively in infants, with a prominent desmoplastic stroma having a neuroepithelial population of neoplastic astrocytes together with a variable neuronal component. It involves the superficial cerebral cortex and leptomeninges, and often attaches to the dura. Although clinically it presents as a large tumor, it generally has a good prognosis following surgical resection. (Adapted from WHO)"
+      ],
+      "ncit_code": "C4738"
+   }],
+   "oncotree_code": "DIG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "High-Grade Glioma, NOS",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "DIFG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "HGGNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HGGNOS"
+}
+{
+   "oncotree_children_codes": [
+      "GB",
+      "ODG",
+      "ASTR"
+   ],
+   "oncotree_name": "Adult-Type Diffuse Glioma",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "DIFG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "ADIFG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ADIFG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Medulloepithelioma",
+   "oncotree_main_type": "Embryonal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EMBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MDEP"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Central Nervous System Medulloepithelioma",
+      "ncit_synonyms": [
+         "Medulloepithelioma, Central Nervous System",
+         "Medulloepithelioma"
+      ],
+      "ncit_definitions": [
+         "A rare malignant embryonal neoplasm of the central nervous system, occurring in children. It is characterized by the presence of neuroepithelial cells that form papillary, trabecular, or tubular structures.",
+         "A rare, usually aggressive malignant embryonal neoplasm of the central nervous system occurring in children. It is characterized by the presence of neuroepithelial cells which form papillary, trabecular, or tubular structures and absence of C19MC amplification. Symptoms include headache, nausea, and vomiting."
+      ],
+      "ncit_code": "C4327"
+   }],
+   "oncotree_code": "MDEP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Diffuse Low-Grade Glioma, MAPK Pathway-Altered",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PDIFLG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "PDIFLG",
+      "DLGGMAPK"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "DLGGMAPK"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Neuroepithelial Tumor",
+   "oncotree_main_type": "Miscellaneous Brain Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MBT",
+      "PRNET"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Neuroepithelial Neoplasm",
+      "ncit_synonyms": [
+         "Neoplasm of Neuroepithelium",
+         "Neoplasm of the Neuroepithelium",
+         "Neuroepithelial Tumors",
+         "Neuroepithelial Tissue Tumor",
+         "Neoplasm of Neuroepithelial Tissue",
+         "Tumor of Neuroepithelium",
+         "Neuroepithelial Tissue Neoplasm",
+         "Tumor of Neuroepithelial Tissue",
+         "Tumor of the Neuroepithelium",
+         "Neuroepithelial Neoplasms",
+         "Neuroepitheliomatous Neoplasms",
+         "Neuroepithelial Tumor"
+      ],
+      "ncit_definitions": ["A neoplasm of the nervous system that arises from the neuroepithelial tissues.  Representative examples include astrocytic tumors, oligodendroglial tumors, ependymal tumors, and primitive neuroectodermal tumors."],
+      "ncit_code": "C3787"
+   }],
+   "oncotree_code": "PRNET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary CNS Melanoma",
+   "oncotree_main_type": "Melanoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PCNSMT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "PCNSMT",
+      "PCNSM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Central Nervous System Melanoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": [],
+      "ncit_code": "C5505"
+   }],
+   "oncotree_code": "PCNSM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Spindle Cell Oncocytoma of the Adenohypophysis",
+   "oncotree_main_type": "Sellar Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "SELT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "SELT",
+      "SCOAH"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Spindle Cell Oncocytoma",
+      "ncit_synonyms": [
+         "Folliculo-Stellate Cell Tumor of the Pituitary",
+         "Spindle Cell Oncocytoma of the Adenohypophysis",
+         "Spindle Cell Oncocytoma/Oncocytic Pituicytoma",
+         "SCO",
+         "Spindle Cell Oncocytoma of the Adenohypophysis (WHO Grade 1)"
+      ],
+      "ncit_definitions": ["A very rare, WHO grade 1 neoplasm of the posterior pituitary. It is characterized by the presence of spindle cells with eosinophilic, granular cytoplasm forming fascicles.  Electron microscopic studies demonstrate the accumulation of intracytoplasmic mitochondria and lack of secretory granules.  Immunohistochemical studies are negative for pituitary hormones.  Patients may present with pituitary hypofunction, visual disturbances, headache, nausea and vomiting.  The clinical course is usually benign."],
+      "ncit_code": "C94537"
+   }],
+   "oncotree_code": "SCOAH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Malignant Lymphoma",
+   "oncotree_main_type": "Miscellaneous Brain Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MBT",
+      "MLYM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Lymphoma",
+      "ncit_synonyms": [
+         "Lymphomatous",
+         "Malignant Lymphoma",
+         "Lymphoma, NOS",
+         "Lymphoma (Hodgkin's and Non-Hodgkin's)",
+         "LYMPHOMA, MALIGNANT",
+         "Lymphoma (Hodgkin and Non-Hodgkin)"
+      ],
+      "ncit_definitions": [
+         "A malignant neoplasm composed of lymphocytes of B- or T/NK-cell phenotype.",
+         "A malignant neoplasm of the lymphatic system that is comprised of abnormal lymphocytes.",
+         "A malignant (clonal) proliferation of B- lymphocytes or T- lymphocytes which involves the lymph nodes, bone marrow and/or extranodal sites. This category includes Non-Hodgkin lymphomas and Hodgkin lymphomas.",
+         "Cancer that begins in cells of the immune system. There are two basic categories of lymphomas. One kind is Hodgkin lymphoma, which is marked by the presence of a type of cell called the Reed-Sternberg cell. The other category is non-Hodgkin lymphomas, which includes a large, diverse group of cancers of immune system cells. Non-Hodgkin lymphomas can be further divided into cancers that have an indolent (slow-growing) course and those that have an aggressive (fast-growing) course. These subtypes behave and respond to treatment differently. Both Hodgkin and non-Hodgkin lymphomas can occur in children and adults, and prognosis and treatment depend on the stage and the type of cancer."
+      ],
+      "ncit_code": "C3208"
+   }],
+   "oncotree_code": "MLYM"
+}
+{
+   "oncotree_children_codes": [
+      "MBENNOS",
+      "MBENSHH"
+   ],
+   "oncotree_name": "Medulloblastoma with Extensive Nodularity",
+   "oncotree_main_type": "Embryonal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EMBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MBEN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Medulloblastoma with Extensive Nodularity",
+      "ncit_synonyms": [
+         "Nodular Medulloblastoma",
+         "Medulloblastoma with Extensive Nodularity and Advanced Neuronal Differentiation",
+         "Cerebellar Neuroblastoma"
+      ],
+      "ncit_definitions": ["A medulloblastoma characterized by nodularity and neuronal differentiation."],
+      "ncit_code": "C5407"
+   }],
+   "oncotree_code": "MBEN"
+}
+{
+   "oncotree_children_codes": [
+      "GSARC",
+      "SCGBM"
+   ],
+   "oncotree_name": "Glioblastoma, IDH-Wildtype",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ADIFG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "ADIFG",
+      "GB"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Glioblastoma",
+      "ncit_synonyms": [
+         "glioblastoma multiforme",
+         "Glioblastoma Multiforme",
+         "GBM",
+         "Spongioblastoma Multiforme",
+         "CNS, glioblastoma (GBM)",
+         "Spongioblastoma multiforme",
+         "GBM (Glioblastoma)",
+         "Glioblastoma multiforme"
+      ],
+      "ncit_definitions": [
+         "A fast-growing type of central nervous system tumor that forms from glial (supportive) tissue of the brain and spinal cord and has cells that look very different from normal cells. GBM usually occurs in adults and affects the brain more often than the spinal cord.",
+         "The most malignant astrocytic tumor (WHO grade 4).  It is composed of poorly differentiated neoplastic astrocytes and is characterized by the presence of cellular polymorphism, nuclear atypia, brisk mitotic activity, vascular thrombosis, microvascular proliferation, and necrosis. It typically affects adults and is preferentially located in the cerebral hemispheres. (Adapted from WHO)"
+      ],
+      "ncit_code": "C3058"
+   }],
+   "oncotree_code": "GB"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Diffuse Midline Glioma, H3 K27-Altered",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PDIFHG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "PDIFHG",
+      "DMG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "DMG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anaplastic Medulloblastoma, NOS",
+   "oncotree_main_type": "Large Cell/Anaplastic Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "AMBL",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "AMBL",
+      "AMBLNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "AMBLNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Yolk Sac Tumor",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BGCT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "BGCT",
+      "BYST"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "BYST"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Diffuse Pediatric-Type High-Grade Glioma, H3-Wildtype and IDH-Wildtype",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PDIFHG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "PDIFHG",
+      "DPHGG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "DPHGG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pituitary Adenoma",
+   "oncotree_main_type": "Sellar Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "SELT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "SELT",
+      "PTAD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pituitary Neuroendocrine Tumor",
+      "ncit_synonyms": [
+         "ADENOMA, ANTERIOR LOBE PITUITARY GLAND, BENIGN",
+         "Adenoma of Pituitary",
+         "PitNET",
+         "Pituitary Neuroendocrine Tumor (Formerly Pituitary Adenoma)",
+         "Pituitary Gland Adenoma",
+         "Pituitary Neuroendocrine Tumor/Adenoma",
+         "PitNET/Adenoma",
+         "Adenoma of the Pituitary",
+         "Adenoma of the Pituitary Gland",
+         "Pituitary Adenoma",
+         "Adenoma of Pituitary Gland",
+         "Pituitary adenoma, NOS"
+      ],
+      "ncit_definitions": [
+         "A well-differentiated neuroendocrine neoplasm that arises from the adenohypophysial cells of the anterior lobe of the pituitary gland. The tumor can be hormonally functioning or not. It has a low frequency of metastatic spread. When metastatic, the term metastatic pituitary neuroendocrine tumor is endorsed instead of pituitary carcinoma. (WHO)",
+         "A benign neoplasm of the anterior lobe of the pituitary gland.",
+         "A non-metastasizing tumor that arises from the adenohypophysial cells of the anterior lobe of the pituitary gland."
+      ],
+      "ncit_code": "C3329"
+   }],
+   "oncotree_code": "PTAD"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mixed Germ Cell Tumor",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BGCT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "BGCT",
+      "BMGCT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mixed Germ Cell Tumor",
+      "ncit_synonyms": [
+         "Combined Germ Cell Neoplasm",
+         "Combined Germ Cell Tumor",
+         "Mixed Germ Cell Neoplasm"
+      ],
+      "ncit_definitions": ["A malignant germ cell tumor characterized by the presence of at least two different germ cell tumor components. The different germ cell tumor components include choriocarcinoma, embryonal carcinoma, yolk sac tumor, teratoma, and seminoma. It occurs in the ovary, testis, and extragonadal sites including central nervous system and mediastinum."],
+      "ncit_code": "C4290"
+   }],
+   "oncotree_code": "BMGCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Dysembryoplastic Neuroepithelial Tumor",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ENCG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "ENCG",
+      "DNT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Dysembryoplastic Neuroepithelial Tumor",
+      "ncit_synonyms": [
+         "Dysembryoplastic Neuroepithelial Neoplasm",
+         "DNET",
+         "DNT"
+      ],
+      "ncit_definitions": ["A glial-neuronal neoplasm located in the cortex. It occurs in children and young adults with a long-standing history of partial seizures. A histologic hallmark of this tumor is the 'specific glioneuronal element', characterized by columns, made up of bundles of axons, oriented perpendicularly to the cortical surface. (Adapted from WHO)"],
+      "ncit_code": "C9505"
+   }],
+   "oncotree_code": "DNT"
+}
+{
+   "oncotree_children_codes": [
+      "ODG2",
+      "ODG3"
+   ],
+   "oncotree_name": "Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ADIFG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "ADIFG",
+      "ODG"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Oligodendroglioma",
+      "ncit_synonyms": [
+         "WHO Grade II Oligodendroglial Neoplasm",
+         "Well Differentiated Oligodendroglioma",
+         "WHO Grade 2 Oligodendroglial Neoplasm",
+         "WHO Grade 2 Oligodendroglial Tumor",
+         "WHO Grade II Oligodendroglial Tumor",
+         "Oligodendroglioma, NOS",
+         "Well Differentiated Oligodendroglial Tumor"
+      ],
+      "ncit_definitions": [
+         "A rare, slow-growing tumor that begins in oligodendrocytes (cells that cover and protect nerve cells in the brain and spinal cord).",
+         "A well-differentiated (WHO grade 2), diffusely infiltrating neuroglial tumor, typically located in the cerebral hemispheres.  It is composed predominantly of cells which morphologically resemble oligodendroglia. The neoplastic cells have rounded homogeneous nuclei and, on paraffin sections, a swollen, clear cytoplasm ('honeycomb' appearance). (Adapted from WHO)"
+      ],
+      "ncit_code": "C3288"
+   }],
+   "oncotree_code": "ODG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Medulloblastoma with Extensive Nodularity, NOS",
+   "oncotree_main_type": "Medulloblastoma with Extensive Nodularity",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBEN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MBEN",
+      "MBENNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MBENNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted, Grade 2",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ODG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "ADIFG",
+      "ODG",
+      "ODG2"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ODG2"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted, Grade 3",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ODG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "ADIFG",
+      "ODG",
+      "ODG3"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ODG3"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pituitary Carcinoma",
+   "oncotree_main_type": "Sellar Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "SELT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "SELT",
+      "PTCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Metastatic Pituitary Neuroendocrine Tumor",
+      "ncit_synonyms": [
+         "Cancer of Pituitary Gland",
+         "Carcinoma of the Pituitary Gland",
+         "Pituitary Gland Carcinoma",
+         "Cancer of the Pituitary",
+         "Cancer of the Pituitary Gland",
+         "Metastatic Pituitary Gland Carcinoma",
+         "Pituitary gland cancer, NOS",
+         "Pituitary carcinoma, NOS",
+         "Carcinoma of the Pituitary",
+         "Pituitary Gland Adenocarcinoma",
+         "Carcinoma of Pituitary",
+         "Cancer of Pituitary",
+         "Pituitary Gland Cancer",
+         "Pituitary Carcinoma",
+         "Metastatic PitNET",
+         "Carcinoma of Pituitary Gland"
+      ],
+      "ncit_definitions": ["Pituitary neuroendocrine tumor that has spread from its original site of growth to another anatomic site."],
+      "ncit_code": "C4536"
+   }],
+   "oncotree_code": "PTCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pineocytoma",
+   "oncotree_main_type": "Pineal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PINT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "PINT",
+      "PINC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pineocytoma",
+      "ncit_synonyms": [
+         "PINEOCYTOMA, BENIGN",
+         "Pinealocytoma",
+         "Pineocytoma (WHO Grade 1)",
+         "Benign neoplasm of pineal gland",
+         "Benign Pinealoma",
+         "Pineocytoma (WHO Grade I)"
+      ],
+      "ncit_definitions": [
+         "A benign neoplasm of the brain arising from the pineal gland.",
+         "A benign, slow growing, pineal parenchymal tumor that more frequently affects young adults.",
+         "A WHO grade 1 slow growing tumor, more frequently affecting young adults. It is composed of small, uniform, mature cells resembling pineocytes with occasional large pineocytomatous rosettes. It may show a wide range of divergent phenotypes, including neuronal, glial, melanocytic, photoreceptor and mesenchymal differentiation. Pineocytoma generally has a relatively favorable prognosis. (Adapted from WHO)",
+         "A slow growing type of brain tumor that occurs in or around the pineal gland, a tiny organ near the center of the brain."
+      ],
+      "ncit_code": "C6966"
+   }],
+   "oncotree_code": "PINC"
+}
+{
+   "oncotree_children_codes": [
+      "MBLWNT",
+      "MBLSHH",
+      "MBLNWS",
+      "MBLNOS"
+   ],
+   "oncotree_name": "Medulloblastoma",
+   "oncotree_main_type": "Embryonal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EMBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Medulloblastoma",
+      "ncit_synonyms": [
+         "CNS, medulloblastoma",
+         "Medulloblastomas",
+         "MEDULLOBLASTOMA, MALIGNANT"
+      ],
+      "ncit_definitions": [
+         "A malignant, invasive embryonal neoplasm arising from the cerebellum or posterior fossa. It occurs predominantly in children and has the tendency to metastasize via the cerebrospinal fluid pathways. Signs and symptoms include truncal ataxia, disturbed gait, lethargy, headache, and vomiting. There are four histologic variants: classic medulloblastoma, large cell/anaplastic medulloblastoma, desmoplastic/nodular medulloblastoma, and medulloblastoma with extensive nodularity.",
+         "A rapidly progressive cancer of the brain that originates in the cerebellum.",
+         "A malignant brain tumor that begins in the lower part of the brain and that can spread to the spine or to other parts of the body. Medulloblastomas are a type of primitive neuroectodermal tumor (PNET).",
+         "A malignant, invasive embryonal neoplasm arising from the cerebellum."
+      ],
+      "ncit_code": "C3222"
+   }],
+   "oncotree_code": "MBL"
+}
+{
+   "oncotree_children_codes": [
+      "PINC",
+      "PTPR",
+      "PBL",
+      "PPTID"
+   ],
+   "oncotree_name": "Pineal Tumor",
+   "oncotree_main_type": "Pineal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BRAIN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "PINT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pineal Region Neoplasm",
+      "ncit_synonyms": [
+         "Neoplasm of Pineal Region",
+         "Pineal Area Tumor",
+         "Pineal Body Tumor",
+         "Pinealoma",
+         "Tumor of Pineal Area",
+         "Tumor of the Pineal Region",
+         "Neoplasm of the Pineal Region",
+         "Pineal Tumor",
+         "Tumor of the Pineal Area",
+         "pineal region tumor",
+         "Neoplasm of Pineal Area",
+         "Neoplasm of uncertain behavior of pineal gland",
+         "Neoplasm of the Pineal Area",
+         "Pineal Body Neoplasm",
+         "Pineal Area Neoplasm",
+         "Pineal Neoplasm",
+         "Tumor of Pineal Region",
+         "Pineal Region Tumor"
+      ],
+      "ncit_definitions": [
+         "A benign or malignant neoplasm that affects the pineal region.",
+         "A type of brain tumor that occurs in or around the pineal gland, a tiny organ near the center of the brain.",
+         "A tumor arising in the pineal region, the majority of which are malignant germ cell tumors. A minority of pinealomas are benign, and comprise neoplastic cells that resemble normal pineocytes."
+      ],
+      "ncit_code": "C3328"
+   }],
+   "oncotree_code": "PINT"
+}
+{
+   "oncotree_children_codes": [
+      "PRNET",
+      "MLYM",
+      "MT",
+      "HGNET",
+      "HMBL",
+      "PBT",
+      "MCHSCNS"
+   ],
+   "oncotree_name": "Miscellaneous Brain Tumor",
+   "oncotree_main_type": "Miscellaneous Brain Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BRAIN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MBT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Neoplasm of Uncertain Histogenesis",
+      "ncit_synonyms": [
+         "Tumor of Uncertain Histogenesis",
+         "Neoplasm of Uncertain Origin",
+         "Tumor of Uncertain Origin"
+      ],
+      "ncit_definitions": ["A benign or malignant, primary or metastatic neoplasm with uncertain histogenesis."],
+      "ncit_code": "C6974"
+   }],
+   "oncotree_code": "MBT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pituicytoma",
+   "oncotree_main_type": "Sellar Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "SELT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "SELT",
+      "PTCY"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pituicytoma",
+      "ncit_synonyms": [
+         "PITUICYTOMA, BENIGN",
+         "Pituicytoma (WHO Grade 1)",
+         "Posterior Pituitary Astrocytoma",
+         "Pituicytoma (WHO Grade I)"
+      ],
+      "ncit_definitions": [
+         "A benign neoplasm arising from the posterior lobe of the pituitary gland.",
+         "An extremely rare, WHO grade 1, circumscribed and slow-growing tumor that arises from the neurohypophysis or infundibulum and described in adults.  It is characterized by the presence of elongated, spindle-shaped neoplastic glial cells that form storiform patterns or interlacing fascicular arrangements.  Signs and symptoms include visual disturbances, headache, amenorrhea, and decreased libido."
+      ],
+      "ncit_code": "C94524"
+   }],
+   "oncotree_code": "PTCY"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mature Teratoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BGCT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "BGCT",
+      "BMT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Central Nervous System Mature Teratoma",
+      "ncit_synonyms": [
+         "Mature Teratoma of Central Nervous System",
+         "CNS Mature Teratoma",
+         "Mature Teratoma of the CNS",
+         "Mature Teratoma of CNS",
+         "Mature Teratoma of the Central Nervous System"
+      ],
+      "ncit_definitions": ["A mature teratoma arising in the central nervous system."],
+      "ncit_code": "C7013"
+   }],
+   "oncotree_code": "BMT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Craniopharyngioma, Adamantinomatous Type",
+   "oncotree_main_type": "Sellar Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "SELT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "SELT",
+      "ACPG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ACPG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Malignant Tumor",
+   "oncotree_main_type": "Miscellaneous Brain Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MBT",
+      "MT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Malignant Neoplasm",
+      "ncit_synonyms": [
+         "malignancy",
+         "NEOPLASM, MALIGNANT",
+         "Malignant Growth",
+         "Malignancy",
+         "cancer",
+         "Malignant Tumor",
+         "Neoplasm, malignant",
+         "CA",
+         "Cancer",
+         "Tumor, malignant, NOS",
+         "Unclassified tumor, malignant",
+         "Malignant Neoplastic Disease"
+      ],
+      "ncit_definitions": [
+         "A term for diseases in which abnormal cells divide without control and can invade nearby tissues. Malignant cells can also spread to other parts of the body through the blood and lymph systems. There are several main types of malignancy. Carcinoma is a malignancy that begins in the skin or in tissues that line or cover internal organs. Sarcoma is a malignancy that begins in bone, cartilage, fat, muscle, blood vessels, or other connective or supportive tissue. Leukemia is a malignancy that starts in blood-forming tissue such as the bone marrow, and causes large numbers of abnormal blood cells to be produced and enter the blood. Lymphoma and multiple myeloma are malignancies that begin in the cells of the immune system. Central nervous system cancers are malignancies that begin in the tissues of the brain and spinal cord.",
+         "Uncontrolled growth of abnormal cells with potential for metastatic spread.",
+         "A general term for autonomous tissue growth exhibiting morphologic features of malignancy (e.g. severe atypia, nuclear pleomorphism, tumor cell necrosis, abnormal mitoses, tissue invasiveness) and for which the transformed cell type has not been specifically identified.",
+         "A neoplasm composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas, Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.",
+         "A group of diseases in which abnormal cells divide without control, invade nearby tissues and may also spread to other parts of the body through the blood and lymph systems."
+      ],
+      "ncit_code": "C9305"
+   }],
+   "oncotree_code": "MT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Atypical Teratoid/Rhabdoid Tumor",
+   "oncotree_main_type": "Embryonal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EMBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "ATRT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Atypical Teratoid/Rhabdoid Tumor",
+      "ncit_synonyms": [
+         "CNS Rhabdoid Tumor",
+         "Malignant Rhabdoid Tumor of the Brain",
+         "Primary Malignant Rhabdoid Tumor of the Brain",
+         "Primary Malignant Brain Rhabdoid Neoplasm",
+         "ATT/RHT",
+         "Malignant Brain Rhabdoid Tumor",
+         "Primary Malignant Brain Rhabdoid Tumor",
+         "Atypical Teratoid/Rhabdoid Tumor (WHO Grade IV)",
+         "Primary Malignant Rhabdoid Neoplasm of Brain",
+         "Central Nervous System Rhabdoid Tumor",
+         "Rhabdoid Tumor of Central Nervous System",
+         "AT/RT",
+         "Rhabdoid Tumor of the Central Nervous System",
+         "Rhabdoid Neoplasm of CNS",
+         "ATRT",
+         "Malignant Brain Rhabdoid Neoplasm",
+         "CNS Rhabdoid Neoplasm",
+         "Primary Malignant Rhabdoid Tumor of Brain",
+         "Rhabdoid Neoplasm of the Central Nervous System",
+         "Rhabdoid Neoplasm of Central Nervous System",
+         "Rhabdoid Neoplasm of the CNS",
+         "Malignant Rhabdoid Tumor of Brain",
+         "Rhabdoid Tumor of CNS",
+         "Malignant Rhabdoid Neoplasm of the Brain",
+         "Rhabdoid Tumor of the CNS",
+         "Central Nervous System Rhabdoid Neoplasm",
+         "Primary Malignant Rhabdoid Neoplasm of the Brain",
+         "Atypical Teratoid/Rhabdoid Tumor (WHO Grade 4)",
+         "Malignant Rhabdoid Neoplasm of Brain"
+      ],
+      "ncit_definitions": ["An aggressive malignant embryonal neoplasm arising from the central nervous system. It is composed of cells with a large eccentric nucleus, prominent nucleolus, and abundant cytoplasm. Mutations of the SMARCB1 gene or very rarely SMARCA4 (BRG1) gene are present. The vast majority of cases occur in childhood. Symptoms include lethargy, vomiting, cranial nerve palsy, headache, and hemiplegia."],
+      "ncit_code": "C6906"
+   }],
+   "oncotree_code": "ATRT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Atypical Choroid Plexus Papilloma",
+   "oncotree_main_type": "Choroid Plexus Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "CPT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "CPT",
+      "ACPP"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Atypical Choroid Plexus Papilloma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A choroid plexus papilloma characterized by increased mitotic activity."],
+      "ncit_code": "C53686"
+   }],
+   "oncotree_code": "ACPP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Gliosarcoma",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "GB",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "ADIFG",
+      "GB",
+      "GSARC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gliosarcoma",
+      "ncit_synonyms": ["Glioblastoma with a Sarcomatous Component"],
+      "ncit_definitions": [
+         "A rare histological variant of glioblastoma (WHO grade IV) characterized by a biphasic tissue pattern with alternating areas displaying glial and mesenchymal differentiation (WHO).",
+         "A type of glioma (cancer of the brain that comes from glial, or supportive, cells)."
+      ],
+      "ncit_code": "C3796"
+   }],
+   "oncotree_code": "GSARC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Angiocentric Glioma",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PDIFLG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "PDIFLG",
+      "ANGL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Angiocentric Glioma",
+      "ncit_synonyms": [
+         "Angiocentric Glioma (WHO Grade 1)",
+         "Monomorphus Angiocentric Glioma",
+         "Angiocentric Neuroepithelial Tumor",
+         "Angiocentric Glioma (WHO Grade I)"
+      ],
+      "ncit_definitions": ["A WHO grade 1, slow-growing brain neoplasm of children and young adults, associated with epilepsy.  Morphologically it is characterized by an angiocentric pattern, monomorphic cellular infiltrate, and ependymal differentiation."],
+      "ncit_code": "C92552"
+   }],
+   "oncotree_code": "ANGL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Melanotic Medulloblastoma",
+   "oncotree_main_type": "Embryonal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EMBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MMBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Melanocytic Medulloblastoma",
+      "ncit_synonyms": [
+         "Melanotic Medulloblastoma",
+         "Medulloblastoma with Melanotic Differentiation",
+         "Melanotic medulloblastoma"
+      ],
+      "ncit_definitions": ["A rare malignant embryonal neoplasm characterized by the presence of small cells which resemble the cells of classic medulloblastoma and a minor population of melanin-forming neuroepithelial cells.  It usually has an unfavorable clinical course."],
+      "ncit_code": "C9497"
+   }],
+   "oncotree_code": "MMBL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Papillary Glioneuronal Tumor",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNET",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNET",
+      "PGNT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Papillary Glioneuronal Tumor",
+      "ncit_synonyms": [
+         "Papillary Glioneuronal Tumor (WHO Grade I)",
+         "PGNT",
+         "Papillary Glioneuronal Tumor (WHO Grade 1)"
+      ],
+      "ncit_definitions": ["A WHO grade 1, indolent and relatively circumscribed brain tumor.  Morphologically it is characterized by the presence of astrocytes that line vascular and hyalinized pseudopapillae.  In between the pseudopapillae aggregates of neurocytes, large neurons, and ganglioid cells are present."],
+      "ncit_code": "C92554"
+   }],
+   "oncotree_code": "PGNT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Subependymoma",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EPMT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EPMT",
+      "SUBE"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Subependymoma",
+      "ncit_synonyms": [
+         "Who Grade I Ependymal Tumor",
+         "WHO Grade I Ependymal Tumor",
+         "Who Grade I Ependymal Neoplasm",
+         "Subependymal glioma",
+         "SUBEPENDYMOMA, BENIGN",
+         "Subependymal Astrocytoma",
+         "WHO Grade 1 Ependymal Neoplasm",
+         "Subependymal Glioma",
+         "WHO Grade I Ependymal Neoplasm",
+         "WHO Grade 1 Ependymal Tumor"
+      ],
+      "ncit_definitions": [
+         "A benign, slow growing neoplasm which is typically attached to a ventricular wall. It is composed of glial tumor cell clusters embedded in an abundant fibrillary matrix with frequent microcystic change. Some lesions have the histological features of both subependymoma and ependymoma. It is often detected incidentally and has a very favorable prognosis. (Adapted from WHO.)",
+         "A benign neoplasm of the brain localized in the vicinity of a ventricular wall and is composed of glial tumor cell clusters embedded in an abundant fibrillary matrix with frequent microcystic changes."
+      ],
+      "ncit_code": "C3795"
+   }],
+   "oncotree_code": "SUBE"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Small Cell Glioblastoma",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "GB",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "ADIFG",
+      "GB",
+      "SCGBM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Small Cell Glioblastoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A morphologic variant of glioblastoma characterized by the presence of a highly proliferative and monotonous population of malignant small glial cells."],
+      "ncit_code": "C125890"
+   }],
+   "oncotree_code": "SCGBM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Craniopharyngioma, Papillary Type",
+   "oncotree_main_type": "Sellar Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "SELT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "SELT",
+      "PCGP"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PCGP"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Malignant Teratoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BGCT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "BGCT",
+      "BMGT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Central Nervous System Teratoma with Malignant Transformation",
+      "ncit_synonyms": [
+         "Teratoma of Central Nervous System with Malignant Transformation",
+         "Teratoma of the Central Nervous System with Malignant Transformation",
+         "Teratoma of the CNS with Malignant Transformation",
+         "CNS Teratoma with Malignant Transformation",
+         "Teratoma of CNS with Malignant Transformation"
+      ],
+      "ncit_definitions": ["A central nervous system teratoma characterized by the presence of a malignant component. The malignant component most often is sarcomatous (rhabdomyosarcoma or undifferentiated sarcoma) or carcinomatous (squamous cell carcinoma or adenocarcinoma)."],
+      "ncit_code": "C7015"
+   }],
+   "oncotree_code": "BMGT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Polymorphous Low-Grade Neuroepithelial Tumor of the Young",
+   "oncotree_main_type": "Miscellaneous Brain Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PDIFLG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "PDIFLG",
+      "LGNET"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LGNET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Rosette-forming Glioneuronal Tumor of the Fourth Ventricle",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNET",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNET",
+      "RGNT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Rosette-Forming Glioneuronal Tumor of the Fourth Ventricle",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A central nervous system neoplasm arising from the fourth ventricle. It is characterized by the presence of neurocytes forming pseudorosettes and astrocytes which contain Rosenthal fibers. Cytologic atypia is minimal."],
+      "ncit_code": "C67559"
+   }],
+   "oncotree_code": "RGNT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Medullomyoblastoma",
+   "oncotree_main_type": "Embryonal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EMBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MMB"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Medullomyoblastoma",
+      "ncit_synonyms": ["Medullomyoblastoma with Myogenic Differentiation"],
+      "ncit_definitions": ["A rare malignant embryonal neoplasm arising from the cerebellum.  It is characterized by the morphologic features of a medulloblastoma and the presence of a striated muscle component.  Its clinical behavior is similar to medulloblastoma."],
+      "ncit_code": "C3706"
+   }],
+   "oncotree_code": "MMB"
+}
+{
+   "oncotree_children_codes": [
+      "DMBLNOS",
+      "DMBLSHH"
+   ],
+   "oncotree_name": "Desmoplastic/Nodular Medulloblastoma",
+   "oncotree_main_type": "Embryonal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EMBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "DMBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Desmoplastic/Nodular Medulloblastoma",
+      "ncit_synonyms": [
+         "Desmoplastic Nodular Medulloblastoma",
+         "Desmoplastic nodular medulloblastoma",
+         "Cerebellar Sarcoma",
+         "Desmoplastic medulloblastoma",
+         "Desmoplastic Medulloblastoma"
+      ],
+      "ncit_definitions": ["A medulloblastoma characterized by the presence of nodular, collagenous areas which do not contain reticulin, surrounded by hypercellular areas which contain an intercellular reticulin fiber network."],
+      "ncit_code": "C4956"
+   }],
+   "oncotree_code": "DMBL"
+}
+{
+   "oncotree_children_codes": [
+      "DHG",
+      "DMG",
+      "DPHGG",
+      "IHG"
+   ],
+   "oncotree_name": "Pediatric-Type Diffuse High-Grade Glioma",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "DIFG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "PDIFHG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PDIFHG"
+}
+{
+   "oncotree_children_codes": [
+      "PCNSM",
+      "MELC"
+   ],
+   "oncotree_name": "Primary CNS Melanocytic Tumors",
+   "oncotree_main_type": "Primary CNS Melanocytic Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BRAIN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "PCNSMT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PCNSMT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Meningioma",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNGT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNGT",
+      "MNG"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Meningioma",
+      "ncit_synonyms": [
+         "Meningioma, NOS",
+         "Meningiomas"
+      ],
+      "ncit_definitions": [
+         "A type of slow-growing tumor that forms in the meninges (thin layers of tissue that cover and protect the brain and spinal cord). Meningiomas usually occur in adults.",
+         "A generally slow growing tumor attached to the dura mater. It is composed of neoplastic meningothelial (arachnoidal) cells. It typically occurs in adults, often women and it has a wide range of histopathological appearances. Of the various subtypes, meningothelial, fibrous and transitional meningiomas are the most common. Most meningiomas are WHO grade 1 tumors, and some are WHO grade 2 or 3 tumors. Most subtypes share a common clinical behavior, although some subtypes are more likely to recur and follow a more aggressive clinical course. (Adapted from WHO)",
+         "A usually benign tumor that develops in the meninges."
+      ],
+      "ncit_code": "C3230"
+   }],
+   "oncotree_code": "MNG"
+}
+{
+   "oncotree_children_codes": [
+      "AGNG",
+      "DNT",
+      "APXA",
+      "PAST",
+      "GNC",
+      "GNG",
+      "LGGNOS",
+      "PMA",
+      "PXA"
+   ],
+   "oncotree_name": "Encapsulated Glioma",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BRAIN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "ENCG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ENCG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Granular Cell Tumor",
+   "oncotree_main_type": "Sellar Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "SELT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "SELT",
+      "GCT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Granular Cell Tumor",
+      "ncit_synonyms": [
+         "Granular cell tumor, NOS",
+         "Abrikossoff's Tumor",
+         "Granular Cell Myoblastoma",
+         "Abrikossoff Tumor",
+         "Granular Cell Schwannoma",
+         "Granular Cell Nerve Sheath Tumor"
+      ],
+      "ncit_definitions": ["An unusual benign or malignant neoplasm characterized by the presence of neoplastic large polygonal cells with granular, eosinophilic cytoplasm which contains abundant lysosomes. It was originally thought to be a tumor originating from muscle cells and was named granular cell myoblastoma. Subsequent studies have suggested a derivation from Schwann cells. It affects females more often than males and it usually presents as a solitary mass. A minority of patients have multiple tumors. It can arise from many anatomic sites including the posterior pituitary gland, skin, oral cavity, esophagus, stomach, heart, mediastinum, and breast."],
+      "ncit_code": "C3474"
+   }],
+   "oncotree_code": "GCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anaplastic Medulloblastoma, SHH Subtype",
+   "oncotree_main_type": "Large Cell/Anaplastic Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "AMBL",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "AMBL",
+      "AMBLSHH"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "AMBLSHH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Myxopapillary Ependymoma",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EPMT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EPMT",
+      "MPE"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Myxopapillary Ependymoma",
+      "ncit_synonyms": ["EPENDYMOMA, BENIGN"],
+      "ncit_definitions": [
+         "A benign neoplasm of ependymal origin.",
+         "A slow growing, WHO grade I glioma which generally occurs in young adults.  It arises almost exclusively in the conus medullaris, cauda equina, and filum terminale of the spinal cord. It generally has a favorable prognosis and is characterized histologically by tumor cells arranged in a papillary manner around vascularized mucoid stromal cores. (Adapted from WHO)."
+      ],
+      "ncit_code": "C3697"
+   }],
+   "oncotree_code": "MPE"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Medulloblastoma with Extensive Nodularity, SHH Subtype",
+   "oncotree_main_type": "Medulloblastoma with Extensive Nodularity",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBEN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MBEN",
+      "MBENSHH"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MBENSHH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primitive Neuroectodermal Tumor",
+   "oncotree_main_type": "Embryonal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EMBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "PNET"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Primitive Neuroectodermal Tumor",
+      "ncit_synonyms": [
+         "Neuroepithelioma",
+         "Primitive Neuroectodermal Tumor (PNET)",
+         "Primitive Neuroectodermal Neoplasm",
+         "Primitive neuroectodermal tumor, NOS",
+         "Neuroectodermal Neoplasm",
+         "PNET",
+         "Neuroectodermal Tumor",
+         "neuroectodermal tumor",
+         "PNET, NOS"
+      ],
+      "ncit_definitions": [
+         "One of a group of cancers that develop from the same type of early cells, and share certain biochemical and genetic features. Some PNETs develop in the brain and central nervous system (CNS-PNET), and others develop in sites outside of the brain such as the limbs, pelvis, and chest wall (peripheral PNET).",
+         "A malignant neoplasm that originates in the neuroectoderm. The neuroectoderm constitutes the portion of the ectoderm of the early embryo that gives rise to the central and peripheral nervous systems and includes some glial cell precursors."
+      ],
+      "ncit_code": "C3716"
+   }],
+   "oncotree_code": "PNET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Infant-Type Hemispheric Glioma",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PDIFHG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "PDIFHG",
+      "IHG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "IHG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Papillary Tumor of the Pineal Region",
+   "oncotree_main_type": "Pineal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PINT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "PINT",
+      "PTPR"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Papillary Tumor of the Pineal Region",
+      "ncit_synonyms": ["PTPR"],
+      "ncit_definitions": ["A rare tumor that arises from the pineal region and affects adults.  It is characterized by the presence of neuroepithelial cells and a papillary architecture.  Electron microscopic studies suggest ependymal differentiation.  The clinical course is variable."],
+      "ncit_code": "C92624"
+   }],
+   "oncotree_code": "PTPR"
+}
+{
+   "oncotree_children_codes": [
+      "DLGGMAPK",
+      "ANGL",
+      "LGNET",
+      "DASTR"
+   ],
+   "oncotree_name": "Pediatric-Type Diffuse Low-Grade Glioma",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "DIFG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "PDIFLG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "PDIFLG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anaplastic Pleomorphic Xanthoastrocytoma",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ENCG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "ENCG",
+      "APXA"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "APXA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Atypical Pituitary Adenoma",
+   "oncotree_main_type": "Sellar Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "SELT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "SELT",
+      "APTAD"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "APTAD"
+}
+{
+   "oncotree_children_codes": [
+      "BEC",
+      "BYST",
+      "BMGCT",
+      "BMT",
+      "BMGT",
+      "GMN",
+      "BIMT",
+      "BCCA"
+   ],
+   "oncotree_name": "Germ Cell Tumor, Brain",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BRAIN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "BGCT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "BGCT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Desmoplastic/Nodular Medulloblastoma, NOS",
+   "oncotree_main_type": "Desmoplastic/Nodular Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "DMBL",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "DMBL",
+      "DMBLNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "DMBLNOS"
+}
+{
+   "oncotree_children_codes": [
+      "SUBE",
+      "MPE",
+      "CCE",
+      "EPM",
+      "APE"
+   ],
+   "oncotree_name": "Ependymomal Tumor",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BRAIN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EPMT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ependymal Tumor",
+      "ncit_synonyms": ["Ependymal Neoplasm"],
+      "ncit_definitions": [
+         "A type of brain tumor that usually begins in the central canal of the spinal cord. Ependymal tumors may also develop in the cells lining the ventricles of the brain, which produce and store the special fluid (cerebrospinal fluid) that protects the brain and spinal cord.",
+         "A group of neoplasms which arise from the ependymal lining of the cerebral ventricles and from the remnants of the central canal of the spinal cord.  Ependymal tumors occur predominantly in children and young adults with varied morphological features and biological behavior.  There are 4 types: ependymoma, anaplastic ependymoma, myxopapillary ependymoma and subependymoma. (WHO)"
+      ],
+      "ncit_code": "C6770"
+   }],
+   "oncotree_code": "EPMT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Astrocytoma, IDH-Mutant, Grade 2",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ASTR",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "ADIFG",
+      "ASTR",
+      "ASTR2"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ASTR2"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Astrocytoma, IDH-Mutant, Grade 3",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ASTR",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "ADIFG",
+      "ASTR",
+      "ASTR3"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ASTR3"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Astrocytoma, IDH-Mutant, Grade 4",
+   "oncotree_main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ASTR",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "ADIFG",
+      "ASTR",
+      "ASTR4"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "ASTR4"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Cerebellar Liponeurocytoma",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNET",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNET",
+      "CLNC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Cerebellar Liponeurocytoma",
+      "ncit_synonyms": [
+         "Lipomatous medulloblastoma",
+         "Cerebellar Liponeurocytoma (WHO Grade II)",
+         "Lipomatous Medulloblastoma",
+         "Cerebellar Liponeurocytoma (WHO Grade 2)"
+      ],
+      "ncit_definitions": ["A rare, WHO grade II cerebellar neoplasm which shows consistent neuronal, variable astrocytic and focal lipomatous differentiation. It occurs in adults, has a low proliferative potential and usually has a favorable prognosis. (Adapted from WHO)"],
+      "ncit_code": "C6905"
+   }],
+   "oncotree_code": "CLNC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Clear Cell Ependymoma",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EPMT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EPMT",
+      "CCE"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Clear Cell Ependymoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["An ependymoma, often supratentorial in location, characterized by the presence of ependymal cells with a perinuclear halo."],
+      "ncit_code": "C4714"
+   }],
+   "oncotree_code": "CCE"
+}
+{
+   "oncotree_children_codes": [
+      "AMBLNWSG3",
+      "AMBLNWSG4"
+   ],
+   "oncotree_name": "Anaplastic Medulloblastoma, Non-WNT, Non-SHH",
+   "oncotree_main_type": "Large Cell/Anaplastic Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "AMBL",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "AMBL",
+      "AMBLNWS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "AMBLNWS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Clear cell Meningioma",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNGT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNGT",
+      "CCM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Clear Cell Meningioma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A WHO grade II morphologic variant of meningioma characterized by the presence of clear glycogen-rich polygonal cells."],
+      "ncit_code": "C4722"
+   }],
+   "oncotree_code": "CCM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "High-Grade Neuroepithelial Tumor",
+   "oncotree_main_type": "Miscellaneous Brain Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MBT",
+      "HGNET"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "HGNET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Chordoid Glioma of the Third Ventricle",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNET",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNET",
+      "CHGL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Chordoid Glioma",
+      "ncit_synonyms": [
+         "Chordoid Glioma of the Third Ventricle",
+         "Chordoid Glioma of the Third Ventricle (WHO Grade II)",
+         "Chordoid Glioma of Third Ventricle",
+         "Third Ventricle Chordoid Glioma",
+         "Chordoid Glioma of 3rd Ventricle",
+         "Chordoid Glioma of the 3rd Ventricle",
+         "Chordoid Glioma of the Third Ventricle (WHO Grade 2)",
+         "Chordoid glioma of third ventricle"
+      ],
+      "ncit_definitions": ["A rare, slow-growing neuroepithelial neoplasm of uncertain origin affecting adults. It is located in the third ventricle. It is characterized by the presence of epithelioid cells which express GFAP, and mucinous stroma which contains lymphoplasmacytic infiltrates."],
+      "ncit_code": "C5592"
+   }],
+   "oncotree_code": "CHGL"
+}
+{
+   "oncotree_children_codes": [
+      "HGGNOS",
+      "ADIFG",
+      "PDIFHG",
+      "PDIFLG",
+      "GNOS"
+   ],
+   "oncotree_name": "Diffuse Glioma",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BRAIN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "DIFG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Germinoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BGCT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "BGCT",
+      "GMN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Germinoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A malignant germ cell tumor arising in the central nervous system. It is characterized by the presence of primitive, large malignant germ cells and lymphocytes."],
+      "ncit_code": "C3753"
+   }],
+   "oncotree_code": "GMN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Hemangioblastoma",
+   "oncotree_main_type": "Miscellaneous Brain Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MBT",
+      "HMBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Hemangioblastoma",
+      "ncit_synonyms": [
+         "Haemangioblastoma",
+         "Angioblastoma",
+         "Capillary Hemangioblastoma"
+      ],
+      "ncit_definitions": ["A rare, highly vascular tumor that is composed of abundant capillaries and stromal cells. It arises from the central nervous system and infrequently other sites. It is a slow growing tumor with a low risk of metastasis, despite its benign histological features."],
+      "ncit_code": "C3801"
+   }],
+   "oncotree_code": "HMBL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Immature Teratoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BGCT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "BGCT",
+      "BIMT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Central Nervous System Immature Teratoma",
+      "ncit_synonyms": [
+         "CNS Immature Teratoma",
+         "Immature Teratoma of CNS",
+         "Immature Teratoma of Central Nervous System",
+         "Immature Teratoma of the CNS",
+         "Immature Teratoma of the Central Nervous System"
+      ],
+      "ncit_definitions": ["A teratoma involving the central nervous system and characterized by the presence of an extensive component of immature, fetal-type tissues."],
+      "ncit_code": "C7014"
+   }],
+   "oncotree_code": "BIMT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pilocytic Astrocytoma",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ENCG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "ENCG",
+      "PAST"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pilocytic Astrocytoma",
+      "ncit_synonyms": [
+         "Grade 1 Astrocytoma",
+         "Grade I Astrocytoma",
+         "Grade 1 Astrocytic Tumor",
+         "Grade I Astrocytic Neoplasm",
+         "Grade 1 Astrocytic Neoplasm",
+         "Grade I Astrocytic Tumor"
+      ],
+      "ncit_definitions": ["A WHO grade 1, relatively circumscribed, slowly growing, often cystic astrocytoma occurring in children and young adults.  Histologically it is characterized by a biphasic pattern with compacted bipolar cells associated with Rosenthal fibers and multipolar cells associated with microcysts and eosinophilic bodies/hyaline droplets. (WHO)"],
+      "ncit_code": "C4047"
+   }],
+   "oncotree_code": "PAST"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Medulloblastoma, Group 4",
+   "oncotree_main_type": "Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBLNWS",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MBL",
+      "MBLNWS",
+      "MBLG4"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MBLG4"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Gangliocytoma",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ENCG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "ENCG",
+      "GNC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Gangliocytoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A well differentiated, slow growing neuroepithelial neoplasm composed of neoplastic, mature ganglion cells."],
+      "ncit_code": "C6934"
+   }],
+   "oncotree_code": "GNC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Medulloblastoma, Group 3",
+   "oncotree_main_type": "Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBLNWS",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MBL",
+      "MBLNWS",
+      "MBLG3"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MBLG3"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Choriocarcinoma",
+   "oncotree_main_type": "Germ Cell Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BGCT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "BGCT",
+      "BCCA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Choriocarcinoma",
+      "ncit_synonyms": [
+         "Choriocarcinoma, NOS",
+         "chorioblastoma",
+         "Chorioepithelioma",
+         "chorionic carcinoma",
+         "CHORIOCARCINOMA, MALIGNANT",
+         "chorioepithelioma"
+      ],
+      "ncit_definitions": [
+         "An aggressive malignant tumor arising from trophoblastic cells. The vast majority of cases arise in the uterus and represent gestational choriocarcinomas that derive from placental trophoblastic cells. Approximately half of the cases develop from a complete hydatidiform mole. A minority of cases arise in the testis or the ovaries. There is often marked elevation of human chorionic gonadotropin (hCG) in the blood. Choriocarcinomas disseminate rapidly through the hematogenous route; the lungs are most frequently affected.",
+         "A malignant neoplasm arising from placental trophoblast cells. They generally arise in the uterus.",
+         "A malignant, fast-growing tumor that develops from trophoblastic cells (cells that help an embryo attach to the uterus and help form the placenta). Almost all choriocarcinomas form in the uterus after fertilization of an egg by a sperm, but a small number form in a testis or an ovary. Choriocarcinomas spread through the blood to other organs, especially the lungs. They are a type of gestational trophoblastic disease."
+      ],
+      "ncit_code": "C2948"
+   }],
+   "oncotree_code": "BCCA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Ganglioglioma",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ENCG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "ENCG",
+      "GNG"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ganglioglioma",
+      "ncit_synonyms": ["Ganglioglioma, NOS"],
+      "ncit_definitions": ["A well differentiated, slow growing neuroepithelial neoplasm composed of neoplastic, mature ganglion cells and neoplastic glial cells. Some gangliogliomas show anaplastic features in their glial component and are considered to be WHO grade III. Rare cases of newly diagnosed gangliogliomas with grade IV (glioblastoma) changes in the glial component have also been reported. (Adapted from WHO)"],
+      "ncit_code": "C3788"
+   }],
+   "oncotree_code": "GNG"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Medulloblastoma, WNT Subtype",
+   "oncotree_main_type": "Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBL",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MBL",
+      "MBLWNT"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MBLWNT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pineoblastoma",
+   "oncotree_main_type": "Pineal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PINT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "PINT",
+      "PBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pineoblastoma",
+      "ncit_synonyms": [
+         "Primitive Neuroectodermal Neoplasm of Pineal Gland",
+         "Pineal Primitive Neuroectodermal Neoplasm",
+         "PNET of the Pineal Gland",
+         "Pineal Gland Primitive Neuroectodermal Tumor",
+         "Primitive Neuroectodermal Tumor of Pineal Gland",
+         "Pineal Gland PNET",
+         "Primitive Neuroectodermal Tumor of the Pineal Gland",
+         "Pineal Gland Primitive Neuroectodermal Neoplasm",
+         "Primitive Neuroectodermal Neoplasm of the Pineal Gland",
+         "Pineoblastoma (WHO Grade 4)",
+         "PINEOBLASTOMA, MALIGNANT",
+         "Pineal Primitive Neuroectodermal Tumor",
+         "PNET of Pineal Gland",
+         "Pineal PNET",
+         "Pineoblastoma (WHO Grade IV)"
+      ],
+      "ncit_definitions": [
+         "A fast growing type of brain tumor that occurs in or around the pineal gland, a tiny organ near the center of the brain.",
+         "A poorly differentiated malignant embryonal neoplasm arising from the pineal region of the brain.",
+         "A poorly differentiated malignant embryonal neoplasm arising from the pineal region.  It usually occurs in children and it is characterized by the presence of small immature neuroepithelial cells.  It may follow an aggressive clinical course."
+      ],
+      "ncit_code": "C9344"
+   }],
+   "oncotree_code": "PBL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Primary Brain Tumor",
+   "oncotree_main_type": "Miscellaneous Brain Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MBT",
+      "PBT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Localized Brain Neoplasm",
+      "ncit_synonyms": ["Non-Metastatic Brain Neoplasm"],
+      "ncit_definitions": ["A brain neoplasm that is confined to a specific site without evidence of spread to other anatomic sites."],
+      "ncit_code": "C4952"
+   }],
+   "oncotree_code": "PBT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Low-Grade Glioma, NOS",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ENCG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "ENCG",
+      "LGGNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "LGGNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Rhabdoid Meningioma",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNGT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNGT",
+      "RHM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Rhabdoid Meningioma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A WHO grade 3 meningioma characterized by the predominant presence of rhabdoid cells forming sheets."],
+      "ncit_code": "C6909"
+   }],
+   "oncotree_code": "RHM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Solitary Fibrous Tumor of the Central Nervous System",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNGT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNGT",
+      "SFTCNS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "SFTCNS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Medulloblastoma, SHH Subtype",
+   "oncotree_main_type": "Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBL",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MBL",
+      "MBLSHH"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MBLSHH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Ependymoma",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EPMT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EPMT",
+      "EPM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Ependymoma",
+      "ncit_synonyms": [
+         "WHO Grade 2 Ependymal Tumor",
+         "Ependymoma, NOS",
+         "CNS, ependymoma",
+         "WHO Grade II Ependymal Neoplasm",
+         "WHO Grade 2 Ependymal Neoplasm",
+         "WHO Grade II Ependymal Tumor"
+      ],
+      "ncit_definitions": [
+         "A malignant neoplasm arising from ependymal cells that line the ventricles of the brain and the central canal of the spinal cord.",
+         "A type of brain tumor that begins in cells lining the spinal cord central canal (fluid-filled space down the center) or the ventricles (fluid-filled spaces of the brain). Ependymomas may also form in the choroid plexus (tissue in the ventricles that makes cerebrospinal fluid).",
+         "A WHO grade 2, slow growing tumor of children and young adults, usually located intraventricularly. It is the most common ependymal neoplasm. It often causes clinical symptoms by blocking cerebrospinal fluid pathways. Key histological features include perivascular pseudorosettes and ependymal rosettes. (WHO)"
+      ],
+      "ncit_code": "C3017"
+   }],
+   "oncotree_code": "EPM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Chordoid Meningioma",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNGT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNGT",
+      "CHOM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Chordoid Meningioma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A WHO grade II, usually recurring meningioma characterized by the predominance of tissues that are histologically similar to chordoma."],
+      "ncit_code": "C6908"
+   }],
+   "oncotree_code": "CHOM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Glioma, NOS",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "DIFG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "GNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "GNOS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Melanocytoma",
+   "oncotree_main_type": "Melanocytoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PCNSMT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "PCNSMT",
+      "MELC"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MELC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Central Neurocytoma",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNET",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNET",
+      "CNC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Central Neurocytoma",
+      "ncit_synonyms": [
+         "Central Neurocytoma (WHO Grade II)",
+         "Central Neurocytoma (WHO Grade 2)"
+      ],
+      "ncit_definitions": ["An intraventricular neuronal neoplasm composed of uniform round cells with neuronal differentiation. It is typically located in the lateral ventricles in the region of the foramen of Monro. It generally affects young adults and has a favorable prognosis. (Adapted from WHO)"],
+      "ncit_code": "C3791"
+   }],
+   "oncotree_code": "CNC"
+}
+{
+   "oncotree_children_codes": [
+      "AMBLNOS",
+      "AMBLSHH",
+      "AMBLNWS"
+   ],
+   "oncotree_name": "Large Cell/Anaplastic Medulloblastoma",
+   "oncotree_main_type": "Embryonal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EMBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "AMBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Large Cell Medulloblastoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A medulloblastoma composed of large cells with prominent nucleoli and a larger amount of cytoplasm in contrast with the cells of the classic medulloblastoma."],
+      "ncit_code": "C6904"
+   }],
+   "oncotree_code": "AMBL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Desmoplastic/Nodular Medulloblastoma, SHH Subtype",
+   "oncotree_main_type": "Desmoplastic/Nodular Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "DMBL",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "DMBL",
+      "DMBLSHH"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "DMBLSHH"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Choroid Plexus Carcinoma",
+   "oncotree_main_type": "Choroid Plexus Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "CPT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "CPT",
+      "CPC"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Choroid Plexus Carcinoma",
+      "ncit_synonyms": [
+         "Carcinoma of the Choroid Plexus",
+         "Choroid plexus papilloma, malignant",
+         "Cancer of the Choroid Plexus",
+         "CARCINOMA, CHOROID PLEXUS, MALIGNANT",
+         "Carcinoma of Choroid Plexus",
+         "Anaplastic Choroid Plexus Papilloma",
+         "Cancer of Choroid Plexus",
+         "Choroid Plexus Cancer",
+         "Choroid plexus papilloma, anaplastic"
+      ],
+      "ncit_definitions": [
+         "A malignant neoplasm arising from the choroid plexus of the brain.",
+         "A malignant neoplasm arising from the choroid plexus.  It shows anaplastic features and usually invades neighboring brain structures. Cerebrospinal fluid metastases are frequent. (Adapted from WHO)"
+      ],
+      "ncit_code": "C4715"
+   }],
+   "oncotree_code": "CPC"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Choroid Plexus Papilloma",
+   "oncotree_main_type": "Choroid Plexus Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "CPT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "CPT",
+      "CPP"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Choroid Plexus Papilloma",
+      "ncit_synonyms": [
+         "Papilloma of the Choroid Plexus",
+         "Choroid plexus papilloma, NOS",
+         "PAPILLOMA, CHOROID PLEXUS, BENIGN",
+         "Papilloma of Choroid Plexus"
+      ],
+      "ncit_definitions": [
+         "A benign, slow growing tumor which may cause symptoms by blocking cerebrospinal fluid pathways.  It is characterized by the presence of delicate fibrovascular connective tissue fronds covered by a single layer of epithelial cells.  Mitotic activity is extremely low.  Surgical resection is usually curative. (Adapted from WHO)",
+         "A benign neoplasm of the choroid plexus of the central nervous system."
+      ],
+      "ncit_code": "C3698"
+   }],
+   "oncotree_code": "CPP"
+}
+{
+   "oncotree_children_codes": [
+      "ACPP",
+      "CPC",
+      "CPP"
+   ],
+   "oncotree_name": "Choroid Plexus Tumor",
+   "oncotree_main_type": "Choroid Plexus Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BRAIN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "CPT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Choroid Plexus Neoplasm",
+      "ncit_synonyms": [
+         "Tumor of Choroid Plexus",
+         "Choroid Plexus Tumor",
+         "choroid plexus tumor",
+         "Tumor of the Choroid Plexus",
+         "Neoplasm of the Choroid Plexus",
+         "Neoplasm of Choroid Plexus"
+      ],
+      "ncit_definitions": [
+         "A rare type of cancer that occurs in the ventricles of the brain. It usually occurs in children younger than 2 years.",
+         "An intraventricular neoplasm that originates from the choroid plexus.  The vast majority of choroid plexus neoplasms originate from the epithelial layer and include the choroid plexus papilloma, atypical choroid plexus papilloma, and choroid plexus carcinoma."
+      ],
+      "ncit_code": "C3473"
+   }],
+   "oncotree_code": "CPT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Extraventricular Neurocytoma",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNET",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNET",
+      "EVN"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Extraventricular Neurocytoma",
+      "ncit_synonyms": [
+         "Extraventricular Neurocytoma (WHO Grade 2)",
+         "Extraventricular Neurocytoma (WHO Grade II)"
+      ],
+      "ncit_definitions": ["A WHO grade 2 neoplasm that arises from the brain parenchyma. Morphologically it is characterized by the presence of neoplastic uniform, round cells with neuronal differentiation. Unlike central neurocytoma, it does not involve the lateral ventricles. It usually affects young adults and has a favorable prognosis."],
+      "ncit_code": "C92555"
+   }],
+   "oncotree_code": "EVN"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anaplastic Meningioma",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNGT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNGT",
+      "ANM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Anaplastic (Malignant) Meningioma",
+      "ncit_synonyms": [
+         "Meningioma, anaplastic",
+         "Anaplastic Meningioma"
+      ],
+      "ncit_definitions": ["A WHO grade 3 meningioma characterized by the presence of malignant morphologic features, including malignant cytology and a very high mitotic index (20 or more mitoses per ten high power fields)."],
+      "ncit_code": "C4051"
+   }],
+   "oncotree_code": "ANM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Dysplastic Gangliocytoma of the Cerebellum/Lhermitte-Duclos Disease",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNET",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNET",
+      "LDD"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Dysplastic Cerebellar Gangliocytoma",
+      "ncit_synonyms": [
+         "Lhermitte-Duclos Disease",
+         "Dysplastic gangliocytoma of cerebellum (Lhermitte-Duclos)",
+         "Dysplastic Gangliocytoma of the Cerebellum",
+         "Dysplastic Gangliocytoma of Cerebellum",
+         "Dysplastic Cerebellar Gangliocytoma (Lhermitte-Duclos Disease)"
+      ],
+      "ncit_definitions": ["A benign, WHO grade I cerebellar mass, which occurs in young adults and is composed of dysplastic ganglion cells.  It is the major CNS manifestation of Cowden disease, an autosomal dominant condition that causes a variety of hamartomas and neoplasms."],
+      "ncit_code": "C8419"
+   }],
+   "oncotree_code": "LDD"
+}
+{
+   "oncotree_children_codes": [
+      "MBLG4",
+      "MBLG3"
+   ],
+   "oncotree_name": "Medulloblastoma, Non-WNT, Non-SHH",
+   "oncotree_main_type": "Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBL",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MBL",
+      "MBLNWS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MBLNWS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pilomyxoid Astrocytoma",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ENCG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "ENCG",
+      "PMA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pilomyxoid Astrocytoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["An astrocytic tumor of uncertain relation to pilocytic astrocytoma.  It occurs predominantly in infants and young children.  It is characterized by a monomorphic architectural pattern, usually associated with the absence of Rosenthal fibers and eosinophilic granular bodies.  The clinical course is usually aggressive."],
+      "ncit_code": "C40315"
+   }],
+   "oncotree_code": "PMA"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anaplastic Ependymoma",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EPMT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EPMT",
+      "APE"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Anaplastic Ependymoma",
+      "ncit_synonyms": [
+         "Undifferentiated Ependymal Neoplasm",
+         "Ependymoma, anaplastic",
+         "Anaplastic Ependymal Tumor",
+         "Undifferentiated Ependymal Tumor",
+         "Ependymoma with Anaplasia",
+         "Malignant Ependymoma",
+         "WHO Grade 3 Ependymal Neoplasm",
+         "WHO Grade 3 Ependymal Tumor",
+         "Undifferentiated Ependymoma",
+         "Anaplastic Ependymal Neoplasm",
+         "WHO Grade III Ependymal Neoplasm",
+         "WHO Grade III Ependymal Tumor"
+      ],
+      "ncit_definitions": ["A WHO grade 3 malignant glioma of ependymal origin with accelerated growth and an unfavorable clinical outcome, particularly in children. It is characterized by high mitotic activity, often accompanied by microvascular proliferation and pseudo-palisading necrosis. (Adapted from WHO)"],
+      "ncit_code": "C4049"
+   }],
+   "oncotree_code": "APE"
+}
+{
+   "oncotree_children_codes": [
+      "ASTR2",
+      "ASTR3",
+      "ASTR4"
+   ],
+   "oncotree_name": "Astrocytoma, IDH-Mutant",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ADIFG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "ADIFG",
+      "ASTR"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Astrocytoma",
+      "ncit_synonyms": ["Astrocytoma, NOS"],
+      "ncit_definitions": [
+         "A tumor of the brain or spinal cord showing astrocytic differentiation. It includes the following clinicopathological entities: pilocytic astrocytoma, diffuse astrocytoma, anaplastic astrocytoma, pleomorphic xanthoastrocytoma, and subependymal giant cell astrocytoma.",
+         "A malignant neoplasm of the central nervous system that arises from astrocytes.",
+         "A tumor that begins in the brain or spinal cord in small, star-shaped cells called astrocytes."
+      ],
+      "ncit_code": "C60781"
+   }],
+   "oncotree_code": "ASTR"
+}
+{
+   "oncotree_children_codes": [
+      "DIA",
+      "DIG",
+      "PGNT",
+      "RGNT",
+      "CLNC",
+      "CHGL",
+      "CNC",
+      "EVN",
+      "LDD",
+      "ASTB"
+   ],
+   "oncotree_name": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BRAIN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNET"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Central Nervous System Neuroepithelial Neoplasm of Uncertain Origin",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["An antiquated term from the 1993 WHO classification of nervous system neoplasms. This category included three neoplasms: polar spongioblastoma, astroblastoma, and gliomatosis cerebri."],
+      "ncit_code": "C7172"
+   }],
+   "oncotree_code": "MNET"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Astroblastoma",
+   "oncotree_main_type": "Miscellaneous Neuroepithelial Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNET",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNET",
+      "ASTB"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Astroblastoma, MN1-Altered",
+      "ncit_synonyms": ["Astroblastoma"],
+      "ncit_definitions": ["A rare glial neoplasm characterized by structural rearrangements of the MN1 gene at chromosome band 22q12.1. It is usually found in the cerebral hemispheres of young adults and children and predominantly affects females. Morphologically, it consists of elongated glial cells with abundant eosinophilic cytoplasm and GFAP-positive processes, arranged perivascularly."],
+      "ncit_code": "C4324"
+   }],
+   "oncotree_code": "ASTB"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Olfactory Neuroblastoma",
+   "oncotree_main_type": "Embryonal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EMBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "ONBL"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Olfactory Neuroblastoma",
+      "ncit_synonyms": [
+         "Olfactory Esthesioneuroblastoma",
+         "Esthesioneuroblastoma",
+         "Olfactory neuroepithelioma",
+         "Esthesioneuroepithelioma",
+         "Olfactory Neuroepithelioma"
+      ],
+      "ncit_definitions": ["A rare neuroectodermal tumor originating from olfactory receptor cells in the sinonasal tract. In rare cases, it can be ectopic and originate from other sites such as the sellar region. Microscopically, it is characterized by neuroblastic differentiation with occasional formation of rosettes. If the tumor is not resected at an early stage, the prognosis is usually poor."],
+      "ncit_code": "C3789"
+   }],
+   "oncotree_code": "ONBL"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Papillary Meningioma",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNGT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNGT",
+      "PPM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Papillary Meningioma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A WHO grade 3 meningioma characterized by the predominance of a perivascular pseudopapillary pattern."],
+      "ncit_code": "C3904"
+   }],
+   "oncotree_code": "PPM"
+}
+{
+   "oncotree_children_codes": [
+      "HPCCNS",
+      "MNG",
+      "CCM",
+      "RHM",
+      "SFTCNS",
+      "CHOM",
+      "ANM",
+      "PPM",
+      "ATM"
+   ],
+   "oncotree_name": "Meningothelial Tumor",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BRAIN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNGT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Meningeal Neoplasm",
+      "ncit_synonyms": [
+         "Meningeal Neoplasms",
+         "Neoplasm of uncertain behavior of meninges, unspecified",
+         "Tumor of Meninges",
+         "Meninges Neoplasm",
+         "Tumor of the Meninges",
+         "Neoplasm of the Meninges",
+         "Neoplasm of Meninges",
+         "Meninges Tumor",
+         "Meningeal Tumor"
+      ],
+      "ncit_definitions": ["A benign or malignant neoplasm that affects the meninges.  The majority of the neoplasms arise from meningothelial cells and are called meningiomas.  Non-meningothelial cell neoplasms include mesenchymal, non-meningothelial tumors, hemangiopericytomas, and melanocytic lesions."],
+      "ncit_code": "C3229"
+   }],
+   "oncotree_code": "MNGT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Atypical Meningioma",
+   "oncotree_main_type": "CNS Cancer",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MNGT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MNGT",
+      "ATM"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Atypical Meningioma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A WHO grade II meningioma characterized by the presence of brain invasion and an increased mitotic activity, or at least three of the following morphologic features: small cells, high cellularity, prominent nucleoli, lack of architectural pattern, and necrosis."],
+      "ncit_code": "C4723"
+   }],
+   "oncotree_code": "ATM"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Medulloblastoma, NOS",
+   "oncotree_main_type": "Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBL",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "MBL",
+      "MBLNOS"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "MBLNOS"
+}
+{
+   "oncotree_children_codes": [
+      "MDEP",
+      "MBEN",
+      "MBL",
+      "ATRT",
+      "MMBL",
+      "MMB",
+      "DMBL",
+      "PNET",
+      "AMBL",
+      "ONBL",
+      "ETANTR"
+   ],
+   "oncotree_name": "Embryonal Tumor",
+   "oncotree_main_type": "Embryonal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BRAIN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Embryonal Neoplasm",
+      "ncit_synonyms": ["embryonal tumor"],
+      "ncit_definitions": [
+         "A mass of rapidly growing cells that begins in embryonic (fetal) tissue. Embryonal tumors may be benign or malignant, and include neuroblastomas and Wilms tumors.",
+         "A usually malignant neoplasm composed of primitive (immature) tissues that resemble fetal tissues.  Medulloblastoma, ependymoblastoma, pineoblastoma, and Wilms tumor are representative embryonal neoplasms."
+      ],
+      "ncit_code": "C3264"
+   }],
+   "oncotree_code": "EMBT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pineal Parenchymal Tumor of Intermediate Differentiation",
+   "oncotree_main_type": "Pineal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PINT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "PINT",
+      "PPTID"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pineal Parenchymal Tumor of Intermediate Differentiation",
+      "ncit_synonyms": ["PPTID"],
+      "ncit_definitions": ["A WHO grade 2 or 3 pineal parenchymal neoplasm of intermediate-grade malignancy, affecting all ages.  It is composed of diffuse sheets or large lobules of uniform cells with mild to moderate nuclear atypia and low to moderate level mitotic activity.  (Adapted from WHO)"],
+      "ncit_code": "C6967"
+   }],
+   "oncotree_code": "PPTID"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Embryonal Tumor with Abundant Neuropil and True Rosettes",
+   "oncotree_main_type": "Embryonal Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "EMBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "ETANTR"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Embryonal Tumor with Multilayered Rosettes, C19MC-Altered",
+      "ncit_synonyms": [
+         "Embryonal Tumor with Multilayered Rosettes with C19MC Amplification",
+         "Embryonal tumor with multilayered rosettes C19MC-altered",
+         "Embryonal Tumor with Multilayered Rosettes",
+         "Ependymoblastoma",
+         "ETMR, C19MC-Altered",
+         "Embryonal Tumor with Abundant Neuropil and True Rosettes"
+      ],
+      "ncit_definitions": ["An aggressive embryonal tumor with multilayered rosettes characterized by the presence of amplification of the C19MC region on chromosome 19 (19q13.42)."],
+      "ncit_code": "C4915"
+   }],
+   "oncotree_code": "ETANTR"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Mesenchymal Chondrosarcoma of the CNS",
+   "oncotree_main_type": "Miscellaneous Brain Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "MBT",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "MBT",
+      "MCHSCNS"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Mesenchymal Chondrosarcoma",
+      "ncit_synonyms": [],
+      "ncit_definitions": ["A morphologic variant of chondrosarcoma arising from bone and soft tissue. It is characterized by the presence of malignant small round cells, biphasic growth pattern, and well differentiated hyaline cartilage. Clinical presentation includes pain and swelling. The clinical course is aggressive, with local recurrences and distant metastases."],
+      "ncit_code": "C3737"
+   }],
+   "oncotree_code": "MCHSCNS"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Pleomorphic Xanthoastrocytoma",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "ENCG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "ENCG",
+      "PXA"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Pleomorphic Xanthoastrocytoma",
+      "ncit_synonyms": [
+         "Pleomorphic Xantho-Astrocytoma",
+         "PXA"
+      ],
+      "ncit_definitions": ["A WHO grade 2 astrocytic tumor with a relatively favorable prognosis.  It is characterized by pleomorphic and lipidized cells expressing GFAP often surrounded by a reticulin network and eosinophilic granular bodies. It presents in the superficial cerebral hemispheres and involves the meninges. It typically affects children and young adults."],
+      "ncit_code": "C4323"
+   }],
+   "oncotree_code": "PXA"
+}
+{
+   "oncotree_children_codes": [
+      "SCOAH",
+      "PTAD",
+      "PTCA",
+      "PTCY",
+      "ACPG",
+      "PCGP",
+      "GCT",
+      "APTAD"
+   ],
+   "oncotree_name": "Sellar Tumor",
+   "oncotree_main_type": "Sellar Tumor",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "BRAIN",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "SELT"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Sellar Region Neoplasm",
+      "ncit_synonyms": [
+         "Tumor of the Sella Turcica",
+         "Tumor of the Sellar Region",
+         "Sellar Tumor",
+         "Neoplasm of Sella Turcica",
+         "Neoplasm of the Sella Turcica",
+         "Sella Turcica Neoplasm",
+         "Sellar Neoplasm",
+         "Neoplasm of the Sellar Region",
+         "Sella Turcica Tumor"
+      ],
+      "ncit_definitions": ["A benign or malignant neoplasm that occurs in the sellar region.  Representative examples include craniopharyngioma and pituitary gland adenoma."],
+      "ncit_code": "C4944"
+   }],
+   "oncotree_code": "SELT"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Diffuse Astrocytoma, MYB- or MYBL1-Altered",
+   "oncotree_main_type": "Glioma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "PDIFLG",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "DIFG",
+      "PDIFLG",
+      "DASTR"
+   ],
+   "ncit_entries": [{
+      "ncit_name": "Diffuse Astrocytoma",
+      "ncit_synonyms": [
+         "Grade 2 Astrocytic Neoplasm",
+         "Grade 2 Astrocytic Tumor",
+         "Astrocytoma, Diffuse",
+         "ASTROCYTOMA, DIFFUSE, MALIGNANT",
+         "Grade II Astrocytic Tumor",
+         "Grade II Astrocytoma",
+         "WHO Grade II Astrocytoma",
+         "Low-grade astrocytoma, NOS",
+         "Grade II Astrocytic Neoplasm",
+         "Grade 2 Astrocytoma",
+         "WHO Grade 2 Astrocytoma"
+      ],
+      "ncit_definitions": [
+         "A low-grade (WHO grade 2) astrocytic neoplasm. It is characterized by diffuse infiltration of neighboring central nervous system structures. These lesions typically affect young adults and have a tendency for progression to anaplastic astrocytoma and glioblastoma. Based on the IDH genes mutation status, diffuse astrocytomas are classified as IDH-mutant, IDH-wildtype, and not otherwise specified.",
+         "A malignant astrocytic neoplasm characterized by a high degree of cellular differentiation, slow growth, and diffuse infiltration of neighboring brain structures."
+      ],
+      "ncit_code": "C7173"
+   }],
+   "oncotree_code": "DASTR"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anaplastic Medulloblastoma, Group 3",
+   "oncotree_main_type": "Large Cell/Anaplastic Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "AMBLNWS",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "AMBL",
+      "AMBLNWS",
+      "AMBLNWSG3"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "AMBLNWSG3"
+}
+{
+   "oncotree_children_codes": [],
+   "oncotree_name": "Anaplastic Medulloblastoma, Group 4",
+   "oncotree_main_type": "Large Cell/Anaplastic Medulloblastoma",
+   "oncotree_tissue": "CNS/Brain",
+   "oncotree_parent_code": "AMBLNWS",
+   "oncotree_branch_codes": [
+      "BRAIN",
+      "EMBT",
+      "AMBL",
+      "AMBLNWS",
+      "AMBLNWSG4"
+   ],
+   "ncit_entries": [],
+   "oncotree_code": "AMBLNWSG4"
+}
