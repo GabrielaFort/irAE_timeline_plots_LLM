@@ -146,6 +146,7 @@ def create_tissue_prompt(tissues):
         "- Set `value` to the tissue name exactly as it appears in the list.\n"
         "- If there is no match, set `value` to: Unknown.\n\n"
         "- Prefer `Skin` for any melanoma diagnosis.\n\n"
+        "- Assign tissue based on the primary cancer type rather than the tumor’s anatomical location. For example, vulvar melanoma should be classified as Skin, not Vulva_Vagina.\n\n"
         "LIST OF TISSUES:\n"
         + "\n".join(tissues)
     )
@@ -170,6 +171,7 @@ def create_oncotree_name_prompt():
         "- Often for breast cancer, Invasive Breast Carcinoma is the most specific name that can be chosen, but choose more specific names if appropriate and clearly supported.\n"
         "- Prefer Lung Adenocarcinoma for diagnoses of lung cancer that indicate adenocarcinoma histology, even if it also states poorly differentiated.\n"
         "- Choose the most specific name but only if clearly supported by the diagnosis - do not infer or assume details that are not explicitly stated in the diagnosis.\n"
+        "- Often for melanoma, 'Melanoma' is the most specific name that can be chosen, but choose more specific names if appropriate and clearly supported.\n"
         "- If there are multiple primary tumors mentioned, choose the one that appears most prominently (e.g., in the summary or assessment) or that is most likely to be the indication for immunotherapy.\n"
     )
 

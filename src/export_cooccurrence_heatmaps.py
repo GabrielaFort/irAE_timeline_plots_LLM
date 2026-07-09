@@ -118,11 +118,15 @@ def write_heatmap(labels, count_matrix, score_matrix, title, output_path, dpi):
         vmax=1,
         figsize=(size, size),
         cbar_kws={"label": "Co-occurrence score"},
+        cbar_pos=(0.97, 0.25, 0.02, 0.5),
         linewidths=0,
+        dendrogram_ratio=(0.08, 0.08),
     )
-    grid.ax_heatmap.set_title(title, fontsize=16, fontweight="bold", pad=20)
+    #grid.ax_heatmap.set_title(title, fontsize=16, fontweight="bold", pad=20)
     grid.ax_heatmap.set_xticklabels(grid.ax_heatmap.get_xticklabels(), rotation=45, ha="right", fontsize=9, fontweight="bold")
     grid.ax_heatmap.set_yticklabels(grid.ax_heatmap.get_yticklabels(), fontsize=9, fontweight="bold")
+    grid.fig.subplots_adjust(right=0.82)
+    grid.ax_cbar.set_position([0.97, 0.25, 0.02, 0.5])
     grid.fig.savefig(output_path, dpi=dpi, bbox_inches="tight")
     plt.close(grid.fig)
     return True

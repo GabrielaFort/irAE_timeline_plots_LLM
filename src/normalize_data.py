@@ -4,16 +4,16 @@ from collections import defaultdict
 from datetime import date, datetime
 from pathlib import Path
 
+import dateparser
 
 DAYS_PER_MONTH = 30.4375
-
 
 def parse_date(value):
     if value is None:
         return None
 
     value = str(value).strip()
-    if not value or value.lower() in {"none", "null", "na", "n/a"}:
+    if not value or value.lower() in {"none", "null", "na", "n/a", "unknown"}:
         return None
 
     if len(value) == 4 and value.isdigit():
@@ -25,6 +25,16 @@ def parse_date(value):
             return date(year, month, 1)
         except ValueError:
             return None
+
+    parsed = dateparser.parse(
+        value,
+        settings={
+            "PREFER_DAY_OF_MONTH": "first",
+            "PREFER_MONTH_OF_YEAR": "first",
+        },
+    )
+    if parsed is not None:
+        return parsed.date()
 
     try:
         return date.fromisoformat(value)
@@ -426,6 +436,10 @@ def normalize_records(
             rxnorm_cache,
             ingredient_class_map,
         )
+        first_valid_ici_start = min(
+            (episode["start"] for episode in episodes),
+            default=None,
+        )
         patient_normalized = []
         for event, start, end in parsed:
             therapy_type = None
@@ -512,6 +526,23 @@ def normalize_records(
             associated_treatment = None
             associated_therapy_type = None
             associated_therapy_type_consolidated = None
+            if event.get("condition_type") in {"irae", "irae_treatment"}:
+                if first_valid_ici_start is not None and start < first_valid_ici_start:
+                    reason = (
+                        "irae_before_first_ici"
+                        if event.get("condition_type") == "irae"
+                        else "irae_treatment_before_first_ici"
+                    )
+                    append_row_skip(
+                        row_skip_log_path,
+                        event,
+                        patient_id,
+                        reason,
+                        condition=condition,
+                        ingredients=rxnorm_ingredients,
+                    )
+                    continue
+
             if event.get("condition_type") == "irae":
                 episode = latest_episode_before(episodes, start)
                 if episode is not None:

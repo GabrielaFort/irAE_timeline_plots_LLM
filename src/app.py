@@ -12,8 +12,9 @@ from timeline_plotter import make_plot
 
 
 #DEFAULT_EVENTS_PATH = Path("data/patient_events_normalized.jsonl")
-DEFAULT_EVENTS_PATH = Path("data/events_060926_gemma4_e4b_normalized_myositis_mg_myocarditis.jsonl")
-
+DEFAULT_EVENTS_PATH = Path("data/events_060926_gemma4_e4b_normalized_rxnorm.jsonl")
+#DEFAULT_EVENTS_PATH = Path("data/events_060926_gemma4_e4b_normalized_rxnorm.jsonl")
+#DEFAULT_EVENTS_PATH = Path("data/normalized_demo_data_for_grant_pneumonitis.jsonl")
 ONCOTREE_DIR = Path("data/oncotree_tissues")
 
 st.set_page_config(page_title="irAE Timelines", layout="wide", initial_sidebar_state="expanded")
@@ -394,7 +395,17 @@ with plots_tab:
             st.divider()
         events = patient_events[patient_id]
         fig = make_plot(events)
-        st.plotly_chart(fig, width="stretch")
+        plotly_config = {"displayModeBar": True,
+                                "scrollZoom": True,
+                                "responsive": True,
+                                "editable": True,
+                                "toImageButtonOptions": {
+                                    "format": "png",
+                                    "filename": "timeline_plot",
+                                    "scale": 5
+                                }}
+        st.plotly_chart(fig, width="stretch", config=plotly_config)
+
 
 with table_tab:
     hidden_columns = {"source_file", "raw_condition"}

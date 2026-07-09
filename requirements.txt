@@ -1,4 +1,5 @@
 ollama
+dateparser
 numpy<2
 pandas
 plotly

@@ -38,6 +38,27 @@ SINGLE_TYPE_EVENTS_SCHEMA = {
 }
 
 
+DATE_REVIEW_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "reviews": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "index": {"type": "integer"},
+                    "start_date": {"type": "string"},
+                },
+                "required": ["index", "start_date"],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["reviews"],
+    "additionalProperties": False,
+}
+
+
 IMMUNOTHERAPY_PROMPT = """
 You are extracting cancer immunotherapy regimen timeline events from clinical notes.
 
@@ -85,9 +106,7 @@ Examples:
 IMPORTANT Date rules:
 - Extract only start/restart/change dates.
 - Preserve source precision: YYYY-MM-DD, YYYY-MM, or YYYY.
-- Convert slash dates to hyphenated dates.
 - If an exact date is not stated but timing is clearly implied, estimate the most specific reasonable date from context.
-- Interpret "early YEAR" as YEAR-01, "mid YEAR" as YEAR-06, and "late YEAR" as YEAR-12.
 - Examples: March 2020 -> 2020-03, March 10, 2022 -> 2022-03-10, "in 2021" -> 2021, "started in early 2020" -> 2020-01, "10/05/2023" -> 2023-10-05
 
 Condition rules:
@@ -137,10 +156,8 @@ Examples:
 IMPORTANT Date rules:
 - Extract only onset/start date.
 - Preserve source precision: YYYY-MM-DD, YYYY-MM, or YYYY.
-- Convert slash dates to hyphenated dates.
 - If an exact date is not stated but timing is clearly implied, estimate the most specific reasonable date from context.
 - If an event occurred "shortly after" a dated treatment start, use the day after the treatment start date.
-- Interpret "early YEAR" as YEAR-01, "mid YEAR" as YEAR-06, and "late YEAR" as YEAR-12.
 - Examples: March 2020 -> 2020-03, March 10, 2022 -> 2022-03-10, "in 2021" -> 2021, "started in early 2020" -> 2020-01, "10/05/2023" -> 2023-10-05
 
 Condition rules:
@@ -155,26 +172,24 @@ You are extracting treatments used to manage immune-related adverse events (irAE
 
 Return JSON according to the schema. Return no explanations.
 
-Extract ONLY medications, procedures, or interventions that are being used to treat or manage an irAE.
+Extract ONLY MEDICATION NAMES that are being used to treat or manage an irAE.
+Use the most specific term possible (e.g. "Prednisone" instead of "steroid", "Mycophenolate" instead of "immunosuppressant").
 
 IMPORTANT:
-An irAE treatment is the treatment/intervention, NOT the adverse event itself.
-Do NOT extract symptoms, toxicities, diagnoses, or indications as treatments.
+An irAE treatment is the medication used to treat the irAE, NOT the adverse event itself.
+Do NOT extract symptoms, toxicities, diagnoses, or indications.
 
 Extract:
-- Systemic corticosteroids: Prednisone, Methylprednisolone, Dexamethasone, Hydrocortisone
-- Topical/local steroids: Triamcinolone, Clobetasol, Hydrocortisone cream
-- Immunosuppressants: Mycophenolate, Tacrolimus, Cyclosporine, Methotrexate
-- Biologics/targeted immune treatments for irAEs: Infliximab, Vedolizumab, Tocilizumab, Abatacept, Dupilumab, IVIG
-- Hormone replacement for immune endocrinopathies: Levothyroxine, Hydrocortisone, Insulin
-- Symptom-directed treatments clearly used for irAE management: Loperamide for immune diarrhea, antihistamines for immune rash/pruritus, artificial tears or ophthalmic steroids for ocular irAE, omeprazole for gastrointestinal irAEs, Acetaminophen for general irAE symptom management, etc.
-- Procedures clearly used for irAE management: Plasmapheresis, physical therapy, hydration if explicitly used for irAE management
-- Other treatments used to manage toxicity from irAE treatment (e.g. bactrim, antibiotics, fluconazole)
+- Corticosteroids: e.g. 'Prednisone', 'Methylprednisolone', 'Dexamethasone', 'Hydrocortisone', 'Hydrocortisone Cream', 'Trimcinolone', 'Cortisone Cream', etc
+- Non-steroid immunosuppressants/immunomodulators: e.g. 'Mycophenolate', 'Vedolizumab', 'Infliximab', 'Immunoglobulin G', 'Methotrexate', etc
+- Endocrine/metabolic replacement or regulation: e.g. 'Levothyroxine', 'Insulin', 'Metformin', 'Progesterone', 'Testosterone', etc
 
 Do NOT extract:
 - The irAE itself: Rash, Itching, Pruritus, Colitis, Diarrhea, Pneumonitis, Hepatitis, Arthralgia, Hypothyroidism, Adrenal insufficiency
 - Cancer-directed treatments: immunotherapy, chemotherapy, targeted therapy, radiation, surgery
 - Dose changes, tapers, refills, or continued treatment mentions
+- Supportive care or prophylaxis: antiemetics, pain medications, anti-infectives, etc.
+- Other procedures or interventions used: Plasmapheresis, physical therapy, hydration, etc
 
 Event rules:
 1. Create an event when a new irAE-directed treatment starts.
@@ -191,10 +206,90 @@ Condition field rules:
 IMPORTANT Date rules:
 - Extract only treatment start/restart date.
 - Preserve source precision: YYYY-MM-DD, YYYY-MM, or YYYY.
-- Convert slash dates to hyphenated dates.
 - If an exact date is not stated but timing is clearly implied, estimate the most specific reasonable date from context.
-- Interpret "early YEAR" as YEAR-01, "mid YEAR" as YEAR-06, and "late YEAR" as YEAR-12.
 - Examples: March 2020 -> 2020-03, March 10, 2022 -> 2022-03-10, "in 2021" -> 2021, "started in early 2020" -> 2020-01, "10/05/2023" -> 2023-10-05
+"""
+
+DATE_REVIEW_PROMPT = """
+You are reviewing extracted oncology timeline event start dates against a patient note summary.
+
+Return only valid JSON according to the provided schema. Do not include explanations outside JSON.
+
+You will receive:
+1. A patient note summary.
+2. A list of already extracted timeline events, each with an immutable index.
+
+Your task:
+- Review each event's start_date against the patient note summary.
+- Return exactly one review object for each input event index.
+- Keep the same event count.
+- Do not add, remove, merge, split, or reorder events.
+- Do not edit condition_type or condition.
+- Only edit start_date when the note summary clearly supports a better date.
+
+Allowed date formats:
+- YYYY-MM-DD
+- YYYY-MM
+- YYYY
+- Unknown
+
+Core rules:
+- Prefer the date precision supported by the note.
+- If the note gives an exact day, return YYYY-MM-DD.
+- If the note gives only month/year, return YYYY-MM.
+- If the note gives only year, return YYYY.
+- Keep the extracted date unchanged if it is supported by the note.
+- Do not use documentation, follow-up, scan, assessment, or clinic visit dates as event onset dates unless the note says the event started on that date.
+
+Event-specific rules:
+- For immunotherapy events, use the regimen start, restart, or change date.
+- For irAE events, use the adverse event onset/start date.
+- For irAE treatment events, use the treatment start/restart date.
+- Do not use later cycles, continuation dates, taper dates, refill dates, response-assessment dates, or generic follow-up dates.
+
+ICI sequencing and deduction rules:
+- irAE events should not be dated before the relevant ICI exposure if the note clearly says the irAE occurred after ICI start.
+- If the note gives an ICI start date and says the irAE occurred after that start, use the most specific defensible date from the note.
+- If the note says the irAE occurred in the same month/year as ICI start but after ICI start, and no exact irAE day is given, you may infer the ICI start date as the earliest defensible irAE date.
+- If the note uses phrases like "shortly after", "soon after", "following", "after starting", or "subsequent to" a dated ICI start, and no more specific date is given, use the day after the ICI start date.
+- If the note says the irAE occurred after ICI start but gives no date/month/year and no clear relative timing phrase, return Unknown.
+- Do not infer a date from ICI start if the note does not clearly link the irAE timing to that ICI start.
+- Do not force irAE treatment dates to occur after ICI unless the treatment is clearly for an irAE caused by or occurring after ICI.
+
+Partial date handling:
+- If an irAE is stated as occurring "in March 2020" and ICI started on 2020-03-15, return 2020-03-15 only if the note clearly says the irAE occurred after that ICI start.
+- If an irAE is stated as occurring "in March 2020" but there is no clear link that it occurred after ICI start, return 2020-03.
+- If a year-only or month-only date would place an irAE before a clearly stated ICI exposure, refine it only when the note supports the sequence.
+- Do not invent exact days just to make the timeline cleaner.
+
+Approximate timing:
+- "early YEAR" -> YYYY-01
+- "mid YEAR" -> YYYY-06
+- "late YEAR" -> YYYY-12
+- "early MONTH YEAR" -> YYYY-MM
+- "mid MONTH YEAR" -> YYYY-MM
+- "late MONTH YEAR" -> YYYY-MM
+- For "next day" after a dated event, use the next calendar day.
+- For "within X days/weeks/months after" a dated event, estimate the earliest reasonable date in that interval.
+
+Examples:
+- ICI start: 2020-03-15. Note: "Colitis developed in March 2020 after starting nivolumab."
+  Return Colitis start_date: 2020-03-15
+
+- ICI start: 2020-03-15. Note: "Colitis developed shortly after starting nivolumab."
+  Return Colitis start_date: 2020-03-16
+
+- ICI start: 2020-03-15. Note: "Colitis developed in March 2020." No clear link to ICI timing.
+  Return Colitis start_date: 2020-03
+
+- ICI start: 2020-03-15. Note: "Colitis occurred after nivolumab." No month/year or relative timing.
+  Return Colitis start_date: Unknown
+
+- Note: "Pneumonitis was diagnosed on CT in July 2021, but cough began in June 2021."
+  Return Pneumonitis start_date: 2021-06
+
+- Note: "Prednisone was started the next day for colitis."
+  Use the day after the colitis date if the colitis date is known.
 """
 
 def parse_json_object(content):
@@ -277,6 +372,107 @@ def extract_single_type_events(model, temperature, note, prompt, condition_type)
     return out
 
 
+def event_payload_for_date_review(events):
+    return [
+        {
+            "index": index,
+            "condition_type": event.get("condition_type"),
+            "condition": event.get("condition"),
+            "irae_type": event.get("irae_type"),
+            "start_date": event.get("start_date"),
+        }
+        for index, event in enumerate(events)
+    ]
+
+
+def date_review_user_prompt(note_summary, events):
+    return (
+        "Patient note summary:\n"
+        f"{note_summary}\n\n"
+        "Extracted events to review:\n"
+        f"{json.dumps(event_payload_for_date_review(events), indent=2)}"
+    )
+
+
+def apply_date_reviews(events, reviews):
+    reviews_by_index = {}
+    for review in reviews:
+        try:
+            index = int(review.get("index"))
+        except (TypeError, ValueError):
+            continue
+        if 0 <= index < len(events):
+            reviews_by_index[index] = review
+
+    reviewed_events = []
+    changed_count = 0
+    for index, event in enumerate(events):
+        reviewed = dict(event)
+        review = reviews_by_index.get(index)
+        if review is None:
+            reviewed_events.append(reviewed)
+            continue
+
+        original_start = str(event.get("start_date", "")).strip()
+        reviewed_start = str(review.get("start_date", "")).strip() or "Unknown"
+
+        if reviewed_start != original_start:
+            reviewed["start_date"] = reviewed_start
+            changed_count += 1
+
+        reviewed_events.append(reviewed)
+
+    return reviewed_events, changed_count
+
+
+def review_event_dates(model, temperature, note_summary, events):
+    if not events:
+        return events
+
+    messages = [
+        {"role": "system", "content": DATE_REVIEW_PROMPT},
+        {"role": "user", "content": date_review_user_prompt(note_summary, events)},
+    ]
+    response = ollama.chat(
+        model=model,
+        format=DATE_REVIEW_SCHEMA,
+        options={"temperature": temperature},
+        stream=False,
+        messages=messages,
+    )
+    print_token_counts("date review", response)
+    content = response["message"]["content"]
+    print(f"date review LLM response content preview: {content[:120]}...")
+    try:
+        data = parse_json_object(content)
+    except json.JSONDecodeError:
+        print("Could not parse date review JSON. Retrying once.")
+        response = ollama.chat(
+            model=model,
+            format=DATE_REVIEW_SCHEMA,
+            options={"temperature": 0.0},
+            stream=False,
+            messages=messages + [
+                {
+                    "role": "user",
+                    "content": "Your previous response was invalid JSON. Return the complete JSON object again, with no extra text.",
+                }
+            ],
+        )
+        print_token_counts("date review retry", response)
+        content = response["message"]["content"]
+        print(f"Retry date review LLM response content preview: {content[:120]}...")
+        try:
+            data = parse_json_object(content)
+        except json.JSONDecodeError as e:
+            raise EventJSONError(str(e), content, "date_review") from e
+
+    reviews = data.get("reviews", []) if isinstance(data, dict) else []
+    reviewed_events, changed_count = apply_date_reviews(events, reviews)
+    print(f"Date review completed: {changed_count} date edits")
+    return reviewed_events
+
+
 def unique_values(values):
     seen = set()
     out = []
@@ -357,7 +553,13 @@ def extract_events(model, temperature, note, irae_names=None, irae_map=None):
         f"{len(irae_events)} irAE, "
         f"{len(irae_treatment_events)} irAE treatment events"
     )
-    return events + irae_treatment_events
+    events = events + irae_treatment_events
+    return review_event_dates(
+        model=model,
+        temperature=temperature,
+        note_summary=note,
+        events=events,
+    )
 
 
 def has_valid_condition(events, condition_type):

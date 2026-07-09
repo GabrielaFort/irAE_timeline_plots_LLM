@@ -104,7 +104,7 @@ Useful flags:
 - `--pattern`: glob pattern for note files (default `*.txt`).
 - `--output`: output JSONL path (default `data/patient_events.jsonl`).
 
-Each output record includes patient metadata, OncoTree fields, event fields, and dates. The parser skips source files already present in the output JSONL and appends only newly extracted notes.
+Each output record includes patient metadata, OncoTree fields, event fields, and dates. After the initial event extraction, the parser runs a second LLM date-review pass over all extracted events for that patient using the note summary as context; this pass may update `start_date` before rows are written. The parser skips source files already present in the output JSONL and appends only newly extracted notes.
 
 ## Optional QC: Export treatment terms
 
@@ -223,7 +223,7 @@ Treatment normalization rules:
 - accepted ingredients missing from `ingredient_class_map.json` remain lowercase and appear as `unmapped` in regimen therapy types.
 - patients with no remaining valid irAE or no remaining valid ICI after normalization are excluded and written to the skip log.
 
-Treatment rows removed during normalization are written to the row skip log with the original term, normalized ingredients, and reason. Common reasons include `no_accepted_rxnorm_ingredients`, `no_ici_after_class_mapping`, and `no_irae_treatment_type_after_class_mapping`.
+Treatment rows removed during normalization are written to the row skip log with the original term, normalized ingredients, and reason. Common reasons include `no_accepted_rxnorm_ingredients`, `no_ici_after_class_mapping`, `no_irae_treatment_type_after_class_mapping`, and `irae_treatment_before_first_ici`.
 
 ## Step 4: Run the app
 
