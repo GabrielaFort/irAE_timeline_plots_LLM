@@ -41,7 +41,6 @@ Reject if:
 Be conservative.
 """
 
-
 def cache_key(term):
     return str(term or "").strip().lower()
 

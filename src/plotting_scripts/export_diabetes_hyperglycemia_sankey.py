@@ -1,7 +1,7 @@
 import argparse
 from pathlib import Path
 
-import export_tripleM_sankey as sankey
+import plotting_scripts.export_tripleM_sankey as sankey
 
 
 TARGET_IRAES = {

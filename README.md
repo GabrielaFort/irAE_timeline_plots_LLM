@@ -94,7 +94,7 @@ Place one plain-text clinical note per patient in the `data/patient_notes/` dire
 Run the parser against the directory of patient notes. This calls the local Ollama model on each `.txt` file and writes one JSON event per line to `data/patient_events.jsonl`.
 
 ```bash
-python src/llm_note_parser.py --model llama3.1:8b
+python src/llm_note_parser.py --model gemma4:e4b
 ```
 
 Useful flags:
@@ -133,7 +133,7 @@ python src/build_rxnorm_treatment_cache.py \
   --input data/patient_events.jsonl \
   --cache data/treatment_terms/rxnorm_cache.json \
   --custom-map data/treatment_terms/custom_map.json \
-  --model llama3.1:8b
+  --model gemma4:e4b
 ```
 
 Useful flags:
@@ -206,7 +206,7 @@ python src/suggest_ingredient_classes.py \
   --rxnorm-cache data/treatment_terms/rxnorm_cache.json \
   --ingredient-class-map data/treatment_terms/ingredient_class_map.json \
   --output data/treatment_terms/ingredient_class_suggestions.json \
-  --model llama3.1:8b
+  --model gemma4:e4b
 ```
 
 This script uses the original event `condition_type` to choose the LLM prompt:
