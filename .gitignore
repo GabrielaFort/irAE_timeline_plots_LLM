@@ -1,8 +1,12 @@
-data/
+/data/*
+!/data/*/
+data/patient_notes/
+data/treatment_terms/ingredient_class_map_old_alliraetx.json
+data/treatment_terms/rxnorm_cache_gold_standard.json
+
 .vscode/
 __pycache__/
 .DS_Store
-WORKFLOW.MD
 outputs/
 .RData
 .Rhistory

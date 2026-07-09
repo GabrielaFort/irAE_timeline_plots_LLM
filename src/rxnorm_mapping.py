@@ -1,5 +1,4 @@
 import json
-from dataclasses import dataclass
 from urllib.parse import urlencode
 from urllib.request import urlopen
 
@@ -41,12 +40,6 @@ Reject if:
 
 Be conservative.
 """
-
-
-@dataclass
-class RxNormIngredient:
-    rxcui: str
-    name: str
 
 
 def cache_key(term):
@@ -107,7 +100,7 @@ def concept_properties(rxcui, rxnorm_timeout=20):
 def ingredient_concepts(rxcui, rxnorm_timeout=20):
     props = concept_properties(rxcui, rxnorm_timeout=rxnorm_timeout)
     if props.get("tty") == "IN":
-        return [RxNormIngredient(rxcui=str(props.get("rxcui")), name=str(props.get("name")))]
+        return [{"rxcui": str(props.get("rxcui")), "name": str(props.get("name"))}]
 
     data = rxnorm_get(
         f"/rxcui/{rxcui}/related.json",
@@ -118,10 +111,10 @@ def ingredient_concepts(rxcui, rxnorm_timeout=20):
     for group in data.get("relatedGroup", {}).get("conceptGroup", []) or []:
         for concept in group.get("conceptProperties", []) or []:
             ingredients.append(
-                RxNormIngredient(
-                    rxcui=str(concept.get("rxcui")),
-                    name=str(concept.get("name")),
-                )
+                {
+                    "rxcui": str(concept.get("rxcui")),
+                    "name": str(concept.get("name")),
+                }
             )
     return unique_ingredients(ingredients)
 
@@ -130,16 +123,12 @@ def unique_ingredients(ingredients):
     seen = set()
     out = []
     for ingredient in ingredients:
-        key = ingredient.rxcui or ingredient.name.lower()
+        key = ingredient.get("rxcui") or str(ingredient.get("name", "")).lower()
         if key in seen:
             continue
         seen.add(key)
         out.append(ingredient)
     return out
-
-
-def ingredient_payload(ingredients):
-    return [{"rxcui": item.rxcui, "name": item.name} for item in ingredients]
 
 
 def accepted_resolution(
@@ -174,7 +163,7 @@ def accepted_resolution(
         "matched_tty": props.get("tty"),
         "match_score": match_score,
         "llm_reason": llm_reason,
-        "ingredients": ingredient_payload(ingredients),
+        "ingredients": ingredients,
     }
 
 
@@ -199,7 +188,7 @@ def unresolved_resolution(raw_term, match_method, rejected_candidates=None, erro
 def validate_approximate_match(raw_term, candidate, ingredients, model, temperature, llm_timeout):
     candidate_name = candidate.get("name") or candidate.get("resolved_name")
     ingredient_lines = "\n".join(
-        f"- {item.name}, RxCUI {item.rxcui}" for item in ingredients
+        f"- {item.get('name')}, RxCUI {item.get('rxcui')}" for item in ingredients
     ) or "- none"
     user_prompt = (
         f"Extracted term: {raw_term}\n\n"

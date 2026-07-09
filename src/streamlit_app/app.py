@@ -6,9 +6,9 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from cooccurrence_plotter import COOCCURRENCE_OPTIONS, make_cooccurrence_heatmap
-from onset_plotter import FACET_FIELDS, make_onset_facets
-from timeline_plotter import make_plot
+from streamlit_app.cooccurrence_plotter import COOCCURRENCE_OPTIONS, make_cooccurrence_heatmap
+from streamlit_app.onset_plotter import FACET_FIELDS, make_onset_facets
+from streamlit_app.timeline_plotter import make_plot
 
 
 #DEFAULT_EVENTS_PATH = Path("data/patient_events_normalized.jsonl")

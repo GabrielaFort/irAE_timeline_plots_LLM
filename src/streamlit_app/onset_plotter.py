@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-from primary_irae_filter import filter_primary_iraes
+from plotting_scripts.primary_irae_filter import filter_primary_iraes
 
 
 WEEKS_PER_MONTH = 4.34524
