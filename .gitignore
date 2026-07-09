@@ -4,4 +4,7 @@ __pycache__/
 .DS_Store
 WORKFLOW.MD
 outputs/
+.RData
+.Rhistory
+
 
